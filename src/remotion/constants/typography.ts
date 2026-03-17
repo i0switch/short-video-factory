@@ -9,9 +9,9 @@ export const FONT_SIZE = {
   // Phase1見出し: 72-88px (デフォルト80px, 段階縮小: 88→84→80→76→72→68→64)
   mainTitle: 80,
   mainTitleSteps: [88, 84, 80, 76, 72, 68, 64] as const,
-  // CaptionBox: 48-56px (デフォルト52px, 段階縮小: 56→52→48)
-  caption: 52,
-  captionSteps: [56, 52, 48] as const,
+  // CaptionBox: 56-72px (デフォルト64px, 段階縮小: 72→68→64→60→56)
+  caption: 64,
+  captionSteps: [72, 68, 64, 60, 56] as const,
   // Intro/Outro
   openingTitle: 76,
   cta: 110,

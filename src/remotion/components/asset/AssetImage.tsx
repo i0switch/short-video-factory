@@ -1,6 +1,6 @@
 // AssetImage — 素材画像 (DEFINITIVE_v3)
 // assetA: F39-48 IN, F75-84 OUT (Phase1用)
-// assetB: F117-126 IN, 以後ホールド (Phase2用)
+// assetB: F94-103 IN, 以後ホールド (Phase2用)
 import React from 'react'
 import { Img, staticFile, useCurrentFrame } from 'remotion'
 import { ASSET_IMAGE } from '../../constants/layout'
@@ -22,10 +22,10 @@ export const AssetImage: React.FC<AssetImageProps> = ({
 }) => {
   const frame = useCurrentFrame()
 
-  // assetA: F39-83 の間に表示 (F84以降非表示)
-  const showA = frame >= 39 && frame < 84
-  // assetB: F117以降に表示
-  const showB = frame >= 117
+  // assetA: F15-83 の間に表示 (F84以降非表示)
+  const showA = frame >= 15 && frame < 84
+  // assetB: F94以降に表示
+  const showB = frame >= 94
 
   const animA = frame < 75 ? assetARiseIn(frame) : assetAFadeOut(frame)
   const animB = assetBRiseIn(frame)

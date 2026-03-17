@@ -23,7 +23,7 @@ export const RankingVideoComposition: React.FC<Props> = ({ config }) => {
           durationInFrames={entry.durationFrames}
         >
           {entry.type === 'opening' && (
-            <OpeningScene lines={config.intro.lines} background={config.theme.background} />
+            <OpeningScene lines={config.intro.lines} background={config.theme.background} audioSrc={config.intro.audioSrc} />
           )}
           {entry.type === 'ranking' && entry.rankIndex !== undefined && (
             <RankingScene
@@ -32,7 +32,7 @@ export const RankingVideoComposition: React.FC<Props> = ({ config }) => {
             />
           )}
           {entry.type === 'ending' && (
-            <CtaScene lines={config.outro.lines} background={config.theme.background} />
+            <CtaScene lines={config.outro.lines} background={config.theme.background} audioSrc={config.outro.audioSrc} />
           )}
         </Sequence>
       ))}

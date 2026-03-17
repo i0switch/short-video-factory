@@ -1,24 +1,30 @@
-// OpeningScene — Intro シーン (v4 left-upper layout)
-// タイトル: 左上寄せ多行, 強調語が赤
-// 画像: タイトル下、左〜中央寄り, 画面幅28%
+// OpeningScene — Intro シーン (spec v5: 中央配置 + Math.sin 揺れ)
+// タイトル: 中央揃え4行, 強調行が赤
+// 文字もイラストも Math.sin(frame * 0.8) * 3 で横揺れ
 // 0フレーム目から可視情報あり (暗転なし)
 // duration: 90f (3秒)
 import React from 'react'
-import { AbsoluteFill, Img, staticFile, useCurrentFrame } from 'remotion'
+import { AbsoluteFill, Audio, staticFile, useCurrentFrame } from 'remotion'
 import { BackgroundLayer } from '../background/BackgroundLayer'
 import { FONT_FAMILY, FONT_WEIGHT } from '../../constants/typography'
 import { COLORS } from '../../constants/colors'
-import { sceneBrightnessIn, introLinePop } from '../animation/AnimationPreset'
-import { INTRO_LINE_STAGGER } from '../../constants/timing'
 import type { V3IntroLine, V3Background } from '../../types/video-v3'
 
 interface OpeningSceneProps {
   lines: V3IntroLine[]
   background: V3Background
   introImageSrc?: string  // optional: イントロ画像パス
+  audioSrc?: string       // optional: イントロ音声パス
 }
 
-const LINE_FONT_SIZE = 72
+// 最大行長に応じてフォントサイズを動的調整 (spec: 75px, 最小50px)
+function calcFontSize(lines: V3IntroLine[]): number {
+  const maxLen = Math.max(...lines.map(l => l.text.length))
+  if (maxLen <= 7) return 75
+  if (maxLen <= 9) return 62
+  return 50
+}
+const LINE_FONT_SIZE = 72  // fallback
 
 const getLineStyle = (style: V3IntroLine['style']): React.CSSProperties => {
   switch (style) {
@@ -44,12 +50,16 @@ const getLineStyle = (style: V3IntroLine['style']): React.CSSProperties => {
   }
 }
 
-export const OpeningScene: React.FC<OpeningSceneProps> = ({ lines, background, introImageSrc }) => {
+export const OpeningScene: React.FC<OpeningSceneProps> = ({ lines, background, introImageSrc, audioSrc }) => {
   const frame = useCurrentFrame()
-  const brightness = sceneBrightnessIn(frame)
+  // spec v5: Math.sin(frame * 0.8) * 3 で文字もイラストも左右に小刻みに揺れ続ける
+  const shake = Math.sin(frame * 0.8) * 3
+  const fontSize = calcFontSize(lines)
 
   return (
-    <AbsoluteFill style={{ filter: brightness }}>
+    <AbsoluteFill>
+      {/* イントロ音声 */}
+      {audioSrc && <Audio src={staticFile(audioSrc)} />}
       <BackgroundLayer
         colorA={background.colorA}
         colorB={background.colorB}
@@ -58,33 +68,33 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({ lines, background, i
         burstCount={background.burstCount}
       />
 
-      {/* 左上寄せタイトルブロック */}
+      {/* 中央揃えタイトルブロック (揺れ付き) */}
       <div
         style={{
           position: 'absolute',
-          top: 100,
-          left: 60,
-          right: 60,
+          top: '10%',
+          left: 40,
+          right: 40,
           display: 'flex',
           flexDirection: 'column',
-          gap: 16,
+          alignItems: 'center',
+          gap: 8,
           zIndex: 30,
+          transform: `translateX(${shake}px)`,
         }}
       >
         {lines.map((line, i) => {
-          const stagger = INTRO_LINE_STAGGER[i] ?? [i * 8, i * 8 + 6]
-          const anim = introLinePop(frame, stagger[0], stagger[1])
           const lineStyle = getLineStyle(line.style)
           return (
-            <div key={i} style={{ textAlign: 'left', ...anim }}>
+            <div key={i} style={{ textAlign: 'center', width: '100%' }}>
               <span
                 style={{
                   fontFamily: `'${FONT_FAMILY}', sans-serif`,
                   fontWeight: FONT_WEIGHT,
-                  fontSize: LINE_FONT_SIZE,
-                  lineHeight: 1.2,
+                  fontSize,
+                  lineHeight: 1.25,
                   display: 'block',
-                  textShadow: '3px 3px 8px rgba(0,0,0,0.55)',
+                  textShadow: '4px 4px 0px rgba(0,0,0,0.5)',
                   ...lineStyle,
                 }}
               >
@@ -93,58 +103,34 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({ lines, background, i
             </div>
           )
         })}
-
-        {/* タイトル下の画像 (オプション) */}
-        {introImageSrc && (
-          <div
-            style={{
-              marginTop: 24,
-              display: 'flex',
-              justifyContent: 'flex-start',
-              ...introLinePop(frame, 20, 28),
-            }}
-          >
-            <Img
-              src={staticFile(introImageSrc)}
-              style={{
-                width: 300,
-                maxHeight: 320,
-                objectFit: 'contain',
-              }}
-            />
-          </div>
-        )}
       </div>
 
-      {/* 画像なしの場合: 中央下部に大きなアイコン的な装飾テキスト */}
-      {!introImageSrc && (
-        <div
+      {/* 下部装飾テキスト (揺れ付き) */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '15%',
+          left: 0,
+          right: 0,
+          textAlign: 'center',
+          zIndex: 20,
+          transform: `translateX(${shake}px)`,
+        }}
+      >
+        <span
           style={{
-            position: 'absolute',
-            bottom: 200,
-            left: 0,
-            right: 0,
-            textAlign: 'center',
-            zIndex: 20,
-            ...introLinePop(frame, 15, 25),
+            fontFamily: `'${FONT_FAMILY}', sans-serif`,
+            fontWeight: FONT_WEIGHT,
+            fontSize: 80,
+            color: COLORS.white,
+            WebkitTextStroke: `5px ${COLORS.black}`,
+            paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
+            textShadow: '4px 4px 0px rgba(0,0,0,0.5)',
           }}
         >
-          <span
-            style={{
-              fontFamily: `'${FONT_FAMILY}', sans-serif`,
-              fontWeight: FONT_WEIGHT,
-              fontSize: 96,
-              color: COLORS.white,
-              WebkitTextStroke: `6px ${COLORS.black}`,
-              paintOrder: 'stroke fill',
-              textShadow: '4px 4px 12px rgba(0,0,0,0.6)',
-              opacity: 0.9,
-            }}
-          >
-            ランキング
-          </span>
-        </div>
-      )}
+          ランキング！
+        </span>
+      </div>
     </AbsoluteFill>
   )
 }

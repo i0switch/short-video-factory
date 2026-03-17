@@ -64,6 +64,15 @@ export const RemotionRoot: React.FC = () => (
       width={1080}
       height={1920}
       defaultProps={{ config: videoConfig }}
+      calculateMetadata={({ props }) => {
+        const cfg = (props as { config: VideoV3Config }).config
+        return {
+          durationInFrames: getTotalFrames(cfg),
+          fps: cfg.meta.fps,
+          width: cfg.meta.width,
+          height: cfg.meta.height,
+        }
+      }}
     />
   </FontLoader>
 )

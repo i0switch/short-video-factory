@@ -24,7 +24,7 @@ export function getVoicevoxConfig(): VoicevoxConfig {
   return {
     url: process.env.VOICEVOX_URL ?? 'http://localhost:50021',
     speaker: parseInt(process.env.VOICEVOX_SPEAKER ?? '3', 10),
-    gain: parseFloat(process.env.VOICEVOX_GAIN ?? '1.5'),
+    gain: parseFloat(process.env.VOICEVOX_GAIN ?? '3.5'),
   }
 }
 

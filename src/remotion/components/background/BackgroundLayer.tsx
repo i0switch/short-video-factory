@@ -1,5 +1,6 @@
-// BackgroundLayer — 静止サンバースト (DEFINITIVE_v3: 回転・ズームなし)
+// BackgroundLayer — 常時右回転サンバースト (spec v5: 12秒で1回転)
 import React from 'react'
+import { useCurrentFrame, useVideoConfig } from 'remotion'
 import { BurstBackground } from './BurstBackground'
 
 interface BackgroundLayerProps {
@@ -25,6 +26,9 @@ export const BackgroundLayer: React.FC<BackgroundLayerProps> = ({
   burstCount,
   config,
 }) => {
+  const frame = useCurrentFrame()
+  const { fps } = useVideoConfig()
+
   // 旧 VideoConfig 互換パス
   const c1 = colorA ?? config?.color1 ?? '#FB9B18'
   const c2 = colorB ?? config?.color2 ?? '#FED04B'
@@ -32,13 +36,15 @@ export const BackgroundLayer: React.FC<BackgroundLayerProps> = ({
   const cy = centerY !== undefined ? centerY * 100 : (config ? (config.center.y / 1920) * 100 : 51)
   const count = burstCount ?? config?.stripeCount ?? 40
 
-  // DEFINITIVE_v3: rotation=0 (静止固定)
+  // 常時右回転: 12秒で1回転 (spec v5)
+  const rotation = (frame / fps) * (360 / 12)
+
   return (
     <BurstBackground
       color1={c1}
       color2={c2}
       stripeCount={count}
-      rotation={0}
+      rotation={rotation}
       centerX={cx}
       centerY={cy}
     />

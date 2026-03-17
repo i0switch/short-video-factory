@@ -35,10 +35,10 @@ export const BurstBackground: React.FC<BurstBackgroundProps> = ({
       <div
         style={{
           position: 'absolute',
-          width: '150%',
-          height: '150%',
-          left: '-25%',
-          top: '-25%',
+          width: '210%',
+          height: '210%',
+          left: '-55%',
+          top: '-55%',
           transform: `rotate(${rotation}deg)`,
           transformOrigin: 'center center',
           background: gradient,

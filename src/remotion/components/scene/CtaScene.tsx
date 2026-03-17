@@ -1,31 +1,27 @@
-// CtaScene — Outro CTA シーン (DEFINITIVE_v3)
-// outroLinePopIn タイミング: 行1: F2-8, 行2: F11-16, 行3: F18-23
+// CtaScene — Outro CTA シーン (spec v5: エフェクトなし・突然中央表示)
 // テキスト: 赤#CC0000 + 黒縁 + 黒shadow, fontSize 100-120px
 // duration: 63f
 import React from 'react'
-import { AbsoluteFill, useCurrentFrame } from 'remotion'
+import { AbsoluteFill, Audio, staticFile } from 'remotion'
 import { BackgroundLayer } from '../background/BackgroundLayer'
 import { FONT_FAMILY, FONT_WEIGHT } from '../../constants/typography'
 import { COLORS } from '../../constants/colors'
-import { blackFlash1f, sceneBrightnessIn, outroLinePop } from '../animation/AnimationPreset'
-import { OUTRO_LINE_STAGGER } from '../../constants/timing'
 import type { V3Background } from '../../types/video-v3'
 
 interface CtaSceneProps {
   lines: string[]
   background: V3Background
+  audioSrc?: string
 }
 
 const BASE_FONT_SIZE = 110
 
-export const CtaScene: React.FC<CtaSceneProps> = ({ lines, background }) => {
-  const frame = useCurrentFrame()
-
-  const flashOpacity = blackFlash1f(frame)
-  const brightness = sceneBrightnessIn(frame)
-
+export const CtaScene: React.FC<CtaSceneProps> = ({ lines, background, audioSrc }) => {
+  // spec v5: CTAはエフェクトなし。突然中央に大きく表示 (アニメーション一切なし)
   return (
-    <AbsoluteFill style={{ filter: brightness }}>
+    <AbsoluteFill>
+      {/* CTA音声 */}
+      {audioSrc && <Audio src={staticFile(audioSrc)} />}
       <BackgroundLayer
         colorA={background.colorA}
         colorB={background.colorB}
@@ -45,12 +41,9 @@ export const CtaScene: React.FC<CtaSceneProps> = ({ lines, background }) => {
         <div style={{ textAlign: 'center', padding: '0 60px' }}>
           {lines.map((line, i) => {
             const isLast = i === lines.length - 1
-            const stagger = OUTRO_LINE_STAGGER[i] ?? [i * 8 + 2, i * 8 + 8]
-            const anim = outroLinePop(frame, stagger[0], stagger[1])
-            // 最終行はさらに大きく
             const fontSize = isLast ? BASE_FONT_SIZE * 1.1 : BASE_FONT_SIZE
             return (
-              <div key={i} style={anim}>
+              <div key={i}>
                 <span
                   style={{
                     fontFamily: `'${FONT_FAMILY}', sans-serif`,
@@ -71,20 +64,6 @@ export const CtaScene: React.FC<CtaSceneProps> = ({ lines, background }) => {
           })}
         </div>
       </AbsoluteFill>
-
-      {/* 1f黒フラッシュ */}
-      {flashOpacity > 0 && (
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            background: '#000',
-            opacity: flashOpacity,
-            zIndex: 1000,
-            pointerEvents: 'none',
-          }}
-        />
-      )}
     </AbsoluteFill>
   )
 }

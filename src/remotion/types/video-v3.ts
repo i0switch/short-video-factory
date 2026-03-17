@@ -19,7 +19,12 @@ export interface V3Phase2 {
 export interface V3Scene {
   rank: number
   durationFrames?: number  // 省略時は meta.sceneFrames を使用
-  audioSrc?: string        // VOICEVOX 生成 WAV パス (省略時は無音)
+  audioSrc?: string        // legacy: body audio (使用廃止)
+  // per-step 音声 (spec v5: 画面表示テキストだけを読む)
+  rankAudioSrc?: string    // Step 1: "第○位" (ずんだもん)
+  topicAudioSrc?: string   // Step 2: topic text (ずんだもん)
+  blueAudioSrc?: string    // Step 3: 青枠コメント (男性声)
+  redAudioSrc?: string     // Step 4: 赤枠コメント (女性声)
   phase1: V3Phase1
   phase2: V3Phase2
 }
@@ -86,7 +91,7 @@ export interface V3Meta {
 export interface VideoV3Config {
   meta: V3Meta
   theme: V3Theme
-  intro: { lines: V3IntroLine[] }
+  intro: { lines: V3IntroLine[]; audioSrc?: string }
   scenes: V3Scene[]
-  outro: { lines: string[] }
+  outro: { lines: string[]; audioSrc?: string }
 }

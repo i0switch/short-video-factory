@@ -32,19 +32,19 @@ export function sceneBrightnessIn(frame: number): string {
 }
 
 /**
- * headlinePopIn — F24→F33: opacity 0→1, scale 0.93→1.0, blur 8→0
- * 用途: Phase1 見出し IN
+ * headlinePopIn — F6→F15: opacity 0→1, scale 0.93→1.0, blur 8→0
+ * 用途: Phase1 見出し IN (dead time削減: 以前F24→F6)
  */
 export function headlinePopIn(frame: number): StyleAnim {
-  const opacity = interpolate(frame, [24, 33], [0, 1], {
+  const opacity = interpolate(frame, [6, 15], [0, 1], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const scale = interpolate(frame, [24, 33], [0.93, 1.0], {
+  const scale = interpolate(frame, [6, 15], [0.93, 1.0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const blur = interpolate(frame, [24, 33], [8, 0], {
+  const blur = interpolate(frame, [6, 15], [8, 0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
   })
   return { opacity, transform: `scale(${scale})`, filter: `blur(${blur}px)` }
@@ -66,19 +66,19 @@ export function headlineFadeOut(frame: number): StyleAnim {
 }
 
 /**
- * assetARiseIn — F39→F48: opacity 0→1, translateY +20→0, scale 0.98→1.0
- * 用途: 画像A IN (Phase1)
+ * assetARiseIn — F15→F24: opacity 0→1, translateY +20→0, scale 0.98→1.0
+ * 用途: 画像A IN (Phase1, dead time削減: 以前F39→F15)
  */
 export function assetARiseIn(frame: number): StyleAnim {
-  const opacity = interpolate(frame, [39, 48], [0, 1], {
+  const opacity = interpolate(frame, [15, 24], [0, 1], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const y = interpolate(frame, [39, 48], [20, 0], {
+  const y = interpolate(frame, [15, 24], [20, 0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const scale = interpolate(frame, [39, 48], [0.98, 1.0], {
+  const scale = interpolate(frame, [15, 24], [0.98, 1.0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
   })
   return { opacity, transform: `translateY(${y}px) scale(${scale})` }
@@ -97,57 +97,57 @@ export function assetAFadeOut(frame: number): StyleAnim {
 }
 
 /**
- * assetBRiseIn — F117→F126: opacity 0→1, translateY +20→0, scale 0.98→1.0
+ * assetBRiseIn — F94→F103: opacity 0→1, translateY +20→0, scale 0.98→1.0
  * 用途: 画像B IN (Phase2)
  */
 export function assetBRiseIn(frame: number): StyleAnim {
-  const opacity = interpolate(frame, [117, 126], [0, 1], {
+  const opacity = interpolate(frame, [94, 103], [0, 1], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const y = interpolate(frame, [117, 126], [20, 0], {
+  const y = interpolate(frame, [94, 103], [20, 0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const scale = interpolate(frame, [117, 126], [0.98, 1.0], {
+  const scale = interpolate(frame, [94, 103], [0.98, 1.0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
   })
   return { opacity, transform: `translateY(${y}px) scale(${scale})` }
 }
 
 /**
- * captionTopSlideFadeIn — F107→F115: opacity 0→1, translateX +24→0, blur 6→0
+ * captionTopSlideFadeIn — F84→F92: opacity 0→1, translateX +24→0, blur 6→0
  * 用途: 上段コメントボックス IN
  */
 export function captionTopSlideFadeIn(frame: number): StyleAnim {
-  const opacity = interpolate(frame, [107, 115], [0, 1], {
+  const opacity = interpolate(frame, [84, 92], [0, 1], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const x = interpolate(frame, [107, 115], [24, 0], {
+  const x = interpolate(frame, [84, 92], [24, 0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const blur = interpolate(frame, [107, 115], [6, 0], {
+  const blur = interpolate(frame, [84, 92], [6, 0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
   })
   return { opacity, transform: `translateX(${x}px)`, filter: `blur(${blur}px)` }
 }
 
 /**
- * captionBotSlideFadeIn — F123→F131: opacity 0→1, translateX +24→0, blur 6→0
+ * captionBotSlideFadeIn — F100→F108: opacity 0→1, translateX +24→0, blur 6→0
  * 用途: 下段コメントボックス IN
  */
 export function captionBotSlideFadeIn(frame: number): StyleAnim {
-  const opacity = interpolate(frame, [123, 131], [0, 1], {
+  const opacity = interpolate(frame, [100, 108], [0, 1], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const x = interpolate(frame, [123, 131], [24, 0], {
+  const x = interpolate(frame, [100, 108], [24, 0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     easing: Easing.out(Easing.cubic),
   })
-  const blur = interpolate(frame, [123, 131], [6, 0], {
+  const blur = interpolate(frame, [100, 108], [6, 0], {
     extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
   })
   return { opacity, transform: `translateX(${x}px)`, filter: `blur(${blur}px)` }

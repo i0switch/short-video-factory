@@ -22,6 +22,7 @@ export async function synthesize(
   url: string,
   speaker: number,
   gain: number,
+  speedScale = 1.0,
 ): Promise<Buffer> {
   const queryRes = await fetch(
     `${url}/audio_query?text=${encodeURIComponent(text)}&speaker=${speaker}`,
@@ -32,6 +33,11 @@ export async function synthesize(
   }
   const query = await queryRes.json() as Record<string, unknown>
   query.volumeScale = (query.volumeScale as number) * gain
+  // 話速調整 + 前後無音短縮 + ポーズ短縮
+  if (speedScale !== 1.0) query.speedScale = speedScale
+  query.prePhonemeLength = 0.05    // デフォルト約0.1秒→0.05秒に短縮
+  query.postPhonemeLength = 0.05   // デフォルト約0.1秒→0.05秒に短縮
+  query.pauseLengthScale = 0.3     // 文間ポーズを30%に短縮 (0.5秒以下に収める)
 
   const synthRes = await fetch(
     `${url}/synthesis?speaker=${speaker}`,

@@ -32,19 +32,19 @@ export const ASSET_A_OUT_START = 75
 export const ASSET_A_OUT_END = 84
 
 // Phase2: コメントボックス + 画像B
-export const CAPTION_TOP_IN_START = 107
-export const CAPTION_TOP_IN_END = 115
-export const ASSET_B_IN_START = 117
-export const ASSET_B_IN_END = 126
-export const CAPTION_BOT_IN_START = 123
-export const CAPTION_BOT_IN_END = 131
+export const CAPTION_TOP_IN_START = 84
+export const CAPTION_TOP_IN_END = 92
+export const ASSET_B_IN_START = 94
+export const ASSET_B_IN_END = 103
+export const CAPTION_BOT_IN_START = 100
+export const CAPTION_BOT_IN_END = 108
 
 // Intro stagger (introLinePopIn)
 export const INTRO_LINE_STAGGER = [
-  [3, 9],   // 行1
-  [11, 18], // 行2
-  [19, 26], // 行3
-  [26, 32], // 行4
+  [-15, 3],  // 行1 (frame0で83%表示→明瞭可視)
+  [3, 10],   // 行2
+  [8, 15],   // 行3
+  [13, 20],  // 行4
 ] as const
 
 // Outro stagger (outroLinePopIn)

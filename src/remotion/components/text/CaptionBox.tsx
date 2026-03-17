@@ -1,5 +1,5 @@
 // CaptionBox — コメントボックス (DEFINITIVE_v3)
-// 上段: F107-115 IN, 下段: F123-131 IN (OUTなし、次シーンの黒フラッシュで消える)
+// 上段: F84-92 IN, 下段: F100-108 IN (OUTなし、次シーンの黒フラッシュで消える)
 import React from 'react'
 import { useCurrentFrame } from 'remotion'
 import { FONT_FAMILY, FONT_WEIGHT, FONT_SIZE } from '../../constants/typography'
@@ -26,8 +26,8 @@ export const CaptionBox: React.FC<CaptionBoxProps> = ({ text, variant }) => {
   const borderColor = isTop ? COLORS.captionBlueBorder : COLORS.captionRedBorder
   const bbox = isTop ? CAPTION_BOX_1 : CAPTION_BOX_2
 
-  // 表示前は非表示 (F107 / F123 以前は opacity=0 だが念のため)
-  const isVisible = isTop ? frame >= 107 : frame >= 123
+  // 表示前は非表示 (F84 / F100 以前は opacity=0 だが念のため)
+  const isVisible = isTop ? frame >= 84 : frame >= 100
   if (!isVisible) return null
 
   return (

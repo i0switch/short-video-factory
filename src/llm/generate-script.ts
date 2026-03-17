@@ -18,8 +18,8 @@ JSON形式（これ以外は出力しないこと）:
     {
       "rank": number（降順。${itemCount}位から1位まで）,
       "topic": "string, max 24文字（画面に大きく表示するお題・短く端的に）",
-      "comment1": "string, max 50文字（視聴者コメント風・ツッコミ・驚き・共感など短い一言）",
-      "comment2": "string, max 50文字（別の視聴者コメント・前のコメントに呼応する一言）",
+      "comment1": "string, 15〜20文字（視聴者コメント風・具体的な一文。例:「これやると本当に伸びる」「知らなかったは損」）",
+      "comment2": "string, 15〜20文字（別の視聴者コメント・前のコメントに呼応する具体的な一文）",
       "body": "string, max 100文字（VOICEVOX読み上げ用・体験・理由を詳しく）",
       "imageKeywords": ["日本語キーワード", ...（1〜5個）],
       "imageKeywordsEn": ["English keywords", ...（1〜5個）]
@@ -30,7 +30,7 @@ JSON形式（これ以外は出力しないこと）:
 
 重要なルール:
 - topic は画面に大きく表示される。漢字・ひらがな混じりで短く
-- comment1/comment2 は視聴者のコメント風の短い一言。「わかるww」「あるある！」「これは辛い」など
+- comment1/comment2 は15〜20文字の具体的な一文。「わかるww」などの1〜2語は禁止。理由や感想を含む文にする
 - body は画面に表示しない。VOICEVOXが読み上げる自然な文
 - imageKeywordsEn は英語で（Pexels 画像検索に使用）
 - items の rank は ${itemCount} から 1 まで降順で全て含める

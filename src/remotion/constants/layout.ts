@@ -12,19 +12,19 @@ export const MAIN_TITLE = {
   x: 270, y: 805, width: 540, height: 220,
 }
 
-// 上段コメントボックス: x=180, y=480, w=720, h=117 (中央66.7%)
+// 上段コメントボックス: x=20, y=420, w=1040 (96%幅・フル)
 export const CAPTION_BOX_1 = {
-  x: 180, y: 480, width: 720, height: 117,
+  x: 20, y: 420, width: 1040, height: 130,
 }
 
-// 下段コメントボックス: x=180, y=680, w=720, h=116-190 (1行=116, 2行=190)
+// 下段コメントボックス: x=20, y=640, w=1040 (96%幅・フル)
 export const CAPTION_BOX_2 = {
-  x: 180, y: 680, width: 720, heightSingle: 116, heightDouble: 190,
+  x: 20, y: 640, width: 1040, heightSingle: 130, heightDouble: 210,
 }
 
-// 画像スロット: x=392, y=1524, w=296, h=298 (正方形、中央固定)
+// 画像スロット: x=270, y=1440, w=540, h=420 (幅50%・中央固定、spec: 40-55%必須)
 export const ASSET_IMAGE = {
-  x: 392, y: 1524, width: 296, height: 298,
+  x: 270, y: 1440, width: 540, height: 420,
 }
 
 // CaptionBox 共通スタイル

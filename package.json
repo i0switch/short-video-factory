@@ -6,6 +6,7 @@
     "preview": "remotion preview src/remotion/Root.tsx",
     "render": "tsx src/render.ts",
     "render:v2": "tsx src/render-from-script.ts",
+    "render:v3": "tsx src/render-v3.ts",
     "generate": "tsx src/cli/index.ts",
     "typecheck": "tsc --noEmit"
   },

@@ -19,6 +19,7 @@ export interface V3Phase2 {
 export interface V3Scene {
   rank: number
   durationFrames?: number  // 省略時は meta.sceneFrames を使用
+  audioSrc?: string        // VOICEVOX 生成 WAV パス (省略時は無音)
   phase1: V3Phase1
   phase2: V3Phase2
 }

@@ -13,7 +13,7 @@
 //   F123-131  : 下段コメント IN (captionBotSlideFadeIn)
 //   F131-end  : Phase2 ホールド
 import React from 'react'
-import { AbsoluteFill, useCurrentFrame } from 'remotion'
+import { AbsoluteFill, Audio, staticFile, useCurrentFrame } from 'remotion'
 import { BackgroundLayer } from '../background/BackgroundLayer'
 import { RankHeader } from '../text/RankHeader'
 import { MainTitleText } from '../text/MainTitleText'
@@ -68,6 +68,11 @@ export const RankingScene: React.FC<RankingSceneProps> = ({ scene, theme }) => {
 
       {/* 下段コメントボックス: F123-131 IN */}
       <CaptionBox text={phase2.bottomComment} variant="bottom" />
+
+      {/* 音声 */}
+      {scene.audioSrc && (
+        <Audio src={staticFile(scene.audioSrc)} />
+      )}
 
       {/* 1f黒フラッシュオーバーレイ (z=1000) */}
       {flashOpacity > 0 && (

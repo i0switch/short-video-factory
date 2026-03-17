@@ -1,0 +1,66 @@
+{
+  "__comment": "ダークテーマ: 黒 × 紫グロー × クールな印象",
+  "name": "dark",
+
+  "sunburst": {
+    "color1": "#1A0033",
+    "color2": "#3D0070",
+    "angleDeg": 5
+  },
+
+  "text": {
+    "titleFontSize": 80,
+    "rankFontSize": 120,
+    "headingFontSize": 48,
+    "fontWeight": 900,
+    "defaultColor": "#FFFFFF",
+    "highlightColor": "#CC44FF",
+    "strokeWidth": "6px",
+    "strokeColor": "#000000"
+  },
+
+  "rankText": {
+    "color": "#FFFFFF",
+    "strokeColor": "#CC44FF"
+  },
+
+  "titleLines": {
+    "evenColor": "#FFFFFF",
+    "oddColor": "#CC44FF"
+  },
+
+  "endingText": {
+    "color": "#CC44FF"
+  },
+
+  "headingBox": {
+    "background": "rgba(20,0,40,0.9)",
+    "borderColor": "#CC44FF",
+    "borderWidth": 4,
+    "borderRadius": 0,
+    "paddingVertical": 16,
+    "paddingHorizontal": 24,
+    "textColor": "#FFFFFF"
+  },
+
+  "commentBox2": {
+    "background": "#CC44FF",
+    "textColor": "#000000",
+    "borderRadius": 0,
+    "paddingVertical": 16,
+    "paddingHorizontal": 24,
+    "fontSize": 44
+  },
+
+  "image": {
+    "title": { "maxWidth": 500, "maxHeight": 400 },
+    "ranking": { "maxWidth": 600, "maxHeight": 500 }
+  },
+
+  "timing": {
+    "introDurationSec": 4,
+    "outroDurationSec": 3,
+    "scenePaddingSec": 0.5,
+    "minRankingDurationSec": 7.0
+  }
+}

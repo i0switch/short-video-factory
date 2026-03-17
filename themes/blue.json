@@ -1,0 +1,66 @@
+{
+  "__comment": "ブルーテーマ: 青空 × 爽やか × ビジネス系動画向け",
+  "name": "blue",
+
+  "sunburst": {
+    "color1": "#0066CC",
+    "color2": "#66B3FF",
+    "angleDeg": 5
+  },
+
+  "text": {
+    "titleFontSize": 80,
+    "rankFontSize": 120,
+    "headingFontSize": 48,
+    "fontWeight": 900,
+    "defaultColor": "#FFFFFF",
+    "highlightColor": "#FFCC00",
+    "strokeWidth": "6px",
+    "strokeColor": "#003366"
+  },
+
+  "rankText": {
+    "color": "#FFFFFF",
+    "strokeColor": "#003366"
+  },
+
+  "titleLines": {
+    "evenColor": "#FFFFFF",
+    "oddColor": "#FFCC00"
+  },
+
+  "endingText": {
+    "color": "#FFCC00"
+  },
+
+  "headingBox": {
+    "background": "rgba(255,255,255,0.95)",
+    "borderColor": "#0044AA",
+    "borderWidth": 4,
+    "borderRadius": 0,
+    "paddingVertical": 16,
+    "paddingHorizontal": 24,
+    "textColor": "#003366"
+  },
+
+  "commentBox2": {
+    "background": "#FFCC00",
+    "textColor": "#003366",
+    "borderRadius": 0,
+    "paddingVertical": 16,
+    "paddingHorizontal": 24,
+    "fontSize": 44
+  },
+
+  "image": {
+    "title": { "maxWidth": 500, "maxHeight": 400 },
+    "ranking": { "maxWidth": 600, "maxHeight": 500 }
+  },
+
+  "timing": {
+    "introDurationSec": 4,
+    "outroDurationSec": 3,
+    "scenePaddingSec": 0.5,
+    "minRankingDurationSec": 7.0
+  }
+}

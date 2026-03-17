@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "title": "入社して気づく会社のやばい特徴ランキング",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "background": {
+    "color1": "#FE9D18",
+    "color2": "#FFD34C",
+    "stripeCount": 34,
+    "rotationSpeed": 0.1,
+    "center": { "x": 540, "y": 1018 }
+  },
+  "opening": {
+    "durationFrames": 102,
+    "titleLines": [
+      { "text": "入社して気づく", "color": "#000000", "fontSize": 90 },
+      { "text": "会社のやばい", "color": "#CC0000", "fontSize": 100 },
+      { "text": "特徴ランキング", "color": "#000000", "fontSize": 100 },
+      { "text": "を挙げてけww", "color": "#FFD700", "fontSize": 90 }
+    ],
+    "image": {
+      "src": "",
+      "width": 500,
+      "position": { "x": 540, "y": 1500 },
+      "objectFit": "contain"
+    }
+  },
+  "rankings": [
+    {
+      "rank": 10,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "残業代が\n全く出ない",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "毎日サービス残業させられてる…", "variant": "blue" },
+            { "text": "これ普通に違法やん！", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "有給を\n取らせてもらえない",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "旅行の計画が全部狂う…", "variant": "blue" },
+            { "text": "権利なのに取れないとかおかしい", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "上司の指示が\n毎回ブレる",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "昨日と言ってること違うんだが", "variant": "blue" },
+            { "text": "こっちが困るのわかってんのか", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "給料が\n全然上がらない",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "頑張っても反映されないの悲しい", "variant": "blue" },
+            { "text": "やる気出ろって方が無理でしょ", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "意味のない会議が\n多すぎる",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "仕事する時間が全然ない…", "variant": "blue" },
+            { "text": "それメールで良くない？", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "尊敬できる上司が\n一人もいない",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "私の将来もこうなっちゃうの？", "variant": "blue" },
+            { "text": "ロールモデルがいないのは致命的だ", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "パワハラが\n日常化している",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "怒鳴られるのが怖くて萎縮する", "variant": "blue" },
+            { "text": "令和にまだこれやってるの？", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "新人教育が\n存在しない",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "何もわからないまま放置される", "variant": "blue" },
+            { "text": "OJTとは一体なんだったのか", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "仕事量と給料が\n全く見合わない",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "こんなに働いてこれだけ？", "variant": "blue" },
+            { "text": "搾取されてると気づいた時の絶望", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "phases": [
+        {
+          "type": "title",
+          "durationFrames": 75,
+          "titleText": "理想と現実の\nギャップがヤバい",
+          "image": {
+            "src": "assets/fallback/generic_01.png",
+            "width": 400,
+            "position": { "x": 540, "y": 1400 },
+            "objectFit": "contain"
+          }
+        },
+        {
+          "type": "comment",
+          "durationFrames": 87,
+          "comments": [
+            { "text": "入る前に知りたかった…", "variant": "blue" },
+            { "text": "求人票と全然違うじゃないか！", "variant": "red" }
+          ],
+          "image": {
+            "src": "assets/fallback/generic_02.png",
+            "width": 350,
+            "position": { "x": 540, "y": 1500 },
+            "objectFit": "contain"
+          }
+        }
+      ]
+    }
+  ],
+  "ending": {
+    "durationFrames": 63,
+    "text": "みんなの\n意見は\nコメント欄へ！",
+    "fontSize": 110
+  },
+  "defaults": {
+    "titlePhaseDuration": 75,
+    "commentPhaseDuration": 87,
+    "defaultTitleFontSize": 96,
+    "defaultCommentFontSize": 52,
+    "defaultImageWidth": 500,
+    "defaultImageY": 1400,
+    "fontFamily": "Noto Sans JP"
+  }
+}

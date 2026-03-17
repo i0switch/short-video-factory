@@ -1,0 +1,114 @@
+{
+  "id": "ranking-default",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "sunburst": {
+    "colorLight": "#F5B731",
+    "colorDark": "#D4871A",
+    "rayCount": 36,
+    "rotationSpeedDegPerSec": 15
+  },
+  "fonts": {
+    "primary": "Noto Sans JP",
+    "weight": 900
+  },
+  "titleScene": {
+    "lines": [
+      { "text": "{line1}", "color": "#FFFFFF" },
+      { "text": "{line2}", "color": "#CC0000" },
+      { "text": "{line3}", "color": "#CC0000" },
+      { "text": "{line4}", "color": "#FFFFFF" }
+    ],
+    "fontSize": 80,
+    "strokeWidth": 4,
+    "strokeColor": "#000000",
+    "lineSpacing": 10,
+    "textStartY": "8%",
+    "image": {
+      "widthPercent": 55,
+      "borderWidth": 8,
+      "borderColor": "#FFFFFF",
+      "rotationDeg": 5,
+      "marginTop": 30
+    },
+    "animation": {
+      "type": "popIn",
+      "staggerDelaySec": 0.15,
+      "durationSec": 0.25
+    }
+  },
+  "rankingScene": {
+    "subSceneA": {
+      "rankText": {
+        "fontSize": 120,
+        "color": "#FFFFFF",
+        "strokeWidth": 5,
+        "strokeColor": "#000000",
+        "shadowOffset": 3
+      },
+      "topicText": {
+        "fontSize": 70,
+        "color": "#CC0000",
+        "strokeWidth": 4,
+        "strokeColor": "#000000"
+      },
+      "characterImage": {
+        "widthPercent": 50,
+        "positionFromBottom": "15%"
+      },
+      "animation": {
+        "rankPopIn": { "durationSec": 0.3, "overshoot": 1.15 },
+        "topicFadeSlide": { "delaySec": 0.3, "durationSec": 0.4, "slideY": 30 },
+        "characterSlideUp": { "delaySec": 0.4, "durationSec": 0.3, "slideY": 50 }
+      }
+    },
+    "subSceneB": {
+      "commentBox": {
+        "background": "#FFFFFF",
+        "borderColor": "#1A3FAA",
+        "borderWidth": 3,
+        "textColor": "#000000",
+        "fontSize": 48,
+        "paddingVertical": 16,
+        "paddingHorizontal": 24,
+        "widthPercent": 85,
+        "borderRadius": 0,
+        "positionY": "25%"
+      },
+      "animation": {
+        "type": "slideFromLeft",
+        "durationSec": 0.3
+      }
+    },
+    "subSceneC": {
+      "commentBox": {
+        "background": "#CC0000",
+        "borderColor": "#CC0000",
+        "borderWidth": 0,
+        "textColor": "#FFFFFF",
+        "fontSize": 44,
+        "paddingVertical": 16,
+        "paddingHorizontal": 24,
+        "widthPercent": 85,
+        "borderRadius": 0,
+        "marginTop": 20
+      },
+      "animation": {
+        "type": "slideFromLeft",
+        "durationSec": 0.3
+      }
+    }
+  },
+  "endingScene": {
+    "fontSize": 120,
+    "color": "#CC0000",
+    "strokeWidth": 5,
+    "strokeColor": "#000000",
+    "animation": {
+      "type": "popIn"
+    }
+  }
+}

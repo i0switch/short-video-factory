@@ -1,0 +1,42 @@
+{
+  "videoTitle": "入社して気づく会社のやばい特徴ランキング",
+  "intro": "入社して気づく会社のやばい特徴ランキングを挙げてけww",
+  "items": [
+    {
+      "rank": 5,
+      "title": "朝礼がやたら長い",
+      "body": "毎朝の朝礼が30分以上あって、内容はほとんど精神論。新人は立って聞くルールがあるのが地味にきつい。",
+      "imageKeywords": ["朝礼", "会社員"],
+      "imageKeywordsEn": ["morning meeting", "office worker"]
+    },
+    {
+      "rank": 4,
+      "title": "引き継ぎ資料が存在しない",
+      "body": "前任者が突然辞めていて、業務マニュアルが一切残っていない。聞ける人もいないから手探りで覚えるしかない。",
+      "imageKeywords": ["仕事", "書類"],
+      "imageKeywordsEn": ["work documents", "office desk"]
+    },
+    {
+      "rank": 3,
+      "title": "常に求人が出ている",
+      "body": "入社前から求人サイトに載ってたけど、入社後もずっと同じ募集が出てる。回転が速すぎる証拠だよね。",
+      "imageKeywords": ["求人", "採用"],
+      "imageKeywordsEn": ["job posting", "hiring"]
+    },
+    {
+      "rank": 2,
+      "title": "飲み会が実質強制参加",
+      "body": "断ると翌日から態度が変わる上司がいる。しかも割り勘なのに上司が一番飲んでる。",
+      "imageKeywords": ["飲み会", "宴会"],
+      "imageKeywordsEn": ["office party", "drinking"]
+    },
+    {
+      "rank": 1,
+      "title": "残業が美徳とされている",
+      "body": "定時で帰ると白い目で見られる。忙しくなくても残ってるフリをする文化が根付いてる。これが1位。",
+      "imageKeywords": ["残業", "夜のオフィス"],
+      "imageKeywordsEn": ["overtime work", "late night office"]
+    }
+  ],
+  "outro": "みんなの意見はコメント欄へ！"
+}

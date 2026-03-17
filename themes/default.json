@@ -1,0 +1,66 @@
+{
+  "__comment": "デフォルトテーマ: ゴールデンイエロー × ランキング定番スタイル",
+  "name": "default",
+
+  "sunburst": {
+    "color1": "#D4881E",
+    "color2": "#F2C76B",
+    "angleDeg": 5
+  },
+
+  "text": {
+    "titleFontSize": 80,
+    "rankFontSize": 120,
+    "headingFontSize": 48,
+    "fontWeight": 900,
+    "defaultColor": "#FFFFFF",
+    "highlightColor": "#CC0000",
+    "strokeWidth": "6px",
+    "strokeColor": "#000000"
+  },
+
+  "rankText": {
+    "color": "#000000",
+    "strokeColor": "#FFFFFF"
+  },
+
+  "titleLines": {
+    "evenColor": "#FFFFFF",
+    "oddColor": "#CC0000"
+  },
+
+  "endingText": {
+    "color": "#CC0000"
+  },
+
+  "headingBox": {
+    "background": "rgba(255,255,255,0.95)",
+    "borderColor": "#0044AA",
+    "borderWidth": 4,
+    "borderRadius": 0,
+    "paddingVertical": 16,
+    "paddingHorizontal": 24,
+    "textColor": "#000000"
+  },
+
+  "commentBox2": {
+    "background": "#CC0000",
+    "textColor": "#FFFFFF",
+    "borderRadius": 0,
+    "paddingVertical": 16,
+    "paddingHorizontal": 24,
+    "fontSize": 44
+  },
+
+  "image": {
+    "title": { "maxWidth": 500, "maxHeight": 400 },
+    "ranking": { "maxWidth": 600, "maxHeight": 500 }
+  },
+
+  "timing": {
+    "introDurationSec": 4,
+    "outroDurationSec": 3,
+    "scenePaddingSec": 0.5,
+    "minRankingDurationSec": 7.0
+  }
+}

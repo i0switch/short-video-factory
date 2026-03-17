@@ -1,0 +1,103 @@
+{
+  "videoTitle": "入社して気づく会社のやばい特徴ランキング",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalDurationInFrames": 1500,
+  "scenes": [
+    {
+      "type": "title",
+      "title": "入社して気づく会社のやばい特徴ランキング",
+      "titleLines": [
+        { "text": "入社して気づく", "color": "#FFFFFF" },
+        { "text": "会社のやばい", "color": "#CC0000" },
+        { "text": "特徴ランキング", "color": "#CC0000" },
+        { "text": "を挙げてけww", "color": "#FFFFFF" }
+      ],
+      "imagePath": "assets/fallback/generic_01.png",
+      "audioPath": null,
+      "audioDurationSec": null,
+      "durationInFrames": 120,
+      "fallbackUsed": true
+    },
+    {
+      "type": "ranking",
+      "rank": 5,
+      "title": "朝礼がやたら長い",
+      "topic": "朝礼がやたら長い",
+      "comment1": "毎朝30分は地獄すぎるww",
+      "comment2": "その時間で仕事させてくれ",
+      "imagePath": "assets/fallback/generic_02.png",
+      "audioPath": null,
+      "audioDurationSec": null,
+      "durationInFrames": 210,
+      "subSceneTiming": { "aEndFrame": 60, "bEndFrame": 135 },
+      "fallbackUsed": true
+    },
+    {
+      "type": "ranking",
+      "rank": 4,
+      "title": "引き継ぎ資料が存在しない",
+      "topic": "引き継ぎ資料が存在しない",
+      "comment1": "口頭で全部説明って正気？",
+      "comment2": "前任者の呪いじゃん",
+      "imagePath": "assets/fallback/generic_03.png",
+      "audioPath": null,
+      "audioDurationSec": null,
+      "durationInFrames": 210,
+      "subSceneTiming": { "aEndFrame": 60, "bEndFrame": 135 },
+      "fallbackUsed": true
+    },
+    {
+      "type": "ranking",
+      "rank": 3,
+      "title": "常に求人が出ている",
+      "topic": "常に求人が出ている",
+      "comment1": "離職率えぐすぎて草",
+      "comment2": "ブラックの証明書これ",
+      "imagePath": "assets/fallback/generic_01.png",
+      "audioPath": null,
+      "audioDurationSec": null,
+      "durationInFrames": 210,
+      "subSceneTiming": { "aEndFrame": 60, "bEndFrame": 135 },
+      "fallbackUsed": true
+    },
+    {
+      "type": "ranking",
+      "rank": 2,
+      "title": "飲み会が実質強制参加",
+      "topic": "飲み会が実質強制参加",
+      "comment1": "プライベートまで侵食するな",
+      "comment2": "断ったら翌日の空気が最悪",
+      "imagePath": "assets/fallback/generic_02.png",
+      "audioPath": null,
+      "audioDurationSec": null,
+      "durationInFrames": 210,
+      "subSceneTiming": { "aEndFrame": 60, "bEndFrame": 135 },
+      "fallbackUsed": true
+    },
+    {
+      "type": "ranking",
+      "rank": 1,
+      "title": "残業が美徳とされている",
+      "topic": "残業が美徳とされている",
+      "comment1": "定時退社したら白い目で見られた",
+      "comment2": "昭和で時間止まってんのかよ",
+      "imagePath": "assets/fallback/generic_03.png",
+      "audioPath": null,
+      "audioDurationSec": null,
+      "durationInFrames": 210,
+      "subSceneTiming": { "aEndFrame": 60, "bEndFrame": 135 },
+      "fallbackUsed": true
+    },
+    {
+      "type": "ending",
+      "title": "みんなの意見はコメント欄へ！",
+      "imagePath": "",
+      "audioPath": null,
+      "audioDurationSec": null,
+      "durationInFrames": 90,
+      "fallbackUsed": false
+    }
+  ]
+}

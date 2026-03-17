@@ -12,14 +12,14 @@ export const MAIN_TITLE = {
   x: 270, y: 805, width: 540, height: 220,
 }
 
-// 上段コメントボックス: x=28, y=376, w=992, h=117
+// 上段コメントボックス: x=180, y=480, w=720, h=117 (中央66.7%)
 export const CAPTION_BOX_1 = {
-  x: 28, y: 376, width: 992, height: 117,
+  x: 180, y: 480, width: 720, height: 117,
 }
 
-// 下段コメントボックス: x=54, y=570, w=936, h=116-190 (1行=116, 2行=190)
+// 下段コメントボックス: x=180, y=680, w=720, h=116-190 (1行=116, 2行=190)
 export const CAPTION_BOX_2 = {
-  x: 54, y: 570, width: 936, heightSingle: 116, heightDouble: 190,
+  x: 180, y: 680, width: 720, heightSingle: 116, heightDouble: 190,
 }
 
 // 画像スロット: x=392, y=1524, w=296, h=298 (正方形、中央固定)

@@ -1,4 +1,4 @@
-// build-v3-plan.ts — Script → VideoV3Config (VOICEVOX + Pexels)
+// build-v3-plan.ts — Script → VideoV3Config (budget-driven timing)
 import fs from 'fs'
 import path from 'path'
 import type { Script } from '../../schema/script'
@@ -9,12 +9,13 @@ import { fetchImage } from '../image/index'
 import { logger } from '../../utils/logger'
 
 const FPS = 30
-// 音声尺 + 余白フレーム (0.5秒) でシーン長を決める。最低131f (Phase2 hold開始以降)
-const AUDIO_PAD_FRAMES = 15  // 0.5秒
-const MIN_SCENE_FRAMES = 143 // DEFINITIVE_v3 最小値
+// 全体尺予算 (59.5秒以内)
+const MAX_DURATION_FRAMES = Math.floor(59.5 * FPS)  // 1785
+const INTRO_FRAMES = 90   // 3秒
+const CTA_FRAMES = 75     // 2.5秒
+const AVAILABLE_RANK_FRAMES = MAX_DURATION_FRAMES - INTRO_FRAMES - CTA_FRAMES  // 1620
 
 function toRelPath(absPath: string, jobDir: string): string {
-  // publicDir = プロジェクトルート想定。jobDir から relative を計算
   const rel = path.relative(path.resolve(jobDir, '..', '..', '..'), absPath)
   return rel.split(path.sep).join('/')
 }
@@ -25,6 +26,12 @@ export async function buildV3Plan(
 ): Promise<VideoV3Config> {
   const { url, speaker, gain } = getVoicevoxConfig()
   const apiKey = getPexelsApiKey()
+
+  const itemCount = script.items.length
+  // 1ランクあたりのフレーム数 (budget-driven, audio length ignored for scene duration)
+  const framesPerRank = Math.floor(AVAILABLE_RANK_FRAMES / itemCount)
+
+  logger.info(`Budget: ${framesPerRank}f/rank (${(framesPerRank / FPS).toFixed(1)}s) × ${itemCount}`)
 
   // 全シーンを並列処理
   const scenes: V3Scene[] = await Promise.all(
@@ -44,23 +51,21 @@ export async function buildV3Plan(
 
       fs.writeFileSync(wavAbsPath, wavBuffer)
       const audioDurationSec = parseWavDuration(wavBuffer)
-      const durationFrames = Math.max(
-        Math.ceil(audioDurationSec * FPS) + AUDIO_PAD_FRAMES,
-        MIN_SCENE_FRAMES,
-      )
 
       if (imgAResult.fallbackUsed) logger.warn(`  → rank${item.rank} assetA: fallback使用`)
       if (imgBResult.fallbackUsed) logger.warn(`  → rank${item.rank} assetB: fallback使用`)
-      logger.info(`  → rank${item.rank}: ${audioDurationSec.toFixed(2)}s → ${durationFrames}f`)
+      logger.info(`  → rank${item.rank}: audio=${audioDurationSec.toFixed(2)}s, budget=${framesPerRank}f`)
+
+      const topicLines: string[] = item.topic.length > 10
+        ? [item.topic.slice(0, Math.ceil(item.topic.length / 2)), item.topic.slice(Math.ceil(item.topic.length / 2))]
+        : [item.topic]
 
       return {
         rank: item.rank,
-        durationFrames,
+        durationFrames: framesPerRank,  // 固定予算 (音声長ではなく)
         audioSrc: toRelPath(wavAbsPath, jobDir),
         phase1: {
-          headlineLines: item.topic.length > 10
-            ? [item.topic.slice(0, Math.ceil(item.topic.length / 2)), item.topic.slice(Math.ceil(item.topic.length / 2))]
-            : [item.topic],
+          headlineLines: topicLines,
           asset: {
             src: toRelPath(imgAResult.imagePath, jobDir),
             fallbackLabel: `rank${item.rank}_a`,
@@ -78,8 +83,9 @@ export async function buildV3Plan(
     })
   )
 
-  // intro行を分割 (4行まで)
-  const introLines = script.videoTitle.split(/[\s\n]/).filter(Boolean).map((text, i) => {
+  // intro行をスペース区切りで分割 (最大4行)
+  const introWords = script.videoTitle.split(/[\s\n]/).filter(Boolean)
+  const introLines = introWords.slice(0, 4).map((text, i) => {
     const styles = ['introBlack', 'introRed', 'introBlack', 'introYellow'] as const
     return { text, style: styles[i % styles.length] }
   })
@@ -89,9 +95,9 @@ export async function buildV3Plan(
       width: 1080,
       height: 1920,
       fps: FPS,
-      introFrames: 102,
-      sceneFrames: 162,
-      outroFrames: 63,
+      introFrames: INTRO_FRAMES,
+      sceneFrames: framesPerRank,
+      outroFrames: CTA_FRAMES,
     },
     theme: {
       background: {
@@ -127,28 +133,28 @@ export async function buildV3Plan(
         borderColor: '#233CFF',
         borderWidth: 6,
         textColor: '#111111',
-        fontSize: 52,
+        fontSize: 46,
         fontWeight: 900,
         textAlign: 'left',
-        paddingH: 22,
-        paddingV: 18,
-        x: 28,
-        y: 376,
-        w: 992,
+        paddingH: 20,
+        paddingV: 16,
+        x: 180,
+        y: 480,
+        w: 720,
       },
       bottomBox: {
         fill: '#F5F6EF',
         borderColor: '#FA4A3A',
         borderWidth: 6,
         textColor: '#111111',
-        fontSize: 52,
+        fontSize: 46,
         fontWeight: 900,
         textAlign: 'left',
-        paddingH: 22,
-        paddingV: 18,
-        x: 54,
-        y: 570,
-        w: 936,
+        paddingH: 20,
+        paddingV: 16,
+        x: 180,
+        y: 680,
+        w: 720,
       },
     },
     intro: { lines: introLines },

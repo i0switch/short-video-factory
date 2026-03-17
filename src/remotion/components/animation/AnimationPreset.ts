@@ -14,7 +14,8 @@ export interface StyleAnim {
  * 用途: SceneTransition の黒フラッシュオーバーレイ
  */
 export function blackFlash1f(frame: number): number {
-  return frame < 1 ? 1 : 0
+  // 暗転禁止: 黒フラッシュを無効化
+  return 0
 }
 
 /**
@@ -22,7 +23,8 @@ export function blackFlash1f(frame: number): number {
  * 用途: 各シーン冒頭の暗→明転
  */
 export function sceneBrightnessIn(frame: number): string {
-  const brightness = interpolate(frame, [1, 10], [0.15, 1.0], {
+  // 暗転禁止: 軽微なフェードのみ (0.85→1.0, 6fで完了)
+  const brightness = interpolate(frame, [0, 6], [0.85, 1.0], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
   })

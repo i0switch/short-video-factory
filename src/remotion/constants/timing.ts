@@ -5,9 +5,9 @@ export const CANVAS_WIDTH = 1080
 export const CANVAS_HEIGHT = 1920
 
 // シーン尺 (frames)
-export const OPENING_FRAMES = 102   // 3.4秒
+export const OPENING_FRAMES = 90    // 3.0秒
 export const RANKING_FRAMES = 162   // テンプレート運用時の固定値
-export const CTA_FRAMES = 63        // 2.1秒
+export const CTA_FRAMES = 75        // 2.5秒
 
 // DEFINITIVE_v3: ランキングシーン実測値 (rank10→rank1の順)
 export const SCENE_DURATIONS = [143, 166, 166, 164, 147, 164, 144, 174, 174, 178] as const

@@ -18,8 +18,8 @@ export const RankHeader: React.FC<RankHeaderProps> = ({ rank }) => {
       style={{
         position: 'absolute',
         top: RANK_HEADER.y,
-        left: RANK_HEADER.x,
-        width: RANK_HEADER.width,
+        left: 0,
+        width: 1080,
         textAlign: 'center',
         zIndex: Z_INDEX.rankHeader,
       }}
@@ -34,6 +34,7 @@ export const RankHeader: React.FC<RankHeaderProps> = ({ rank }) => {
           paintOrder: 'stroke fill',
           textShadow: TEXT_SHADOW.rankHeader,
           lineHeight: 1,
+          whiteSpace: 'nowrap',
           display: 'block',
         }}
       >

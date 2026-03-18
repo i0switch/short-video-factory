@@ -79,7 +79,7 @@ afterEach(() => {
 })
 
 describe('combo integration tests', () => {
-  it('TC-101: apiKey=null, topic=11chars, short audio(0.5s) → durationFrames=143, headlineLines=2, fallbackUsed=true', async () => {
+  it('TC-101: apiKey=null, topic=11chars → durationFrames=budget-driven, headlineLines=2, fallbackUsed=true', async () => {
     vi.mocked(config.getPexelsApiKey).mockReturnValue(null)
     vi.mocked(voicevox.parseWavDuration).mockReturnValue(0.5)
     vi.mocked(imageService.fetchImage).mockResolvedValue({
@@ -91,7 +91,8 @@ describe('combo integration tests', () => {
     const script = makeScript('タイトル', [{ rank: 1, topic }])
     const result = await buildV3Plan(script, jobDir)
 
-    expect(result.scenes[0].durationFrames).toBe(143)
+    // budget-driven: 1605 / 1 item = 1605
+    expect(result.scenes[0].durationFrames).toBe(1605)
     expect(result.scenes[0].phase1.headlineLines).toHaveLength(2)
 
     const fetchCalls = vi.mocked(imageService.fetchImage).mock.calls
@@ -142,17 +143,17 @@ describe('combo integration tests', () => {
     }
   })
 
-  it('TC-103: videoTitle with 5 words → intro.lines[4].style cycles back to introBlack', async () => {
+  it('TC-103: videoTitle with spaces → balanced split', async () => {
     const videoTitle = '令和 日本 最強 ランキング 動画'
     const script = makeScript(videoTitle, [{ rank: 1, topic: 'テスト' }])
     const result = await buildV3Plan(script, jobDir)
 
+    // splitTitleToLines removes spaces: '令和日本最強ランキング動画' (13 chars)
+    // balanced: numLines=ceil(13/7)=2, idealLen=ceil(13/2)=7
     const lines = result.intro.lines
-    // styles = ['introBlack', 'introRed', 'introBlack', 'introYellow']
-    // index 4 → 4 % 4 = 0 → 'introBlack'
-    expect(lines).toHaveLength(5)
-    expect(lines[4].style).toBe('introBlack')
-    expect(lines[4].text).toBe('動画')
+    expect(lines).toHaveLength(2)
+    expect(lines[0].style).toBe('introBlack')
+    expect(lines[1].style).toBe('introRed')
   })
 
   it('TC-104: synthesize volumeScale test — body sent to synthesis has volumeScale=gain*original', async () => {
@@ -268,14 +269,14 @@ describe('combo integration tests', () => {
     }
   })
 
-  it('TC-107: videoTitle with double space → intro.lines has only 2 elements (filter(Boolean))', async () => {
-    // "A  B" has a double space → split(/[\s\n]/) gives ['A', '', 'B'] → filter(Boolean) → ['A', 'B']
+  it('TC-107: videoTitle with double space → removes all spaces', async () => {
+    // splitTitleToLines removes all whitespace: "A  B" → "AB" (2 chars ≤ 7) → ['AB']
     const videoTitle = 'A  B'
     const script = makeScript(videoTitle, [{ rank: 1, topic: 'テスト' }])
     const result = await buildV3Plan(script, jobDir)
 
-    expect(result.intro.lines).toHaveLength(2)
-    expect(result.intro.lines[0].text).toBe('A')
-    expect(result.intro.lines[1].text).toBe('B')
+    expect(result.intro.lines).toHaveLength(1)
+    expect(result.intro.lines[0].text).toBe('AB')
+    expect(result.intro.lines[0].style).toBe('introBlack')
   })
 })

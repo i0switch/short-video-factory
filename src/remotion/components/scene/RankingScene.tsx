@@ -1,15 +1,16 @@
-// RankingScene — 4ステップ Sequence 構成 (spec v5 準拠)
+// RankingScene — 積み上がり型 (spec v5 revised)
 //
-// Step 1: 順位を画面中央に大きく (15%)
-// Step 2: 順位が上部に縮小 + 特徴テキスト + イラスト (28%)
-// Step 3: 青枠コメント単独 (28%)
-// Step 4: 赤枠コメント単独 (29%)
-// 青枠と赤枠は絶対に同時表示しない
+// Sub-A (step1End〜subAEnd): 順位小 + トピック + キャラ画像
+// Sub-B (subAEnd〜subBEnd): 順位小 + 青枠  + キャラ画像  ← トピックは消えるがキャラは残る
+// Sub-C (subBEnd〜end):     順位小 + 青枠  + 赤枠 + キャラ画像  ← 青枠も消えない
+//
+// 絶対ルール:
+//   - キャラ画像は Sub-B / Sub-C でも消えない
+//   - 青枠は Sub-C でも消えない（置換ではなく追加）
 import React from 'react'
 import { AbsoluteFill, Audio, Img, Sequence, staticFile, useCurrentFrame, interpolate } from 'remotion'
 import { BackgroundLayer } from '../background/BackgroundLayer'
 import { FONT_FAMILY, FONT_WEIGHT } from '../../constants/typography'
-import { COLORS } from '../../constants/colors'
 import type { V3Scene, V3Theme } from '../../types/video-v3'
 
 interface RankingSceneProps {
@@ -17,178 +18,100 @@ interface RankingSceneProps {
   theme: V3Theme
 }
 
-function formatComment(text: string, charsPerLine = 9): string {
-  const lines: string[] = []
-  let remaining = text
-  while (remaining.length > charsPerLine) {
-    lines.push(remaining.slice(0, charsPerLine))
-    remaining = remaining.slice(charsPerLine)
+function formatComment(text: string, charsPerLine = 10): string {
+  if (text.length <= charsPerLine) return text
+  // 自然区切り優先 (、。！？てにはがをもでのより) — build-v3-plan.ts の topicLines と同ロジック
+  const breakChars = /[、。！？てにはがをもでのより]/
+  let breakIdx = -1
+  for (let k = Math.min(charsPerLine, text.length) - 1; k >= 3; k--) {
+    if (breakChars.test(text[k])) { breakIdx = k + 1; break }
   }
-  if (remaining) lines.push(remaining)
-  return lines.slice(0, 2).join('\n')
-}
-
-// 順位 大: Step 1 用 (中央, 上からフェードイン)
-const RankBig: React.FC<{ rank: number }> = ({ rank }) => {
-  const f = useCurrentFrame()
-  const opacity = interpolate(f, [0, 8], [0, 1], { extrapolateRight: 'clamp' })
-  const y = interpolate(f, [0, 8], [-40, 0], { extrapolateRight: 'clamp' })
-  return (
-    <div style={{
-      position: 'absolute',
-      top: '35%',
-      width: '100%',
-      textAlign: 'center',
-      opacity,
-      transform: `translateY(${y}px)`,
-      zIndex: 50,
-    }}>
-      <span style={{
-        fontFamily: `'${FONT_FAMILY}', sans-serif`,
-        fontWeight: FONT_WEIGHT,
-        fontSize: 120,
-        color: '#FFF',
-        WebkitTextStroke: '4px #333',
-        paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
-        textShadow: '4px 4px 0px rgba(0,0,0,0.5)',
-      }}>
-        第{rank}位
-      </span>
-    </div>
-  )
-}
-
-// 順位 小: Step 2-4 用 (上部固定, 即表示)
-const RankSmall: React.FC<{ rank: number }> = ({ rank }) => (
-  <div style={{
-    position: 'absolute',
-    top: '5%',
-    width: '100%',
-    textAlign: 'center',
-    zIndex: 50,
-  }}>
-    <span style={{
-      fontFamily: `'${FONT_FAMILY}', sans-serif`,
-      fontWeight: FONT_WEIGHT,
-      fontSize: 70,
-      color: '#FFF',
-      WebkitTextStroke: '3px #333',
-      paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
-      textShadow: '4px 4px 0px rgba(0,0,0,0.4)',
-    }}>
-      第{rank}位
-    </span>
-  </div>
-)
-
-// 特徴テキスト + イラスト: Step 2 用
-const TopicLayer: React.FC<{ lines: string[]; src: string; fallback: string }> = ({ lines, src, fallback }) => {
-  const f = useCurrentFrame()
-  const topicOpacity = interpolate(f, [0, 8], [0, 1], { extrapolateRight: 'clamp' })
-  const topicY = interpolate(f, [0, 8], [-30, 0], { extrapolateRight: 'clamp' })
-  const imgOpacity = interpolate(f, [0, 8], [0, 1], { extrapolateRight: 'clamp' })
-  const imgY = interpolate(f, [0, 8], [30, 0], { extrapolateRight: 'clamp' })
-
-  return (
-    <>
-      {/* 特徴テキスト: 上からフェードイン */}
-      <div style={{
-        position: 'absolute',
-        top: '25%',
-        width: '90%',
-        left: '5%',
-        textAlign: 'center',
-        opacity: topicOpacity,
-        transform: `translateY(${topicY}px)`,
-        zIndex: 30,
-      }}>
-        {lines.map((line, i) => (
-          <div key={i} style={{
-            fontFamily: `'${FONT_FAMILY}', sans-serif`,
-            fontWeight: FONT_WEIGHT,
-            fontSize: 65,
-            color: '#FFF',
-            WebkitTextStroke: '2px #000',
-            paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
-            textShadow: '3px 3px 0px rgba(0,0,0,0.4)',
-            lineHeight: 1.2,
-          }}>
-            {line}
-          </div>
-        ))}
-      </div>
-      {/* イラスト: 下からフェードイン */}
-      <div style={{
-        position: 'absolute',
-        bottom: '5%',
-        left: '50%',
-        transform: `translateX(-50%) translateY(${imgY}px)`,
-        opacity: imgOpacity,
-        width: '55%',
-        zIndex: 20,
-      }}>
-        <Img
-          src={staticFile(src)}
-          style={{ width: '100%', objectFit: 'contain' }}
-          onError={() => {}}
-        />
-      </div>
-    </>
-  )
-}
-
-// コメントボックス: Step 3 (青) / Step 4 (赤) 用
-const CommentBox: React.FC<{ text: string; borderColor: string }> = ({ text, borderColor }) => {
-  const f = useCurrentFrame()
-  const opacity = interpolate(f, [0, 10], [0, 1], { extrapolateRight: 'clamp' })
-  const y = interpolate(f, [0, 10], [24, 0], { extrapolateRight: 'clamp' })
-  const formatted = formatComment(text, 9)
-
-  return (
-    <div style={{
-      position: 'absolute',
-      top: '25%',
-      left: '5%',
-      width: '90%',
-      opacity,
-      transform: `translateY(${y}px)`,
-      zIndex: 40,
-    }}>
-      <div style={{
-        background: 'rgba(255,255,255,0.95)',
-        border: `3px solid ${borderColor}`,
-        borderRadius: 4,
-        padding: '16px 20px',
-      }}>
-        <span style={{
-          fontFamily: `'${FONT_FAMILY}', sans-serif`,
-          fontWeight: 700,
-          fontSize: 40,
-          color: '#000',
-          textAlign: 'left',
-          lineHeight: 1.3,
-          display: 'block',
-          whiteSpace: 'pre-line',
-        }}>
-          {formatted}
-        </span>
-      </div>
-    </div>
-  )
+  if (breakIdx < 0) breakIdx = charsPerLine
+  return [text.slice(0, breakIdx), text.slice(breakIdx, breakIdx + charsPerLine)].filter(Boolean).slice(0, 2).join('\n')
 }
 
 export const RankingScene: React.FC<RankingSceneProps> = ({ scene, theme }) => {
   const { phase1, phase2 } = scene
   const bg = theme.background
+  const f = useCurrentFrame()
   const durationF = scene.durationFrames ?? 162
 
-  const step1End = Math.round(durationF * 0.15)          // ~24f
-  const step2End = Math.round(durationF * 0.43)          // ~69f
-  const step3End = Math.round(durationF * 0.71)          // ~115f
+  // ---- フレーム境界 (build-v3-plan.ts の audiobudget と同期すること) ----
+  const step1End = Math.round(durationF * 0.12)  // 順位大 終了
+  const subAEnd  = Math.round(durationF * 0.40)  // トピック終了 → 青枠登場
+  const subBEnd  = Math.round(durationF * 0.65)  // 青枠維持 → 赤枠追加
+
+  // ---- 順位大 (Step 1 のみ, opacity で制御) ----
+  // 0フレーム目から可視情報あり (空白フレーム防止): opacity は 0.8→1.0 の短いフェード
+  const rankBigOpacity = f < step1End
+    ? interpolate(f, [0, 4], [0.8, 1.0], { extrapolateRight: 'clamp' })
+    : 0
+  const rankBigY = f < step1End
+    ? interpolate(f, [0, 8], [-20, 0], { extrapolateRight: 'clamp' })
+    : 0
+
+  // ---- 順位小 (step1End 以降ずっと) ----
+  const showRankSmall = f >= step1End
+
+  // ---- キャラ画像 (step1End 以降ずっと — Sub-B/C でも消えない) ----
+  const charEnter = Math.max(0, f - step1End)
+  const charOpacity = f >= step1End
+    ? interpolate(charEnter, [0, 8], [0, 1], { extrapolateRight: 'clamp' })
+    : 0
+  const charY = f >= step1End
+    ? interpolate(charEnter, [0, 8], [30, 0], { extrapolateRight: 'clamp' })
+    : 30
+
+  // ---- トピックテキスト (step1End〜subAEnd のみ) ----
+  const topicEnter = Math.max(0, f - step1End)
+  const topicOpacity = f >= step1End && f < subAEnd
+    ? interpolate(topicEnter, [0, 8], [0, 1], { extrapolateRight: 'clamp' })
+    : 0
+  const topicY = f >= step1End && f < subAEnd
+    ? interpolate(topicEnter, [0, 8], [-30, 0], { extrapolateRight: 'clamp' })
+    : -30
+
+  // ---- 青枠 (subAEnd 以降ずっと — Sub-C でも消えない) ----
+  const blueEnter = Math.max(0, f - subAEnd)
+  const blueOpacity = f >= subAEnd
+    ? interpolate(blueEnter, [0, 10], [0, 1], { extrapolateRight: 'clamp' })
+    : 0
+  const blueY = f >= subAEnd
+    ? interpolate(blueEnter, [0, 10], [24, 0], { extrapolateRight: 'clamp' })
+    : 24
+
+  // ---- 赤枠 (subBEnd 以降 — 追加のみ、置換しない) ----
+  const redEnter = Math.max(0, f - subBEnd)
+  const redOpacity = f >= subBEnd
+    ? interpolate(redEnter, [0, 10], [0, 1], { extrapolateRight: 'clamp' })
+    : 0
+  const redY = f >= subBEnd
+    ? interpolate(redEnter, [0, 10], [24, 0], { extrapolateRight: 'clamp' })
+    : 24
+
+  const blueFormatted = formatComment(phase2.topComment)
+  const redFormatted  = formatComment(phase2.bottomComment)
+
+  const { topBox, bottomBox } = theme
+  const commentBoxBase: React.CSSProperties = {
+    background: topBox.fill,
+    borderRadius: 4,
+    padding: `${topBox.paddingV}px ${topBox.paddingH}px`,
+  }
+  const commentTextStyle: React.CSSProperties = {
+    fontFamily: `'${FONT_FAMILY}', sans-serif`,
+    fontWeight: topBox.fontWeight,
+    fontSize: topBox.fontSize,
+    color: topBox.textColor,
+    textAlign: 'left',
+    lineHeight: 1.4,
+    display: 'block',
+    whiteSpace: 'pre-line',
+  }
 
   return (
     <AbsoluteFill>
-      {/* 背景: 常時回転 (BackgroundLayer内でuseCurrentFrame使用) */}
+      {/* 背景: 常時回転 */}
       <BackgroundLayer
         colorA={bg.colorA}
         colorB={bg.colorB}
@@ -197,44 +120,136 @@ export const RankingScene: React.FC<RankingSceneProps> = ({ scene, theme }) => {
         burstCount={bg.burstCount}
       />
 
-      {/* Step 1: 順位を画面中央に大きく + 順位読み上げ音声 */}
+      {/* 音声タイムライン */}
       <Sequence durationInFrames={step1End}>
-        <AbsoluteFill>
-          <RankBig rank={scene.rank} />
-          {scene.rankAudioSrc && <Audio src={staticFile(scene.rankAudioSrc)} />}
-        </AbsoluteFill>
+        {scene.rankAudioSrc && <Audio src={staticFile(scene.rankAudioSrc)} />}
+      </Sequence>
+      <Sequence from={step1End} durationInFrames={subAEnd - step1End}>
+        {scene.topicAudioSrc && <Audio src={staticFile(scene.topicAudioSrc)} />}
+      </Sequence>
+      <Sequence from={subAEnd} durationInFrames={subBEnd - subAEnd}>
+        {scene.blueAudioSrc && <Audio src={staticFile(scene.blueAudioSrc)} />}
+      </Sequence>
+      <Sequence from={subBEnd} durationInFrames={durationF - subBEnd}>
+        {scene.redAudioSrc && <Audio src={staticFile(scene.redAudioSrc)} />}
       </Sequence>
 
-      {/* Step 2: 順位小(上部) + 特徴 + イラスト + 特徴読み上げ音声 */}
-      <Sequence from={step1End} durationInFrames={step2End - step1End}>
-        <AbsoluteFill>
-          <RankSmall rank={scene.rank} />
-          <TopicLayer
-            lines={phase1.headlineLines}
-            src={phase1.asset.src}
-            fallback={phase1.asset.fallbackLabel}
-          />
-          {scene.topicAudioSrc && <Audio src={staticFile(scene.topicAudioSrc)} />}
-        </AbsoluteFill>
-      </Sequence>
+      {/* Layer 5: 順位大 (Step 1 のみ) */}
+      <div style={{
+        position: 'absolute',
+        top: '28%',
+        width: '100%',
+        textAlign: 'center',
+        opacity: rankBigOpacity,
+        transform: `translateY(${rankBigY}px)`,
+        zIndex: 50,
+        pointerEvents: 'none',
+      }}>
+        <span style={{
+          fontFamily: `'${FONT_FAMILY}', sans-serif`,
+          fontWeight: FONT_WEIGHT,
+          fontSize: 160,
+          color: '#FFF',
+          WebkitTextStroke: '8px #000000',
+          paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
+          textShadow: '4px 4px 0px rgba(0,0,0,0.5)',
+        }}>
+          第{scene.rank}位
+        </span>
+      </div>
 
-      {/* Step 3: 順位小(上部) + 青枠コメント単独 + 男性声音声 */}
-      <Sequence from={step2End} durationInFrames={step3End - step2End}>
-        <AbsoluteFill>
-          <RankSmall rank={scene.rank} />
-          <CommentBox text={phase2.topComment} borderColor="#1410E1" />
-          {scene.blueAudioSrc && <Audio src={staticFile(scene.blueAudioSrc)} />}
-        </AbsoluteFill>
-      </Sequence>
+      {/* Layer 5: 順位小 (step1End 以降常時) */}
+      {showRankSmall && (
+        <div style={{
+          position: 'absolute',
+          top: '5%',
+          width: '100%',
+          textAlign: 'center',
+          zIndex: 50,
+        }}>
+          <span style={{
+            fontFamily: `'${FONT_FAMILY}', sans-serif`,
+            fontWeight: FONT_WEIGHT,
+            fontSize: 116,
+            color: '#FFF',
+            WebkitTextStroke: '8px #000000',
+            paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
+            textShadow: '4px 4px 0px rgba(0,0,0,0.4)',
+          }}>
+            第{scene.rank}位
+          </span>
+        </div>
+      )}
 
-      {/* Step 4: 順位小(上部) + 赤枠コメント単独 + 女性声音声 */}
-      <Sequence from={step3End} durationInFrames={durationF - step3End}>
-        <AbsoluteFill>
-          <RankSmall rank={scene.rank} />
-          <CommentBox text={phase2.bottomComment} borderColor="#E0261C" />
-          {scene.redAudioSrc && <Audio src={staticFile(scene.redAudioSrc)} />}
-        </AbsoluteFill>
-      </Sequence>
+      {/* Layer 1: キャラ画像 (step1End 以降ずっと / Sub-B・Sub-C でも消えない) */}
+      <div style={{
+        position: 'absolute',
+        bottom: '3%',
+        left: '50%',
+        transform: `translateX(-50%) translateY(${charY}px)`,
+        opacity: charOpacity,
+        width: '60%',
+        zIndex: 20,
+      }}>
+        <Img
+          src={staticFile(phase1.asset.src)}
+          style={{ width: '100%', objectFit: 'contain' }}
+          onError={() => {}}
+        />
+      </div>
+
+      {/* Layer 2: トピックテキスト (Sub-A のみ) */}
+      <div style={{
+        position: 'absolute',
+        top: '18%',
+        width: '90%',
+        left: '5%',
+        textAlign: 'center',
+        opacity: topicOpacity,
+        transform: `translateY(${topicY}px)`,
+        zIndex: 30,
+        pointerEvents: 'none',
+      }}>
+        {phase1.headlineLines.map((line, i) => (
+          <div key={i} style={{
+            fontFamily: `'${FONT_FAMILY}', sans-serif`,
+            fontWeight: FONT_WEIGHT,
+            fontSize: theme.phase1Caption.fontSize,
+            color: theme.phase1Caption.fill,
+            WebkitTextStroke: `${theme.phase1Caption.strokeWidth}px ${theme.phase1Caption.stroke}`,
+            paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
+            textShadow: `0 0 ${theme.phase1Caption.shadowBlur}px ${theme.phase1Caption.shadowColor}`,
+            lineHeight: 1.2,
+          }}>
+            {line}
+          </div>
+        ))}
+      </div>
+
+      {/* Layer 3+4: 青枠＋赤枠 — flex縦積み (top:40%, red は青の直下) */}
+      <div style={{
+        position: 'absolute',
+        top: '20%',
+        left: '5%',
+        width: '90%',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 20,
+        zIndex: 40,
+      }}>
+        {/* 青枠 (subAEnd 以降ずっと) */}
+        <div style={{ opacity: blueOpacity, transform: `translateY(${blueY}px)` }}>
+          <div style={{ ...commentBoxBase, border: `${topBox.borderWidth}px solid ${topBox.borderColor}` }}>
+            <span style={commentTextStyle}>{blueFormatted}</span>
+          </div>
+        </div>
+        {/* 赤枠 (subBEnd 以降 — 追加のみ) */}
+        <div style={{ opacity: redOpacity, transform: `translateY(${redY}px)` }}>
+          <div style={{ ...commentBoxBase, border: `${bottomBox.borderWidth}px solid ${bottomBox.borderColor}` }}>
+            <span style={{...commentTextStyle, fontWeight: bottomBox.fontWeight, fontSize: bottomBox.fontSize, color: bottomBox.textColor}}>{redFormatted}</span>
+          </div>
+        </div>
+      </div>
     </AbsoluteFill>
   )
 }

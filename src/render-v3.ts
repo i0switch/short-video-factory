@@ -1,10 +1,11 @@
-// render-v3.ts — DEFINITIVE_v3 フルレンダー (VOICEVOX + Pexels + audio)
+// render-v3.ts — DEFINITIVE_v3 フルレンダー (VOICEVOX + Pexels + audio + BGM)
 import 'dotenv/config'
 import { bundle } from '@remotion/bundler'
 import { renderMedia, selectComposition } from '@remotion/renderer'
-import { readFileSync, writeFileSync } from 'fs'
+import { readFileSync, writeFileSync, existsSync } from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { execSync } from 'child_process'
 import { ScriptSchema } from './schema/script'
 import { checkVoicevox } from './services/voicevox/index'
 import { buildV3Plan } from './services/renderer/build-v3-plan'
@@ -65,7 +66,30 @@ async function main() {
     onProgress: ({ progress }) => logger.info(`Progress: ${Math.round(progress * 100)}%`),
   })
 
-  // 7. latest/ に昇格
+  // 7. BGM合成 (ffmpeg)
+  const bgmPath = path.resolve(__dirname, '..', 'assets', 'bgm', 'ukiuki_lalala.mp3')
+  if (existsSync(bgmPath)) {
+    const withBgmPath = path.join(jobDir, 'output_bgm.mp4')
+    logger.info('Mixing BGM...')
+    // BGM を -18dB に下げてナレーションと合成、動画の長さに合わせて切る
+    execSync([
+      'ffmpeg', '-y',
+      '-i', `"${outputPath}"`,
+      '-i', `"${bgmPath}"`,
+      '-filter_complex',
+      '"[1:a]volume=0.12,afade=t=in:st=0:d=1,afade=t=out:st=' + ((totalFrames / config.meta.fps) - 2).toFixed(1) + ':d=2[bgm];[0:a][bgm]amix=inputs=2:duration=first:dropout_transition=0[out]"',
+      '-map', '0:v', '-map', '"[out]"',
+      '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k',
+      `"${withBgmPath}"`,
+    ].join(' '), { stdio: 'pipe' })
+    // BGM付きファイルで上書き
+    execSync(`mv "${withBgmPath}" "${outputPath}"`, { stdio: 'pipe' })
+    logger.info('BGM mixed!')
+  } else {
+    logger.warn(`BGM file not found: ${bgmPath} — skipping BGM mix`)
+  }
+
+  // 8. latest/ に昇格
   await promoteToLatest(jobDir)
   logger.info(`Done! generated/latest/output.mp4`)
 }

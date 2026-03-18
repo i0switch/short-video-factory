@@ -11,7 +11,7 @@ import { logger } from '../../utils/logger'
 const FPS = 30
 // 全体尺予算 (59.5秒以内)
 const MAX_DURATION_FRAMES = Math.floor(59.5 * FPS)  // 1785
-const INTRO_FRAMES = 90   // 3秒 (イントロ音声込み)
+const INTRO_FRAMES = 105  // 3.5秒 (イントロ音声3.04s + 余裕)
 const CTA_FRAMES = 75     // 2.5秒
 const AVAILABLE_RANK_FRAMES = MAX_DURATION_FRAMES - INTRO_FRAMES - CTA_FRAMES  // 1620
 
@@ -30,15 +30,17 @@ export async function buildV3Plan(
   const itemCount = script.items.length
   // 1ランクあたりのフレーム数 (budget-driven)
   const framesPerRank = Math.floor(AVAILABLE_RANK_FRAMES / itemCount)
-  // 4ステップの各フレーム数
-  const step1F = Math.round(framesPerRank * 0.15)
-  const step2F = Math.round(framesPerRank * 0.43) - step1F
-  const step3F = Math.round(framesPerRank * 0.71) - Math.round(framesPerRank * 0.43)
-  const step4F = framesPerRank - Math.round(framesPerRank * 0.71)
+  // 積み上がり型フレーム配分 (spec v5 revised - audio budget adjusted)
+  // step1: 順位大 (0-12%), SubA: トピック (12-40%), SubB: 青枠 (40-65%), SubC: 赤枠 (65-100%)
+  // ※ トピック読み上げ切れ防止のため step2 budget を拡張 (23%→28%)
+  const step1F = Math.round(framesPerRank * 0.12)
+  const step2F = Math.round(framesPerRank * 0.40) - step1F          // topic budget (拡張)
+  const step3F = Math.round(framesPerRank * 0.65) - Math.round(framesPerRank * 0.40)  // blue budget
+  const step4F = framesPerRank - Math.round(framesPerRank * 0.65)   // red budget
 
   // 話者ID (spec v5: 3キャラ)
   const speakerZundamon = speaker           // ずんだもん (rank, topic, intro, CTA)
-  const speakerMale = parseInt(process.env.VOICEVOX_SPEAKER_MALE ?? '8', 10)    // 青枠 (男性)
+  const speakerMale = parseInt(process.env.VOICEVOX_SPEAKER_MALE ?? '13', 10)   // 青枠 (青山龍星)
   const speakerFemale = parseInt(process.env.VOICEVOX_SPEAKER_FEMALE ?? '0', 10) // 赤枠 (女性)
 
   logger.info(`Budget: ${framesPerRank}f/rank (${(framesPerRank / FPS).toFixed(1)}s) × ${itemCount}`)
@@ -76,8 +78,8 @@ export async function buildV3Plan(
     const budgetSec = budgetF / FPS
     let buf = await synthesize(text, url, spk, gain, 1.0)
     const dur = parseWavDuration(buf)
-    if (dur > budgetSec - 0.05) {
-      const speed = Math.min(dur / (budgetSec - 0.05), 1.5)
+    if (dur > budgetSec - 0.15) {
+      const speed = Math.min(dur / (budgetSec - 0.15), 2.0)
       logger.info(`  → ${label}: ${dur.toFixed(2)}s > ${budgetSec.toFixed(2)}s → resynth x${speed.toFixed(2)}`)
       buf = await synthesize(text, url, spk, gain, speed)
     }
@@ -115,12 +117,14 @@ export async function buildV3Plan(
       const [rankBuf, topicBuf, blueBuf, redBuf, imgAResult] = await Promise.all([
         synthFit(rankText,  speakerZundamon, step1F, `rank${item.rank}_rank`),
         synthFit(topicText, speakerZundamon, step2F, `rank${item.rank}_topic`),
-        synthFit(blueText,  speakerMale,     step3F, `rank${item.rank}_blue`).catch(() =>
-          synthFit(blueText, speakerZundamon, step3F, `rank${item.rank}_blue_fallback`)
-        ),
-        synthFit(redText,   speakerFemale,   step4F, `rank${item.rank}_red`).catch(() =>
-          synthFit(redText, speakerZundamon, step4F, `rank${item.rank}_red_fallback`)
-        ),
+        synthFit(blueText,  speakerMale,     step3F, `rank${item.rank}_blue`).catch((e) => {
+          logger.warn(`  → rank${item.rank}_blue: male speaker(${speakerMale}) failed, fallback to zundamon: ${e}`)
+          return synthFit(blueText, speakerZundamon, step3F, `rank${item.rank}_blue_fallback`)
+        }),
+        synthFit(redText,   speakerFemale,   step4F, `rank${item.rank}_red`).catch((e) => {
+          logger.warn(`  → rank${item.rank}_red: female speaker(${speakerFemale}) failed, fallback to zundamon: ${e}`)
+          return synthFit(redText, speakerZundamon, step4F, `rank${item.rank}_red_fallback`)
+        }),
         getCachedImage(item.imageKeywordsEn, apiKey, jobDir, imgAFile, item.imageKeywords),
       ])
 
@@ -163,36 +167,55 @@ export async function buildV3Plan(
     })
   )
 
-  // イントロ音声を合成 (intro テキスト読み上げで冒頭無音を解消)
+  // イントロ音声 (synthFit でバジェット内に収める)
   const introWavFile = 'audio_intro.wav'
   const introWavAbsPath = path.join(jobDir, introWavFile)
   logger.info(`[intro] VOICEVOX合成中: "${script.intro}"`)
-  const introWavBuffer = await synthesize(script.intro, url, speaker, gain, 1.0)
+  const introWavBuffer = await synthFit(script.intro, speakerZundamon, INTRO_FRAMES, 'intro')
   fs.writeFileSync(introWavAbsPath, introWavBuffer)
   logger.info(`  → intro: audio=${parseWavDuration(introWavBuffer).toFixed(2)}s`)
 
-  // アウトロ音声を合成 (CTA無音解消)
+  // アウトロ音声 (CTA固定文言: spec準拠)
+  const OUTRO_TEXT = 'みんなの意見はコメント欄へ！'
   const outroWavFile = 'audio_outro.wav'
   const outroWavAbsPath = path.join(jobDir, outroWavFile)
-  logger.info(`[outro] VOICEVOX合成中: "${script.outro}"`)
-  const outroWavBuffer = await synthesize(script.outro, url, speaker, gain, 1.0)
+  logger.info(`[outro] VOICEVOX合成中: "${OUTRO_TEXT}"`)
+  const outroWavBuffer = await synthFit(OUTRO_TEXT, speakerZundamon, CTA_FRAMES, 'outro')
   fs.writeFileSync(outroWavAbsPath, outroWavBuffer)
   logger.info(`  → outro: audio=${parseWavDuration(outroWavBuffer).toFixed(2)}s`)
 
-  // intro行: タイトルを7文字以下で分割 (最大4行, 強調行のみ赤)
+  // intro行: タイトルをバランス分割 (最大4行, idealLen ±2 で自然区切り探索)
   function splitTitleToLines(title: string, maxChars = 7, maxLines = 4): string[] {
+    const text = title.replace(/\s+/g, '')  // 空白除去
+    if (text.length <= maxChars) return [text]
+
+    const numLines = Math.min(maxLines, Math.ceil(text.length / maxChars))
+    const idealLen = Math.ceil(text.length / numLines)
+    // タイトル用: 助詞・句読点で自然に区切る (て は除外: 短すぎる分割を防止)
+    const breakChars = /[、。！？にはがをもでのよりい]/
+
     const lines: string[] = []
-    let remaining = title.replace(/\s+/g, '')  // 空白除去
-    while (remaining.length > 0 && lines.length < maxLines) {
-      // 自然な区切り(て/に/は/が/の/で)を優先して7文字以内で切る
-      const chunk = remaining.slice(0, maxChars)
-      lines.push(chunk)
-      remaining = remaining.slice(chunk.length)
+    let pos = 0
+
+    for (let i = 0; i < numLines - 1 && pos < text.length; i++) {
+      const target = pos + idealLen
+      if (target >= text.length) break
+      // target ±2 の範囲で breakChar を探索 (target に近い方を優先)
+      let bestBreak = -1
+      const lo = Math.max(target - 2, pos + 2)
+      const hi = Math.min(target + 1, text.length - 1)
+      for (let k = hi; k >= lo; k--) {
+        if (breakChars.test(text[k])) { bestBreak = k + 1; break }
+      }
+      const breakAt = bestBreak > 0 ? bestBreak : target
+      lines.push(text.slice(pos, breakAt))
+      pos = breakAt
     }
+    if (pos < text.length) lines.push(text.slice(pos))
     return lines
   }
   const titleLines = splitTitleToLines(script.videoTitle)
-  const styles = ['introBlack', 'introRed', 'introBlack', 'introBlack'] as const
+  const styles = ['introBlack', 'introRed', 'introRed', 'introBlack'] as const
   const introLines = titleLines.map((text, i) => ({ text, style: styles[i % styles.length] }))
 
   const config: VideoV3Config = {
@@ -226,7 +249,7 @@ export async function buildV3Plan(
       phase1Caption: {
         fontFamily: 'Noto Sans JP',
         fontWeight: 900,
-        fontSize: 80,
+        fontSize: 120,
         fill: '#D6332C',
         stroke: '#FFFFFF',
         strokeWidth: 10,
@@ -238,11 +261,11 @@ export async function buildV3Plan(
         borderColor: '#233CFF',
         borderWidth: 8,
         textColor: '#111111',
-        fontSize: 64,
+        fontSize: 72,
         fontWeight: 900,
         textAlign: 'left',
-        paddingH: 24,
-        paddingV: 20,
+        paddingH: 28,
+        paddingV: 44,
         x: 20,
         y: 420,
         w: 1040,
@@ -252,19 +275,24 @@ export async function buildV3Plan(
         borderColor: '#FA4A3A',
         borderWidth: 8,
         textColor: '#111111',
-        fontSize: 64,
+        fontSize: 72,
         fontWeight: 900,
         textAlign: 'left',
-        paddingH: 24,
-        paddingV: 20,
+        paddingH: 28,
+        paddingV: 44,
         x: 20,
         y: 680,
         w: 1040,
       },
     },
-    intro: { lines: introLines, audioSrc: toRelPath(introWavAbsPath, jobDir) },
+    intro: {
+      lines: introLines,
+      audioSrc: toRelPath(introWavAbsPath, jobDir),
+      // rank0の画像を流用 (fallbackでなければ表示)
+      imageSrc: scenes[0].phase1.asset.src.startsWith('assets/fallback') ? undefined : scenes[0].phase1.asset.src,
+    },
     scenes,
-    outro: { lines: script.outro.split(/[\s\n]/).filter(Boolean), audioSrc: toRelPath(outroWavAbsPath, jobDir) },
+    outro: { lines: ['みんなの意見は', 'コメント欄へ！'], audioSrc: toRelPath(outroWavAbsPath, jobDir) },
   }
 
   return config

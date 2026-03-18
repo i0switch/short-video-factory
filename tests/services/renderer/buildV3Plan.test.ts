@@ -71,50 +71,46 @@ afterEach(() => {
 })
 
 describe('buildV3Plan', () => {
-  it('TC-055: topic length=10 → headlineLines has 1 element', async () => {
+  it('TC-055: topic length=10 → headlineLines split at 7 chars', async () => {
     const topic = 'A'.repeat(10)
     const result = await buildV3Plan(makeScript(topic), jobDir)
 
-    expect(result.scenes[0].phase1.headlineLines).toEqual(['AAAAAAAAAA'])
-    expect(result.scenes[0].phase1.headlineLines).toHaveLength(1)
+    expect(result.scenes[0].phase1.headlineLines).toEqual(['AAAAAAA', 'AAA'])
+    expect(result.scenes[0].phase1.headlineLines).toHaveLength(2)
   })
 
-  it('TC-056: topic length=11 → headlineLines split into 2 elements', async () => {
+  it('TC-056: topic length=11 → headlineLines split at 7 chars', async () => {
     const topic = 'A'.repeat(11)
-    // ceil(11/2) = 6 → ['AAAAAA', 'AAAAA']
+    // maxChars=7 → ['AAAAAAA', 'AAAA']
     const result = await buildV3Plan(makeScript(topic), jobDir)
 
     expect(result.scenes[0].phase1.headlineLines).toHaveLength(2)
-    expect(result.scenes[0].phase1.headlineLines[0]).toBe('AAAAAA')
-    expect(result.scenes[0].phase1.headlineLines[1]).toBe('AAAAA')
+    expect(result.scenes[0].phase1.headlineLines[0]).toBe('AAAAAAA')
+    expect(result.scenes[0].phase1.headlineLines[1]).toBe('AAAA')
   })
 
-  it('TC-057: audio=0.5s → durationFrames=143 (MIN)', async () => {
-    vi.mocked(voicevox.parseWavDuration).mockReturnValue(0.5)
-    // ceil(0.5 * 30) + 15 = 15 + 15 = 30 → Math.max(30, 143) = 143
-
+  it('TC-057: 1 item → durationFrames = budget-driven (1605)', async () => {
+    // budget-driven: AVAILABLE_RANK_FRAMES(1605) / 1 item = 1605
     const result = await buildV3Plan(makeScript('短い'), jobDir)
 
-    expect(result.scenes[0].durationFrames).toBe(143)
+    expect(result.scenes[0].durationFrames).toBe(1605)
   })
 
-  it('TC-058: audio=5.0s → durationFrames=165', async () => {
+  it('TC-058: 1 item → durationFrames = budget-driven regardless of audio', async () => {
     vi.mocked(voicevox.parseWavDuration).mockReturnValue(5.0)
-    // ceil(5.0 * 30) + 15 = 150 + 15 = 165 → Math.max(165, 143) = 165
-
+    // budget-driven: 1605 / 1 = 1605
     const result = await buildV3Plan(makeScript('長い'), jobDir)
 
-    expect(result.scenes[0].durationFrames).toBe(165)
+    expect(result.scenes[0].durationFrames).toBe(1605)
   })
 
-  it('TC-059: audio=128/30s → durationFrames=143 (exact boundary)', async () => {
-    // 128/30 * 30 = 128.0, ceil(128) = 128, 128 + 15 = 143 = MIN
+  it('TC-059: durationFrames is budget-driven not audio-driven', async () => {
     const duration = 128 / 30
     vi.mocked(voicevox.parseWavDuration).mockReturnValue(duration)
 
     const result = await buildV3Plan(makeScript('境界'), jobDir)
 
-    expect(result.scenes[0].durationFrames).toBe(143)
+    expect(result.scenes[0].durationFrames).toBe(1605)
   })
 
   it('TC-060: getPexelsApiKey returns null → fetchImage called with null apiKey, fallbackUsed=true', async () => {
@@ -131,31 +127,31 @@ describe('buildV3Plan', () => {
     expect(fetchCalls.every(([, apiKey]) => apiKey === null)).toBe(true)
   })
 
-  it('TC-061: videoTitle with spaces → intro.lines styles cycle correctly', async () => {
+  it('TC-061: videoTitle with spaces → intro.lines balanced split with correct styles', async () => {
     const result = await buildV3Plan(
       makeScript('テスト', '令和 日本 最強 ランキング'),
       jobDir,
     )
 
+    // splitTitleToLines removes spaces: '令和日本最強ランキング' (11 chars)
+    // balanced: numLines=ceil(11/7)=2, idealLen=ceil(11/2)=6
+    // Line 0: target=6, search ±2 for breakChar → '本'(3), '最'(4), '強'(5)=no match → breakAt=6
+    // Line 1: remaining '強ランキング' (5 chars)
     const lines = result.intro.lines
-    expect(lines).toHaveLength(4)
+    expect(lines).toHaveLength(2)
+    expect(lines[0].text).toBe('令和日本最強')
+    expect(lines[1].text).toBe('ランキング')
     expect(lines[0].style).toBe('introBlack')
     expect(lines[1].style).toBe('introRed')
-    expect(lines[2].style).toBe('introBlack')
-    expect(lines[3].style).toBe('introYellow')
-    expect(lines[0].text).toBe('令和')
-    expect(lines[1].text).toBe('日本')
-    expect(lines[2].text).toBe('最強')
-    expect(lines[3].text).toBe('ランキング')
   })
 
-  it('TC-062: outro="コメント欄へ" → outro.lines has single element', async () => {
+  it('TC-062: outro lines are hardcoded CTA text (2 natural lines)', async () => {
     const result = await buildV3Plan(
       makeScript('テスト', '動画タイトル', 'コメント欄へ'),
       jobDir,
     )
 
-    expect(result.outro.lines).toHaveLength(1)
-    expect(result.outro.lines[0]).toBe('コメント欄へ')
+    // outro.lines is hardcoded in build-v3-plan.ts
+    expect(result.outro.lines).toEqual(['みんなの意見は', 'コメント欄へ！'])
   })
 })

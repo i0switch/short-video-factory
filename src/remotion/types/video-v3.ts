@@ -91,7 +91,7 @@ export interface V3Meta {
 export interface VideoV3Config {
   meta: V3Meta
   theme: V3Theme
-  intro: { lines: V3IntroLine[]; audioSrc?: string }
+  intro: { lines: V3IntroLine[]; audioSrc?: string; imageSrc?: string }
   scenes: V3Scene[]
   outro: { lines: string[]; audioSrc?: string }
 }

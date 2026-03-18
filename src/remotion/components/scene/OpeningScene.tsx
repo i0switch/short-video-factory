@@ -4,7 +4,7 @@
 // 0フレーム目から可視情報あり (暗転なし)
 // duration: 90f (3秒)
 import React from 'react'
-import { AbsoluteFill, Audio, staticFile, useCurrentFrame } from 'remotion'
+import { AbsoluteFill, Audio, Img, staticFile, useCurrentFrame } from 'remotion'
 import { BackgroundLayer } from '../background/BackgroundLayer'
 import { FONT_FAMILY, FONT_WEIGHT } from '../../constants/typography'
 import { COLORS } from '../../constants/colors'
@@ -18,11 +18,13 @@ interface OpeningSceneProps {
 }
 
 // 最大行長に応じてフォントサイズを動的調整 (spec: 75px, 最小50px)
+// 参考動画準拠: テキストが画面上部を大きく埋めるサイズ
 function calcFontSize(lines: V3IntroLine[]): number {
   const maxLen = Math.max(...lines.map(l => l.text.length))
-  if (maxLen <= 7) return 75
-  if (maxLen <= 9) return 62
-  return 50
+  if (maxLen <= 5) return 130
+  if (maxLen <= 7) return 120
+  if (maxLen <= 9) return 108
+  return 92
 }
 const LINE_FONT_SIZE = 72  // fallback
 
@@ -31,20 +33,20 @@ const getLineStyle = (style: V3IntroLine['style']): React.CSSProperties => {
     case 'introRed':
       return {
         color: COLORS.openingRed,
-        WebkitTextStroke: `5px ${COLORS.black}`,
+        WebkitTextStroke: `7px ${COLORS.black}`,
         paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
       }
     case 'introYellow':
       return {
         color: COLORS.openingYellow,
-        WebkitTextStroke: `5px ${COLORS.black}`,
+        WebkitTextStroke: `7px ${COLORS.black}`,
         paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
       }
     case 'introBlack':
     default:
       return {
         color: COLORS.white,
-        WebkitTextStroke: `4px ${COLORS.black}`,
+        WebkitTextStroke: `6px ${COLORS.black}`,
         paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
       }
   }
@@ -72,13 +74,13 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({ lines, background, i
       <div
         style={{
           position: 'absolute',
-          top: '10%',
-          left: 40,
-          right: 40,
+          top: '18%',
+          left: 20,
+          right: 20,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 8,
+          gap: 10,
           zIndex: 30,
           transform: `translateX(${shake}px)`,
         }}
@@ -92,9 +94,9 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({ lines, background, i
                   fontFamily: `'${FONT_FAMILY}', sans-serif`,
                   fontWeight: FONT_WEIGHT,
                   fontSize,
-                  lineHeight: 1.25,
+                  lineHeight: 1.2,
                   display: 'block',
-                  textShadow: '4px 4px 0px rgba(0,0,0,0.5)',
+                  textShadow: '5px 5px 0px rgba(0,0,0,0.6)',
                   ...lineStyle,
                 }}
               >
@@ -105,32 +107,25 @@ export const OpeningScene: React.FC<OpeningSceneProps> = ({ lines, background, i
         })}
       </div>
 
-      {/* 下部装飾テキスト (揺れ付き) */}
-      <div
-        style={{
+      {/* イントロ画像 (下部 / 揺れ付き) */}
+      {introImageSrc && (
+        <div style={{
           position: 'absolute',
-          bottom: '15%',
-          left: 0,
-          right: 0,
-          textAlign: 'center',
-          zIndex: 20,
-          transform: `translateX(${shake}px)`,
-        }}
-      >
-        <span
-          style={{
-            fontFamily: `'${FONT_FAMILY}', sans-serif`,
-            fontWeight: FONT_WEIGHT,
-            fontSize: 80,
-            color: COLORS.white,
-            WebkitTextStroke: `5px ${COLORS.black}`,
-            paintOrder: 'stroke fill' as React.CSSProperties['paintOrder'],
-            textShadow: '4px 4px 0px rgba(0,0,0,0.5)',
-          }}
-        >
-          ランキング！
-        </span>
-      </div>
+          bottom: '12%',
+          left: '50%',
+          transform: `translateX(calc(-50% + ${shake}px))`,
+          width: '52%',
+          zIndex: 15,
+        }}>
+          <Img
+            src={staticFile(introImageSrc)}
+            style={{ width: '100%', objectFit: 'contain' }}
+            onError={() => {}}
+          />
+        </div>
+      )}
+
+      {/* ランキング！テキスト削除 — 参考動画に存在しないため */}
     </AbsoluteFill>
   )
 }

@@ -14,7 +14,7 @@ interface CtaSceneProps {
   audioSrc?: string
 }
 
-const BASE_FONT_SIZE = 110
+const BASE_FONT_SIZE = 132
 
 export const CtaScene: React.FC<CtaSceneProps> = ({ lines, background, audioSrc }) => {
   // spec v5: CTAはエフェクトなし。突然中央に大きく表示 (アニメーション一切なし)
@@ -41,7 +41,7 @@ export const CtaScene: React.FC<CtaSceneProps> = ({ lines, background, audioSrc 
         <div style={{ textAlign: 'center', padding: '0 60px' }}>
           {lines.map((line, i) => {
             const isLast = i === lines.length - 1
-            const fontSize = isLast ? BASE_FONT_SIZE * 1.1 : BASE_FONT_SIZE
+            const fontSize = BASE_FONT_SIZE
             return (
               <div key={i}>
                 <span
@@ -49,7 +49,8 @@ export const CtaScene: React.FC<CtaSceneProps> = ({ lines, background, audioSrc 
                     fontFamily: `'${FONT_FAMILY}', sans-serif`,
                     fontWeight: FONT_WEIGHT,
                     fontSize,
-                    color: COLORS.ctaRed,
+                    // 最終行のみ赤、それ以外は白 (spec: 強調行のみ赤)
+                    color: isLast ? COLORS.ctaRed : COLORS.white,
                     WebkitTextStroke: `8px ${COLORS.black}`,
                     paintOrder: 'stroke fill',
                     textShadow: '0px 0px 14px rgba(0,0,0,0.9), 3px 3px 8px rgba(0,0,0,0.8)',

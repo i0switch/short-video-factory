@@ -61,6 +61,7 @@ async function main() {
     composition,
     serveUrl: bundleLocation,
     codec: 'h264',
+    crf: 23,
     outputLocation: outputPath,
     inputProps: { config },
     onProgress: ({ progress }) => logger.info(`Progress: ${Math.round(progress * 100)}%`),

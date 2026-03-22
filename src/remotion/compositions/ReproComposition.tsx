@@ -449,19 +449,67 @@ const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; ca
     )
   }
 
-  // Normal caption with BudouX natural line breaking
-  // Speaker-based color: narrator=white, character1=yellow, character2=pink
-  const defaultColor = speaker === 'character1' ? '#FFE000'
-    : speaker === 'character2' ? '#FF88AA'
-    : '#FFFFFF'
-  const color = captionColor ?? defaultColor
-
-  // S-3: テロップを主役化 — 青文字 + 極太白縁 + 黒締め
+  // Text type detection for A-6 color differentiation
   const rawText = text.replace(/\n/g, '')
+  const isDialog = rawText.includes('「') || rawText.includes('」')
+  const subjectNames = ['数学', '現文', '国語', '理科', '英語', '社会', '体育', '化学', '物理', '倫理']
+  const isSubjectName = subjectNames.some(s => rawText.trim() === s)
+
+  // A-6: 教科名 — 黒文字+黄色グロー
+  if (isSubjectName) {
+    return (
+      <div style={{
+        position: 'absolute', top: 300, left: 20, width: 1040,
+        zIndex: 9, opacity,
+        display: 'flex', justifyContent: 'center',
+      }}>
+        <div style={{
+          fontFamily: '"Noto Sans JP", sans-serif',
+          fontWeight: 900, fontSize: 100,
+          color: '#000000',
+          textShadow: '0 0 12px #FFE000, 0 0 24px #FFD700, 0 0 36px rgba(255,215,0,0.6), -4px -4px 0 #FFE000, 4px -4px 0 #FFE000, -4px 4px 0 #FFE000, 4px 4px 0 #FFE000',
+          lineHeight: 1.2, textAlign: 'center',
+        }}>
+          {rawText}
+        </div>
+      </div>
+    )
+  }
+
+  // A-6: セリフ「」— 白文字+黒縁取り+半透明黒背景ボックス
+  if (isDialog) {
+    const dialogLines = wrapJapanese(rawText, 9, 4)
+    const dialogFontSize = rawText.length > 18 ? 64 : rawText.length > 9 ? 72 : 80
+    return (
+      <div style={{
+        position: 'absolute', top: 300, left: 20, width: 1040,
+        zIndex: 9, opacity,
+        display: 'flex', flexDirection: 'column', alignItems: 'center',
+      }}>
+        <div style={{
+          background: 'rgba(0,0,0,0.82)',
+          borderRadius: 16, padding: '14px 24px',
+          display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4,
+        }}>
+          {dialogLines.map((line, i) => (
+            <div key={i} style={{
+              fontFamily: '"Noto Sans JP", sans-serif',
+              fontWeight: 900, fontSize: dialogFontSize,
+              color: '#FFFFFF',
+              textShadow: '-4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000, -4px 0 0 #000, 4px 0 0 #000, 0 -4px 0 #000, 0 4px 0 #000',
+              lineHeight: 1.25, textAlign: 'center', letterSpacing: 2,
+            }}>
+              {line}
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  // Normal caption: 青文字+白縁+黒締め
   const fontSize = rawText.length > 20 ? 64 : rawText.length > 10 ? 72 : 80
   const lines = wrapJapanese(rawText, 8, 5)
-
-  // v2残課題: 本文テロップは全編青固定。黄色はタイトルのみ。
   const textColor = '#0033CC'
   const shadow = '-5px -5px 0 #FFF, 5px -5px 0 #FFF, -5px 5px 0 #FFF, 5px 5px 0 #FFF, -5px 0 0 #FFF, 5px 0 0 #FFF, 0 -5px 0 #FFF, 0 5px 0 #FFF, -8px -8px 0 #000, 8px -8px 0 #000, -8px 8px 0 #000, 8px 8px 0 #000, -8px 0 0 #000, 8px 0 0 #000, 0 -8px 0 #000, 0 8px 0 #000, 0 0 12px rgba(0,0,0,0.8)'
 

@@ -53,7 +53,10 @@
       "text": "ある者は消しゴムを拾おうとしてる最中で止まり、",
       "narration": "ある者は消しゴムを拾おうとしてる最中で止まり、",
       "speaker": "narrator",
-      "characters": [{ "type": "student_bending", "count": 1, "position": "center", "scale": 0.9 }],
+      "characters": [
+        { "type": "student_bending", "count": 1, "position": "center", "scale": 0.9 },
+        { "type": "student_frozen", "count": 1, "position": "back-center", "scale": 0.5 }
+      ],
       "props": ["eraser"],
       "background": "classroom_dark", "effect": "none",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
@@ -75,7 +78,10 @@
       "text": "挙手しかけたところで止まる。",
       "narration": "挙手しかけたところで止まる。",
       "speaker": "narrator",
-      "characters": [{ "type": "student_raising_hand", "count": 1, "position": "center", "scale": 0.9 }],
+      "characters": [
+        { "type": "student_raising_hand", "count": 1, "position": "center", "scale": 0.9 },
+        { "type": "student_frozen", "count": 1, "position": "left-bottom", "scale": 0.45 }
+      ],
       "background": "classroom_dark", "effect": "none",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
     },
@@ -112,7 +118,8 @@
       "narration": "ドアも窓も一切閉め切っていたので",
       "speaker": "narrator",
       "characters": [
-        { "type": "student_frozen", "count": 1, "position": "center", "scale": 0.8 }
+        { "type": "student_frozen", "count": 1, "position": "center", "scale": 0.8 },
+        { "type": "student_girl_smiling", "count": 1, "position": "right", "scale": 0.5 }
       ],
       "background": "classroom_window_sketch", "effect": "none",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
@@ -123,9 +130,8 @@
       "narration": "完全に無音になる。",
       "speaker": "narrator",
       "characters": [
-        { "type": "student_frozen", "count": 2, "position": "center-bottom", "scale": 0.65 },
-        { "type": "student_bending", "count": 1, "position": "center-bottom", "scale": 0.6 },
-        { "type": "student_raising_hand", "count": 1, "position": "center-bottom", "scale": 0.55 }
+        { "type": "student_frozen", "count": 3, "position": "center-bottom", "scale": 0.62 },
+        { "type": "student_bending", "count": 1, "position": "center-bottom", "scale": 0.58 }
       ],
       "background": "classroom_dark", "effect": "none",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
@@ -135,7 +141,10 @@
       "text": "完全に無音になる。",
       "narration": "",
       "speaker": "narrator",
-      "characters": [{ "type": "student_raising_hand", "count": 1, "position": "center", "scale": 0.9 }],
+      "characters": [
+        { "type": "student_frozen", "count": 2, "position": "center-bottom", "scale": 0.65 },
+        { "type": "student_bending", "count": 1, "position": "center-bottom", "scale": 0.6 }
+      ],
       "background": "classroom_dark", "effect": "none",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
     },
@@ -162,16 +171,6 @@
       "text": "「え？　え？」",
       "narration": "え？え？",
       "speaker": "character1",
-      "characters": [{ "type": "teacher_confused_female", "count": 1, "position": "center", "scale": 1.2 }],
-      "background": "classroom_blackboard", "effect": "none",
-      "mangaSymbol": "sweat",
-      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
-    },
-    {
-      "id": "sh14", "startFrame": 715, "endFrame": 740,
-      "text": "「何？　何で？」",
-      "narration": "何？何で？",
-      "speaker": "character1",
       "characters": [
         { "type": "teacher_confused_female", "count": 1, "position": "right", "scale": 0.9 },
         { "type": "student_frozen", "count": 2, "position": "left-bottom", "scale": 0.5 }
@@ -179,6 +178,20 @@
       "background": "classroom_blackboard", "effect": "none",
       "mangaSymbol": "sweat",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh14", "startFrame": 715, "endFrame": 740,
+      "text": "「何？　何で？」",
+      "narration": "何？何で？",
+      "speaker": "character1",
+      "characters": [
+        { "type": "man_shocked", "count": 1, "position": "center-bottom", "scale": 0.7 },
+        { "type": "man_confused", "count": 1, "position": "center-bottom", "scale": 0.68 },
+        { "type": "student_frozen", "count": 1, "position": "center-bottom", "scale": 0.65 }
+      ],
+      "background": "classroom_blackboard", "effect": "none",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
     },
     {
       "id": "sh15", "startFrame": 740, "endFrame": 784,
@@ -197,10 +210,13 @@
       "text": "ものすごくキョドった",
       "narration": "ものすごくキョドった",
       "speaker": "narrator",
-      "characters": [{ "type": "teacher_confused", "count": 1, "position": "center", "scale": 1.1 }],
+      "characters": [
+        { "type": "teacher_confused", "count": 1, "position": "right", "scale": 0.9 },
+        { "type": "student_frozen", "count": 1, "position": "left-bottom", "scale": 0.5 }
+      ],
       "background": "classroom_blackboard", "effect": "none",
       "mangaSymbol": "sweat",
-      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
     },
     {
       "id": "sh17", "startFrame": 810, "endFrame": 860,
@@ -302,7 +318,10 @@
       "text": "「そして時は動き出す…」",
       "narration": "そして時は動き出す",
       "speaker": "character1",
-      "characters": [{ "type": "teacher_tired", "count": 1, "position": "center", "scale": 0.9 }],
+      "characters": [
+        { "type": "teacher_tired", "count": 1, "position": "back-center", "scale": 0.7 },
+        { "type": "student_frozen", "count": 2, "position": "front-row", "scale": 0.45 }
+      ],
       "background": "classroom_blackboard", "effect": "none",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
     },
@@ -327,7 +346,11 @@
       "text": "彼が一番面白かった。",
       "narration": "彼が一番面白かった。",
       "speaker": "narrator",
-      "characters": [{ "type": "teacher_tired", "count": 1, "position": "center", "scale": 0.9 }],
+      "characters": [
+        { "type": "teacher_tired", "count": 1, "position": "back-center", "scale": 0.7 },
+        { "type": "student_laughing", "count": 1, "position": "front-row", "scale": 0.45 },
+        { "type": "student_girl_smiling", "count": 1, "position": "front-row", "scale": 0.45 }
+      ],
       "background": "classroom_blackboard", "effect": "none",
       "mangaSymbol": "sigh",
       "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }

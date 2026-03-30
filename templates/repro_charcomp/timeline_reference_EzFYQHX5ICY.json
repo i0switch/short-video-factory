@@ -1,0 +1,806 @@
+{
+  "videoId": "{VIDEO_ID}",
+  "title": "{タイトル}",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 41.38,
+  "totalFrames": 1241,
+  "seriesTitle": "{シリーズ名}",
+  "episodeTitle": "{エピソード名}",
+  "titleBand": {
+    "line1": "笑える迷言集",
+    "line2": "教師たちの反応w",
+    "backgroundColor": "#000000",
+    "textColor": "#FFE000",
+    "strokeColor": "#000000",
+    "strokeWidth": 4,
+    "height": 320
+  },
+  "shots": [
+    {
+      "id": "sh01",
+      "startFrame": 0,
+      "endFrame": 44,
+      "text": "クラス全員で示し合わせて、",
+      "narration": "クラス全員で示し合わせて、",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_laughing",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.7
+        },
+        {
+          "type": "student_girl_smiling",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.7
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.65
+        },
+        {
+          "type": "student_raising_hand",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.65
+        }
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh02",
+      "startFrame": 44,
+      "endFrame": 108,
+      "text": "授業中みんなで一切動かなくなった。",
+      "narration": "授業中みんなで一切動かなくなった。",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_sitting_frozen",
+          "count": 2,
+          "position": "center-bottom",
+          "scale": 0.55
+        },
+        {
+          "type": "student_frozen",
+          "count": 2,
+          "position": "center-bottom",
+          "scale": 0.55
+        }
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh03",
+      "startFrame": 108,
+      "endFrame": 189,
+      "text": "ある者は消しゴムを拾おうとしてる最中で止まり、",
+      "narration": "ある者は消しゴムを拾おうとしてる最中で止まり、",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_bending",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "back-center",
+          "scale": 0.5
+        }
+      ],
+      "props": [
+        "eraser"
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh04",
+      "startFrame": 189,
+      "endFrame": 251,
+      "text": "ある者は先生に質問しようとして",
+      "narration": "ある者は先生に質問しようとして",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "right",
+          "scale": 0.8
+        },
+        {
+          "type": "student_raising_hand",
+          "count": 2,
+          "position": "left-bottom",
+          "scale": 0.5
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh05",
+      "startFrame": 251,
+      "endFrame": 297,
+      "text": "挙手しかけたところで止まる。",
+      "narration": "挙手しかけたところで止まる。",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_raising_hand",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "left-bottom",
+          "scale": 0.45
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh06",
+      "startFrame": 297,
+      "endFrame": 367,
+      "text": "ご丁寧にもクラスの中でも器用な奴が、",
+      "narration": "ご丁寧にもクラスの中でも器用な奴が、",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_laughing",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "left-bottom",
+          "scale": 0.55
+        },
+        {
+          "type": "student_girl_smiling",
+          "count": 1,
+          "position": "right",
+          "scale": 0.55
+        }
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh07",
+      "startFrame": 367,
+      "endFrame": 434,
+      "text": "時計もその時間で止まるようにしておいた。",
+      "narration": "時計もその時間で止まるようにしておいた。",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.85
+        }
+      ],
+      "props": [
+        "clock"
+      ],
+      "background": "classroom_wide",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh08",
+      "startFrame": 434,
+      "endFrame": 491,
+      "text": "ドアも窓も一切閉め切っていたので",
+      "narration": "ドアも窓も一切閉め切っていたので",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "center",
+          "scale": 0.8
+        },
+        {
+          "type": "student_girl_smiling",
+          "count": 1,
+          "position": "right",
+          "scale": 0.5
+        }
+      ],
+      "background": "classroom_window_sketch",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1
+      }
+    },
+    {
+      "id": "sh09",
+      "startFrame": 491,
+      "endFrame": 533,
+      "text": "完全に無音になる。",
+      "narration": "完全に無音になる。",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_sitting_frozen",
+          "count": 2,
+          "position": "center-bottom",
+          "scale": 0.55
+        },
+        {
+          "type": "student_frozen",
+          "count": 2,
+          "position": "center-bottom",
+          "scale": 0.55
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh10",
+      "startFrame": 533,
+      "endFrame": 555,
+      "text": "完全に無音になる。",
+      "narration": "",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_frozen",
+          "count": 4,
+          "position": "front-row",
+          "scale": 0.52
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh11",
+      "startFrame": 555,
+      "endFrame": 610,
+      "text": "授業にくる全ての教師に試したが、",
+      "narration": "授業にくる全ての教師に試したが、",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.9
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh12",
+      "startFrame": 610,
+      "endFrame": 660,
+      "text": "皆同じような反応するのが笑えた",
+      "narration": "皆同じような反応するのが笑えた",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh13",
+      "startFrame": 660,
+      "endFrame": 715,
+      "text": "「え？　え？」",
+      "narration": "え？え？",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "teacher_confused_female",
+          "count": 1,
+          "position": "right",
+          "scale": 0.9
+        },
+        {
+          "type": "student_frozen",
+          "count": 2,
+          "position": "left-bottom",
+          "scale": 0.5
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "mangaSymbol": "sweat",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh14",
+      "startFrame": 715,
+      "endFrame": 740,
+      "text": "「何？　何で？」",
+      "narration": "何？何で？",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "student_frozen",
+          "count": 3,
+          "position": "front-row",
+          "scale": 0.5
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "mangaSymbol": "sweat",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh15",
+      "startFrame": 740,
+      "endFrame": 784,
+      "text": "みたいな反応",
+      "narration": "みたいな反応",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "left",
+          "scale": 0.8
+        },
+        {
+          "type": "student_girl_smiling",
+          "count": 1,
+          "position": "right",
+          "scale": 0.8
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh16",
+      "startFrame": 784,
+      "endFrame": 810,
+      "text": "ものすごくキョドった",
+      "narration": "ものすごくキョドった",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_confused",
+          "count": 1,
+          "position": "right",
+          "scale": 0.9
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "left-bottom",
+          "scale": 0.5
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "mangaSymbol": "sweat",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh17",
+      "startFrame": 810,
+      "endFrame": 860,
+      "text": "数学",
+      "narration": "",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1
+      }
+    },
+    {
+      "id": "sh18",
+      "startFrame": 860,
+      "endFrame": 890,
+      "text": "こいつだけ何故か普通に授業を進めた",
+      "narration": "こいつだけ何故か普通に授業を進めた",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "right",
+          "scale": 0.8
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "left-bottom",
+          "scale": 0.5
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh19",
+      "startFrame": 890,
+      "endFrame": 920,
+      "text": "ボカーン",
+      "narration": "",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 1.3
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "impact_text",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.1
+      }
+    },
+    {
+      "id": "sh20",
+      "startFrame": 920,
+      "endFrame": 960,
+      "text": "(°д°)ポカーン\n↑まさしくこのAAの状態",
+      "narration": "まさしくこのAAの状態",
+      "speaker": "narrator",
+      "characters": [],
+      "background": "white_black",
+      "effect": "aa_display",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1
+      }
+    },
+    {
+      "id": "sh21",
+      "startFrame": 960,
+      "endFrame": 1000,
+      "text": "理科",
+      "narration": "",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_science",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "classroom_wide",
+      "effect": "none",
+      "mangaSymbol": "!?",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1
+      }
+    },
+    {
+      "id": "sh22",
+      "startFrame": 1000,
+      "endFrame": 1030,
+      "text": "現文の教師と全く同じ。",
+      "narration": "現文の教師と全く同じ。",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_science",
+          "count": 1,
+          "position": "center",
+          "scale": 1
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh23",
+      "startFrame": 1030,
+      "endFrame": 1055,
+      "text": "皆が動き出すと",
+      "narration": "皆が動き出すと",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_science",
+          "count": 1,
+          "position": "back-center",
+          "scale": 0.6
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_laughing",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_girl_smiling",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_raising_hand",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_bending",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        }
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh24",
+      "startFrame": 1055,
+      "endFrame": 1095,
+      "text": "苦笑い",
+      "narration": "苦笑い",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_science_smile",
+          "count": 1,
+          "position": "center",
+          "scale": 1
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh25",
+      "startFrame": 1095,
+      "endFrame": 1150,
+      "text": "呆れたような表情で",
+      "narration": "呆れたような表情で",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_confused_female",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.75
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh26",
+      "startFrame": 1150,
+      "endFrame": 1190,
+      "text": "「そして時は動き出す…」",
+      "narration": "そして時は動き出す",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "teacher_confused_female",
+          "count": 1,
+          "position": "center-bottom",
+          "scale": 0.75
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh27",
+      "startFrame": 1190,
+      "endFrame": 1220,
+      "text": "って言ったら皆動き出した。",
+      "narration": "って言ったら皆動き出した。",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "back-center",
+          "scale": 0.5
+        },
+        {
+          "type": "student_laughing",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_girl_smiling",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_frozen",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_raising_hand",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_bending",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        }
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh28",
+      "startFrame": 1220,
+      "endFrame": 1241,
+      "text": "彼が一番面白かった。",
+      "narration": "彼が一番面白かった。",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "teacher_lecturing",
+          "count": 1,
+          "position": "back-center",
+          "scale": 0.7
+        },
+        {
+          "type": "student_laughing",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        },
+        {
+          "type": "student_girl_smiling",
+          "count": 1,
+          "position": "front-row",
+          "scale": 0.45
+        }
+      ],
+      "background": "classroom_blackboard",
+      "effect": "none",
+      "mangaSymbol": "sigh",
+      "camera": {
+        "zoomFrom": 1,
+        "zoomTo": 1.02
+      }
+    }
+  ],
+  "_comment": "EzFYQHX5ICY の timeline.json をそのまま参照版として収録。台本に応じてshots配列を書き換える。",
+  "_source": "EzFYQHX5ICY iter_48 (完成版)"
+}

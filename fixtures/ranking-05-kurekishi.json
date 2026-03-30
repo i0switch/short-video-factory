@@ -1,0 +1,97 @@
+{
+  "videoTitle": "学生時代の\n黒歴史",
+  "intro": "学生時代の黒歴史ランキング、挙げてけww",
+  "items": [
+    {
+      "rank": 10,
+      "topic": "謎のポエム",
+      "comment1": "深夜のテンションだよね",
+      "comment2": "翌朝死にたくなるやろ",
+      "body": "10位はノートに書いた謎のポエム。愛や孤独を綴った痛々しい文章。数年後に読み返した時の破壊力は計り知れない。",
+      "imageKeywords": ["男の子", "書く"],
+      "imageKeywordsEn": ["writing poem", "dark emotions"]
+    },
+    {
+      "rank": 9,
+      "topic": "派手な髪型",
+      "comment1": "当時はイケてたよね",
+      "comment2": "鏡見てこいって思うやろ",
+      "body": "9位は無理した派手な髪型。ワックスをガチガチに固めたり、変な色に染めたり。当時の写真を見ると、即座に封印したくなる。",
+      "imageKeywords": ["男の子", "鏡"],
+      "imageKeywordsEn": ["spiky hair", "embarrassing style"]
+    },
+    {
+      "rank": 8,
+      "topic": "変なメアド",
+      "comment1": "記号だらけだったよね",
+      "comment2": "読み上げられんやろ",
+      "body": "8位は意味不明なメールアドレス。好きな曲の歌詞や、自分の名前をデコりまくった羅列。就活で詰むパターンも。",
+      "imageKeywords": ["女の子", "スマホ"],
+      "imageKeywordsEn": ["cringe email address", "texting"]
+    },
+    {
+      "rank": 7,
+      "topic": "自作ラブソング",
+      "comment1": "才能あると勘違いするよね",
+      "comment2": "聴くに耐えんやろ",
+      "body": "7位は自作のラブソング。ギターを練習して、好きな人に向けて歌い出す。録音された音源は、もはや禁断の果実。",
+      "imageKeywords": ["男の子", "ギター"],
+      "imageKeywordsEn": ["singing love song", "bad talent"]
+    },
+    {
+      "rank": 6,
+      "topic": "厨二病な発言",
+      "comment1": "世界観が出来てたよね",
+      "comment2": "邪気眼とか言っとったやろ",
+      "body": "6位は厨二病全開の言動。包帯を巻いたり、カタカナ語を乱用したり。自分の世界に入り込みすぎたあの頃が痛い。",
+      "imageKeywords": ["男の子", "ポーズ"],
+      "imageKeywordsEn": ["chuunibyou", "edgy teenager"]
+    },
+    {
+      "rank": 5,
+      "topic": "卒アルの写真",
+      "comment1": "顔つきが幼すぎるよね",
+      "comment2": "修正不可能な証拠やろ",
+      "body": "5位は卒業アルバムの写真。なぜその表情を選んだのか、なぜその髪型だったのか。一生残る公式な黒歴史として君臨する。",
+      "imageKeywords": ["女性", "叫ぶ"],
+      "imageKeywordsEn": ["graduation album", "regret face"]
+    },
+    {
+      "rank": 4,
+      "topic": "授業中の居眠り",
+      "comment1": "よだれ垂らしてたよね",
+      "comment2": "先生にチョーク投げられるやろ",
+      "body": "4位は授業中の居眠り。盛大によだれを垂らし、起きたらノートが濡れている。クラスメイトの視線が温かくて逆に辛い。",
+      "imageKeywords": ["男の子", "寝る"],
+      "imageKeywordsEn": ["drooling at school", "sleepy student"]
+    },
+    {
+      "rank": 3,
+      "topic": "廊下で転ぶ",
+      "comment1": "全力で走ってたよね",
+      "comment2": "注目浴びすぎて泣けるやろ",
+      "body": "3位は廊下を走って派手に転ぶこと。みんなの視線を独り占め。そのまま何事もなかったかのように立ち上がる虚勢がさらに悲しい。",
+      "imageKeywords": ["男の子", "転ぶ"],
+      "imageKeywordsEn": ["tripping at school", "hallway fail"]
+    },
+    {
+      "rank": 2,
+      "topic": "片思いの失敗",
+      "comment1": "勘違いしてたよね",
+      "comment2": "脳内お花畑だったんやろ",
+      "body": "2位は片思いの盛大な失敗。二人で遊びに行く約束をしただけで、勝手に付き合っているつもりだったあの純粋さが凶器。",
+      "imageKeywords": ["女性", "絶望"],
+      "imageKeywordsEn": ["one-sided love", "awkward date"]
+    },
+    {
+      "rank": 1,
+      "topic": "痛すぎる告白",
+      "comment1": "勇気はあったんだよね",
+      "comment2": "公開処刑に決まっとる",
+      "body": "1位は痛すぎる告白。全校生徒が見守る前や、ラブレターを読み上げる。その場の空気感と、その後の気まずさはトラウマ級。",
+      "imageKeywords": ["男の子", "叫ぶ"],
+      "imageKeywordsEn": ["cringe confession", "shouting love"]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

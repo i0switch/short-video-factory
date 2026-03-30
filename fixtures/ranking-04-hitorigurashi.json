@@ -1,0 +1,97 @@
+{
+  "videoTitle": "一人暮らし\nあるある",
+  "intro": "一人暮らしあるあるランキング、挙げてけww",
+  "items": [
+    {
+      "rank": 10,
+      "topic": "部屋で独り言",
+      "comment1": "声出さないと不安だよね",
+      "comment2": "寂しさの極致やろ",
+      "body": "10位は部屋で独り言。テレビに突っ込んだり、独りで「いただきます」と言ったり。自分の声を聴かないと不安になる現象。",
+      "imageKeywords": ["男性", "喋る"],
+      "imageKeywordsEn": ["talking to self", "lonely home"]
+    },
+    {
+      "rank": 9,
+      "topic": "宅配便が怖い",
+      "comment1": "居留守使っちゃうよね",
+      "comment2": "予定ない来客はホラーやろ",
+      "body": "9位は宅配便への警戒。インターホンが鳴るとビクッとして、心当たりがないと居留守を決め込む。一人暮らしならではの防衛本能。",
+      "imageKeywords": ["女性", "怯える"],
+      "imageKeywordsEn": ["scared of doorbell", "lone living"]
+    },
+    {
+      "rank": 8,
+      "topic": "掃除をサボる",
+      "comment1": "誰にも見られないもんね",
+      "comment2": "汚部屋化まっしぐらやろ",
+      "body": "8位は掃除の放置。誰も来ないからとサボり続け、足の踏み場がなくなってからようやく重い腰を上げる。負のループの始まり。",
+      "imageKeywords": ["男性", "面倒くさい"],
+      "imageKeywordsEn": ["messy room", "lazy cleaning"]
+    },
+    {
+      "rank": 7,
+      "topic": "冷蔵庫が空",
+      "comment1": "調味料しかないよね",
+      "comment2": "砂漠化しとるやろ",
+      "body": "7位は冷蔵庫が空っぽなこと。飲み物と賞味期限切れの調味料しか入っていない。買い物に行くのが面倒で、結局外食になる。",
+      "imageKeywords": ["女性", "困る"],
+      "imageKeywordsEn": ["empty fridge", "starving"]
+    },
+    {
+      "rank": 6,
+      "topic": "洗濯物の山",
+      "comment1": "畳むのが一番嫌いだよね",
+      "comment2": "山脈ができとるやろ",
+      "body": "6位は洗濯物が溜まること。洗って干すまではいいが、畳むのが面倒でソファやベッドの上が洗濯物の山になる。",
+      "imageKeywords": ["男性", "疲れ"],
+      "imageKeywordsEn": ["laundry pile", "messy lifestyle"]
+    },
+    {
+      "rank": 5,
+      "topic": "コンビニ飯",
+      "comment1": "自炊が続かないよね",
+      "comment2": "健康寿命削っとるやろ",
+      "body": "5位はコンビニ飯ばかりになること。最初は意気込んで自炊するが、食材を余らせて腐らせる経験を経て、コンビニが聖地になる。",
+      "imageKeywords": ["女性", "弁当"],
+      "imageKeywordsEn": ["convenience store food", "lazy dinner"]
+    },
+    {
+      "rank": 4,
+      "topic": "ゴミ出し忘れ",
+      "comment1": "絶望の瞬間だよね",
+      "comment2": "部屋が臭くなるに決まっとる",
+      "body": "4位はゴミ出しを忘れること。朝起きたら既に収集車が去った後。次の収集日までゴミ袋と共生する絶望の数日間が始まる。",
+      "imageKeywords": ["男性", "ショック"],
+      "imageKeywordsEn": ["missed trash day", "smelly room"]
+    },
+    {
+      "rank": 3,
+      "topic": "実家の尊さ",
+      "comment1": "親の偉大さを知るよね",
+      "comment2": "飯が出てくる奇跡やろ",
+      "body": "2位は実家のありがたみを痛感すること。家事の大変さを知り、黙っていてもご飯が出てくる環境が、いかに奇跡だったかを知る。",
+      "imageKeywords": ["女性", "郷愁"],
+      "imageKeywordsEn": ["missing home", "mom's cooking"]
+    },
+    {
+      "rank": 2,
+      "topic": "裸で過ごす",
+      "comment1": "解放感が最高だよね",
+      "comment2": "自由を履き違えとるやろ",
+      "body": "3位は家で裸で過ごすこと。風呂上がりそのままだったり、下着だけで過ごしたり。誰の目も気にしなくていい最高の贅沢。",
+      "imageKeywords": ["男性", "リラックス"],
+      "imageKeywordsEn": ["naked at home", "total freedom"]
+    },
+    {
+      "rank": 1,
+      "topic": "寂しさに襲われる",
+      "comment1": "ふとした瞬間に来るよね",
+      "comment2": "孤独死とか考えちゃうやろ",
+      "body": "1位はふとした瞬間の猛烈な寂しさ。体調を崩した時や、夜中にふと目が覚めた時。この世に自分一人しかいないような錯覚に陥る。",
+      "imageKeywords": ["男性", "孤独"],
+      "imageKeywordsEn": ["lonely night", "solitude"]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

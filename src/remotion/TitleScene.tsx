@@ -4,6 +4,7 @@ import { RenderScene } from '../schema/render-plan'
 import { TEMPLATE } from './design-tokens'
 import { OutlineText } from './OutlineText'
 import { Sunburst } from './Sunburst'
+import { wrapJapanese } from '../utils/text-wrap'
 
 interface TitleSceneProps {
   scene: RenderScene
@@ -12,8 +13,11 @@ interface TitleSceneProps {
 /** RenderPlan の titleLines か、videoTitle を自動分割して行データを返す */
 function resolveLines(scene: RenderScene) {
   if (scene.titleLines && scene.titleLines.length > 0) return scene.titleLines
-  // fallback: title を改行で分割
-  const lines = scene.title.split(/\n/).filter(Boolean)
+  // 手動\nがあればそれを使う、なければBudouXで自然改行
+  const hasManualBreak = scene.title.includes('\n')
+  const lines = hasManualBreak
+    ? scene.title.split(/\n/).filter(Boolean)
+    : wrapJapanese(scene.title, 7, 3)
   const defaultColors = TEMPLATE.titleScene.lines.map(l => l.color)
   return lines.map((text, i) => ({ text, color: defaultColors[i % defaultColors.length] }))
 }
@@ -66,6 +70,21 @@ export const TitleScene: React.FC<TitleSceneProps> = ({ scene }) => {
             </div>
           )
         })}
+
+        {/* 「ランキング」サブタイトル */}
+        <div style={{
+          transform: `scale(${spring({ frame: Math.max(0, frame - lines.length * staggerFrames), fps, config: { mass: 0.5, stiffness: 200, damping: 12 } })})`,
+          transformOrigin: 'center',
+        }}>
+          <OutlineText
+            fontSize={Math.round(TEMPLATE.titleScene.fontSize * 0.7)}
+            color="#FFFFFF"
+            strokeWidth={TEMPLATE.titleScene.strokeWidth}
+            strokeColor="#000000"
+          >
+            ランキング
+          </OutlineText>
+        </div>
       </div>
 
       {/* 関連画像（傾き + 白枠） */}

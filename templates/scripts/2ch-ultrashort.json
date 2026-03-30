@@ -1,0 +1,59 @@
+{
+  "format": "2ch",
+  "videoTitle": "じいちゃんの勘違い",
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "じいちゃんがスマホ買ったんだが",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["おじいさん"],
+          "imageKeywordsEn": ["elderly man"]
+        },
+        {
+          "speaker": "character1",
+          "text": "これで写真撮れるんか？",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["おじいさん スマートフォン"],
+          "imageKeywordsEn": ["old man smartphone"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "カメラ起動したら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["カメラ"],
+          "imageKeywordsEn": ["camera phone"]
+        },
+        {
+          "speaker": "character1",
+          "text": "うわっ！知らんジジイが映っとる！",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く おじいさん"],
+          "imageKeywordsEn": ["surprised old man"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "インカメラだよじいちゃん",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["笑う"],
+          "imageKeywordsEn": ["laughing"]
+        },
+        {
+          "speaker": "character2",
+          "text": "かわいすぎるやろwww",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["笑顔"],
+          "imageKeywordsEn": ["smiling face"]
+        }
+      ]
+    }
+  ],
+  "outro": "じいちゃんに教えてあげて！"
+}

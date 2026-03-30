@@ -1,0 +1,798 @@
+{
+  "fps": 30,
+  "totalFrames": 1240,
+  "seriesTitle": "笑える迷言集",
+  "episodeTitle": "教師たちの反応w",
+  "shots": [
+    {
+      "id": "sh1",
+      "startFrame": 0,
+      "endFrame": 43,
+      "background": {
+        "src": "scene_01.jpg",
+        "type": "classroom_laughing_students"
+      },
+      "caption": {
+        "text": "クラス全員で\n示し合わせて、",
+        "fontSize": 72,
+        "top": 580,
+        "left": 60,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.05
+      }
+    },
+    {
+      "id": "sh2",
+      "startFrame": 44,
+      "endFrame": 188,
+      "background": {
+        "src": "scene_02.jpg",
+        "type": "classroom_studying_students"
+      },
+      "caption": {
+        "text": "授業中みんなで\n一切動かなくなった。",
+        "fontSize": 72,
+        "top": 900,
+        "left": 40,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh3",
+      "startFrame": 189,
+      "endFrame": 296,
+      "background": {
+        "src": "scene_04.jpg",
+        "type": "dark_classroom_eraser"
+      },
+      "caption": {
+        "text": "ある者は消しゴムを\n拾おうとしてる\n最中で止まり、",
+        "fontSize": 64,
+        "top": 420,
+        "left": 40,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh4",
+      "startFrame": 297,
+      "endFrame": 365,
+      "background": {
+        "src": "scene_06.jpg",
+        "type": "teacher_blackboard_question"
+      },
+      "caption": {
+        "text": "ある者は先生に\n質問しようとして",
+        "fontSize": 72,
+        "top": 420,
+        "left": 40,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh5",
+      "startFrame": 366,
+      "endFrame": 433,
+      "background": {
+        "src": "scene_07.jpg",
+        "type": "dark_classroom_girl_raising_hand"
+      },
+      "caption": {
+        "text": "挙手しかけた\nところで止まる。",
+        "fontSize": 72,
+        "top": 520,
+        "left": 60,
+        "color": "#FFFFFF"
+      },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh6",
+      "startFrame": 434,
+      "endFrame": 490,
+      "background": {
+        "src": "scene_08.jpg",
+        "type": "classroom_boy_with_clock"
+      },
+      "caption": {
+        "text": "ご丁寧にもクラスの\n中でも器用な奴が、",
+        "fontSize": 72,
+        "top": 540,
+        "left": 20,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh7",
+      "startFrame": 491,
+      "endFrame": 590,
+      "background": {
+        "src": "scene_10.jpg",
+        "type": "teacher_wall_clock"
+      },
+      "caption": {
+        "text": "時計もその時間で止\nまるようにしておいた。",
+        "fontSize": 64,
+        "top": 380,
+        "left": 20,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh8",
+      "startFrame": 591,
+      "endFrame": 646,
+      "background": {
+        "src": "scene_13.jpg",
+        "type": "empty_classroom_door_window"
+      },
+      "caption": {
+        "text": "ドアも窓も一切閉め\n切っていたので",
+        "fontSize": 72,
+        "top": 440,
+        "left": 20,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh9",
+      "startFrame": 647,
+      "endFrame": 712,
+      "background": {
+        "src": "scene_14.jpg",
+        "type": "dark_classroom_silence"
+      },
+      "caption": {
+        "text": "完全に無音になる。",
+        "fontSize": 80,
+        "top": 520,
+        "left": 80,
+        "color": "#FFFFFF"
+      },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh10",
+      "startFrame": 713,
+      "endFrame": 784,
+      "background": {
+        "src": "scene_15.jpg",
+        "type": "dark_classroom_girl_silence"
+      },
+      "caption": {
+        "text": "完全に無音になる。",
+        "fontSize": 80,
+        "top": 520,
+        "left": 80,
+        "color": "#FFFFFF"
+      },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh11",
+      "startFrame": 785,
+      "endFrame": 860,
+      "background": {
+        "src": "scene_17.jpg",
+        "type": "male_teacher_glasses_podium"
+      },
+      "caption": {
+        "text": "授業にくる全ての教\n師に試したが、",
+        "fontSize": 64,
+        "top": 420,
+        "left": 20,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh12",
+      "startFrame": 861,
+      "endFrame": 895,
+      "background": {
+        "src": "scene_19.jpg",
+        "type": "female_teacher_smiling"
+      },
+      "caption": {
+        "text": "皆同じような\n反応するのが笑えた",
+        "fontSize": 72,
+        "top": 460,
+        "left": 20,
+        "color": "#FFFFFF"
+      },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh13",
+      "startFrame": 896,
+      "endFrame": 936,
+      "background": {
+        "src": "scene_21.jpg",
+        "type": "confused_female_teacher"
+      },
+      "caption": {
+        "text": "「え？ え？」",
+        "fontSize": 80,
+        "top": 460,
+        "left": 140,
+        "color": "#FF3333"
+      },
+      "speaker": "character2",
+      "emotion": "confusion",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh14",
+      "startFrame": 937,
+      "endFrame": 997,
+      "background": {
+        "src": "scene_22.jpg",
+        "type": "confused_female_teacher"
+      },
+      "caption": {
+        "text": "「何？ 何で？」",
+        "fontSize": 80,
+        "top": 460,
+        "left": 110,
+        "color": "#FF3333"
+      },
+      "speaker": "character2",
+      "emotion": "confusion",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh15",
+      "startFrame": 998,
+      "endFrame": 1024,
+      "background": {
+        "src": "scene_23.jpg",
+        "type": "dark_classroom_students_frozen"
+      },
+      "caption": {
+        "text": "みたいな反応",
+        "fontSize": 80,
+        "top": 540,
+        "left": 160,
+        "color": "#FFD700"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh16",
+      "startFrame": 1025,
+      "endFrame": 1043,
+      "background": {
+        "src": "scene_24.jpg",
+        "type": "nervous_male_teacher"
+      },
+      "caption": {
+        "text": "ものすごくキョドった",
+        "fontSize": 72,
+        "top": 440,
+        "left": 40,
+        "color": "#FFD700"
+      },
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh17",
+      "startFrame": 1044,
+      "endFrame": 1070,
+      "background": {
+        "src": "scene_25.jpg",
+        "type": "math_teacher_confident"
+      },
+      "caption": {
+        "text": "数学",
+        "fontSize": 120,
+        "top": 440,
+        "left": 380,
+        "color": "#000000"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh18",
+      "startFrame": 1071,
+      "endFrame": 1100,
+      "background": {
+        "src": "scene_25.jpg",
+        "type": "math_teacher_teaching"
+      },
+      "caption": {
+        "text": "こいつだけ何故か\n普通に授業を進めた",
+        "fontSize": 72,
+        "top": 380,
+        "left": 20,
+        "color": "#FFD700"
+      },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh19",
+      "startFrame": 1101,
+      "endFrame": 1115,
+      "background": {
+        "src": "scene_20.jpg",
+        "type": "shocked_teacher_closeup"
+      },
+      "caption": {
+        "text": "ポカーン",
+        "fontSize": 100,
+        "top": 680,
+        "left": 220,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh20",
+      "startFrame": 1116,
+      "endFrame": 1146,
+      "background": {
+        "src": "scene_26.jpg",
+        "type": "aa_text_white_bg"
+      },
+      "caption": {
+        "text": "(°д°)ポカーン\n↑まさしくこの\nAAの状態",
+        "fontSize": 64,
+        "top": 800,
+        "left": 140,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh21",
+      "startFrame": 1147,
+      "endFrame": 1165,
+      "background": {
+        "src": "scene_26.jpg",
+        "type": "science_teacher_surprised"
+      },
+      "caption": {
+        "text": "理科",
+        "fontSize": 120,
+        "top": 500,
+        "left": 380,
+        "color": "#000000"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh22",
+      "startFrame": 1166,
+      "endFrame": 1192,
+      "background": {
+        "src": "scene_26.jpg",
+        "type": "science_teacher_sweating"
+      },
+      "caption": {
+        "text": "現文の教師と\n全く同じ。",
+        "fontSize": 80,
+        "top": 520,
+        "left": 100,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh23",
+      "startFrame": 1193,
+      "endFrame": 1207,
+      "background": {
+        "src": "scene_27.jpg",
+        "type": "science_teacher_with_students"
+      },
+      "caption": {
+        "text": "皆が動き出すと",
+        "fontSize": 80,
+        "top": 380,
+        "left": 100,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    },
+    {
+      "id": "sh24",
+      "startFrame": 1208,
+      "endFrame": 1222,
+      "background": {
+        "src": "scene_27.jpg",
+        "type": "science_teacher_wry_smile"
+      },
+      "caption": {
+        "text": "苦笑い",
+        "fontSize": 80,
+        "top": 420,
+        "left": 280,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh25",
+      "startFrame": 1223,
+      "endFrame": 1250,
+      "background": {
+        "src": "scene_27.jpg",
+        "type": "tired_teacher_podium"
+      },
+      "caption": {
+        "text": "呆れたような表情で",
+        "fontSize": 72,
+        "top": 480,
+        "left": 40,
+        "color": "#FFD700"
+      },
+      "speaker": "narrator",
+      "emotion": "sad",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh26",
+      "startFrame": 1251,
+      "endFrame": 1275,
+      "background": {
+        "src": "scene_27.jpg",
+        "type": "tired_teacher_speaking"
+      },
+      "caption": {
+        "text": "「そして時は\n動き出す…」",
+        "fontSize": 80,
+        "top": 460,
+        "left": 80,
+        "color": "#FFFFFF"
+      },
+      "speaker": "character1",
+      "emotion": "neutral",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.0
+      }
+    },
+    {
+      "id": "sh27",
+      "startFrame": 1276,
+      "endFrame": 1320,
+      "background": {
+        "src": "scene_27.jpg",
+        "type": "classroom_students_laughing"
+      },
+      "caption": {
+        "text": "って言ったら\n皆動き出した。",
+        "fontSize": 80,
+        "top": 440,
+        "left": 80,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      }
+    },
+    {
+      "id": "sh28",
+      "startFrame": 1321,
+      "endFrame": 1370,
+      "background": {
+        "src": "scene_27.jpg",
+        "type": "sighing_teacher_closeup"
+      },
+      "caption": {
+        "text": "彼が一番面白かった。",
+        "fontSize": 72,
+        "top": 460,
+        "left": 40,
+        "color": "#0044FF"
+      },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.02
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "c1",
+      "type": "title_display",
+      "frame": 0,
+      "params": {
+        "seriesTitle": "笑える迷言集",
+        "episodeTitle": "教師たちの反応w",
+        "persistent": true
+      }
+    },
+    {
+      "id": "c2",
+      "type": "caption_change",
+      "frame": 44,
+      "params": { "text": "授業中みんなで一切動かなくなった。" }
+    },
+    {
+      "id": "c3",
+      "type": "caption_change",
+      "frame": 189,
+      "params": { "text": "ある者は消しゴムを拾おうとしてる最中で止まり、" }
+    },
+    {
+      "id": "c4",
+      "type": "caption_change",
+      "frame": 297,
+      "params": { "text": "ある者は先生に質問しようとして" }
+    },
+    {
+      "id": "c5",
+      "type": "caption_change",
+      "frame": 366,
+      "params": { "text": "挙手しかけたところで止まる。" }
+    },
+    {
+      "id": "c6",
+      "type": "caption_change",
+      "frame": 434,
+      "params": { "text": "ご丁寧にもクラスの中でも器用な奴が、" }
+    },
+    {
+      "id": "c7",
+      "type": "caption_change",
+      "frame": 491,
+      "params": { "text": "時計もその時間で止まるようにしておいた。" }
+    },
+    {
+      "id": "c8",
+      "type": "caption_change",
+      "frame": 591,
+      "params": { "text": "ドアも窓も一切閉め切っていたので" }
+    },
+    {
+      "id": "c9",
+      "type": "caption_change",
+      "frame": 647,
+      "params": { "text": "完全に無音になる。" }
+    },
+    {
+      "id": "c10",
+      "type": "background_change",
+      "frame": 713,
+      "params": { "src": "scene_15.jpg" }
+    },
+    {
+      "id": "c11",
+      "type": "caption_change",
+      "frame": 785,
+      "params": { "text": "授業にくる全ての教師に試したが、" }
+    },
+    {
+      "id": "c12",
+      "type": "caption_change",
+      "frame": 861,
+      "params": { "text": "皆同じような反応するのが笑えた" }
+    },
+    {
+      "id": "c13",
+      "type": "speaker_change",
+      "frame": 896,
+      "params": { "speaker": "character2", "text": "「え？ え？」" }
+    },
+    {
+      "id": "c14",
+      "type": "caption_change",
+      "frame": 937,
+      "params": { "text": "「何？ 何で？」" }
+    },
+    {
+      "id": "c15",
+      "type": "speaker_change",
+      "frame": 998,
+      "params": { "speaker": "narrator", "text": "みたいな反応" }
+    },
+    {
+      "id": "c16",
+      "type": "caption_change",
+      "frame": 1025,
+      "params": { "text": "ものすごくキョドった" }
+    },
+    {
+      "id": "c17",
+      "type": "caption_change",
+      "frame": 1044,
+      "params": { "text": "数学" }
+    },
+    {
+      "id": "c18",
+      "type": "caption_change",
+      "frame": 1071,
+      "params": { "text": "こいつだけ何故か普通に授業を進めた" }
+    },
+    {
+      "id": "c19",
+      "type": "caption_change",
+      "frame": 1101,
+      "params": { "text": "ポカーン" }
+    },
+    {
+      "id": "c20",
+      "type": "caption_change",
+      "frame": 1116,
+      "params": { "text": "(°д°)ポカーン ↑まさしくこのAAの状態" }
+    },
+    {
+      "id": "c21",
+      "type": "caption_change",
+      "frame": 1147,
+      "params": { "text": "理科" }
+    },
+    {
+      "id": "c22",
+      "type": "caption_change",
+      "frame": 1166,
+      "params": { "text": "現文の教師と全く同じ。" }
+    },
+    {
+      "id": "c23",
+      "type": "caption_change",
+      "frame": 1193,
+      "params": { "text": "皆が動き出すと" }
+    },
+    {
+      "id": "c24",
+      "type": "caption_change",
+      "frame": 1208,
+      "params": { "text": "苦笑い" }
+    },
+    {
+      "id": "c25",
+      "type": "caption_change",
+      "frame": 1223,
+      "params": { "text": "呆れたような表情で" }
+    },
+    {
+      "id": "c26",
+      "type": "speaker_change",
+      "frame": 1251,
+      "params": { "speaker": "character1", "text": "「そして時は動き出す…」" }
+    },
+    {
+      "id": "c27",
+      "type": "speaker_change",
+      "frame": 1276,
+      "params": { "speaker": "narrator", "text": "って言ったら皆動き出した。" }
+    },
+    {
+      "id": "c28",
+      "type": "caption_change",
+      "frame": 1321,
+      "params": { "text": "彼が一番面白かった。" }
+    }
+  ]
+}

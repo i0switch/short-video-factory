@@ -1,0 +1,466 @@
+{
+  "fps": 60,
+  "totalFrames": 3519,
+  "seriesTitle": "笑える迷言集",
+  "episodeTitle": "これは癒しだろ！",
+  "shots": [
+    {
+      "id": "sh1",
+      "startFrame": 0,
+      "endFrame": 135,
+      "background": { "src": "scene_01.jpg" },
+      "caption": { "text": "最近疲れ吹っ飛ぶほど和んだ話聞いてくれ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh2",
+      "startFrame": 135,
+      "endFrame": 284,
+      "background": { "src": "scene_02.jpg" },
+      "caption": { "text": "夕方コンビニ行く時に", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh3",
+      "startFrame": 284,
+      "endFrame": 395,
+      "background": { "src": "scene_03.jpg" },
+      "caption": { "text": "エレベーターに乗ろうとしたら", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh4",
+      "startFrame": 395,
+      "endFrame": 494,
+      "background": { "src": "scene_04.jpg" },
+      "caption": { "text": "ちょうど同じ階のお姉さんが乗るところで", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh5",
+      "startFrame": 494,
+      "endFrame": 597,
+      "background": { "src": "scene_05.jpg" },
+      "caption": { "text": "間に合うか！？お姉さん気づくかな！？", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh6",
+      "startFrame": 597,
+      "endFrame": 748,
+      "background": { "src": "scene_06.jpg" },
+      "caption": { "text": "でも急いでなかったから歩いてったら", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh7",
+      "startFrame": 748,
+      "endFrame": 899,
+      "background": { "src": "scene_07.jpg" },
+      "caption": { "text": "やっぱり気づかれなくて", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh8",
+      "startFrame": 899,
+      "endFrame": 968,
+      "background": { "src": "scene_08.jpg" },
+      "caption": { "text": "次乗ろうと思ったその時", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh9",
+      "startFrame": 968,
+      "endFrame": 1008,
+      "background": { "src": "scene_09.jpg" },
+      "caption": { "text": "ドアが閉まる寸前に自動音声の", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh10",
+      "startFrame": 1008,
+      "endFrame": 1127,
+      "background": { "src": "scene_10.jpg" },
+      "caption": { "text": "下に参ります", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh11",
+      "startFrame": 1127,
+      "endFrame": 1199,
+      "background": { "src": "scene_11.jpg" },
+      "caption": { "text": "って聞こえたと思ったら", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh12",
+      "startFrame": 1199,
+      "endFrame": 1259,
+      "background": { "src": "scene_12.jpg" },
+      "caption": { "text": "まいりましょー", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh13",
+      "startFrame": 1259,
+      "endFrame": 1373,
+      "background": { "src": "scene_13.jpg" },
+      "caption": { "text": "って不意打ちの可愛い声が響いて閉まった", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh14",
+      "startFrame": 1373,
+      "endFrame": 1462,
+      "background": { "src": "scene_14.jpg" },
+      "caption": { "text": "いや反則すぎだろぉおおおww", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh15",
+      "startFrame": 1462,
+      "endFrame": 1547,
+      "background": { "src": "scene_15.jpg" },
+      "caption": { "text": "俺ひとりでニヤけた", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh16",
+      "startFrame": 1547,
+      "endFrame": 1592,
+      "background": { "src": "scene_16.jpg" },
+      "caption": { "text": "数日後", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh17",
+      "startFrame": 1592,
+      "endFrame": 1662,
+      "background": { "src": "scene_17.jpg" },
+      "caption": { "text": "本屋のレジに並んだ時", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh18",
+      "startFrame": 1662,
+      "endFrame": 1710,
+      "background": { "src": "scene_18.jpg" },
+      "caption": { "text": "ちょうど前に親子がいたんだけど", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh19",
+      "startFrame": 1710,
+      "endFrame": 1849,
+      "background": { "src": "scene_19.jpg" },
+      "caption": { "text": "母親が本差しだしながら", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh20",
+      "startFrame": 1849,
+      "endFrame": 1912,
+      "background": { "src": "scene_20.jpg" },
+      "caption": { "text": "お願いします", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh21",
+      "startFrame": 1912,
+      "endFrame": 1982,
+      "background": { "src": "scene_21.jpg" },
+      "caption": { "text": "って言ったら女の子も", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh22",
+      "startFrame": 1982,
+      "endFrame": 2051,
+      "background": { "src": "scene_22.jpg" },
+      "caption": { "text": "お願いします！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh23",
+      "startFrame": 2051,
+      "endFrame": 2082,
+      "background": { "src": "scene_23.jpg" },
+      "caption": { "text": "って続けて言ってて", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh24",
+      "startFrame": 2082,
+      "endFrame": 2175,
+      "background": { "src": "scene_24.jpg" },
+      "caption": { "text": "会計終わって母親が", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh25",
+      "startFrame": 2175,
+      "endFrame": 2221,
+      "background": { "src": "scene_25.jpg" },
+      "caption": { "text": "ありがとうございました", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh26",
+      "startFrame": 2221,
+      "endFrame": 2345,
+      "background": { "src": "scene_26.jpg" },
+      "caption": { "text": "って言ったら女の子も", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh27",
+      "startFrame": 2345,
+      "endFrame": 2432,
+      "background": { "src": "scene_27.jpg" },
+      "caption": { "text": "ありがとーございましたぁああ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh28",
+      "startFrame": 2432,
+      "endFrame": 2519,
+      "background": { "src": "scene_28.jpg" },
+      "caption": { "text": "ばいばーい！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh29",
+      "startFrame": 2519,
+      "endFrame": 2561,
+      "background": { "src": "scene_29.jpg" },
+      "caption": { "text": "って手を振ってて超絶和んだ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh30",
+      "startFrame": 2561,
+      "endFrame": 2623,
+      "background": { "src": "scene_30.jpg" },
+      "caption": { "text": "会計中も", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh31",
+      "startFrame": 2623,
+      "endFrame": 2689,
+      "background": { "src": "scene_31.jpg" },
+      "caption": { "text": "レジの所は風が入ってきてお寒いでしょう", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh32",
+      "startFrame": 2689,
+      "endFrame": 2789,
+      "background": { "src": "scene_32.jpg" },
+      "caption": { "text": "お体にお気を付けくださいね", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh33",
+      "startFrame": 2789,
+      "endFrame": 2849,
+      "background": { "src": "scene_33.jpg" },
+      "caption": { "text": "ってお母さんニコニコ言ってて", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh34",
+      "startFrame": 2849,
+      "endFrame": 2939,
+      "background": { "src": "scene_34.jpg" },
+      "caption": { "text": "この母親にしてこの子アリなのかと", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh35",
+      "startFrame": 2939,
+      "endFrame": 2999,
+      "background": { "src": "scene_35.jpg" },
+      "caption": { "text": "感心してたんだけど", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh36",
+      "startFrame": 2999,
+      "endFrame": 3059,
+      "background": { "src": "scene_36.jpg" },
+      "caption": { "text": "俺も会計が終わって店出ると", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh37",
+      "startFrame": 3059,
+      "endFrame": 3149,
+      "background": { "src": "scene_37.jpg" },
+      "caption": { "text": "丁度外の自販機にあの親子がいて", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh38",
+      "startFrame": 3149,
+      "endFrame": 3209,
+      "background": { "src": "scene_38.jpg" },
+      "caption": { "text": "女の子がジュースを取って", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh39",
+      "startFrame": 3209,
+      "endFrame": 3249,
+      "background": { "src": "scene_39.jpg" },
+      "caption": { "text": "自販機に向かって", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh40",
+      "startFrame": 3249,
+      "endFrame": 3329,
+      "background": { "src": "scene_40.jpg" },
+      "caption": { "text": "ありがとーございましたぁああ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh41",
+      "startFrame": 3329,
+      "endFrame": 3389,
+      "background": { "src": "scene_41.jpg" },
+      "caption": { "text": "って超元気よくお辞儀してたぁああぁ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh42",
+      "startFrame": 3389,
+      "endFrame": 3429,
+      "background": { "src": "scene_42.jpg" },
+      "caption": { "text": "よくできました", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "character2",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh43",
+      "startFrame": 3429,
+      "endFrame": 3459,
+      "background": { "src": "scene_43.jpg" },
+      "caption": { "text": "ってお母さんも終始ニコニコ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh44",
+      "startFrame": 3459,
+      "endFrame": 3489,
+      "background": { "src": "scene_44.jpg" },
+      "caption": { "text": "いや俺自販機にお礼なんて考えた事ねぇ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh45",
+      "startFrame": 3489,
+      "endFrame": 3519,
+      "background": { "src": "scene_45.jpg" },
+      "caption": { "text": "マジで癒されたぜぇええ！", "fontSize": 72, "top": 240, "left": 20 },
+      "speaker": "narrator",
+      "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    }
+  ],
+  "cues": [
+    { "type": "flash_transition", "frame": 968, "timeSec": 16.13 },
+    { "type": "flash_transition", "frame": 970, "timeSec": 16.17 },
+    { "type": "flash_transition", "frame": 1128, "timeSec": 18.80 },
+    { "type": "flash_transition", "frame": 1546, "timeSec": 25.77 },
+    { "type": "flash_transition", "frame": 1547, "timeSec": 25.78 },
+    { "type": "flash_transition", "frame": 2624, "timeSec": 43.73 }
+  ]
+}

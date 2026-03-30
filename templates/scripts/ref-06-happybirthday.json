@@ -1,0 +1,256 @@
+{
+  "format": "2ch",
+  "videoTitle": "ハッピバースデイ私！",
+  "seriesTitle": "笑える迷言集",
+  "titleColor": "#FFD700",
+  "meta": {
+    "maxDurationSec": 60
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "仕事終わりに家に帰った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "帰宅"
+          ],
+          "imageKeywordsEn": [
+            "man coming home"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "テーブルに箱があった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "箱"
+          ],
+          "imageKeywordsEn": [
+            "box on table"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "あれ！？なにこれ…",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "surprised man"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "開けてみたらケーキだった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "ケーキ"
+          ],
+          "imageKeywordsEn": [
+            "cake in box"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "え、誰の誕生日だっけ？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "考える"
+          ],
+          "imageKeywordsEn": [
+            "thinking man"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "プレートを見たら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "ケーキ"
+          ],
+          "imageKeywordsEn": [
+            "cake plate"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "Happy Birthday 私！？",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "誕生日"
+          ],
+          "imageKeywordsEn": [
+            "birthday cake text"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "俺の誕生日じゃないぞ",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "困惑"
+          ],
+          "imageKeywordsEn": [
+            "confused man"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "嫁の誕生日でもない",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "カレンダー"
+          ],
+          "imageKeywordsEn": [
+            "calendar date"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "奥から嫁がニッコニコで登場",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "excited woman"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "おかえりー！ケーキ食べよ！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "smiling woman"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "いや誰の誕生日なの？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "困る"
+          ],
+          "imageKeywordsEn": [
+            "puzzled man"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "誰のでもないよ？",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "cheerful woman"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "じゃあなんでケーキ？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "疑問"
+          ],
+          "imageKeywordsEn": [
+            "question mark"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "食べたかったから！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "ケーキ"
+          ],
+          "imageKeywordsEn": [
+            "eating cake"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "理由それだけかよw",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "夫婦"
+          ],
+          "imageKeywordsEn": [
+            "laughing couple"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "まあいいかと二人で食べた",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "食事"
+          ],
+          "imageKeywordsEn": [
+            "couple eating together"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "ハッピバースデートゥーユー♪",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "歌う"
+          ],
+          "imageKeywordsEn": [
+            "woman singing"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "翌朝胸やけしながら残り食べた",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "朝食"
+          ],
+          "imageKeywordsEn": [
+            "morning cake leftovers"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "平和すぎるわうちの家",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "幸せ"
+          ],
+          "imageKeywordsEn": [
+            "happy family"
+          ]
+        }
+      ]
+    }
+  ],
+  "outro": "面白かったらチャンネル登録！"
+}

@@ -1,0 +1,292 @@
+{
+  "units": [
+    {
+      "id": "s1",
+      "speaker": "narrator",
+      "text": "家帰って冷蔵庫開けたら",
+      "narration": "家帰って冷蔵庫開けたら",
+      "startFrame": 0,
+      "endFrame": 82
+    },
+    {
+      "id": "s2",
+      "speaker": "character1",
+      "text": "あれ！？なにこれ…",
+      "narration": "あれ！？なにこれ…",
+      "startFrame": 83,
+      "endFrame": 138
+    },
+    {
+      "id": "s3",
+      "speaker": "narrator",
+      "text": "買った覚えのないケーキ箱発見",
+      "narration": "買った覚えのないケーキ箱発見",
+      "startFrame": 139,
+      "endFrame": 332
+    },
+    {
+      "id": "s4",
+      "speaker": "narrator",
+      "text": "いやけど誕生日誰もいねぇよな？",
+      "narration": "いやけど誕生日誰もいねぇよな？",
+      "startFrame": 333,
+      "endFrame": 405
+    },
+    {
+      "id": "s5",
+      "speaker": "narrator",
+      "text": "って思いつつ中を見ると",
+      "narration": "って思いつつ中を見ると",
+      "startFrame": 406,
+      "endFrame": 485
+    },
+    {
+      "id": "s6",
+      "speaker": "narrator",
+      "text": "ハッピーバースデー私！",
+      "narration": "ハッピーバースデー私！",
+      "startFrame": 486,
+      "endFrame": 564
+    },
+    {
+      "id": "s7",
+      "speaker": "narrator",
+      "text": "って書かれた誕生日ケーキ",
+      "narration": "って書かれた誕生日ケーキ",
+      "startFrame": 565,
+      "endFrame": 706
+    },
+    {
+      "id": "s8",
+      "speaker": "character1",
+      "text": "ん！？え！？私！？ん！？",
+      "narration": "ん！？え！？私！？ん！？",
+      "startFrame": 707,
+      "endFrame": 792
+    },
+    {
+      "id": "s9",
+      "speaker": "narrator",
+      "text": "って困惑してたら",
+      "narration": "って困惑してたら",
+      "startFrame": 793,
+      "endFrame": 920
+    },
+    {
+      "id": "s10",
+      "speaker": "character2",
+      "text": "あ！帰ってたの！？おかえりぃぃぃ！",
+      "narration": "あ！帰ってたの！？おかえりぃぃぃ！",
+      "startFrame": 921,
+      "endFrame": 983
+    },
+    {
+      "id": "s11",
+      "speaker": "narrator",
+      "text": "風呂上がりの妻がニッコニコで声かけてきて",
+      "narration": "風呂上がりの妻がニッコニコで声かけてきて",
+      "startFrame": 984,
+      "endFrame": 1087
+    },
+    {
+      "id": "s12",
+      "speaker": "character2",
+      "text": "あ！それ今から食べよ！",
+      "narration": "あ！それ今から食べよ！",
+      "startFrame": 1088,
+      "endFrame": 1179
+    },
+    {
+      "id": "s13",
+      "speaker": "character2",
+      "text": "もう私の楽しみにしてたんだぁああ！",
+      "narration": "もう私の楽しみにしてたんだぁああ！",
+      "startFrame": 1180,
+      "endFrame": 1237
+    },
+    {
+      "id": "s14",
+      "speaker": "narrator",
+      "text": "ってやっぱ妻のケーキだったので",
+      "narration": "ってやっぱ妻のケーキだったので",
+      "startFrame": 1238,
+      "endFrame": 1368
+    },
+    {
+      "id": "s15",
+      "speaker": "character1",
+      "text": "じゃあ僕が準備するから主役は座ってて",
+      "narration": "じゃあ僕が準備するから主役は座ってて",
+      "startFrame": 1369,
+      "endFrame": 1448
+    },
+    {
+      "id": "s16",
+      "speaker": "character2",
+      "text": "いいの！？やったぁああ！",
+      "narration": "いいの！？やったぁああ！",
+      "startFrame": 1449,
+      "endFrame": 1523
+    },
+    {
+      "id": "s17",
+      "speaker": "narrator",
+      "text": "って飲み物に皿準備して",
+      "narration": "って飲み物に皿準備して",
+      "startFrame": 1524,
+      "endFrame": 1531
+    },
+    {
+      "id": "s18",
+      "speaker": "narrator",
+      "text": "一応ろうそくあったから",
+      "narration": "一応ろうそくあったから",
+      "startFrame": 1532,
+      "endFrame": 1572
+    },
+    {
+      "id": "s19",
+      "speaker": "narrator",
+      "text": "ケーキにさして",
+      "narration": "ケーキにさして",
+      "startFrame": 1573,
+      "endFrame": 1724
+    },
+    {
+      "id": "s20",
+      "speaker": "character1",
+      "text": "ハッピーバースディートゥーユー",
+      "narration": "ハッピーバースディートゥーユー",
+      "startFrame": 1725,
+      "endFrame": 1799
+    },
+    {
+      "id": "s21",
+      "speaker": "character1",
+      "text": "ハッピーバースディートゥーユーディア嫁子〜",
+      "narration": "ハッピーバースディートゥーユーディア嫁子〜",
+      "startFrame": 1800,
+      "endFrame": 1962
+    },
+    {
+      "id": "s22",
+      "speaker": "character2",
+      "text": "いえーい！ありがとぉおおおお！",
+      "narration": "いえーい！ありがとぉおおおお！",
+      "startFrame": 1963,
+      "endFrame": 2053
+    },
+    {
+      "id": "s23",
+      "speaker": "narrator",
+      "text": "って全然誕生日でもなかったけど",
+      "narration": "って全然誕生日でもなかったけど",
+      "startFrame": 2054,
+      "endFrame": 2175
+    },
+    {
+      "id": "s24",
+      "speaker": "narrator",
+      "text": "妻ならそうして欲しいかなって",
+      "narration": "妻ならそうして欲しいかなって",
+      "startFrame": 2176,
+      "endFrame": 2325
+    },
+    {
+      "id": "s25",
+      "speaker": "narrator",
+      "text": "ノリノリで一緒にケーキを食べた",
+      "narration": "ノリノリで一緒にケーキを食べた",
+      "startFrame": 2326,
+      "endFrame": 2458
+    },
+    {
+      "id": "s26",
+      "speaker": "character2",
+      "text": "なんで誕生日ケーキか気にならないの？",
+      "narration": "なんで誕生日ケーキか気にならないの？",
+      "startFrame": 2459,
+      "endFrame": 2550
+    },
+    {
+      "id": "s27",
+      "speaker": "narrator",
+      "text": "って聞いたので",
+      "narration": "って聞いたので",
+      "startFrame": 2551,
+      "endFrame": 2607
+    },
+    {
+      "id": "s28",
+      "speaker": "character1",
+      "text": "お祝い事に理由とか要らなくない？",
+      "narration": "お祝い事に理由とか要らなくない？",
+      "startFrame": 2608,
+      "endFrame": 2719
+    },
+    {
+      "id": "s29",
+      "speaker": "narrator",
+      "text": "って言ったら",
+      "narration": "って言ったら",
+      "startFrame": 2720,
+      "endFrame": 2791
+    },
+    {
+      "id": "s30",
+      "speaker": "character2",
+      "text": "私さ、仕事できなくて",
+      "narration": "私さ、仕事できなくて",
+      "startFrame": 2792,
+      "endFrame": 2892
+    },
+    {
+      "id": "s31",
+      "speaker": "character2",
+      "text": "そしたら俊君が仕事に言ってる間誰とも話さないんだ",
+      "narration": "そしたら俊君が仕事に言ってる間誰とも話さないんだ",
+      "startFrame": 2893,
+      "endFrame": 3007
+    },
+    {
+      "id": "s32",
+      "speaker": "character2",
+      "text": "それが辛くて今日散歩行ったらさなんか誰かに祝ってもらいたいって言うか…",
+      "narration": "それが辛くて今日散歩行ったらさ、なんか誰かに祝ってもらいたいって言うか…",
+      "startFrame": 3008,
+      "endFrame": 3067
+    },
+    {
+      "id": "s33",
+      "speaker": "character2",
+      "text": "なんかそんな感じ！",
+      "narration": "なんかそんな感じ！",
+      "startFrame": 3068,
+      "endFrame": 3194
+    },
+    {
+      "id": "s34",
+      "speaker": "character2",
+      "text": "明日から頑張るから！ありがとね！",
+      "narration": "明日から頑張るから！ありがとね！",
+      "startFrame": 3195,
+      "endFrame": 3290
+    },
+    {
+      "id": "s35",
+      "speaker": "character1",
+      "text": "いつでもお祝い事大歓迎だよ",
+      "narration": "いつでもお祝い事大歓迎だよ",
+      "startFrame": 3291,
+      "endFrame": 3397
+    },
+    {
+      "id": "s36",
+      "speaker": "narrator",
+      "text": "って翌日朝も２人で胸やけしながら残りのケーキを食べた",
+      "narration": "って翌日朝も２人で胸やけしながら残りのケーキを食べた",
+      "startFrame": 3398,
+      "endFrame": 3471
+    }
+  ]
+}

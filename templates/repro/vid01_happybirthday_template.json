@@ -1,0 +1,419 @@
+{
+  "videoId": "vid01_happybirthday",
+  "seriesTitle": "笑える迷言集",
+  "videoTitle": "誕生日ケーキ",
+  "titleColor": "#FFD700",
+  "captionColor": "#FFFFFF",
+  "captionFadeInFrames": 0,
+  "hideTitle": false,
+  "hideCaption": false,
+  "fps": 30,
+  "ttsSpeed": 1.4,
+  "bgmVolume": 0.10,
+  "scenes": [
+    {
+      "text": "家帰って冷蔵庫開けたら",
+      "narration": "家帰って冷蔵庫開けたら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_01.jpg"
+    },
+    {
+      "text": "あれ！？なにこれ…",
+      "narration": "あれ！？なにこれ…",
+      "speaker": "character1",
+      "emotion": "shock",
+      "effect": "vortex",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_02.jpg"
+    },
+    {
+      "text": "買った覚えのないケーキ箱発見",
+      "narration": "買った覚えのないケーキ箱発見",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_03.jpg"
+    },
+    {
+      "text": "いやけど誕生日誰もいねぇよな？",
+      "narration": "いやけど誕生日誰もいねぇよな？",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_04.jpg"
+    },
+    {
+      "text": "って思いつつ中を見ると",
+      "narration": "って思いつつ中を見ると",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_05.jpg"
+    },
+    {
+      "text": "ハッピーバースデー私！",
+      "narration": "ハッピーバースデー私！",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "concentration_lines",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_06.jpg"
+    },
+    {
+      "text": "って書かれた誕生日ケーキ",
+      "narration": "って書かれた誕生日ケーキ",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_07.jpg"
+    },
+    {
+      "text": "ん！？え！？私！？ん！？",
+      "narration": "ん！？え！？私！？ん！？",
+      "speaker": "character1",
+      "emotion": "shock",
+      "effect": "vortex",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_08.jpg"
+    },
+    {
+      "text": "って困惑してたら",
+      "narration": "って困惑してたら",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_09.jpg"
+    },
+    {
+      "text": "あ！帰ってたの！？おかえりぃぃぃ！",
+      "narration": "あ！帰ってたの！？おかえりぃぃぃ！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_10.jpg"
+    },
+    {
+      "text": "風呂上がりの妻がニッコニコで声かけてきて",
+      "narration": "風呂上がりの妻がニッコニコで声かけてきて",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_11.jpg"
+    },
+    {
+      "text": "あ！それ今から食べよ！",
+      "narration": "あ！それ今から食べよ！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_12.jpg"
+    },
+    {
+      "text": "もう私の楽しみにしてたんだぁああ！",
+      "narration": "もう私の楽しみにしてたんだぁああ！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_13.jpg"
+    },
+    {
+      "text": "ってやっぱ妻のケーキだったので",
+      "narration": "ってやっぱ妻のケーキだったので",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_14.jpg"
+    },
+    {
+      "text": "じゃあ僕が準備するから主役は座ってて",
+      "narration": "じゃあ僕が準備するから主役は座ってて",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_15.jpg"
+    },
+    {
+      "text": "いいの！？やったぁああ！",
+      "narration": "いいの！？やったぁああ！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "concentration_lines",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_16.jpg"
+    },
+    {
+      "text": "って飲み物に皿準備して",
+      "narration": "って飲み物に皿準備して",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_17.jpg"
+    },
+    {
+      "text": "一応ろうそくあったから",
+      "narration": "一応ろうそくあったから",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_18.jpg"
+    },
+    {
+      "text": "ケーキにさして",
+      "narration": "ケーキにさして",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_19.jpg"
+    },
+    {
+      "text": "ハッピーバースデートゥーユー",
+      "narration": "ハッピーバースデートゥーユー",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_20.jpg"
+    },
+    {
+      "text": "ハッピーバースデートゥーユーディア嫁子〜",
+      "narration": "ハッピーバースデートゥーユーディア嫁子〜",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_21.jpg"
+    },
+    {
+      "text": "いえーい！ありがとぉおおおお！",
+      "narration": "いえーい！ありがとぉおおおお！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_22.jpg"
+    },
+    {
+      "text": "って全然誕生日でもなかったけど",
+      "narration": "って全然誕生日でもなかったけど",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_23.jpg"
+    },
+    {
+      "text": "妻ならそうして欲しいかなって",
+      "narration": "妻ならそうして欲しいかなって",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_24.jpg"
+    },
+    {
+      "text": "ノリノリで一緒にケーキを食べた",
+      "narration": "ノリノリで一緒にケーキを食べた",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_25.jpg"
+    },
+    {
+      "text": "なんで誕生日ケーキか気にならないの？",
+      "narration": "なんで誕生日ケーキか気にならないの？",
+      "speaker": "character2",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_26.jpg"
+    },
+    {
+      "text": "って聞いたので",
+      "narration": "って聞いたので",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_27.jpg"
+    },
+    {
+      "text": "お祝い事に理由とか要らなくない？",
+      "narration": "お祝い事に理由とか要らなくない？",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_28.jpg"
+    },
+    {
+      "text": "って言ったら",
+      "narration": "って言ったら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_29.jpg"
+    },
+    {
+      "text": "私さ、仕事できなくて",
+      "narration": "私さ、仕事できなくて",
+      "speaker": "character2",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_30.jpg"
+    },
+    {
+      "text": "そしたら俊君が仕事に言ってる間",
+      "narration": "そしたら俊君が仕事に行ってる間",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_31.jpg"
+    },
+    {
+      "text": "誰とも話さないんだ",
+      "narration": "誰とも話さないんだ",
+      "speaker": "character2",
+      "emotion": "sad",
+      "effect": "rain",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_32.jpg"
+    },
+    {
+      "text": "それが辛くて今日散歩行ったらさ",
+      "narration": "それが辛くて今日散歩行ったらさ",
+      "speaker": "character2",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_33.jpg"
+    },
+    {
+      "text": "なんか誰かに祝ってもらいたいって言うか…",
+      "narration": "なんか誰かに祝ってもらいたいって言うか…",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_34.jpg"
+    },
+    {
+      "text": "なんかそんな感じ！",
+      "narration": "なんかそんな感じ！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_35.jpg"
+    },
+    {
+      "text": "明日から頑張るから！ありがとね！",
+      "narration": "明日から頑張るから！ありがとね！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_36.jpg"
+    },
+    {
+      "text": "いつでもお祝い事大歓迎だよ",
+      "narration": "いつでもお祝い事大歓迎だよ",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "concentration_lines",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_37.jpg"
+    },
+    {
+      "text": "って翌日朝も2人で胸やけしながら残りのケーキを食べた",
+      "narration": "って翌日朝も2人で胸やけしながら残りのケーキを食べた",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 3000,
+      "backgroundFrame": "scene_38.jpg"
+    }
+  ],
+  "outroText": "",
+  "outroDurationMs": 0,
+  "_frameToSceneMapping": {
+    "f_001": "scene_01 - 家帰って冷蔵庫開けたら",
+    "f_002": "scene_02 - あれ！？なにこれ…",
+    "f_003": "scene_03 - 買った覚えのないケーキ箱発見",
+    "f_004": "scene_03 - (continued)",
+    "f_005": "scene_04 - いやけど誕生日誰もいねぇよな？",
+    "f_006": "scene_04 - (continued)",
+    "f_007": "scene_05 - って思いつつ中を見ると",
+    "f_008": "scene_06 - ハッピーバースデー私！",
+    "f_009": "scene_07 - って書かれた誕生日ケーキ",
+    "f_010": "scene_08 - ん！？え！？私！？ん！？",
+    "f_011": "scene_08 - (continued)",
+    "f_012": "scene_09 - って困惑してたら",
+    "f_013": "scene_10 - あ！帰ってたの！？おかえりぃぃぃ！",
+    "f_014": "scene_11 - 風呂上がりの妻がニッコニコで声かけてきて",
+    "f_015": "scene_11 - (continued)",
+    "f_016": "scene_12 - あ！それ今から食べよ！",
+    "f_017": "scene_13 - もう私の楽しみにしてたんだぁああ！",
+    "f_018": "scene_13 - (continued)",
+    "f_019": "scene_14 - ってやっぱ妻のケーキだったので",
+    "f_020": "scene_14 - (continued)",
+    "f_021": "scene_15 - じゃあ僕が準備するから主役は座ってて",
+    "f_022": "scene_15 - (continued)",
+    "f_023": "scene_16 - いいの！？やったぁああ！",
+    "f_024": "scene_17 - って飲み物に皿準備して",
+    "f_025": "scene_18 - 一応ろうそくあったから",
+    "f_026": "scene_19 - ケーキにさして",
+    "f_027": "scene_20 - ハッピーバースデートゥーユー",
+    "f_028": "scene_20 - (continued)",
+    "f_029": "scene_21 - ハッピーバースデートゥーユーディア嫁子〜",
+    "f_030": "scene_21 - (continued)",
+    "f_031": "scene_22 - いえーい！ありがとぉおおおお！",
+    "f_032": "scene_23 - って全然誕生日でもなかったけど",
+    "f_033": "scene_23 - (continued)",
+    "f_034": "scene_24 - 妻ならそうして欲しいかなって",
+    "f_035": "scene_25 - ノリノリで一緒にケーキを食べた",
+    "f_036": "scene_25 - (continued)",
+    "f_037": "scene_26 - なんで誕生日ケーキか気にならないの？",
+    "f_038": "scene_26 - (continued)",
+    "f_039": "scene_27 - って聞いたので",
+    "f_040": "scene_28 - お祝い事に理由とか要らなくない？",
+    "f_041": "scene_29 - って言ったら",
+    "f_042": "scene_30 - 私さ、仕事できなくて",
+    "f_043": "scene_30 - (continued)",
+    "f_044": "scene_31 - そしたら俊君が仕事に言ってる間",
+    "f_045": "scene_31 - (continued)",
+    "f_046": "scene_32 - 誰とも話さないんだ",
+    "f_047": "scene_32 - (continued)",
+    "f_048": "scene_33 - それが辛くて今日散歩行ったらさ",
+    "f_049": "scene_34 - なんか誰かに祝ってもらいたいって言うか…",
+    "f_050": "scene_34 - (continued)",
+    "f_051": "scene_35 - なんかそんな感じ！",
+    "f_052": "scene_36 - 明日から頑張るから！ありがとね！",
+    "f_053": "scene_36 - (continued)",
+    "f_054": "scene_37 - いつでもお祝い事大歓迎だよ",
+    "f_055": "scene_37 - (continued)",
+    "f_056": "scene_38 - って翌日朝も2人で胸やけしながら残りのケーキを食べた",
+    "f_057": "scene_38 - (continued)",
+    "f_058": "scene_38 - (continued)"
+  }
+}

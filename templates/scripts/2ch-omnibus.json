@@ -1,0 +1,142 @@
+{
+  "format": "2ch",
+  "videoTitle": "笑える迷言集〜職場編〜",
+  "episodes": [
+    {
+      "title": "第1話：新人の一言",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "新人が初日に放った一言",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["会社員"],
+          "imageKeywordsEn": ["office worker"]
+        },
+        {
+          "speaker": "character1",
+          "text": "定時って何時ですか？",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["新入社員"],
+          "imageKeywordsEn": ["new employee"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "上司が固まった",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く 上司"],
+          "imageKeywordsEn": ["shocked boss"]
+        },
+        {
+          "speaker": "character2",
+          "text": "定時…？そんなものあったのか",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": ["困る サラリーマン"],
+          "imageKeywordsEn": ["confused businessman"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ブラック企業確定やんけ",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["ブラック企業"],
+          "imageKeywordsEn": ["overwork office"]
+        }
+      ]
+    },
+    {
+      "title": "第2話：社長の天然",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "うちの社長がメールで",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["社長"],
+          "imageKeywordsEn": ["company president"]
+        },
+        {
+          "speaker": "character1",
+          "text": "全社員へ：明日は私服OKです",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["メール パソコン"],
+          "imageKeywordsEn": ["email computer"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "翌日、社長だけスーツだった",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["スーツ 男性"],
+          "imageKeywordsEn": ["man in suit"]
+        },
+        {
+          "speaker": "character2",
+          "text": "自分は対象外なんかい！",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": ["ツッコミ"],
+          "imageKeywordsEn": ["reaction face"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "天然すぎて誰も怒れなかった",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["笑う"],
+          "imageKeywordsEn": ["laughing people"]
+        }
+      ]
+    },
+    {
+      "title": "第3話：先輩の名言",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "残業中に先輩が言った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["残業"],
+          "imageKeywordsEn": ["overtime work"]
+        },
+        {
+          "speaker": "character1",
+          "text": "仕事は逃げないけど俺は逃げる",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["サラリーマン"],
+          "imageKeywordsEn": ["salaryman"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "そう言って本当に帰った",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["帰宅"],
+          "imageKeywordsEn": ["leaving office"]
+        },
+        {
+          "speaker": "character2",
+          "text": "かっこよすぎるやろ",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["拍手"],
+          "imageKeywordsEn": ["applause"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "翌日めっちゃ怒られてた",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["怒られる"],
+          "imageKeywordsEn": ["getting scolded"]
+        }
+      ]
+    }
+  ],
+  "outro": "面白かったらチャンネル登録！"
+}

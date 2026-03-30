@@ -1,0 +1,158 @@
+{
+  "format": "2ch",
+  "videoTitle": "バイトあるある\nファミレスの地獄シフト",
+  "meta": {
+    "maxDurationSec": 25
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "ファミレスバイト\n始めたんだが",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "エプロン"],
+          "imageKeywordsEn": ["waiter apron"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "初日のピーク時間\nがマジで地獄",
+          "emotion": "shock",
+          "effect": "concentration_lines",
+          "imageKeywords": ["男性", "汗"],
+          "imageKeywordsEn": ["sweating man"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "注文いいですか？",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "メモ"],
+          "imageKeywordsEn": ["taking notes"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "ハンバーグの\nソース何がある？",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["女性", "質問"],
+          "imageKeywordsEn": ["woman asking"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "メニューに\n書いてあるんだが",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男性", "困る"],
+          "imageKeywordsEn": ["confused man"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "全部説明して？",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["女性", "笑顔"],
+          "imageKeywordsEn": ["smiling woman"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "後ろに10組\n待ってるんだが！！",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["angry man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "やっと注文\n取り終えて",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "ほっとする"],
+          "imageKeywordsEn": ["relieved boy"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "すみません\nこれ間違ってます",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男性", "指差す"],
+          "imageKeywordsEn": ["man pointing"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "ハンバーグじゃなくて\nハンバーガーだった",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["ハンバーガー"],
+          "imageKeywordsEn": ["hamburger"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "似てるけど\n全然違うんだが",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男性", "困る"],
+          "imageKeywordsEn": ["confused man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "作り直しで\nキッチン激怒",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": ["料理人", "怒る"],
+          "imageKeywordsEn": ["angry chef"],
+          "backgroundSrc": "assets/repro/shared/bg_kitchen.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "新人さぁ…\nしっかりしてよ",
+          "emotion": "anger",
+          "effect": "none",
+          "imageKeywords": ["男性", "腕組み"],
+          "imageKeywordsEn": ["disappointed man"],
+          "backgroundSrc": "assets/repro/shared/bg_kitchen.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "泣きたい",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["泣く", "男の子"],
+          "imageKeywordsEn": ["crying boy"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "なお時給は\n950円の模様",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["お金", "コイン"],
+          "imageKeywordsEn": ["coins money"],
+          "backgroundSrc": "assets/repro/shared/bg_restaurant.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "割に合わないwww",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["女の子", "笑う"],
+          "imageKeywordsEn": ["laughing girl"],
+          "backgroundSrc": "assets/repro/shared/bg_dining.jpg"
+        }
+      ]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

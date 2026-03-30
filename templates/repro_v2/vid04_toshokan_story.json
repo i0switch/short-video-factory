@@ -1,0 +1,292 @@
+{
+  "units": [
+    {
+      "id": "s1",
+      "speaker": "narrator",
+      "text": "図書館に本を借りに来たら",
+      "narration": "図書館に本を借りに来たら",
+      "startFrame": 0,
+      "endFrame": 97
+    },
+    {
+      "id": "s2",
+      "speaker": "narrator",
+      "text": "んゴゴゴゴゴゴーゴゴごっ！",
+      "narration": "んゴゴゴゴゴゴーゴゴごっ！",
+      "startFrame": 98,
+      "endFrame": 157
+    },
+    {
+      "id": "s3",
+      "speaker": "character2",
+      "text": "「え、今の音なに！？」",
+      "narration": "え、今の音なに！？",
+      "startFrame": 158,
+      "endFrame": 253
+    },
+    {
+      "id": "s4",
+      "speaker": "narrator",
+      "text": "って周りを見渡したら",
+      "narration": "って周りを見渡したら",
+      "startFrame": 254,
+      "endFrame": 375
+    },
+    {
+      "id": "s5",
+      "speaker": "narrator",
+      "text": "百貫が椅子並べて仰向けで大イビキ！",
+      "narration": "百貫が椅子並べて仰向けで大イビキ！",
+      "startFrame": 376,
+      "endFrame": 501
+    },
+    {
+      "id": "s6",
+      "speaker": "narrator",
+      "text": "しばらくすると静かになった！",
+      "narration": "しばらくすると静かになった！",
+      "startFrame": 502,
+      "endFrame": 619
+    },
+    {
+      "id": "s7",
+      "speaker": "narrator",
+      "text": "自分のいびきにビクッとして",
+      "narration": "自分のいびきにビクッとして",
+      "startFrame": 620,
+      "endFrame": 735
+    },
+    {
+      "id": "s8",
+      "speaker": "narrator",
+      "text": "って寝言みたいに言った後また寝たぁぁぁ！？",
+      "narration": "って寝言みたいに言った後また寝たぁぁぁ！？",
+      "startFrame": 736,
+      "endFrame": 882
+    },
+    {
+      "id": "s9",
+      "speaker": "narrator",
+      "text": "これ絶対わざとじゃない！？",
+      "narration": "これ絶対わざとじゃない！？",
+      "startFrame": 883,
+      "endFrame": 960
+    },
+    {
+      "id": "s10",
+      "speaker": "narrator",
+      "text": "と思って",
+      "narration": "と思って",
+      "startFrame": 961,
+      "endFrame": 1068
+    },
+    {
+      "id": "s11",
+      "speaker": "narrator",
+      "text": "落ちてたしおりを百貫の額にペタッ！",
+      "narration": "落ちてたしおりを百貫の額にペタッ！",
+      "startFrame": 1069,
+      "endFrame": 1188
+    },
+    {
+      "id": "s12",
+      "speaker": "narrator",
+      "text": "カッ！と目を見開くから",
+      "narration": "カッ！と目を見開くから",
+      "startFrame": 1189,
+      "endFrame": 1307
+    },
+    {
+      "id": "s13",
+      "speaker": "narrator",
+      "text": "一瞬キョンシー！？",
+      "narration": "一瞬キョンシー！？",
+      "startFrame": 1308,
+      "endFrame": 1395
+    },
+    {
+      "id": "s14",
+      "speaker": "narrator",
+      "text": "そのまま椅子から転げ落ちて大きな音を立てると",
+      "narration": "そのまま椅子から転げ落ちて大きな音を立てると",
+      "startFrame": 1396,
+      "endFrame": 1547
+    },
+    {
+      "id": "s15",
+      "speaker": "character1",
+      "text": "「静粛にお願いします！」",
+      "narration": "静粛にお願いします！",
+      "startFrame": 1548,
+      "endFrame": 1727
+    },
+    {
+      "id": "s16",
+      "speaker": "character2",
+      "text": "「いや私、寝てません！考え事してただけで」",
+      "narration": "いや私、寝てません！考え事してただけで",
+      "startFrame": 1728,
+      "endFrame": 1905
+    },
+    {
+      "id": "s17",
+      "speaker": "narrator",
+      "text": "しおり貼ったまま必死に言い訳するから",
+      "narration": "しおり貼ったまま必死に言い訳するから",
+      "startFrame": 1906,
+      "endFrame": 2007
+    },
+    {
+      "id": "s18",
+      "speaker": "narrator",
+      "text": "起きてるよね？って思ったので",
+      "narration": "起きてるよね？って思ったので",
+      "startFrame": 2008,
+      "endFrame": 2099
+    },
+    {
+      "id": "s19",
+      "speaker": "narrator",
+      "text": "何考えてたんですか？って聞くと",
+      "narration": "何考えてたんですか？って聞くと",
+      "startFrame": 2100,
+      "endFrame": 2213
+    },
+    {
+      "id": "s20",
+      "speaker": "character2",
+      "text": "「何考えようか考えてました！」",
+      "narration": "何考えようか考えてました！",
+      "startFrame": 2214,
+      "endFrame": 2339
+    },
+    {
+      "id": "s21",
+      "speaker": "narrator",
+      "text": "一瞬、館内が止まると",
+      "narration": "一瞬、館内が止まると",
+      "startFrame": 2340,
+      "endFrame": 2445
+    },
+    {
+      "id": "s22",
+      "speaker": "character1",
+      "text": "「では、その考え事は外でお願いします」",
+      "narration": "では、その考え事は外でお願いします",
+      "startFrame": 2446,
+      "endFrame": 2573
+    },
+    {
+      "id": "s23",
+      "speaker": "narrator",
+      "text": "百貫 え？って固まって",
+      "narration": "百貫 え？って固まって",
+      "startFrame": 2574,
+      "endFrame": 2639
+    },
+    {
+      "id": "s24",
+      "speaker": "character1",
+      "text": "「ここは本を読む場所なので」",
+      "narration": "ここは本を読む場所なので",
+      "startFrame": 2640,
+      "endFrame": 2739
+    },
+    {
+      "id": "s25",
+      "speaker": "narrator",
+      "text": "職員に言われて",
+      "narration": "職員に言われて",
+      "startFrame": 2740,
+      "endFrame": 2819
+    },
+    {
+      "id": "s26",
+      "speaker": "narrator",
+      "text": "周りの利用者の冷たい目線が一斉に百貫に向くと",
+      "narration": "周りの利用者の冷たい目線が一斉に百貫に向くと",
+      "startFrame": 2820,
+      "endFrame": 2919
+    },
+    {
+      "id": "s27",
+      "speaker": "character2",
+      "text": "「あ、あの、その、考え事が…」",
+      "narration": "あ、あの、その、考え事が…",
+      "startFrame": 2920,
+      "endFrame": 3019
+    },
+    {
+      "id": "s28",
+      "speaker": "narrator",
+      "text": "最後まで言えず",
+      "narration": "最後まで言えず",
+      "startFrame": 3020,
+      "endFrame": 3079
+    },
+    {
+      "id": "s29",
+      "speaker": "narrator",
+      "text": "ひょこひょこ立ち去った時",
+      "narration": "ひょこひょこ立ち去った時",
+      "startFrame": 3080,
+      "endFrame": 3139
+    },
+    {
+      "id": "s30",
+      "speaker": "narrator",
+      "text": "しおりが落ちた",
+      "narration": "しおりが落ちた",
+      "startFrame": 3140,
+      "endFrame": 3199
+    },
+    {
+      "id": "s31",
+      "speaker": "narrator",
+      "text": "今日借りた本のタイトルは",
+      "narration": "今日借りた本のタイトルは",
+      "startFrame": 3200,
+      "endFrame": 3259
+    },
+    {
+      "id": "s32",
+      "speaker": "narrator",
+      "text": "言われた通りに動く方法",
+      "narration": "言われた通りに動く方法",
+      "startFrame": 3260,
+      "endFrame": 3319
+    },
+    {
+      "id": "s33",
+      "speaker": "narrator",
+      "text": "私は本を開いて",
+      "narration": "私は本を開いて",
+      "startFrame": 3320,
+      "endFrame": 3379
+    },
+    {
+      "id": "s34",
+      "speaker": "narrator",
+      "text": "拾ったしおりを挟んで",
+      "narration": "拾ったしおりを挟んで",
+      "startFrame": 3380,
+      "endFrame": 3439
+    },
+    {
+      "id": "s35",
+      "speaker": "narrator",
+      "text": "これ、もう読まなくていいな",
+      "narration": "これ、もう読まなくていいな",
+      "startFrame": 3440,
+      "endFrame": 3499
+    },
+    {
+      "id": "s36",
+      "speaker": "narrator",
+      "text": "という音が聞こえた気がしたw",
+      "narration": "という音が聞こえた気がしたw",
+      "startFrame": 3500,
+      "endFrame": 3561
+    }
+  ]
+}

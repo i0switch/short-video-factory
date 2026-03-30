@@ -148,12 +148,11 @@ describe('combo integration tests', () => {
     const script = makeScript(videoTitle, [{ rank: 1, topic: 'テスト' }])
     const result = await buildV3Plan(script, jobDir)
 
-    // splitTitleToLines removes spaces: '令和日本最強ランキング動画' (13 chars)
-    // balanced: numLines=ceil(13/7)=2, idealLen=ceil(13/2)=7
+    // BudouX treats '令和日本最強ランキング動画' as a single chunk (no word boundary)
+    // so it stays as 1 line
     const lines = result.intro.lines
-    expect(lines).toHaveLength(2)
+    expect(lines).toHaveLength(1)
     expect(lines[0].style).toBe('introBlack')
-    expect(lines[1].style).toBe('introRed')
   })
 
   it('TC-104: synthesize volumeScale test — body sent to synthesis has volumeScale=gain*original', async () => {

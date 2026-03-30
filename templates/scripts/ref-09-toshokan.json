@@ -1,0 +1,316 @@
+{
+  "format": "2ch",
+  "videoTitle": "図書館キョンシー百貫",
+  "seriesTitle": "笑える迷言集",
+  "titleColor": "#FFD700",
+  "meta": {
+    "maxDurationSec": 60
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "図書館に本を借りに来たら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "図書館"
+          ],
+          "imageKeywordsEn": [
+            "library"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "んゴゴゴゴゴゴゴゴゴっ！",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": [
+            "いびき"
+          ],
+          "imageKeywordsEn": [
+            "loud snoring"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "え、今の音なに！？",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "shocked person"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "周りを見渡したら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "見る"
+          ],
+          "imageKeywordsEn": [
+            "looking around"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "百貫が椅子並べて爆睡してた",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "寝る"
+          ],
+          "imageKeywordsEn": [
+            "sleeping in library"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "しばらくすると静かになった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "図書館"
+          ],
+          "imageKeywordsEn": [
+            "silence"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "自分のいびきにビクッとして",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "起きる"
+          ],
+          "imageKeywordsEn": [
+            "startled awake"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "って寝言みたいに言ってまた寝た",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "寝る"
+          ],
+          "imageKeywordsEn": [
+            "talking in sleep"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "と思って",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "考える"
+          ],
+          "imageKeywordsEn": [
+            "thinking"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "落ちてたしおりを額にペタッ",
+          "emotion": "neutral",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "本"
+          ],
+          "imageKeywordsEn": [
+            "bookmark on forehead"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "カッ！と目を見開くから",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "eyes wide open"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "そのまま椅子から転げ落ちた",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": [
+            "転ぶ"
+          ],
+          "imageKeywordsEn": [
+            "falling off chair"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "一瞬、館内が止まると",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "図書館"
+          ],
+          "imageKeywordsEn": [
+            "library silence"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "私、寝てません！考え事してただけ",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "困る"
+          ],
+          "imageKeywordsEn": [
+            "making excuses"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "起きてるよね？って思ったので",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "疑問"
+          ],
+          "imageKeywordsEn": [
+            "questioning"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "何考えてたんですか？",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "質問"
+          ],
+          "imageKeywordsEn": [
+            "asking question"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "何考えようか考えてました！",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "混乱"
+          ],
+          "imageKeywordsEn": [
+            "confused thinking"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "館内が一瞬止まった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "図書館"
+          ],
+          "imageKeywordsEn": [
+            "awkward silence"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "では考え事は外でお願いします",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "librarian scolding"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "周りの冷たい目線が百貫に向く",
+          "emotion": "sad",
+          "effect": "none",
+          "imageKeywords": [
+            "悲しい"
+          ],
+          "imageKeywordsEn": [
+            "cold stares"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ひょこひょこ立ち去った",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": [
+            "泣く"
+          ],
+          "imageKeywordsEn": [
+            "leaving sheepishly"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "私は本を開いて",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "読書"
+          ],
+          "imageKeywordsEn": [
+            "reading book"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "今日借りた本のタイトルは",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "本"
+          ],
+          "imageKeywordsEn": [
+            "book title"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "「言われた通りに動く方法」",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "本"
+          ],
+          "imageKeywordsEn": [
+            "funny book title"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "まず自分が守れや！",
+          "emotion": "happy",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "ツッコミ"
+          ],
+          "imageKeywordsEn": [
+            "punchline reaction"
+          ]
+        }
+      ]
+    }
+  ],
+  "outro": "面白かったらチャンネル登録！"
+}

@@ -1,0 +1,220 @@
+{
+  "units": [
+    {
+      "id": "s1",
+      "speaker": "narrator",
+      "text": "クラス全員で示し合わせて、",
+      "narration": "クラス全員で示し合わせて、",
+      "startFrame": 0,
+      "endFrame": 43
+    },
+    {
+      "id": "s2",
+      "speaker": "narrator",
+      "text": "授業中みんなで一切動かなくなった。",
+      "narration": "授業中みんなで一切動かなくなった。",
+      "startFrame": 44,
+      "endFrame": 188
+    },
+    {
+      "id": "s3",
+      "speaker": "narrator",
+      "text": "ある者は消しゴムを拾おうとしてる最中で止まり、",
+      "narration": "ある者は消しゴムを拾おうとしてる最中で止まり、",
+      "startFrame": 189,
+      "endFrame": 296
+    },
+    {
+      "id": "s4",
+      "speaker": "narrator",
+      "text": "ある者は先生に質問しようとして",
+      "narration": "ある者は先生に質問しようとして",
+      "startFrame": 297,
+      "endFrame": 433
+    },
+    {
+      "id": "s5",
+      "speaker": "narrator",
+      "text": "挙手しかけたところで止まる。",
+      "narration": "挙手しかけたところで止まる。",
+      "startFrame": 434,
+      "endFrame": 490
+    },
+    {
+      "id": "s6",
+      "speaker": "narrator",
+      "text": "ご丁寧にもクラスの中でも器用な奴が、",
+      "narration": "ご丁寧にもクラスの中でも器用な奴が、",
+      "startFrame": 491,
+      "endFrame": 590
+    },
+    {
+      "id": "s7",
+      "speaker": "narrator",
+      "text": "時計もその時間で止まるようにしておいた。",
+      "narration": "時計もその時間で止まるようにしておいた。",
+      "startFrame": 591,
+      "endFrame": 646
+    },
+    {
+      "id": "s8",
+      "speaker": "narrator",
+      "text": "ドアも窓も一切閉め切っていたので",
+      "narration": "ドアも窓も一切閉め切っていたので",
+      "startFrame": 647,
+      "endFrame": 712
+    },
+    {
+      "id": "s9",
+      "speaker": "narrator",
+      "text": "完全に無音になる。",
+      "narration": "完全に無音になる。",
+      "startFrame": 713,
+      "endFrame": 784
+    },
+    {
+      "id": "s10",
+      "speaker": "narrator",
+      "text": "授業にくる全ての教師に試したが、",
+      "narration": "授業にくる全ての教師に試したが、",
+      "startFrame": 785,
+      "endFrame": 860
+    },
+    {
+      "id": "s11",
+      "speaker": "narrator",
+      "text": "皆同じような反応するのが笑えた",
+      "narration": "皆同じような反応するのが笑えた",
+      "startFrame": 861,
+      "endFrame": 895
+    },
+    {
+      "id": "s12",
+      "speaker": "character2",
+      "text": "「え？ え？」",
+      "narration": "え？ え？",
+      "startFrame": 896,
+      "endFrame": 936
+    },
+    {
+      "id": "s13",
+      "speaker": "character2",
+      "text": "「何？ 何で？」",
+      "narration": "何？ 何で？",
+      "startFrame": 937,
+      "endFrame": 997
+    },
+    {
+      "id": "s14",
+      "speaker": "narrator",
+      "text": "みたいな反応",
+      "narration": "みたいな反応",
+      "startFrame": 998,
+      "endFrame": 1024
+    },
+    {
+      "id": "s15",
+      "speaker": "narrator",
+      "text": "ものすごくキョドった",
+      "narration": "ものすごくキョドった",
+      "startFrame": 1025,
+      "endFrame": 1043
+    },
+    {
+      "id": "s16",
+      "speaker": "narrator",
+      "text": "数学",
+      "narration": "数学",
+      "startFrame": 1044,
+      "endFrame": 1070
+    },
+    {
+      "id": "s17",
+      "speaker": "narrator",
+      "text": "こいつだけ何故か普通に授業を進めた",
+      "narration": "こいつだけ何故か普通に授業を進めた",
+      "startFrame": 1071,
+      "endFrame": 1100
+    },
+    {
+      "id": "s18",
+      "speaker": "narrator",
+      "text": "ポカーン",
+      "narration": "ポカーン",
+      "startFrame": 1101,
+      "endFrame": 1115
+    },
+    {
+      "id": "s19",
+      "speaker": "narrator",
+      "text": "(°д°)ポカーン ↑まさしくこのAAの状態",
+      "narration": "まさしくこのAAの状態",
+      "startFrame": 1116,
+      "endFrame": 1146
+    },
+    {
+      "id": "s20",
+      "speaker": "narrator",
+      "text": "理科",
+      "narration": "理科",
+      "startFrame": 1147,
+      "endFrame": 1165
+    },
+    {
+      "id": "s21",
+      "speaker": "narrator",
+      "text": "現文の教師と全く同じ。",
+      "narration": "現文の教師と全く同じ。",
+      "startFrame": 1166,
+      "endFrame": 1192
+    },
+    {
+      "id": "s22",
+      "speaker": "narrator",
+      "text": "皆が動き出すと",
+      "narration": "皆が動き出すと",
+      "startFrame": 1193,
+      "endFrame": 1207
+    },
+    {
+      "id": "s23",
+      "speaker": "narrator",
+      "text": "苦笑い",
+      "narration": "苦笑い",
+      "startFrame": 1208,
+      "endFrame": 1222
+    },
+    {
+      "id": "s24",
+      "speaker": "narrator",
+      "text": "呆れたような表情で",
+      "narration": "呆れたような表情で",
+      "startFrame": 1223,
+      "endFrame": 1250
+    },
+    {
+      "id": "s25",
+      "speaker": "character1",
+      "text": "「そして時は動き出す…」",
+      "narration": "そして時は動き出す…",
+      "startFrame": 1251,
+      "endFrame": 1275
+    },
+    {
+      "id": "s26",
+      "speaker": "narrator",
+      "text": "って言ったら皆動き出した。",
+      "narration": "って言ったら皆動き出した。",
+      "startFrame": 1276,
+      "endFrame": 1320
+    },
+    {
+      "id": "s27",
+      "speaker": "narrator",
+      "text": "彼が一番面白かった。",
+      "narration": "彼が一番面白かった。",
+      "startFrame": 1321,
+      "endFrame": 1370
+    }
+  ]
+}

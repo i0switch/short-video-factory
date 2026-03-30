@@ -1,0 +1,797 @@
+{
+  "videoId": "vid02_kaikei",
+  "seriesTitle": "スカッと迷言集",
+  "videoTitle": "会計よろしく",
+  "titleColor": "#FF0000",
+  "captionColor": "#FF0000",
+  "captionStrokeColor": "#FFFFFF",
+  "titleGlow": true,
+  "titleGlowColor": "#FF0000",
+  "captionFadeInFrames": 0,
+  "hideTitle": true,
+  "hideCaption": true,
+  "fps": 30,
+  "ttsSpeed": 1.4,
+  "bgmVolume": 0.1,
+  "episodes": [
+    {
+      "title": "会計よろしく",
+      "startScene": 1,
+      "endScene": 60
+    },
+    {
+      "title": "彼女を紹介",
+      "startScene": 61,
+      "endScene": 124
+    },
+    {
+      "title": "子供好き",
+      "startScene": 125,
+      "endScene": 179
+    }
+  ],
+  "scenes": [
+    {
+      "text": "日曜日義母から",
+      "narration": "日曜日、義母から連絡が来た",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_01.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "今日ランチでもどう？義妹も一緒よ",
+      "narration": "今日ランチでもどう？義妹も一緒よ",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_02.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "店に着くと",
+      "narration": "店に着くと",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_03.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "あ、来た来た！",
+      "narration": "あ、来た来た！",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_04.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "お手洗い行ってくるわ",
+      "narration": "お手洗い行ってくるわ",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_05.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "私も〜",
+      "narration": "私も〜",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_06.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "いつまで経っても帰ってこない…",
+      "narration": "いつまで経っても帰ってこない…",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_07.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "LINEも既読無視",
+      "narration": "LINEも既読無視",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_08.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "お会計4800円になります",
+      "narration": "お会計4800円になります",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_09.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "え？3人分を私が…？",
+      "narration": "え？3人分を私が…？",
+      "speaker": "character1",
+      "emotion": "shock",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_10.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "強制おごりはこれだけに留まらず",
+      "narration": "強制おごりはこれだけに留まらず",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_11.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "あら〜財布忘れちゃった",
+      "narration": "あら〜財布忘れちゃった",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_12.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "今日カード持ってないや〜",
+      "narration": "今日カード持ってないや〜",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_13.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "もうトータル10万以上奢らされてる",
+      "narration": "もうトータル10万以上奢らされてる",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_14.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "旦那に相談すると",
+      "narration": "旦那に相談すると",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_15.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "ふざけんな！文句言ってくる！",
+      "narration": "ふざけんな！文句言ってくる！",
+      "speaker": "character1",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_16.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "なによ！家族なんだからいいでしょ！",
+      "narration": "なによ！家族なんだからいいでしょ！",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_17.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "稼いでるんでしょ？ケチくさい嫁ね！",
+      "narration": "稼いでるんでしょ？ケチくさい嫁ね！",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_18.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "ダメだ…やっぱり聞く耳持たない",
+      "narration": "ダメだ…やっぱり聞く耳持たない",
+      "speaker": "narrator",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_19.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "さすがに舐められすぎて",
+      "narration": "さすがに舐められすぎて",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_20.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "堪忍袋爆発",
+      "narration": "堪忍袋が爆発した",
+      "speaker": "narrator",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_21.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "翌日罠を張る",
+      "narration": "翌日、罠を張ることにした",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_22.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "この前会社から臨時ボーナス出たんですよ〜",
+      "narration": "この前会社から臨時ボーナス出たんですよ〜",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_23.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "あら！いくら？",
+      "narration": "あら！いくら？",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_24.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "50万円も出たんです！",
+      "narration": "50万円も出たんです！",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_25.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "また美味しいもの食べ行きたいですね〜",
+      "narration": "また美味しいもの食べ行きたいですね〜",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_26.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "今度は高級店行きたい！",
+      "narration": "今度は高級店行きたい！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_27.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "数日後",
+      "narration": "数日後",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_28.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "土曜日の夜ご飯一緒にどう？",
+      "narration": "土曜日の夜ご飯一緒にどう？",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_29.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "そして土曜日の夜",
+      "narration": "そして土曜日の夜",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_30.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "義母たちから鬼ライン",
+      "narration": "義母たちから鬼ラインが来た",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "shake",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_31.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "なんで来ないの！もう予約時間よ！",
+      "narration": "なんで来ないの！もう予約時間よ！",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_32.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "早く来なさいよ！",
+      "narration": "早く来なさいよ！",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_33.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "機内モードに切り替えて無視",
+      "narration": "機内モードに切り替えて無視した",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_34.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "ハワイ楽しみだね！",
+      "narration": "ハワイ楽しみだね！",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_35.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "いやー最高だね！",
+      "narration": "いやー最高だね！",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_36.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "翌日義父から連絡",
+      "narration": "翌日、義父から連絡が来た",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_37.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "義母と義妹が食い逃げで捕まったらしい",
+      "narration": "義母と義妹が食い逃げで捕まったらしい",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_38.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "これを機に離婚するみたい",
+      "narration": "これを機に離婚するみたい",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_39.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "父さんやっと決心してくれたな",
+      "narration": "父さんやっと決心してくれたな",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_40.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "私たちも海外旅行から帰ったら",
+      "narration": "私たちも海外旅行から帰ったら",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_41.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "新天地に引っ越しね",
+      "narration": "新天地に引っ越しね",
+      "speaker": "character1",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_42.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "あの2人は寄生先いなくなって",
+      "narration": "あの2人は寄生先がいなくなって",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_43.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "これからどうするんだろう？",
+      "narration": "これからどうするんだろう？",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_44.jpg",
+      "episode": "会計よろしく"
+    },
+    {
+      "text": "タケシ！紹介するよ婚約者の美咲",
+      "narration": "タケシ！紹介するよ、婚約者の美咲",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_45.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "初めまして",
+      "narration": "初めまして",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1356,
+      "backgroundFrame": "scene_46.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "タケシの顔が一瞬で真っ青に",
+      "narration": "タケシの顔が一瞬で真っ青になった",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "rain",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_47.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "おいおい美人すぎて固まったか？ｗ",
+      "narration": "おいおい美人すぎて固まったか？",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_48.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "あ、いや…おめでとう",
+      "narration": "あ、いや…おめでとう",
+      "speaker": "character1",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_49.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "3日後タケシから呼び出し",
+      "narration": "3日後、タケシから呼び出された",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_50.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "イッチ…言いにくいんだけど",
+      "narration": "イッチ…言いにくいんだけど",
+      "speaker": "character1",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_51.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "美咲さん実は高校の同級生なんだ",
+      "narration": "美咲さん、実は高校の同級生なんだ",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_52.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "俺、あいつにいじめられてた",
+      "narration": "俺、あいつにいじめられてた",
+      "speaker": "character1",
+      "emotion": "anger",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_53.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "階段から落ちて怪我した子とか",
+      "narration": "階段から落ちて怪我した子とか",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_54.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "親が社長だからもみ消されたんだ",
+      "narration": "親が社長だからもみ消されたんだ",
+      "speaker": "character1",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_55.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "うちに示談金たかって来たのよ",
+      "narration": "うちに示談金たかって来たのよ",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_56.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "イッチ君来てくれてありがとう",
+      "narration": "イッチ君、来てくれてありがとう",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_57.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "あいつがその同級生だよ",
+      "narration": "あいつがその同級生だよ",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_58.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "言ったことと正反対だったよ",
+      "narration": "言ったことと正反対だったよ",
+      "speaker": "character1",
+      "emotion": "anger",
+      "effect": "lightning",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_59.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "君たちは俺の思ってるような人たちじゃなかった",
+      "narration": "君たちは俺の思ってるような人たちじゃなかった",
+      "speaker": "character1",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 4068,
+      "backgroundFrame": "scene_60.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "過去の出来事を週刊誌にタレコミ",
+      "narration": "過去の出来事を週刊誌にタレコミした",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_61.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "大切な親友は失わなかった",
+      "narration": "大切な親友は失わなかった",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_62.jpg",
+      "episode": "彼女を紹介"
+    },
+    {
+      "text": "彼女の策略で妊娠",
+      "narration": "彼女の策略で妊娠した",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_63.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "想定外の学生結婚",
+      "narration": "想定外の学生結婚をすることになった",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_64.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "夜泣きで寝不足でも可愛い娘",
+      "narration": "夜泣きで寝不足でも可愛い娘",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "rain",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_65.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "テーブルに置き手紙",
+      "narration": "テーブルに置き手紙があった",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_66.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "娘を育てることに",
+      "narration": "一人で娘を育てることにした",
+      "speaker": "narrator",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_67.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "皆に愛されて育った娘は",
+      "narration": "皆に愛されて育った娘は",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_68.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "ある時元嫁から連絡",
+      "narration": "ある時、元嫁から連絡が来た",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "lightning",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_69.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "離婚してるからもう家族じゃないよ",
+      "narration": "離婚してるからもう家族じゃないよ",
+      "speaker": "character1",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_70.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "離婚調停済みだよ",
+      "narration": "離婚調停済みだよ",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_71.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "離婚したなら財産分与はどうなるのよ！",
+      "narration": "離婚したなら財産分与はどうなるのよ！",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_72.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "パパー誰このおばちゃん？",
+      "narration": "パパー、誰このおばちゃん？",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "sparkle",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_73.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "パパの悪口言わないで！",
+      "narration": "パパの悪口言わないで！",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_74.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "もう二度と来ないでください",
+      "narration": "もう二度と来ないでください",
+      "speaker": "character1",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_75.jpg",
+      "episode": "子供好き"
+    },
+    {
+      "text": "二度と会いに来れないようにした",
+      "narration": "二度と会いに来れないようにした",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 2712,
+      "backgroundFrame": "scene_76.jpg",
+      "episode": "子供好き"
+    }
+  ],
+  "outroText": "",
+  "outroDurationMs": 0
+}

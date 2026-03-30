@@ -1,0 +1,546 @@
+{
+  "videoId": "JMNJxpptaIc",
+  "title": "買い物中こんな場面遭遇したら癒されまくりだろぉおおお！？",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 58.6,
+  "totalFrames": 3516,
+  "seriesTitle": "笑える迷言集",
+  "episodeTitle": "これは癒しだろ！",
+  "titleBand": {
+    "line1": "笑える迷言集",
+    "line2": "これは癒しだろ！",
+    "backgroundColor": "#000000",
+    "textColor": "#FFE000",
+    "strokeColor": "#000000",
+    "strokeWidth": 5,
+    "height": 300
+  },
+  "shots": [
+    {
+      "id": "sh01", "startFrame": 0, "endFrame": 120,
+      "text": "最近疲れ吹っ飛ぶ\nほど和んだ話\n聞いてくれ！",
+      "narration": "最近疲れ吹っ飛ぶほど和んだ話聞いてくれ！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_calm", "count": 1, "position": "center-bottom", "scale": 0.9 }
+      ],
+      "background": "warm_gradient_yellow", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh02", "startFrame": 120, "endFrame": 240,
+      "text": "夕方コンビニ\n行く時に",
+      "narration": "夕方コンビニ行く時に",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_neutral", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "hallway_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh03", "startFrame": 240, "endFrame": 360,
+      "text": "エレベーターに\n乗ろうとしたら",
+      "narration": "エレベーターに乗ろうとしたら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_side_view", "count": 1, "position": "left", "scale": 0.7 }
+      ],
+      "background": "elevator_hallway_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh04", "startFrame": 360, "endFrame": 480,
+      "text": "ちょうど同じ階の\nお姉さんが乗る\nところで",
+      "narration": "ちょうど同じ階のお姉さんが乗るところで",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_back_view", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "elevator_door_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh05", "startFrame": 480, "endFrame": 600,
+      "text": "間に合うか！？\nお姉さん\n気づくかな！？",
+      "narration": "間に合うか！？お姉さん気づくかな！？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_thinking", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "vortex_blue_purple", "effect": "vortex",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh06", "startFrame": 600, "endFrame": 720,
+      "text": "でも急いで\nなかったから\n歩いてったら",
+      "narration": "でも急いでなかったから歩いてったら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_calm", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "hallway_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh07", "startFrame": 720, "endFrame": 840,
+      "text": "次乗ろうと\n思ったその時",
+      "narration": "次乗ろうと思ったその時",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_neutral", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "elevator_hallway_dark_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh08", "startFrame": 840, "endFrame": 960,
+      "text": "ドアが閉まる\n寸前に自動音声の",
+      "narration": "ドアが閉まる寸前に自動音声の",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_worried", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "elevator_door_closing_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh09", "startFrame": 960, "endFrame": 1020,
+      "text": "って聞こえたと\n思ったら",
+      "narration": "って聞こえたと思ったら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_surprised", "count": 1, "position": "center-bottom", "scale": 0.9 }
+      ],
+      "background": "hallway_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh10", "startFrame": 1020, "endFrame": 1140,
+      "text": "って不意打ちの\n可愛い声が響いて\n閉まった",
+      "narration": "って不意打ちの可愛い声が響いて閉まった",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_side_view", "count": 1, "position": "left", "scale": 0.7 }
+      ],
+      "background": "elevator_door_closed_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh11", "startFrame": 1140, "endFrame": 1260,
+      "text": "いや反則すぎ\nだろぉおおおww",
+      "narration": "いや反則すぎだろぉおおおww",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_moved", "count": 1, "position": "center-bottom", "scale": 0.9 }
+      ],
+      "background": "sparkle_blue", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh12", "startFrame": 1260, "endFrame": 1380,
+      "text": "数日後",
+      "narration": "数日後",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_happy", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "props": ["manga_book"],
+      "background": "bookstore_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh13", "startFrame": 1380, "endFrame": 1500,
+      "text": "母親が本\n差しだしながら",
+      "narration": "母親が本差しだしながら",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["book_cover_sakabanbasupisu"],
+      "background": "bookstore_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh14", "startFrame": 1500, "endFrame": 1620,
+      "text": "お願いします",
+      "narration": "お願いします",
+      "speaker": "character1",
+      "characters": [
+        { "type": "mother_smiling", "count": 1, "position": "center-left", "scale": 0.85 },
+        { "type": "girl_small", "count": 1, "position": "right-bottom", "scale": 0.4 }
+      ],
+      "background": "bookstore_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh15", "startFrame": 1620, "endFrame": 1740,
+      "text": "って続けて\n言ってて",
+      "narration": "って続けて言ってて",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_happy", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "bookstore_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh16", "startFrame": 1740, "endFrame": 1860,
+      "text": "ありがとう\nございました",
+      "narration": "ありがとうございました",
+      "speaker": "character1",
+      "characters": [
+        { "type": "mother_smiling", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "bookstore_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh17", "startFrame": 1860, "endFrame": 1980,
+      "text": "ばいばーい！",
+      "narration": "ばいばーい！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "girl_waving", "count": 1, "position": "center-bottom", "scale": 1.0 }
+      ],
+      "background": "pink_sparkle", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh18", "startFrame": 1980, "endFrame": 2100,
+      "text": "会計中も",
+      "narration": "会計中も",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mother_with_purse", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "bookstore_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh19", "startFrame": 2100, "endFrame": 2220,
+      "text": "お体にお気を付け\nくださいね",
+      "narration": "お体にお気を付けくださいね",
+      "speaker": "character1",
+      "characters": [
+        { "type": "mother_gentle", "count": 1, "position": "center-bottom", "scale": 0.9 }
+      ],
+      "background": "sparkle_green", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh20", "startFrame": 2220, "endFrame": 2340,
+      "text": "ってお母さん\nニコニコ言ってて",
+      "narration": "ってお母さんニコニコ言ってて",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mother_smiling", "count": 1, "position": "left", "scale": 0.75 },
+        { "type": "man_happy", "count": 1, "position": "right", "scale": 0.75 }
+      ],
+      "background": "bookstore_dark_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh21", "startFrame": 2340, "endFrame": 2460,
+      "text": "感心してたん\nだけど",
+      "narration": "感心してたんだけど",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_impressed", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "vortex_purple_dark", "effect": "vortex",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh22", "startFrame": 2460, "endFrame": 2580,
+      "text": "丁度外の自販機に\nあの親子がいて",
+      "narration": "丁度外の自販機にあの親子がいて",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_side_view", "count": 1, "position": "left-back", "scale": 0.5 },
+        { "type": "girl_happy", "count": 1, "position": "center", "scale": 0.65 },
+        { "type": "mother_standing", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "vending_machine_outdoor_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh23", "startFrame": 2580, "endFrame": 2700,
+      "text": "自販機に向かって",
+      "narration": "自販機に向かって",
+      "speaker": "narrator",
+      "characters": [],
+      "background": "vending_machine_closeup_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh24", "startFrame": 2700, "endFrame": 2820,
+      "text": "ありがとー\nございましたぁ\nああ！",
+      "narration": "ありがとーございましたぁああ！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "girl_thanking_sparkle", "count": 1, "position": "center-bottom", "scale": 1.1 }
+      ],
+      "background": "outdoor_3d", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.08 }
+    },
+    {
+      "id": "sh25", "startFrame": 2820, "endFrame": 2940,
+      "text": "ってお母さんも\n終始ニコニコ！",
+      "narration": "ってお母さんも終始ニコニコ！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mother_smiling", "count": 1, "position": "left", "scale": 0.75 },
+        { "type": "girl_small", "count": 1, "position": "center-bottom", "scale": 0.5 },
+        { "type": "man_happy", "count": 1, "position": "right-back", "scale": 0.6 }
+      ],
+      "background": "outdoor_3d", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh26", "startFrame": 2940, "endFrame": 3120,
+      "text": "いや俺自販機に\nお礼なんて\n考えた事ねぇ！",
+      "narration": "いや俺自販機にお礼なんて考えた事ねぇ！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_tsukkomi", "count": 1, "position": "center-bottom", "scale": 1.1 }
+      ],
+      "background": "concentration_lines_red", "effect": "concentration_lines",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.08 }
+    },
+    {
+      "id": "sh27", "startFrame": 3120, "endFrame": 3300,
+      "text": "マジで癒された\nぜぇええ！",
+      "narration": "マジで癒されたぜぇええ！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_moved", "count": 1, "position": "center-bottom", "scale": 0.9 }
+      ],
+      "background": "sparkle_pastel_gradient", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh28", "startFrame": 3300, "endFrame": 3516,
+      "text": "マジで癒された\nぜぇええ！",
+      "narration": "",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_moved", "count": 1, "position": "center-bottom", "scale": 0.9 }
+      ],
+      "background": "sparkle_pastel_gradient", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.05, "zoomTo": 1.08 }
+    }
+  ],
+  "imageRequirements": [
+    {
+      "id": "man_calm",
+      "description": "青いセーターの男性、穏やかな表情、目を閉じている、いらすとや風",
+      "searchKeywords": ["穏やかな男性", "calm man illustration"],
+      "usedInShots": ["sh01", "sh06"]
+    },
+    {
+      "id": "man_neutral",
+      "description": "青いセーターの男性、普通の表情、正面向き、いらすとや風",
+      "searchKeywords": ["普通の男性", "neutral man illustration"],
+      "usedInShots": ["sh02", "sh07"]
+    },
+    {
+      "id": "man_side_view",
+      "description": "青いセーターの男性、横顔、いらすとや風",
+      "searchKeywords": ["男性横顔", "man side profile illustration"],
+      "usedInShots": ["sh03", "sh10"]
+    },
+    {
+      "id": "man_thinking",
+      "description": "青いセーターの男性、考えている表情、いらすとや風",
+      "searchKeywords": ["考える男性", "thinking man illustration"],
+      "usedInShots": ["sh05"]
+    },
+    {
+      "id": "man_surprised",
+      "description": "青いセーターの男性、驚き顔、口を開けている、いらすとや風",
+      "searchKeywords": ["驚く男性", "surprised man illustration"],
+      "usedInShots": ["sh09"]
+    },
+    {
+      "id": "man_happy",
+      "description": "青いセーターの男性、嬉しそうな表情、目を閉じている、いらすとや風",
+      "searchKeywords": ["嬉しい男性", "happy man illustration"],
+      "usedInShots": ["sh12", "sh15"]
+    },
+    {
+      "id": "man_impressed",
+      "description": "青いセーターの男性、感心した表情、目を閉じ頷いている、いらすとや風",
+      "searchKeywords": ["感心する男性", "impressed man illustration"],
+      "usedInShots": ["sh21"]
+    },
+    {
+      "id": "man_moved",
+      "description": "青いセーターの男性、感動した表情、目を閉じている、癒されている、いらすとや風",
+      "searchKeywords": ["癒される男性", "moved man illustration"],
+      "usedInShots": ["sh11", "sh27", "sh28"]
+    },
+    {
+      "id": "man_tsukkomi",
+      "description": "青いセーターの男性、ツッコミ表情、驚き+笑い、アップショット、いらすとや風",
+      "searchKeywords": ["ツッコミ男性", "reacting man illustration"],
+      "usedInShots": ["sh26"]
+    },
+    {
+      "id": "woman_back_view",
+      "description": "茶髪の女性（お姉さん）、後ろ姿、ミニスカート、いらすとや風",
+      "searchKeywords": ["女性後ろ姿", "woman back view illustration"],
+      "usedInShots": ["sh04"]
+    },
+    {
+      "id": "woman_worried",
+      "description": "茶髪の女性、心配そうな表情、横顔、いらすとや風",
+      "searchKeywords": ["心配な女性", "worried woman illustration"],
+      "usedInShots": ["sh08"]
+    },
+    {
+      "id": "mother_smiling",
+      "description": "ピンク服の母親、黒髪、笑顔、優しい表情、いらすとや風",
+      "searchKeywords": ["お母さん笑顔", "smiling mother illustration"],
+      "usedInShots": ["sh14", "sh16", "sh20", "sh25"]
+    },
+    {
+      "id": "mother_with_purse",
+      "description": "ピンク服の母親、がま口財布を持っている、笑顔、いらすとや風",
+      "searchKeywords": ["お母さん財布", "mother with purse illustration"],
+      "usedInShots": ["sh18"]
+    },
+    {
+      "id": "mother_gentle",
+      "description": "ピンク服の母親、優しい表情、目を閉じている、いらすとや風",
+      "searchKeywords": ["優しいお母さん", "gentle mother illustration"],
+      "usedInShots": ["sh19"]
+    },
+    {
+      "id": "mother_standing",
+      "description": "ピンク服の母親、全身立ち姿、いらすとや風",
+      "searchKeywords": ["お母さん立ち姿", "mother standing illustration"],
+      "usedInShots": ["sh22"]
+    },
+    {
+      "id": "girl_small",
+      "description": "赤い服の女の子、黒髪リボン付き、小さい子供、いらすとや風",
+      "searchKeywords": ["女の子", "little girl illustration"],
+      "usedInShots": ["sh14", "sh25"]
+    },
+    {
+      "id": "girl_waving",
+      "description": "赤い服の女の子、リボン付き、手を振っている、満面の笑み、アップ、いらすとや風",
+      "searchKeywords": ["手を振る女の子", "girl waving illustration"],
+      "usedInShots": ["sh17"]
+    },
+    {
+      "id": "girl_happy",
+      "description": "赤い服の女の子、リボン付き、嬉しそう、全身、いらすとや風",
+      "searchKeywords": ["嬉しい女の子", "happy girl illustration"],
+      "usedInShots": ["sh22"]
+    },
+    {
+      "id": "girl_thanking_sparkle",
+      "description": "赤い服の女の子、リボン付き、お辞儀+笑顔、キラキラ、アップ、いらすとや風",
+      "searchKeywords": ["お礼する女の子", "girl thanking illustration"],
+      "usedInShots": ["sh24"]
+    },
+    {
+      "id": "bg_warm_gradient_yellow",
+      "description": "暖色グラデーション背景、黄色系、導入用",
+      "searchKeywords": ["黄色グラデーション", "warm yellow gradient"],
+      "usedInShots": ["sh01"]
+    },
+    {
+      "id": "bg_hallway_3d",
+      "description": "マンション廊下、3D風レンダリング、夕方の照明",
+      "searchKeywords": ["マンション廊下", "apartment hallway 3d"],
+      "usedInShots": ["sh02", "sh06", "sh09"]
+    },
+    {
+      "id": "bg_elevator_hallway_3d",
+      "description": "エレベーターホール、3D風、マンション内部",
+      "searchKeywords": ["エレベーターホール", "elevator lobby 3d"],
+      "usedInShots": ["sh03", "sh07"]
+    },
+    {
+      "id": "bg_elevator_door_3d",
+      "description": "エレベータードア正面、3D風、開いた状態",
+      "searchKeywords": ["エレベータードア", "elevator door 3d"],
+      "usedInShots": ["sh04"]
+    },
+    {
+      "id": "bg_elevator_door_closing_3d",
+      "description": "エレベータードア、閉まりかけ、3D風",
+      "searchKeywords": ["エレベーター閉まる", "elevator closing 3d"],
+      "usedInShots": ["sh08", "sh10"]
+    },
+    {
+      "id": "bg_bookstore_3d",
+      "description": "書店内部、本棚、3D風レンダリング、暖色照明",
+      "searchKeywords": ["書店内部", "bookstore interior 3d"],
+      "usedInShots": ["sh12", "sh13", "sh14", "sh15", "sh16", "sh18"]
+    },
+    {
+      "id": "bg_vending_machine_outdoor_3d",
+      "description": "屋外の自動販売機、3D風、道路沿い",
+      "searchKeywords": ["自動販売機屋外", "outdoor vending machine 3d"],
+      "usedInShots": ["sh22", "sh25"]
+    },
+    {
+      "id": "bg_vending_machine_closeup_3d",
+      "description": "自動販売機アップ、飲料が並ぶ、3D風",
+      "searchKeywords": ["自販機アップ", "vending machine closeup 3d"],
+      "usedInShots": ["sh23"]
+    },
+    {
+      "id": "bg_outdoor_3d",
+      "description": "屋外、道路、青空、3D風",
+      "searchKeywords": ["屋外道路", "outdoor street 3d"],
+      "usedInShots": ["sh24"]
+    },
+    {
+      "id": "bg_vortex_blue_purple",
+      "description": "青紫渦巻きエフェクト背景、不安/混乱表現",
+      "searchKeywords": ["渦巻き背景", "spiral vortex background"],
+      "usedInShots": ["sh05"]
+    },
+    {
+      "id": "bg_vortex_purple_dark",
+      "description": "暗い紫渦巻き背景、感心/考え込み",
+      "searchKeywords": ["暗い渦巻き", "dark purple vortex"],
+      "usedInShots": ["sh21"]
+    },
+    {
+      "id": "bg_sparkle_blue",
+      "description": "青いキラキラ放射光背景、感動表現",
+      "searchKeywords": ["キラキラ背景青", "blue sparkle radial"],
+      "usedInShots": ["sh11"]
+    },
+    {
+      "id": "bg_pink_sparkle",
+      "description": "ピンクキラキラ背景、可愛い/癒し表現",
+      "searchKeywords": ["ピンクキラキラ", "pink sparkle background"],
+      "usedInShots": ["sh17"]
+    },
+    {
+      "id": "bg_sparkle_green",
+      "description": "緑系キラキラ背景、温かい雰囲気",
+      "searchKeywords": ["緑キラキラ", "green sparkle background"],
+      "usedInShots": ["sh19"]
+    },
+    {
+      "id": "bg_concentration_lines_red",
+      "description": "赤い集中線背景、ツッコミ/衝撃表現",
+      "searchKeywords": ["集中線赤", "red concentration lines"],
+      "usedInShots": ["sh26"]
+    },
+    {
+      "id": "bg_sparkle_pastel_gradient",
+      "description": "パステルグラデーション+キラキラ、癒し最終カット",
+      "searchKeywords": ["パステルキラキラ", "pastel gradient sparkle"],
+      "usedInShots": ["sh27", "sh28"]
+    }
+  ]
+}

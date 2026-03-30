@@ -1,0 +1,149 @@
+{
+  "format": "2ch",
+  "videoTitle": "隣人ガチャ\n壁薄すぎアパート",
+  "meta": {
+    "maxDurationSec": 25
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "家賃3万の\nアパートに住んでる",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["アパート", "建物"],
+          "imageKeywordsEn": ["apartment building"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "隣の部屋から\n毎晩聞こえる",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男性", "耳"],
+          "imageKeywordsEn": ["man listening"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "ドンドンドン！\nドンドンドン！",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": ["太鼓", "音楽"],
+          "imageKeywordsEn": ["drum noise"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "深夜2時に\nドラムの練習すな",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["angry man night"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "管理会社に\n電話した",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["電話", "男性"],
+          "imageKeywordsEn": ["man phone call"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "注意しておきますね",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["女性", "電話"],
+          "imageKeywordsEn": ["woman phone"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "翌日",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["朝", "太陽"],
+          "imageKeywordsEn": ["morning sun"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "ジャカジャカ\nジャカジャカ！",
+          "emotion": "happy",
+          "effect": "shake",
+          "imageKeywords": ["ギター", "音楽"],
+          "imageKeywordsEn": ["guitar music"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "ギターに\n変えただけ！！",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["shocked man"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "楽器をやめろって\n言ったのに",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["furious man"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "壁ドンしたら",
+          "emotion": "anger",
+          "effect": "none",
+          "imageKeywords": ["拳", "壁"],
+          "imageKeywordsEn": ["fist wall"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "いいリズム感\nだね！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男性", "親指"],
+          "imageKeywordsEn": ["thumbs up man"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "褒められた",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["驚く", "男の子"],
+          "imageKeywordsEn": ["dumbfounded boy"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "引っ越し費用\n貯め始めた模様",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["貯金箱", "お金"],
+          "imageKeywordsEn": ["piggy bank"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "家賃3万の闇www",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["女の子", "笑う"],
+          "imageKeywordsEn": ["laughing girl"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        }
+      ]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

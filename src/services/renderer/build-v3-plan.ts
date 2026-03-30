@@ -7,6 +7,7 @@ import { getVoicevoxConfig, getPexelsApiKey } from '../../utils/config'
 import { synthesize, parseWavDuration } from '../voicevox/index'
 import { fetchImage } from '../image/index'
 import { logger } from '../../utils/logger'
+import { wrapJapanese, wrapJapaneseAsync } from '../../utils/text-wrap'
 
 const FPS = 30
 // 全体尺予算 (59.5秒以内)
@@ -24,6 +25,9 @@ export async function buildV3Plan(
   script: Script,
   jobDir: string,
 ): Promise<VideoV3Config> {
+  // BudouX parserを確実に初期化（ESM環境でsync requireが失敗するため）
+  await wrapJapaneseAsync('init', 10)
+
   const { url, speaker, gain } = getVoicevoxConfig()
   const apiKey = getPexelsApiKey()
 
@@ -94,18 +98,8 @@ export async function buildV3Plan(
 
       logger.info(`[rank${item.rank}] per-step音声合成中`)
 
-      // spec v5: 最大7文字以内で改行、文脈区切り優先、2行以内
-      const topicLines: string[] = (() => {
-        const t = item.topic
-        if (t.length <= 7) return [t]
-        const breakChars = /[、。！？てにはがをもでのより]/
-        let breakIdx = -1
-        for (let k = Math.min(7, t.length) - 1; k >= 3; k--) {
-          if (breakChars.test(t[k])) { breakIdx = k + 1; break }
-        }
-        if (breakIdx < 0) breakIdx = Math.min(7, t.length)
-        return [t.slice(0, breakIdx), t.slice(breakIdx, breakIdx + 7)].filter(Boolean).slice(0, 2)
-      })()
+      // BudouX で自然な文節区切り (最大7文字/行, 2行以内)
+      const topicLines = wrapJapanese(item.topic, 7, 2)
 
       // 各ステップのテキスト
       const rankText = `第${item.rank}位`
@@ -184,37 +178,8 @@ export async function buildV3Plan(
   fs.writeFileSync(outroWavAbsPath, outroWavBuffer)
   logger.info(`  → outro: audio=${parseWavDuration(outroWavBuffer).toFixed(2)}s`)
 
-  // intro行: タイトルをバランス分割 (最大4行, idealLen ±2 で自然区切り探索)
-  function splitTitleToLines(title: string, maxChars = 7, maxLines = 4): string[] {
-    const text = title.replace(/\s+/g, '')  // 空白除去
-    if (text.length <= maxChars) return [text]
-
-    const numLines = Math.min(maxLines, Math.ceil(text.length / maxChars))
-    const idealLen = Math.ceil(text.length / numLines)
-    // タイトル用: 助詞・句読点で自然に区切る (て は除外: 短すぎる分割を防止)
-    const breakChars = /[、。！？にはがをもでのよりい]/
-
-    const lines: string[] = []
-    let pos = 0
-
-    for (let i = 0; i < numLines - 1 && pos < text.length; i++) {
-      const target = pos + idealLen
-      if (target >= text.length) break
-      // target ±2 の範囲で breakChar を探索 (target に近い方を優先)
-      let bestBreak = -1
-      const lo = Math.max(target - 2, pos + 2)
-      const hi = Math.min(target + 1, text.length - 1)
-      for (let k = hi; k >= lo; k--) {
-        if (breakChars.test(text[k])) { bestBreak = k + 1; break }
-      }
-      const breakAt = bestBreak > 0 ? bestBreak : target
-      lines.push(text.slice(pos, breakAt))
-      pos = breakAt
-    }
-    if (pos < text.length) lines.push(text.slice(pos))
-    return lines
-  }
-  const titleLines = splitTitleToLines(script.videoTitle)
+  // intro行: BudouX で文節単位の自然改行 (最大4行, 1行7文字目安)
+  const titleLines = wrapJapanese(script.videoTitle, 7, 4)
   const styles = ['introBlack', 'introRed', 'introRed', 'introBlack'] as const
   const introLines = titleLines.map((text, i) => ({ text, style: styles[i % styles.length] }))
 

@@ -18,16 +18,10 @@ interface RankingSceneProps {
   theme: V3Theme
 }
 
+import { wrapJapaneseToString } from '../../../utils/text-wrap'
+
 function formatComment(text: string, charsPerLine = 10): string {
-  if (text.length <= charsPerLine) return text
-  // 自然区切り優先 (、。！？てにはがをもでのより) — build-v3-plan.ts の topicLines と同ロジック
-  const breakChars = /[、。！？てにはがをもでのより]/
-  let breakIdx = -1
-  for (let k = Math.min(charsPerLine, text.length) - 1; k >= 3; k--) {
-    if (breakChars.test(text[k])) { breakIdx = k + 1; break }
-  }
-  if (breakIdx < 0) breakIdx = charsPerLine
-  return [text.slice(0, breakIdx), text.slice(breakIdx, breakIdx + charsPerLine)].filter(Boolean).slice(0, 2).join('\n')
+  return wrapJapaneseToString(text, charsPerLine, 2)
 }
 
 export const RankingScene: React.FC<RankingSceneProps> = ({ scene, theme }) => {

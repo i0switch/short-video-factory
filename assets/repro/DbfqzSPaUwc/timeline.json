@@ -1,0 +1,465 @@
+{
+  "videoId": "DbfqzSPaUwc",
+  "title": "笑える迷言集〜誕生日ケーキ〜",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 57.8,
+  "totalFrames": 3468,
+  "seriesTitle": "笑える迷言集",
+  "episodeTitle": "誕生日ケーキ",
+  "titleBand": {
+    "line1": "笑える迷言集",
+    "line2": "誕生日ケーキ",
+    "backgroundColor": "#000000",
+    "textColor": "#FFE000",
+    "strokeColor": "#000000",
+    "strokeWidth": 4,
+    "height": 280
+  },
+  "shots": [
+    {
+      "id": "sh01", "startFrame": 0, "endFrame": 120,
+      "text": "家帰って冷蔵庫開けたら",
+      "narration": "家帰って冷蔵庫開けたら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_normal", "count": 1, "position": "center-bottom", "scale": 0.9 }
+      ],
+      "background": "kitchen_dark", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh02", "startFrame": 120, "endFrame": 200,
+      "text": "あれ！？なにこれ…",
+      "narration": "あれ！？なにこれ…",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_shocked", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "background": "vortex_purple", "effect": "vortex",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh03", "startFrame": 200, "endFrame": 360,
+      "text": "買った覚えのないケーキ箱発見",
+      "narration": "買った覚えのないケーキ箱発見",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_normal", "count": 1, "position": "right-bottom", "scale": 0.6 }
+      ],
+      "props": ["cake_box"],
+      "background": "kitchen_fridge", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh04", "startFrame": 360, "endFrame": 480,
+      "text": "いやけど誕生日誰もいねぇよな？",
+      "narration": "いやけど誕生日誰もいねぇよな？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_confused", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "mangaSymbol": "sweat",
+      "background": "kitchen_dark", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh05", "startFrame": 480, "endFrame": 540,
+      "text": "って思いつつ中を見ると",
+      "narration": "って思いつつ中を見ると",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_normal", "count": 1, "position": "right-bottom", "scale": 0.6 }
+      ],
+      "props": ["cake_box"],
+      "background": "kitchen_hallway", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh06", "startFrame": 540, "endFrame": 660,
+      "text": "ハッピーバースデー私！",
+      "narration": "ハッピーバースデー私！",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["birthday_cake"],
+      "background": "sunburst_yellow", "effect": "concentration_lines",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh07", "startFrame": 660, "endFrame": 780,
+      "text": "って書かれた誕生日ケーキ",
+      "narration": "って書かれた誕生日ケーキ",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_normal", "count": 1, "position": "right-bottom", "scale": 0.6 }
+      ],
+      "props": ["birthday_cake"],
+      "background": "kitchen_dark", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh08", "startFrame": 780, "endFrame": 900,
+      "text": "ん！？え！？私！？ん！？",
+      "narration": "ん！？え！？私！？ん！？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_shocked", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "props": ["birthday_cake"],
+      "mangaSymbol": "!?",
+      "background": "vortex_purple", "effect": "vortex",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.08 }
+    },
+    {
+      "id": "sh09", "startFrame": 900, "endFrame": 1020,
+      "text": "って困惑してたら",
+      "narration": "って困惑してたら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_confused", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "props": ["birthday_cake"],
+      "mangaSymbol": "sweat",
+      "background": "kitchen_living", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh10", "startFrame": 1020, "endFrame": 1110,
+      "text": "あ！帰ってたの！？おかえりぃぃぃ！",
+      "narration": "あ！帰ってたの！？おかえりぃぃぃ！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_happy", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh11", "startFrame": 1110, "endFrame": 1200,
+      "text": "風呂上がりの妻がニッコニコで声かけてきて",
+      "narration": "風呂上がりの妻がニッコニコで声かけてきて",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "wife_happy", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "husband_normal", "count": 1, "position": "right-bottom", "scale": 0.7 }
+      ],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh12", "startFrame": 1200, "endFrame": 1290,
+      "text": "あ！それ今から食べよ！",
+      "narration": "あ！それ今から食べよ！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_excited", "count": 1, "position": "left", "scale": 0.8 }
+      ],
+      "props": ["birthday_cake"],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh13", "startFrame": 1290, "endFrame": 1380,
+      "text": "もう私の楽しみにしてたんだぁぁぁ！",
+      "narration": "もう私の楽しみにしてたんだぁぁぁ！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_overjoyed", "count": 1, "position": "center", "scale": 1.2 }
+      ],
+      "mangaSymbol": "sparkle",
+      "background": "sunburst_pink", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh14", "startFrame": 1380, "endFrame": 1470,
+      "text": "ってやっぱ妻のケーキだったので",
+      "narration": "ってやっぱ妻のケーキだったので",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "wife_happy", "count": 1, "position": "center", "scale": 0.9 },
+        { "type": "husband_normal", "count": 1, "position": "right-bottom", "scale": 0.6 }
+      ],
+      "props": ["birthday_cake"],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh15", "startFrame": 1470, "endFrame": 1560,
+      "text": "じゃあ僕が準備するから主役は座ってて",
+      "narration": "じゃあ僕が準備するから主役は座ってて",
+      "speaker": "character1",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 1.0 },
+        { "type": "wife_happy", "count": 1, "position": "left-bottom", "scale": 0.5 }
+      ],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh16", "startFrame": 1560, "endFrame": 1620,
+      "text": "いいの！？やったぁぁぁぁ！",
+      "narration": "いいの！？やったぁぁぁぁ！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_overjoyed", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "background": "concentration_lines_blue", "effect": "concentration_lines",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh17", "startFrame": 1620, "endFrame": 1710,
+      "text": "って飲み物に皿準備して",
+      "narration": "って飲み物に皿準備して",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["drinks", "plates"],
+      "background": "dining_table", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh18", "startFrame": 1710, "endFrame": 1800,
+      "text": "一応ろうそくあったから",
+      "narration": "一応ろうそくあったから",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["candles"],
+      "background": "kitchen_dark", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh19", "startFrame": 1800, "endFrame": 1860,
+      "text": "ケーキにさして",
+      "narration": "ケーキにさして",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["birthday_cake_candles"],
+      "background": "kitchen_shelf", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh20", "startFrame": 1860, "endFrame": 1980,
+      "text": "ハッピーバースディートゥーユー",
+      "narration": "ハッピーバースディートゥーユー",
+      "speaker": "character1",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "props": ["birthday_cake_candles"],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh21", "startFrame": 1980, "endFrame": 2100,
+      "text": "ハッピーバースディートゥーユーディア嫁子〜",
+      "narration": "ハッピーバースディートゥーユーディア嫁子〜",
+      "speaker": "character1",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "props": ["birthday_cake_candles"],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh22", "startFrame": 2100, "endFrame": 2220,
+      "text": "いえーい！ありがとぉおおおお！",
+      "narration": "いえーい！ありがとぉおおおお！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_overjoyed", "count": 1, "position": "center", "scale": 1.2 }
+      ],
+      "background": "concentration_lines_blue", "effect": "concentration_lines",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh23", "startFrame": 2220, "endFrame": 2340,
+      "text": "って全然誕生日でもなかったけど",
+      "narration": "って全然誕生日でもなかったけど",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 0.9 },
+        { "type": "wife_happy", "count": 1, "position": "left-bottom", "scale": 0.5 }
+      ],
+      "props": ["birthday_cake_candles"],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh24", "startFrame": 2340, "endFrame": 2460,
+      "text": "ノリノリで一緒にケーキを食べた",
+      "narration": "ノリノリで一緒にケーキを食べた",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "wife_eating", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["cake_slice"],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh25", "startFrame": 2460, "endFrame": 2580,
+      "text": "妻ならそうして欲しいかなって",
+      "narration": "妻ならそうして欲しいかなって",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh26", "startFrame": 2580, "endFrame": 2640,
+      "text": "なんで誕生日ケーキか気にならないの？",
+      "narration": "なんで誕生日ケーキか気にならないの？",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_confused", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "mangaSymbol": "?",
+      "background": "vortex_purple", "effect": "vortex",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh27", "startFrame": 2640, "endFrame": 2700,
+      "text": "って聞いたので",
+      "narration": "って聞いたので",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "wife_confused", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh28", "startFrame": 2700, "endFrame": 2820,
+      "text": "お祝い事に理由とか要らなくない？",
+      "narration": "お祝い事に理由とか要らなくない？",
+      "speaker": "character1",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "mangaSymbol": "?",
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh29", "startFrame": 2820, "endFrame": 2880,
+      "text": "って言ったら",
+      "narration": "って言ったら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "mangaSymbol": "?",
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh30", "startFrame": 2880, "endFrame": 2940,
+      "text": "私さ、仕事できなくて",
+      "narration": "私さ、仕事できなくて",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_sad", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "husband_normal", "count": 1, "position": "right-bottom", "scale": 0.6 }
+      ],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh31", "startFrame": 2940, "endFrame": 3000,
+      "text": "そしたら俊君が仕事に言ってる間",
+      "narration": "そしたら俊君が仕事に言ってる間",
+      "speaker": "character2",
+      "characters": [
+        { "type": "husband_energetic", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "wife_normal", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "hallway", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh32", "startFrame": 3000, "endFrame": 3060,
+      "text": "誰とも話さないんだ",
+      "narration": "誰とも話さないんだ",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_depressed", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "rain_purple", "effect": "rain",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh33", "startFrame": 3060, "endFrame": 3120,
+      "text": "それが辛くて今日散歩行ったらさ",
+      "narration": "それが辛くて今日散歩行ったらさ",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_sad", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "street_outside", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh34", "startFrame": 3120, "endFrame": 3180,
+      "text": "なんか誰かに祝ってもらいたいって言うか…",
+      "narration": "なんか誰かに祝ってもらいたいって言うか…",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_sad", "count": 1, "position": "left-bottom", "scale": 0.5 }
+      ],
+      "background": "patisserie_shop", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh35", "startFrame": 3180, "endFrame": 3240,
+      "text": "なんかそんな感じ！",
+      "narration": "なんかそんな感じ！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_happy", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "husband_normal", "count": 1, "position": "right-bottom", "scale": 0.6 }
+      ],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh36", "startFrame": 3240, "endFrame": 3330,
+      "text": "明日から頑張るから！ありがとね！",
+      "narration": "明日から頑張るから！ありがとね！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "wife_overjoyed", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "mangaSymbol": "sparkle",
+      "background": "sunburst_yellow", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh37", "startFrame": 3330, "endFrame": 3390,
+      "text": "いつでもお祝い事大歓迎だよ",
+      "narration": "いつでもお祝い事大歓迎だよ",
+      "speaker": "character1",
+      "characters": [
+        { "type": "husband_smiling", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "mangaSymbol": "concentration_lines",
+      "background": "living_room", "effect": "concentration_lines",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh38", "startFrame": 3390, "endFrame": 3468,
+      "text": "って翌日朝も2人で胸やけしながら残りのケーキを食べた",
+      "narration": "って翌日朝も2人で胸やけしながら残りのケーキを食べた",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "wife_eating", "count": 1, "position": "left", "scale": 0.7 }
+      ],
+      "props": ["cake_slice"],
+      "background": "living_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "fps": 30,
+  "totalFrames": 5373,
+  "seriesTitle": "スカッと迷言集",
+  "episodeTitle": "会計よろしく",
+  "titleColor": "#FF0000",
+  "captionColor": "#FF0000",
+  "episodes": [
+    { "title": "会計よろしく", "startFrame": 0, "endFrame": 1829 },
+    { "title": "彼女を紹介", "startFrame": 1830, "endFrame": 3629 },
+    { "title": "子供好き", "startFrame": 3630, "endFrame": 5372 }
+  ],
+  "shots": [
+    {
+      "id": "sh1", "startFrame": 0, "endFrame": 41,
+      "background": { "src": "scene_01.jpg", "type": "woman_smartphone_livingroom" },
+      "caption": { "text": "日曜日\n義母から", "fontSize": 72, "top": 580, "left": 60, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh2", "startFrame": 42, "endFrame": 83,
+      "background": { "src": "scene_02.jpg", "type": "elderly_woman_smiling_yellow_bg" },
+      "caption": { "text": "今日ランチ\nでもどう？\n義妹も一緒よ", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh3", "startFrame": 84, "endFrame": 125,
+      "background": { "src": "scene_03.jpg", "type": "woman_restaurant_interior" },
+      "caption": { "text": "店に着くと", "fontSize": 80, "top": 580, "left": 60, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh4", "startFrame": 126, "endFrame": 167,
+      "background": { "src": "scene_04.jpg", "type": "two_women_restaurant" },
+      "caption": { "text": "あ、来た来た！", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh5", "startFrame": 168, "endFrame": 209,
+      "background": { "src": "scene_05.jpg", "type": "two_women_restaurant_talking" },
+      "caption": { "text": "お手洗い\n行ってくるわ", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh6", "startFrame": 210, "endFrame": 251,
+      "background": { "src": "scene_06.jpg", "type": "elderly_woman_restaurant" },
+      "caption": { "text": "私も〜", "fontSize": 80, "top": 520, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh7", "startFrame": 252, "endFrame": 293,
+      "background": { "src": "scene_07.jpg", "type": "worried_woman_vortex_bg" },
+      "caption": { "text": "いつまで経っても\n帰ってこない…", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "confusion",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh8", "startFrame": 294, "endFrame": 335,
+      "background": { "src": "scene_08.jpg", "type": "woman_looking_at_phone" },
+      "caption": { "text": "LINEも\n既読無視", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh9", "startFrame": 336, "endFrame": 377,
+      "background": { "src": "scene_09.jpg", "type": "waiter_bill_restaurant" },
+      "caption": { "text": "お会計\n4800円になります", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh10", "startFrame": 378, "endFrame": 419,
+      "background": { "src": "scene_10.jpg", "type": "shocked_woman_yellow_bg" },
+      "caption": { "text": "え？3人分を\n私が…？", "fontSize": 80, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh11", "startFrame": 420, "endFrame": 461,
+      "background": { "src": "scene_11.jpg", "type": "woman_paying_restaurant" },
+      "caption": { "text": "強制おごりは\nこれだけに留まらず", "fontSize": 64, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh12", "startFrame": 462, "endFrame": 503,
+      "background": { "src": "scene_12.jpg", "type": "smirking_elderly_woman_vortex" },
+      "caption": { "text": "あら〜\n財布忘れちゃった", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh13", "startFrame": 504, "endFrame": 545,
+      "background": { "src": "scene_13.jpg", "type": "smirking_young_woman_vortex" },
+      "caption": { "text": "今日カード\n持ってないや〜", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh14", "startFrame": 546, "endFrame": 587,
+      "background": { "src": "scene_14.jpg", "type": "woman_frustrated_wallet" },
+      "caption": { "text": "もうトータル\n10万以上\n奢らされてる", "fontSize": 64, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh15", "startFrame": 588, "endFrame": 629,
+      "background": { "src": "scene_15.jpg", "type": "couple_discussing" },
+      "caption": { "text": "旦那に相談すると", "fontSize": 72, "top": 520, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh16", "startFrame": 630, "endFrame": 671,
+      "background": { "src": "scene_16.jpg", "type": "angry_man_concentration_lines" },
+      "caption": { "text": "ふざけんな！\n文句言ってくる！", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh17", "startFrame": 672, "endFrame": 713,
+      "background": { "src": "scene_17.jpg", "type": "angry_elderly_woman_red_bg" },
+      "caption": { "text": "なによ！家族なん\nだからいいでしょ！", "fontSize": 64, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh18", "startFrame": 714, "endFrame": 755,
+      "background": { "src": "scene_18.jpg", "type": "angry_young_woman_red_bg" },
+      "caption": { "text": "稼いでるんでしょ？\nケチくさい嫁ね！", "fontSize": 64, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh19", "startFrame": 756, "endFrame": 797,
+      "background": { "src": "scene_19.jpg", "type": "sad_couple_dark_bg" },
+      "caption": { "text": "ダメだ…やっぱり\n聞く耳持たない", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "sad",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh20", "startFrame": 798, "endFrame": 839,
+      "background": { "src": "scene_20.jpg", "type": "frustrated_woman_vortex" },
+      "caption": { "text": "さすがに\n舐められすぎて", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "confusion",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh21", "startFrame": 840, "endFrame": 881,
+      "background": { "src": "scene_21.jpg", "type": "angry_woman_red_bg" },
+      "caption": { "text": "堪忍袋爆発", "fontSize": 100, "top": 520, "left": 180, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh22", "startFrame": 882, "endFrame": 923,
+      "background": { "src": "scene_22.jpg", "type": "two_women_planning" },
+      "caption": { "text": "翌日\n罠を張る", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh23", "startFrame": 924, "endFrame": 965,
+      "background": { "src": "scene_23.jpg", "type": "two_women_talking_home" },
+      "caption": { "text": "この前会社から\n臨時ボーナス\n出たんですよ〜", "fontSize": 56, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh24", "startFrame": 966, "endFrame": 1007,
+      "background": { "src": "scene_24.jpg", "type": "excited_elderly_woman_sparkle" },
+      "caption": { "text": "あら！いくら？", "fontSize": 80, "top": 520, "left": 100, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh25", "startFrame": 1008, "endFrame": 1049,
+      "background": { "src": "scene_25.jpg", "type": "woman_talking_home" },
+      "caption": { "text": "50万円も\n出たんです！", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh26", "startFrame": 1050, "endFrame": 1091,
+      "background": { "src": "scene_26.jpg", "type": "two_women_talking_home" },
+      "caption": { "text": "また美味しいもの\n食べ行きたい\nですね〜", "fontSize": 64, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh27", "startFrame": 1092, "endFrame": 1132,
+      "background": { "src": "scene_27.jpg", "type": "excited_elderly_woman_sparkle" },
+      "caption": { "text": "今度は高級店\n行きたい！", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh28", "startFrame": 1133, "endFrame": 1173,
+      "background": { "src": "scene_28.jpg", "type": "calendar_transition" },
+      "caption": { "text": "数日後", "fontSize": 100, "top": 540, "left": 300, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh29", "startFrame": 1174, "endFrame": 1214,
+      "background": { "src": "scene_29.jpg", "type": "smirking_elderly_woman_vortex" },
+      "caption": { "text": "土曜日の夜\nご飯一緒にどう？", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh30", "startFrame": 1215, "endFrame": 1255,
+      "background": { "src": "scene_30.jpg", "type": "night_scene" },
+      "caption": { "text": "そして土曜日の夜", "fontSize": 72, "top": 520, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh31", "startFrame": 1256, "endFrame": 1296,
+      "background": { "src": "scene_31.jpg", "type": "phone_notifications_shock" },
+      "caption": { "text": "義母たちから鬼ライン", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh32", "startFrame": 1297, "endFrame": 1337,
+      "background": { "src": "scene_32.jpg", "type": "angry_elderly_woman_concentration" },
+      "caption": { "text": "なんで来ないの！\nもう予約時間よ！", "fontSize": 64, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh33", "startFrame": 1338, "endFrame": 1378,
+      "background": { "src": "scene_33.jpg", "type": "angry_young_woman_concentration" },
+      "caption": { "text": "早く来なさいよ！", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh34", "startFrame": 1379, "endFrame": 1419,
+      "background": { "src": "scene_34.jpg", "type": "phone_airplane_mode" },
+      "caption": { "text": "機内モードに\n切り替えて無視", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh35", "startFrame": 1420, "endFrame": 1460,
+      "background": { "src": "scene_35.jpg", "type": "couple_hawaii_beach" },
+      "caption": { "text": "ハワイ楽しみだね！", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh36", "startFrame": 1461, "endFrame": 1501,
+      "background": { "src": "scene_36.jpg", "type": "couple_hawaii_happy" },
+      "caption": { "text": "いやー最高だね！", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh37", "startFrame": 1502, "endFrame": 1542,
+      "background": { "src": "scene_37.jpg", "type": "man_phone_call" },
+      "caption": { "text": "翌日義父から連絡", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh38", "startFrame": 1543, "endFrame": 1583,
+      "background": { "src": "scene_38.jpg", "type": "shocked_women_restaurant" },
+      "caption": { "text": "義母と義妹が\n食い逃げで\n捕まったらしい", "fontSize": 64, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh39", "startFrame": 1584, "endFrame": 1624,
+      "background": { "src": "scene_39.jpg", "type": "couple_discussing_serious" },
+      "caption": { "text": "これを機に\n離婚するみたい", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh40", "startFrame": 1625, "endFrame": 1665,
+      "background": { "src": "scene_40.jpg", "type": "man_determined" },
+      "caption": { "text": "父さんやっと\n決心してくれたな", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh41", "startFrame": 1666, "endFrame": 1706,
+      "background": { "src": "scene_41.jpg", "type": "couple_beach_overseas" },
+      "caption": { "text": "私たちも\n海外旅行から\n帰ったら", "fontSize": 72, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh42", "startFrame": 1707, "endFrame": 1747,
+      "background": { "src": "scene_42.jpg", "type": "woman_happy_new_start" },
+      "caption": { "text": "新天地に引っ越しね", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh43", "startFrame": 1748, "endFrame": 1788,
+      "background": { "src": "scene_43.jpg", "type": "shocked_women_vortex" },
+      "caption": { "text": "あの2人は\n寄生先いなくなって", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "confusion",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh44", "startFrame": 1789, "endFrame": 1829,
+      "background": { "src": "scene_44.jpg", "type": "women_worried_dark" },
+      "caption": { "text": "これから\nどうするんだろう？", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh45", "startFrame": 1830, "endFrame": 1929,
+      "background": { "src": "scene_45.jpg", "type": "man_introducing_woman_restaurant" },
+      "caption": { "text": "タケシ！\n紹介するよ\n婚約者の美咲", "fontSize": 64, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh46", "startFrame": 1930, "endFrame": 2029,
+      "background": { "src": "scene_46.jpg", "type": "woman_greeting_sparkle" },
+      "caption": { "text": "初めまして", "fontSize": 80, "top": 520, "left": 200, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh47", "startFrame": 2030, "endFrame": 2129,
+      "background": { "src": "scene_47.jpg", "type": "shocked_man_blue_bg_rain" },
+      "caption": { "text": "タケシの顔が\n一瞬で真っ青に", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh48", "startFrame": 2130, "endFrame": 2229,
+      "background": { "src": "scene_48.jpg", "type": "smiling_man_restaurant" },
+      "caption": { "text": "おいおい\n美人すぎて\n固まったか？ｗ", "fontSize": 64, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh49", "startFrame": 2230, "endFrame": 2329,
+      "background": { "src": "scene_49.jpg", "type": "man_sad_forced_smile" },
+      "caption": { "text": "あ、いや…\nおめでとう", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "sad",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh50", "startFrame": 2330, "endFrame": 2429,
+      "background": { "src": "scene_50.jpg", "type": "man_phone_call_room" },
+      "caption": { "text": "3日後\nタケシから呼び出し", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh51", "startFrame": 2430, "endFrame": 2529,
+      "background": { "src": "scene_51.jpg", "type": "man_sad_speaking" },
+      "caption": { "text": "イッチ…\n言いにくいんだけど", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "sad",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh52", "startFrame": 2530, "endFrame": 2629,
+      "background": { "src": "scene_52.jpg", "type": "man_woman_classroom" },
+      "caption": { "text": "美咲さん実は\n高校の\n同級生なんだ", "fontSize": 64, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh53", "startFrame": 2630, "endFrame": 2729,
+      "background": { "src": "scene_53.jpg", "type": "angry_man_vortex" },
+      "caption": { "text": "俺、あいつに\nいじめられてた", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh54", "startFrame": 2730, "endFrame": 2829,
+      "background": { "src": "scene_54.jpg", "type": "boy_falling_stairs_vortex" },
+      "caption": { "text": "階段から落ちて\n怪我した子とか", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "confusion",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh55", "startFrame": 2830, "endFrame": 2929,
+      "background": { "src": "scene_55.jpg", "type": "sad_man_dark_bg" },
+      "caption": { "text": "親が社長だから\nもみ消されたんだ", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "sad",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh56", "startFrame": 2930, "endFrame": 3029,
+      "background": { "src": "scene_56.jpg", "type": "smirking_woman_vortex" },
+      "caption": { "text": "うちに示談金\nたかって来たのよ", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh57", "startFrame": 3030, "endFrame": 3129,
+      "background": { "src": "scene_57.jpg", "type": "woman_speaking_neutral" },
+      "caption": { "text": "イッチ君\n来てくれてありがとう", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh58", "startFrame": 3130, "endFrame": 3229,
+      "background": { "src": "scene_58.jpg", "type": "man_serious_face" },
+      "caption": { "text": "あいつが\nその同級生だよ", "fontSize": 80, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh59", "startFrame": 3230, "endFrame": 3329,
+      "background": { "src": "scene_59.jpg", "type": "angry_man_lightning" },
+      "caption": { "text": "言ったことと\n正反対だったよ", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh60", "startFrame": 3330, "endFrame": 3429,
+      "background": { "src": "scene_60.jpg", "type": "sad_man_temple" },
+      "caption": { "text": "君たちは俺の\n思ってるような\n人たちじゃなかった", "fontSize": 56, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "sad",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh61", "startFrame": 3430, "endFrame": 3529,
+      "background": { "src": "scene_61.jpg", "type": "man_newspaper_office" },
+      "caption": { "text": "過去の出来事を\n週刊誌にタレコミ", "fontSize": 72, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh62", "startFrame": 3530, "endFrame": 3629,
+      "background": { "src": "scene_62.jpg", "type": "two_men_friends_smiling" },
+      "caption": { "text": "大切な親友は\n失わなかった", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh63", "startFrame": 3630, "endFrame": 3754,
+      "background": { "src": "scene_63.jpg", "type": "pregnant_woman_sparkle" },
+      "caption": { "text": "付き合ってる\n彼女が妊娠", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "confusion",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh64", "startFrame": 3755, "endFrame": 3879,
+      "background": { "src": "scene_64.jpg", "type": "wedding_couple_surprise" },
+      "caption": { "text": "想定外の\n学生結婚", "fontSize": 80, "top": 480, "left": 100, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh65", "startFrame": 3880, "endFrame": 4004,
+      "background": { "src": "scene_65.jpg", "type": "father_baby_crying_night" },
+      "caption": { "text": "夜泣きで\n寝不足\nでも可愛い娘", "fontSize": 64, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh66", "startFrame": 4005, "endFrame": 4129,
+      "background": { "src": "scene_66.jpg", "type": "man_letter_table_shock" },
+      "caption": { "text": "テーブルに\n置き手紙", "fontSize": 80, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh67", "startFrame": 4130, "endFrame": 4254,
+      "background": { "src": "scene_67.jpg", "type": "father_baby_outside" },
+      "caption": { "text": "娘を\n育てることに", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "sad",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh68", "startFrame": 4255, "endFrame": 4379,
+      "background": { "src": "scene_68.jpg", "type": "family_baby_sparkle" },
+      "caption": { "text": "皆に愛されて\n育った娘は", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh69", "startFrame": 4380, "endFrame": 4504,
+      "background": { "src": "scene_69.jpg", "type": "man_phone_shock_lightning" },
+      "caption": { "text": "ある時\n元嫁から連絡", "fontSize": 80, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh70", "startFrame": 4505, "endFrame": 4628,
+      "background": { "src": "scene_70.jpg", "type": "angry_man_concentration" },
+      "caption": { "text": "離婚してるから\nもう家族じゃないよ", "fontSize": 64, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh71", "startFrame": 4629, "endFrame": 4752,
+      "background": { "src": "scene_71.jpg", "type": "man_showing_document_concentration" },
+      "caption": { "text": "離婚調停\n済みだよ", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh72", "startFrame": 4753, "endFrame": 4876,
+      "background": { "src": "scene_72.jpg", "type": "crying_woman_money_concentration" },
+      "caption": { "text": "離婚したなら\n財産分与は\nどうなるのよ！", "fontSize": 64, "top": 380, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh73", "startFrame": 4877, "endFrame": 5000,
+      "background": { "src": "scene_73.jpg", "type": "girl_hallway_sparkle" },
+      "caption": { "text": "パパー\n誰このおばちゃん？", "fontSize": 72, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "neutral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh74", "startFrame": 5001, "endFrame": 5124,
+      "background": { "src": "scene_74.jpg", "type": "angry_girl_concentration" },
+      "caption": { "text": "パパの悪口\n言わないで！", "fontSize": 80, "top": 480, "left": 40, "color": "#FF0000" },
+      "speaker": "character2", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh75", "startFrame": 5125, "endFrame": 5248,
+      "background": { "src": "scene_75.jpg", "type": "father_daughter_angry_concentration" },
+      "caption": { "text": "もう二度と\n来ないでください", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "character1", "emotion": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh76", "startFrame": 5249, "endFrame": 5372,
+      "background": { "src": "scene_76.jpg", "type": "father_daughter_happy_sparkle" },
+      "caption": { "text": "二度と会いに\n来れない\nようにした", "fontSize": 72, "top": 420, "left": 40, "color": "#FF0000" },
+      "speaker": "narrator", "emotion": "happy",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    }
+  ],
+  "cues": [
+    { "id": "c1", "type": "title_display", "frame": 0, "params": { "seriesTitle": "スカッと迷言集", "episodeTitle": "会計よろしく", "persistent": true, "titleColor": "#FF0000" } },
+    { "id": "c2", "type": "caption_change", "frame": 42, "params": { "text": "今日ランチでもどう？義妹も一緒よ" } },
+    { "id": "c3", "type": "caption_change", "frame": 84, "params": { "text": "店に着くと" } },
+    { "id": "c4", "type": "caption_change", "frame": 126, "params": { "text": "あ、来た来た！" } },
+    { "id": "c5", "type": "caption_change", "frame": 168, "params": { "text": "お手洗い行ってくるわ" } },
+    { "id": "c6", "type": "caption_change", "frame": 210, "params": { "text": "私も〜" } },
+    { "id": "c7", "type": "speaker_change", "frame": 252, "params": { "speaker": "character1", "text": "いつまで経っても帰ってこない…" } },
+    { "id": "c8", "type": "speaker_change", "frame": 294, "params": { "speaker": "narrator", "text": "LINEも既読無視" } },
+    { "id": "c9", "type": "speaker_change", "frame": 336, "params": { "speaker": "character2", "text": "お会計4800円になります" } },
+    { "id": "c10", "type": "speaker_change", "frame": 378, "params": { "speaker": "character1", "text": "え？3人分を私が…？" } },
+    { "id": "c11", "type": "speaker_change", "frame": 420, "params": { "speaker": "narrator", "text": "強制おごりはこれだけに留まらず" } },
+    { "id": "c12", "type": "speaker_change", "frame": 462, "params": { "speaker": "character2", "text": "あら〜財布忘れちゃった" } },
+    { "id": "c13", "type": "caption_change", "frame": 504, "params": { "text": "今日カード持ってないや〜" } },
+    { "id": "c14", "type": "speaker_change", "frame": 546, "params": { "speaker": "narrator", "text": "もうトータル10万以上奢らされてる" } },
+    { "id": "c15", "type": "caption_change", "frame": 588, "params": { "text": "旦那に相談すると" } },
+    { "id": "c16", "type": "speaker_change", "frame": 630, "params": { "speaker": "character1", "text": "ふざけんな！文句言ってくる！" } },
+    { "id": "c17", "type": "speaker_change", "frame": 672, "params": { "speaker": "character2", "text": "なによ！家族なんだからいいでしょ！" } },
+    { "id": "c18", "type": "caption_change", "frame": 714, "params": { "text": "稼いでるんでしょ？ケチくさい嫁ね！" } },
+    { "id": "c19", "type": "speaker_change", "frame": 756, "params": { "speaker": "narrator", "text": "ダメだ…やっぱり聞く耳持たない" } },
+    { "id": "c20", "type": "caption_change", "frame": 798, "params": { "text": "さすがに舐められすぎて" } },
+    { "id": "c21", "type": "caption_change", "frame": 840, "params": { "text": "堪忍袋爆発" } },
+    { "id": "c22", "type": "caption_change", "frame": 882, "params": { "text": "翌日罠を張る" } },
+    { "id": "c23", "type": "speaker_change", "frame": 924, "params": { "speaker": "character1", "text": "この前会社から臨時ボーナス出たんですよ〜" } },
+    { "id": "c24", "type": "speaker_change", "frame": 966, "params": { "speaker": "character2", "text": "あら！いくら？" } },
+    { "id": "c25", "type": "speaker_change", "frame": 1008, "params": { "speaker": "character1", "text": "50万円も出たんです！" } },
+    { "id": "c26", "type": "caption_change", "frame": 1050, "params": { "text": "また美味しいもの食べ行きたいですね〜" } },
+    { "id": "c27", "type": "speaker_change", "frame": 1092, "params": { "speaker": "character2", "text": "今度は高級店行きたい！" } },
+    { "id": "c28", "type": "speaker_change", "frame": 1133, "params": { "speaker": "narrator", "text": "数日後" } },
+    { "id": "c29", "type": "speaker_change", "frame": 1174, "params": { "speaker": "character2", "text": "土曜日の夜ご飯一緒にどう？" } },
+    { "id": "c30", "type": "speaker_change", "frame": 1215, "params": { "speaker": "narrator", "text": "そして土曜日の夜" } },
+    { "id": "c31", "type": "caption_change", "frame": 1256, "params": { "text": "義母たちから鬼ライン" } },
+    { "id": "c32", "type": "speaker_change", "frame": 1297, "params": { "speaker": "character2", "text": "なんで来ないの！もう予約時間よ！" } },
+    { "id": "c33", "type": "caption_change", "frame": 1338, "params": { "text": "早く来なさいよ！" } },
+    { "id": "c34", "type": "speaker_change", "frame": 1379, "params": { "speaker": "narrator", "text": "機内モードに切り替えて無視" } },
+    { "id": "c35", "type": "speaker_change", "frame": 1420, "params": { "speaker": "character1", "text": "ハワイ楽しみだね！" } },
+    { "id": "c36", "type": "caption_change", "frame": 1461, "params": { "text": "いやー最高だね！" } },
+    { "id": "c37", "type": "speaker_change", "frame": 1502, "params": { "speaker": "narrator", "text": "翌日義父から連絡" } },
+    { "id": "c38", "type": "caption_change", "frame": 1543, "params": { "text": "義母と義妹が食い逃げで捕まったらしい" } },
+    { "id": "c39", "type": "caption_change", "frame": 1584, "params": { "text": "これを機に離婚するみたい" } },
+    { "id": "c40", "type": "speaker_change", "frame": 1625, "params": { "speaker": "character1", "text": "父さんやっと決心してくれたな" } },
+    { "id": "c41", "type": "caption_change", "frame": 1666, "params": { "text": "私たちも海外旅行から帰ったら" } },
+    { "id": "c42", "type": "caption_change", "frame": 1707, "params": { "text": "新天地に引っ越しね" } },
+    { "id": "c43", "type": "speaker_change", "frame": 1748, "params": { "speaker": "narrator", "text": "あの2人は寄生先いなくなって" } },
+    { "id": "c44", "type": "caption_change", "frame": 1789, "params": { "text": "これからどうするんだろう？" } },
+    { "id": "c45", "type": "episode_change", "frame": 1830, "params": { "episodeTitle": "彼女を紹介" } },
+    { "id": "c46", "type": "speaker_change", "frame": 1830, "params": { "speaker": "character1", "text": "タケシ！紹介するよ婚約者の美咲" } },
+    { "id": "c47", "type": "speaker_change", "frame": 1930, "params": { "speaker": "character2", "text": "初めまして" } },
+    { "id": "c48", "type": "speaker_change", "frame": 2030, "params": { "speaker": "narrator", "text": "タケシの顔が一瞬で真っ青に" } },
+    { "id": "c49", "type": "speaker_change", "frame": 2130, "params": { "speaker": "character1", "text": "おいおい美人すぎて固まったか？ｗ" } },
+    { "id": "c50", "type": "caption_change", "frame": 2230, "params": { "text": "あ、いや…おめでとう" } },
+    { "id": "c51", "type": "speaker_change", "frame": 2330, "params": { "speaker": "narrator", "text": "3日後タケシから呼び出し" } },
+    { "id": "c52", "type": "speaker_change", "frame": 2430, "params": { "speaker": "character1", "text": "イッチ…言いにくいんだけど" } },
+    { "id": "c53", "type": "caption_change", "frame": 2530, "params": { "text": "美咲さん実は高校の同級生なんだ" } },
+    { "id": "c54", "type": "caption_change", "frame": 2630, "params": { "text": "俺、あいつにいじめられてた" } },
+    { "id": "c55", "type": "caption_change", "frame": 2730, "params": { "text": "階段から落ちて怪我した子とか" } },
+    { "id": "c56", "type": "caption_change", "frame": 2830, "params": { "text": "親が社長だからもみ消されたんだ" } },
+    { "id": "c57", "type": "speaker_change", "frame": 2930, "params": { "speaker": "character2", "text": "うちに示談金たかって来たのよ" } },
+    { "id": "c58", "type": "caption_change", "frame": 3030, "params": { "text": "イッチ君来てくれてありがとう" } },
+    { "id": "c59", "type": "speaker_change", "frame": 3130, "params": { "speaker": "character1", "text": "あいつがその同級生だよ" } },
+    { "id": "c60", "type": "caption_change", "frame": 3230, "params": { "text": "言ったことと正反対だったよ" } },
+    { "id": "c61", "type": "caption_change", "frame": 3330, "params": { "text": "君たちは俺の思ってるような人たちじゃなかった" } },
+    { "id": "c62", "type": "speaker_change", "frame": 3430, "params": { "speaker": "narrator", "text": "過去の出来事を週刊誌にタレコミ" } },
+    { "id": "c63", "type": "caption_change", "frame": 3530, "params": { "text": "大切な親友は失わなかった" } },
+    { "id": "c64", "type": "episode_change", "frame": 3630, "params": { "episodeTitle": "子供好き" } },
+    { "id": "c65", "type": "caption_change", "frame": 3630, "params": { "text": "付き合ってる彼女が妊娠" } },
+    { "id": "c66", "type": "caption_change", "frame": 3755, "params": { "text": "想定外の学生結婚" } },
+    { "id": "c67", "type": "caption_change", "frame": 3880, "params": { "text": "夜泣きで寝不足でも可愛い娘" } },
+    { "id": "c68", "type": "caption_change", "frame": 4005, "params": { "text": "テーブルに置き手紙" } },
+    { "id": "c69", "type": "caption_change", "frame": 4130, "params": { "text": "娘を育てることに" } },
+    { "id": "c70", "type": "caption_change", "frame": 4255, "params": { "text": "皆に愛されて育った娘は" } },
+    { "id": "c71", "type": "caption_change", "frame": 4380, "params": { "text": "ある時元嫁から連絡" } },
+    { "id": "c72", "type": "speaker_change", "frame": 4505, "params": { "speaker": "character1", "text": "離婚してるからもう家族じゃないよ" } },
+    { "id": "c73", "type": "caption_change", "frame": 4629, "params": { "text": "離婚調停済みだよ" } },
+    { "id": "c74", "type": "speaker_change", "frame": 4753, "params": { "speaker": "character2", "text": "離婚したなら財産分与はどうなるのよ！" } },
+    { "id": "c75", "type": "caption_change", "frame": 4877, "params": { "text": "パパー誰このおばちゃん？" } },
+    { "id": "c76", "type": "caption_change", "frame": 5001, "params": { "text": "パパの悪口言わないで！" } },
+    { "id": "c77", "type": "speaker_change", "frame": 5125, "params": { "speaker": "character1", "text": "もう二度と来ないでください" } },
+    { "id": "c78", "type": "speaker_change", "frame": 5249, "params": { "speaker": "narrator", "text": "二度と会いに来れないようにした" } }
+  ]
+}

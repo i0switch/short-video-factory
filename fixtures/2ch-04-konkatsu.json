@@ -1,0 +1,158 @@
+{
+  "format": "2ch",
+  "videoTitle": "婚活戦記\nマッチングアプリの闇",
+  "meta": {
+    "maxDurationSec": 25
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "マッチングアプリ\n始めたんだが",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["スマホ", "男性"],
+          "imageKeywordsEn": ["man smartphone"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "プロフ写真が\n盛りすぎ問題",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["写真", "カメラ"],
+          "imageKeywordsEn": ["selfie photo"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "実際に会ったら\n別人だった",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["shocked man"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "あ、○○くん？\nはじめまして！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["女の子", "笑顔"],
+          "imageKeywordsEn": ["smiling girl"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "いや…誰？",
+          "emotion": "shock",
+          "effect": "none",
+          "imageKeywords": ["男性", "困惑"],
+          "imageKeywordsEn": ["bewildered man"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "気を取り直して\nカフェに入った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["カフェ", "コーヒー"],
+          "imageKeywordsEn": ["cafe coffee"],
+          "backgroundSrc": "assets/repro/shared/bg_dining.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "趣味は？",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["女性", "質問"],
+          "imageKeywordsEn": ["woman asking"],
+          "backgroundSrc": "assets/repro/shared/bg_dining.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "ゲームとアニメ\nですかね",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男性", "笑顔"],
+          "imageKeywordsEn": ["happy man"],
+          "backgroundSrc": "assets/repro/shared/bg_dining.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "あ〜…",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["女性", "微妙"],
+          "imageKeywordsEn": ["unimpressed woman"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "空気が\n凍りついた",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["氷", "寒い"],
+          "imageKeywordsEn": ["frozen ice"],
+          "backgroundSrc": "assets/repro/shared/bg_dining.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "30分後",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["時計", "時間"],
+          "imageKeywordsEn": ["clock time"],
+          "backgroundSrc": "assets/repro/shared/bg_dining.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "今日はここで！\nありがとう！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["女性", "手を振る"],
+          "imageKeywordsEn": ["woman waving"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "翌日マッチ解除\nされてた",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["スマホ", "悲しい"],
+          "imageKeywordsEn": ["sad phone"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "趣味言っただけ\nなのに…",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["泣く", "男の子"],
+          "imageKeywordsEn": ["crying boy"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "なおアプリ課金額\n月3万の模様",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["お金", "請求書"],
+          "imageKeywordsEn": ["money bill"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "現実見ろwww",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["女の子", "笑う"],
+          "imageKeywordsEn": ["laughing girl"],
+          "backgroundSrc": "assets/repro/shared/bg_living_room.jpg"
+        }
+      ]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

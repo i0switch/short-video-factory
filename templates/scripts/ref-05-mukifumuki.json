@@ -1,0 +1,155 @@
+{
+  "format": "2ch",
+  "videoTitle": "向き不向き",
+  "episodes": [
+    {
+      "title": "第1話：授業中の悪ふざけ",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "授業中に友達がやらかした",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["教室"],
+          "imageKeywordsEn": ["classroom"]
+        },
+        {
+          "speaker": "character1",
+          "text": "先生モノマネやるわｗ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男子 学生"],
+          "imageKeywordsEn": ["school boy"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "似すぎてクラス全員爆笑した",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["笑う 学生"],
+          "imageKeywordsEn": ["laughing students"]
+        }
+      ]
+    },
+    {
+      "title": "第2話：誕生日ケーキ",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "帰ったらケーキがあった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["誕生日 ケーキ"],
+          "imageKeywordsEn": ["birthday cake"]
+        },
+        {
+          "speaker": "character1",
+          "text": "Happy Birthday 私！？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": ["驚く 女性"],
+          "imageKeywordsEn": ["surprised woman"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "自分で自分を祝ってて草",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": ["ケーキ ろうそく"],
+          "imageKeywordsEn": ["candle cake"]
+        }
+      ]
+    },
+    {
+      "title": "第3話：図書室のキョンシー",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "図書室にいつもいる子がいた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["図書室"],
+          "imageKeywordsEn": ["library room"]
+        },
+        {
+          "speaker": "character1",
+          "text": "あの子いつも同じ姿勢だな",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["読書 女の子"],
+          "imageKeywordsEn": ["girl reading book"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "おでこにしおり貼ってた",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["しおり"],
+          "imageKeywordsEn": ["bookmark forehead"]
+        },
+        {
+          "speaker": "character2",
+          "text": "キョンシーかよｗｗ",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["キョンシー"],
+          "imageKeywordsEn": ["jiangshi zombie"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "本人は大真面目だった",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["真面目 女の子"],
+          "imageKeywordsEn": ["serious girl"]
+        }
+      ]
+    },
+    {
+      "title": "第4話：声が出ない子",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "クラスに場面緘黙の子がいた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["教室 女の子"],
+          "imageKeywordsEn": ["quiet girl classroom"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "誰とも話せなくて孤立してた",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["孤立 学生"],
+          "imageKeywordsEn": ["lonely student"]
+        },
+        {
+          "speaker": "character1",
+          "text": "手紙でやりとりしようよ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["手紙"],
+          "imageKeywordsEn": ["letter writing"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "毎日交換ノートを続けた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["交換ノート"],
+          "imageKeywordsEn": ["notebook exchange"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "卒業式で初めて声を聞いた",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["卒業式 泣く"],
+          "imageKeywordsEn": ["graduation crying"]
+        }
+      ]
+    }
+  ],
+  "outro": "感動したらチャンネル登録！"
+}

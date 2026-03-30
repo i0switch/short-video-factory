@@ -1,0 +1,158 @@
+{
+  "format": "2ch",
+  "videoTitle": "笑える迷語集\nコンビニの地獄客",
+  "meta": {
+    "maxDurationSec": 41
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "コンビニバイト\n始めたんだけどさ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "コンビニ"],
+          "imageKeywordsEn": ["convenience store"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "初日から\nヤバい客が来た",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男性", "困る"],
+          "imageKeywordsEn": ["confused man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "おい、これ\n温めてくれ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男性", "おじさん"],
+          "imageKeywordsEn": ["middle aged man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "おにぎり渡された\n普通だなと思った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["おにぎり", "コンビニ"],
+          "imageKeywordsEn": ["rice ball"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "あ、あとこれも",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男性", "指差す"],
+          "imageKeywordsEn": ["man pointing"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "アイスクリーム\n出してきた",
+          "emotion": "shock",
+          "effect": "concentration_lines",
+          "imageKeywords": ["アイスクリーム"],
+          "imageKeywordsEn": ["ice cream"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "温めるの？！\nこれを？！",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く", "男の子"],
+          "imageKeywordsEn": ["shocked boy"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "溶けたアイスが\n好きなんだよ",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男性", "笑顔"],
+          "imageKeywordsEn": ["happy man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "知らんがな",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "呆れる"],
+          "imageKeywordsEn": ["exasperated boy"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "仕方なく\n10秒チンした",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["電子レンジ"],
+          "imageKeywordsEn": ["microwave"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "違う！\n30秒だ！",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["angry man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "こだわり\n強すぎだろ…",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男の子", "困る"],
+          "imageKeywordsEn": ["confused boy"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "結局やり直して\n渡したら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "渡す"],
+          "imageKeywordsEn": ["handing over"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "うん、これこれ\nこの溶け具合！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男性", "満足"],
+          "imageKeywordsEn": ["satisfied man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "なおこの客\n毎日来る模様",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["shocked man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character2",
+          "text": "常連じゃんwww",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["女の子", "笑顔"],
+          "imageKeywordsEn": ["laughing girl"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        }
+      ]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

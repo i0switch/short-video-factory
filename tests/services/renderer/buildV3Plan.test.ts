@@ -133,16 +133,12 @@ describe('buildV3Plan', () => {
       jobDir,
     )
 
-    // splitTitleToLines removes spaces: '令和日本最強ランキング' (11 chars)
-    // balanced: numLines=ceil(11/7)=2, idealLen=ceil(11/2)=6
-    // Line 0: target=6, search ±2 for breakChar → '本'(3), '最'(4), '強'(5)=no match → breakAt=6
-    // Line 1: remaining '強ランキング' (5 chars)
+    // BudouX treats '令和日本最強ランキング' as a single chunk (no word boundary)
+    // so it stays as 1 line
     const lines = result.intro.lines
-    expect(lines).toHaveLength(2)
-    expect(lines[0].text).toBe('令和日本最強')
-    expect(lines[1].text).toBe('ランキング')
+    expect(lines).toHaveLength(1)
+    expect(lines[0].text).toBe('令和日本最強ランキング')
     expect(lines[0].style).toBe('introBlack')
-    expect(lines[1].style).toBe('introRed')
   })
 
   it('TC-062: outro lines are hardcoded CTA text (2 natural lines)', async () => {

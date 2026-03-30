@@ -1,0 +1,97 @@
+{
+  "videoTitle": "社会人になって\n驚いたこと",
+  "intro": "社会人になって驚いたことランキング、挙げてけww",
+  "items": [
+    {
+      "rank": 10,
+      "topic": "税金の高さ",
+      "comment1": "手取り少なすぎるよね",
+      "comment2": "働いても消える一方やろ",
+      "body": "10位は税金の高さ。総支給額はそれなりなのに、保険料や所得税が引かれて手取りが激減。社会の厳しさを最初に知る瞬間。",
+      "imageKeywords": ["男性", "絶望"],
+      "imageKeywordsEn": ["shocked worker", "salary check"]
+    },
+    {
+      "rank": 9,
+      "topic": "睡眠不足",
+      "comment1": "常に眠い感じだよね",
+      "comment2": "寝溜めはできんやろ",
+      "body": "9位は睡眠時間の短さ。通勤時間や残業で、自分の自由時間を削ると真っ先に睡眠が犠牲になる。常に眠気との戦いです。",
+      "imageKeywords": ["女性", "眠い"],
+      "imageKeywordsEn": ["tired woman", "sleepy office"]
+    },
+    {
+      "rank": 8,
+      "topic": "飲み会の多さ",
+      "comment1": "仕事の延長戦だよね",
+      "comment2": "早く帰らせてくれやろ",
+      "body": "8位は飲み会の多さ。最近は減ったとはいえ、付き合いでの飲み会は精神的にも肉体的にも疲弊する。もはや仕事の一部。",
+      "imageKeywords": ["会社員", "乾杯"],
+      "imageKeywordsEn": ["salaryman drinking", "bar"]
+    },
+    {
+      "rank": 7,
+      "topic": "敬語の難しさ",
+      "comment1": "尊敬と謙譲がバグるよね",
+      "comment2": "日本語難しすぎるやろ",
+      "body": "7位は敬語の難しさ。マニュアル通りにいかない実戦での敬語は、気を抜くと変な二重敬語になりがち。毎日が勉強です。",
+      "imageKeywords": ["若者", "緊張"],
+      "imageKeywordsEn": ["clueless junior", "business talk"]
+    },
+    {
+      "rank": 6,
+      "topic": "休日の消失",
+      "comment1": "寝てたら夕方だよね",
+      "comment2": "1日が秒で終わるやろ",
+      "body": "6位は休日が寝て終わること。平日の疲れを癒すために寝過ごし、気づけば日曜の夕方。サザエさん症候群が襲ってくる。",
+      "imageKeywords": ["男性", "昼寝"],
+      "imageKeywordsEn": ["sleeping all day", "weekend waste"]
+    },
+    {
+      "rank": 5,
+      "topic": "学生の尊さ",
+      "comment1": "あの頃に戻りたいよね",
+      "comment2": "自由の塊だったんやろ",
+      "body": "5位は学生時代が天国だったこと。当時は不満もあったが、責任がなく自由だったあの頃がいかに幸せだったか痛感する。",
+      "imageKeywords": ["会社員", "遠い目"],
+      "imageKeywordsEn": ["nostalgic worker", "school days"]
+    },
+    {
+      "rank": 4,
+      "topic": "満員電車",
+      "comment1": "人の密度がえぐいよね",
+      "comment2": "毎日が修行に決まっとる",
+      "body": "4位は満員電車の地獄。朝から体力と精神を削り、会社に着く頃にはもうクタクタ。これを何十年も続けるとか絶望。",
+      "imageKeywords": ["会社員", "潰される"],
+      "imageKeywordsEn": ["packed train", "commuter hell"]
+    },
+    {
+      "rank": 3,
+      "topic": "月曜の絶望",
+      "comment1": "日曜夜から辛いよね",
+      "comment2": "体が拒否反応起こしとる",
+      "body": "3位は月曜日の絶望感。まだ週の始まりだというのに、既に週末を渇望している。全社会人共通の悩みと言っても過言ではない。",
+      "imageKeywords": ["女性", "泣く"],
+      "imageKeywordsEn": ["monday blues", "crying office"]
+    },
+    {
+      "rank": 2,
+      "topic": "給料の少なさ",
+      "comment1": "労働に見合わないよね",
+      "comment2": "搾取されてるとしか思えん",
+      "body": "2位は給料の少なさ。あんなに苦労して働いた対価がこれだけ？と通帳を見て呆然とする。夢も希望も吸い取られる感覚。",
+      "imageKeywords": ["男性", "通帳"],
+      "imageKeywordsEn": ["poor worker", "empty bank account"]
+    },
+    {
+      "rank": 1,
+      "topic": "時間のなさ",
+      "comment1": "自分の人生どこ？って思う",
+      "comment2": "会社に人生捧げとるやろ",
+      "body": "1位は自由時間のなさ。起きて仕事して寝るだけのループ。自分の時間が皆無で、何のために生きてるのか分からなくなる。",
+      "imageKeywords": ["会社員", "歯車"],
+      "imageKeywordsEn": ["working robot", "life clock"]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

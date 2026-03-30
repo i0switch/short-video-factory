@@ -18,6 +18,7 @@ import {
   AssetManifestEntrySchema,
   AssetManifestSchema,
   NewTemplateManifestSchema,
+  TemplateScriptSchema,
 } from '../../src/schema/template-engine'
 
 describe('template-engine enums', () => {
@@ -174,5 +175,34 @@ describe('aggregate schemas', () => {
   it('AssetManifestSchema parses empty assets', () => {
     const result = AssetManifestSchema.parse({ assets: [] })
     expect(result.assets).toEqual([])
+  })
+
+  it('TemplateScriptSchema accepts templateId input', () => {
+    const result = TemplateScriptSchema.parse({
+      templateId: 'suwarenai',
+      seriesTitle: '2ch文法テンプレ',
+      episodeTitle: 'テスト',
+      beats: [{ id: 'b01', text: 'テキスト', narration: 'ナレーション' }],
+    })
+    expect(result.templateId).toBe('suwarenai')
+    expect(result.variant).toBe('default')
+  })
+
+  it('TemplateScriptSchema accepts legacy videoId input', () => {
+    const result = TemplateScriptSchema.parse({
+      videoId: 'e__pjy5Cnhc',
+      seriesTitle: '2ch文法テンプレ',
+      episodeTitle: 'テスト',
+      beats: [{ id: 'b01', text: 'テキスト', narration: 'ナレーション' }],
+    })
+    expect(result.videoId).toBe('e__pjy5Cnhc')
+  })
+
+  it('TemplateScriptSchema requires templateId or videoId', () => {
+    expect(() => TemplateScriptSchema.parse({
+      seriesTitle: '2ch文法テンプレ',
+      episodeTitle: 'テスト',
+      beats: [{ id: 'b01', text: 'テキスト', narration: 'ナレーション' }],
+    })).toThrow()
   })
 })

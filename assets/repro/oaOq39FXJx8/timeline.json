@@ -1,0 +1,477 @@
+{
+  "videoId": "oaOq39FXJx8",
+  "title": "笑える迷言集〜キョンシー百貫〜",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 59.3,
+  "totalFrames": 3558,
+  "seriesTitle": "笑える迷言集",
+  "episodeTitle": "キョンシー百貫",
+  "titleBand": {
+    "line1": "笑える迷言集",
+    "line2": "キョンシー百貫",
+    "backgroundColor": "#000000",
+    "textColor": "#FFE000",
+    "strokeColor": "#000000",
+    "strokeWidth": 5,
+    "height": 300
+  },
+  "shots": [
+    {
+      "id": "sh01", "startFrame": 0, "endFrame": 140,
+      "text": "図書館に本を借りに来たら",
+      "narration": "図書館に本を借りに来たら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_normal", "count": 1, "position": "center-left", "scale": 0.7 }
+      ],
+      "props": ["book_brown"],
+      "background": "library_interior_1", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh02", "startFrame": 140, "endFrame": 188,
+      "text": "んゴゴゴゴゴゴゴゴっ！",
+      "narration": "んゴゴゴゴゴゴゴゴっ！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_angry", "count": 1, "position": "center-left", "scale": 0.7 }
+      ],
+      "props": ["book_brown"],
+      "background": "library_interior_1", "effect": "shake",
+      "mangaSymbol": "fire_aura",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh03", "startFrame": 188, "endFrame": 265,
+      "text": "え、今の音なに！？",
+      "narration": "え、今の音なに！？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_surprised", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "purple_stripe", "effect": "purple_stripe",
+      "mangaSymbol": "sweat_shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh04", "startFrame": 265, "endFrame": 376,
+      "text": "って周りを見渡したら",
+      "narration": "って周りを見渡したら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_back", "count": 1, "position": "center", "scale": 0.8 }
+      ],
+      "background": "library_interior_2", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh05", "startFrame": 376, "endFrame": 462,
+      "text": "百貫が椅子並べて仰向けで大イビキ！",
+      "narration": "百貫が椅子並べて仰向けで大イビキ！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_sleeping", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "library_chairs", "effect": "none",
+      "mangaSymbol": "zigzag_snore",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh06", "startFrame": 462, "endFrame": 502,
+      "text": "しばらくすると静かになった！",
+      "narration": "しばらくすると静かになった！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_sleeping", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "library_chairs", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh07", "startFrame": 502, "endFrame": 618,
+      "text": "自分のいびきにビクッとして",
+      "narration": "自分のいびきにビクッとして",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_startled", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "library_chairs", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh08", "startFrame": 618, "endFrame": 679,
+      "text": "カッ！と目を見開くから",
+      "narration": "カッ！と目を見開くから",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_eyes_wide", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "library_interior_1", "effect": "concentration_lines",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh09", "startFrame": 679, "endFrame": 724,
+      "text": "起きた！？と思ったら",
+      "narration": "起きた！？と思ったら",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_surprised", "count": 1, "position": "center", "scale": 0.85 }
+      ],
+      "background": "library_interior_2", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh10", "startFrame": 724, "endFrame": 792,
+      "text": "って寝言みたいに言った後また寝たぁぁぁ！？",
+      "narration": "って寝言みたいに言った後また寝たぁぁぁ！？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_shocked", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "library_interior_1", "effect": "none",
+      "mangaSymbol": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh11", "startFrame": 792, "endFrame": 830,
+      "text": "ぐぅぅぅぅぅぅぅ",
+      "narration": "",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_sleeping_deep", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "background": "library_chairs", "effect": "none",
+      "mangaSymbol": "zigzag_snore",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh12", "startFrame": 830, "endFrame": 884,
+      "text": "落ちてたしおりを百貫の額にペタッ！",
+      "narration": "落ちてたしおりを百貫の額にペタッ！",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["hand_pink", "bookmark"],
+      "background": "library_interior_1", "effect": "red_radial",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh13", "startFrame": 884, "endFrame": 960,
+      "text": "完全にキョンシーの出来上がり",
+      "narration": "完全にキョンシーの出来上がり",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_kyonshi", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "purple_spiral", "effect": "purple_spiral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh14", "startFrame": 960, "endFrame": 1068,
+      "text": "そのまま椅子から転げ落ちて大きな音を立てると",
+      "narration": "そのまま椅子から転げ落ちて大きな音を立てると",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_fallen", "count": 1, "position": "center-bottom", "scale": 0.85 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "library_chairs", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh15", "startFrame": 1068, "endFrame": 1112,
+      "text": "ハッ！と目覚める百貫",
+      "narration": "ハッ！と目覚める百貫",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_awake_confused", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "library_interior_1", "effect": "none",
+      "mangaSymbol": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh16", "startFrame": 1112, "endFrame": 1200,
+      "text": "えぇ！？なにこれ！？",
+      "narration": "えぇ！？なにこれ！？",
+      "speaker": "character1",
+      "characters": [
+        { "type": "hyakkan_panic", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "library_interior_1", "effect": "none",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh17", "startFrame": 1200, "endFrame": 1290,
+      "text": "周りの人が見てるし！",
+      "narration": "周りの人が見てるし！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_normal", "count": 1, "position": "left", "scale": 0.6 },
+        { "type": "hyakkan_panic", "count": 1, "position": "right", "scale": 0.6 },
+        { "type": "mob_male_1", "count": 1, "position": "center-back", "scale": 0.5 }
+      ],
+      "background": "library_interior_2", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh18", "startFrame": 1290, "endFrame": 1350,
+      "text": "起きてるよね？って思ったので",
+      "narration": "起きてるよね？って思ったので",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_suspicious", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "library_interior_1", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh19", "startFrame": 1350, "endFrame": 1455,
+      "text": "いや私、寝てません！考え事してただけで",
+      "narration": "いや私、寝てません！考え事してただけで",
+      "speaker": "character1",
+      "characters": [
+        { "type": "hyakkan_excuse", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "purple_spiral", "effect": "purple_spiral",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh20", "startFrame": 1455, "endFrame": 1530,
+      "text": "え？考え事？",
+      "narration": "え？考え事？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_doubt", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "library_interior_1", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh21", "startFrame": 1530, "endFrame": 1620,
+      "text": "何考えてたんですか？って聞くと",
+      "narration": "何考えてたんですか？って聞くと",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_normal", "count": 1, "position": "left", "scale": 0.65 },
+        { "type": "hyakkan_excuse", "count": 1, "position": "right", "scale": 0.65 }
+      ],
+      "background": "library_interior_2", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh22", "startFrame": 1620, "endFrame": 1710,
+      "text": "一瞬、館内が止まると",
+      "narration": "一瞬、館内が止まると",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mob_male_1", "count": 1, "position": "left", "scale": 0.65 },
+        { "type": "mob_male_2", "count": 1, "position": "right", "scale": 0.65 }
+      ],
+      "background": "library_interior_dark", "effect": "dark_tone",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh23", "startFrame": 1710, "endFrame": 1800,
+      "text": "あ、あの、その、考え事が...",
+      "narration": "あ、あの、その、考え事が...",
+      "speaker": "character1",
+      "characters": [
+        { "type": "hyakkan_excuse", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "blue_spiral", "effect": "blue_spiral",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh24", "startFrame": 1800, "endFrame": 1875,
+      "text": "図書館員「いびきでの考え事は初めてですね」",
+      "narration": "いびきでの考え事は初めてですね",
+      "speaker": "character2",
+      "characters": [
+        { "type": "librarian_stern", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "red_radial", "effect": "red_radial",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh25", "startFrame": 1875, "endFrame": 1980,
+      "text": "では、その考え事は外でお願いします",
+      "narration": "では、その考え事は外でお願いします",
+      "speaker": "character2",
+      "characters": [
+        { "type": "librarian_stern", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "red_radial", "effect": "red_radial",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh26", "startFrame": 1980, "endFrame": 2100,
+      "text": "ここは本を読む場所なので",
+      "narration": "ここは本を読む場所なので",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["books_stack", "book_open"],
+      "background": "library_interior_3", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh27", "startFrame": 2100, "endFrame": 2220,
+      "text": "百貫「ぐ、ぐぬぬ...」",
+      "narration": "ぐ、ぐぬぬ...",
+      "speaker": "character1",
+      "characters": [
+        { "type": "hyakkan_defeated", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "blue_spiral", "effect": "blue_spiral",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh28", "startFrame": 2220, "endFrame": 2310,
+      "text": "周りの利用者の冷たい目線が一斉に百貫に向くと",
+      "narration": "周りの利用者の冷たい目線が一斉に百貫に向くと",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_normal", "count": 1, "position": "left", "scale": 0.55 },
+        { "type": "librarian_stern", "count": 1, "position": "center", "scale": 0.55 },
+        { "type": "hyakkan_defeated", "count": 1, "position": "right", "scale": 0.55 },
+        { "type": "mob_male_1", "count": 1, "position": "center-back", "scale": 0.45 }
+      ],
+      "background": "library_interior_dark", "effect": "dark_tone",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh29", "startFrame": 2310, "endFrame": 2430,
+      "text": "ひょこひょこ立ち去った時",
+      "narration": "ひょこひょこ立ち去った時",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_back", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "hyakkan_back", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "library_interior_2", "effect": "purple_gaan",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh30", "startFrame": 2430, "endFrame": 2550,
+      "text": "額にまだしおりがついたまま！",
+      "narration": "額にまだしおりがついたまま！",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "hyakkan_back_kyonshi", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["kyonshi_tag"],
+      "background": "library_interior_2", "effect": "none",
+      "mangaSymbol": "shock",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh31", "startFrame": 2550, "endFrame": 2700,
+      "text": "私は本を開いて",
+      "narration": "私は本を開いて",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_normal", "count": 1, "position": "center", "scale": 0.8 }
+      ],
+      "props": ["book_brown"],
+      "background": "library_interior_1", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh32", "startFrame": 2700, "endFrame": 2820,
+      "text": "今日借りた本のタイトルは",
+      "narration": "今日借りた本のタイトルは",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_normal", "count": 1, "position": "center-left", "scale": 0.7 }
+      ],
+      "props": ["book_brown"],
+      "background": "purple_spiral", "effect": "purple_spiral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh33", "startFrame": 2820, "endFrame": 2970,
+      "text": "言われた通りに動く方法",
+      "narration": "言われた通りに動く方法",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["book_punchline"],
+      "background": "light_burst", "effect": "light_burst",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.1 }
+    },
+    {
+      "id": "sh34", "startFrame": 2970, "endFrame": 3180,
+      "text": "これ、もう読まなくていいな",
+      "narration": "これ、もう読まなくていいな",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_laughing", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["book_brown"],
+      "background": "library_interior_1", "effect": "sparkle",
+      "mangaSymbol": "sparkle_cross",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh35", "startFrame": 3180, "endFrame": 3558,
+      "text": "という音が聞こえた気がしたw",
+      "narration": "という音が聞こえた気がしたw",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "narrator_smiling", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "background": "purple_spiral", "effect": "purple_spiral",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    }
+  ],
+  "irasutoyaList": [
+    { "keyword": "女性 怒る", "usage": "narrator_angry", "note": "語り手キャラ怒り表情" },
+    { "keyword": "女性 驚く", "usage": "narrator_surprised", "note": "語り手キャラ驚き表情" },
+    { "keyword": "女性 笑顔 本", "usage": "narrator_normal", "note": "語り手キャラ通常表情、ピンク服" },
+    { "keyword": "女性 疑う", "usage": "narrator_suspicious", "note": "語り手キャラ疑い表情" },
+    { "keyword": "女性 呆れる", "usage": "narrator_doubt", "note": "語り手キャラ呆れ表情" },
+    { "keyword": "女性 後ろ姿", "usage": "narrator_back", "note": "語り手キャラ後ろ向き" },
+    { "keyword": "女性 笑う", "usage": "narrator_laughing", "note": "語り手キャラ笑い表情（オチ用）" },
+    { "keyword": "女性 微笑み", "usage": "narrator_smiling", "note": "語り手キャラ微笑み表情（ラスト用）" },
+    { "keyword": "太った女性 寝る", "usage": "hyakkan_sleeping", "note": "百貫キャラ睡眠姿" },
+    { "keyword": "太った女性 驚く", "usage": "hyakkan_startled", "note": "百貫キャラ驚き（ビクッ）" },
+    { "keyword": "太った女性 目を見開く", "usage": "hyakkan_eyes_wide", "note": "百貫キャラ目見開き" },
+    { "keyword": "太った女性 汗", "usage": "hyakkan_excuse", "note": "百貫キャラ言い訳・汗" },
+    { "keyword": "太った女性 慌てる", "usage": "hyakkan_panic", "note": "百貫キャラパニック" },
+    { "keyword": "太った女性 悔しい", "usage": "hyakkan_defeated", "note": "百貫キャラ敗北・悔しい" },
+    { "keyword": "太った女性 後ろ姿", "usage": "hyakkan_back", "note": "百貫キャラ後ろ向き退出" },
+    { "keyword": "図書館員 男性", "usage": "librarian_stern", "note": "図書館員キャラ、緑エプロン" },
+    { "keyword": "男性 会社員", "usage": "mob_male_1", "note": "モブ男性キャラ1" },
+    { "keyword": "男性 若い", "usage": "mob_male_2", "note": "モブ男性キャラ2" },
+    { "keyword": "図書館 内部", "usage": "library_interior_1", "note": "図書館背景メイン" },
+    { "keyword": "図書館 本棚", "usage": "library_interior_2", "note": "図書館背景サブ" },
+    { "keyword": "椅子 並ぶ", "usage": "library_chairs", "note": "図書館の椅子エリア" },
+    { "keyword": "本", "usage": "book_brown", "note": "茶色い厚い本" },
+    { "keyword": "しおり", "usage": "bookmark", "note": "キョンシー札になるしおり" },
+    { "keyword": "本 表紙", "usage": "book_punchline", "note": "オチ用「言われた通りに動く方法」本表紙" },
+    { "keyword": "手 持つ", "usage": "hand_pink", "note": "しおりを持つ手" },
+    { "keyword": "本 積む", "usage": "books_stack", "note": "積み上がった本" },
+    { "keyword": "本 開く", "usage": "book_open", "note": "開いた本" }
+  ],
+  "audioAnalysis": {
+    "meanVolume": -14.8,
+    "maxVolume": -0.5,
+    "sceneChanges": [
+      2.33, 3.13, 3.35, 4.42, 6.27, 7.70, 8.37, 10.30, 11.32, 12.07,
+      13.20, 13.80, 14.73, 17.80, 18.57, 19.32, 21.50, 22.45, 23.63,
+      24.22, 26.65, 28.45, 30.03, 31.25, 31.88, 33.45, 34.88, 37.03, 38.48
+    ]
+  }
+}

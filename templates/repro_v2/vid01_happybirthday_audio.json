@@ -1,0 +1,598 @@
+{
+  "tts": [
+    {
+      "id": "a1",
+      "text": "家帰って冷蔵庫開けたら",
+      "speaker": "narrator",
+      "startFrame": 0,
+      "endFrame": 82
+    },
+    {
+      "id": "a2",
+      "text": "あれ！？なにこれ…",
+      "speaker": "character1",
+      "startFrame": 83,
+      "endFrame": 138
+    },
+    {
+      "id": "a3",
+      "text": "買った覚えのないケーキ箱発見",
+      "speaker": "narrator",
+      "startFrame": 139,
+      "endFrame": 332
+    },
+    {
+      "id": "a4",
+      "text": "いやけど誕生日誰もいねぇよな？",
+      "speaker": "narrator",
+      "startFrame": 333,
+      "endFrame": 405
+    },
+    {
+      "id": "a5",
+      "text": "って思いつつ中を見ると",
+      "speaker": "narrator",
+      "startFrame": 406,
+      "endFrame": 485
+    },
+    {
+      "id": "a6",
+      "text": "ハッピーバースデー私！",
+      "speaker": "narrator",
+      "startFrame": 486,
+      "endFrame": 564
+    },
+    {
+      "id": "a7",
+      "text": "って書かれた誕生日ケーキ",
+      "speaker": "narrator",
+      "startFrame": 565,
+      "endFrame": 706
+    },
+    {
+      "id": "a8",
+      "text": "ん！？え！？私！？ん！？",
+      "speaker": "character1",
+      "startFrame": 707,
+      "endFrame": 792
+    },
+    {
+      "id": "a9",
+      "text": "って困惑してたら",
+      "speaker": "narrator",
+      "startFrame": 793,
+      "endFrame": 920
+    },
+    {
+      "id": "a10",
+      "text": "あ！帰ってたの！？おかえりぃぃぃ！",
+      "speaker": "character2",
+      "startFrame": 921,
+      "endFrame": 983
+    },
+    {
+      "id": "a11",
+      "text": "風呂上がりの妻がニッコニコで声かけてきて",
+      "speaker": "narrator",
+      "startFrame": 984,
+      "endFrame": 1087
+    },
+    {
+      "id": "a12",
+      "text": "あ！それ今から食べよ！",
+      "speaker": "character2",
+      "startFrame": 1088,
+      "endFrame": 1179
+    },
+    {
+      "id": "a13",
+      "text": "もう私の楽しみにしてたんだぁああ！",
+      "speaker": "character2",
+      "startFrame": 1180,
+      "endFrame": 1237
+    },
+    {
+      "id": "a14",
+      "text": "ってやっぱ妻のケーキだったので",
+      "speaker": "narrator",
+      "startFrame": 1238,
+      "endFrame": 1368
+    },
+    {
+      "id": "a15",
+      "text": "じゃあ僕が準備するから主役は座ってて",
+      "speaker": "character1",
+      "startFrame": 1369,
+      "endFrame": 1448
+    },
+    {
+      "id": "a16",
+      "text": "いいの！？やったぁああ！",
+      "speaker": "character2",
+      "startFrame": 1449,
+      "endFrame": 1523
+    },
+    {
+      "id": "a17",
+      "text": "って飲み物に皿準備して一応ろうそくあったからケーキにさして",
+      "speaker": "narrator",
+      "startFrame": 1524,
+      "endFrame": 1724
+    },
+    {
+      "id": "a18",
+      "text": "ハッピーバースディートゥーユー",
+      "speaker": "character1",
+      "startFrame": 1725,
+      "endFrame": 1799
+    },
+    {
+      "id": "a19",
+      "text": "ハッピーバースディートゥーユーディア嫁子〜",
+      "speaker": "character1",
+      "startFrame": 1800,
+      "endFrame": 1962
+    },
+    {
+      "id": "a20",
+      "text": "いえーい！ありがとぉおおおお！",
+      "speaker": "character2",
+      "startFrame": 1963,
+      "endFrame": 2053
+    },
+    {
+      "id": "a21",
+      "text": "って全然誕生日でもなかったけど",
+      "speaker": "narrator",
+      "startFrame": 2054,
+      "endFrame": 2175
+    },
+    {
+      "id": "a22",
+      "text": "妻ならそうして欲しいかなって",
+      "speaker": "narrator",
+      "startFrame": 2176,
+      "endFrame": 2325
+    },
+    {
+      "id": "a23",
+      "text": "ノリノリで一緒にケーキを食べた",
+      "speaker": "narrator",
+      "startFrame": 2326,
+      "endFrame": 2458
+    },
+    {
+      "id": "a24",
+      "text": "なんで誕生日ケーキか気にならないの？",
+      "speaker": "character2",
+      "startFrame": 2459,
+      "endFrame": 2550
+    },
+    {
+      "id": "a25",
+      "text": "って聞いたので",
+      "speaker": "narrator",
+      "startFrame": 2551,
+      "endFrame": 2607
+    },
+    {
+      "id": "a26",
+      "text": "お祝い事に理由とか要らなくない？",
+      "speaker": "character1",
+      "startFrame": 2608,
+      "endFrame": 2719
+    },
+    {
+      "id": "a27",
+      "text": "って言ったら",
+      "speaker": "narrator",
+      "startFrame": 2720,
+      "endFrame": 2791
+    },
+    {
+      "id": "a28",
+      "text": "私さ、仕事できなくて",
+      "speaker": "character2",
+      "startFrame": 2792,
+      "endFrame": 2892
+    },
+    {
+      "id": "a29",
+      "text": "そしたら俊君が仕事に言ってる間誰とも話さないんだ",
+      "speaker": "character2",
+      "startFrame": 2893,
+      "endFrame": 3007
+    },
+    {
+      "id": "a30",
+      "text": "それが辛くて今日散歩行ったらさ、なんか誰かに祝ってもらいたいって言うか…",
+      "speaker": "character2",
+      "startFrame": 3008,
+      "endFrame": 3067
+    },
+    {
+      "id": "a31",
+      "text": "なんかそんな感じ！",
+      "speaker": "character2",
+      "startFrame": 3068,
+      "endFrame": 3194
+    },
+    {
+      "id": "a32",
+      "text": "明日から頑張るから！ありがとね！",
+      "speaker": "character2",
+      "startFrame": 3195,
+      "endFrame": 3290
+    },
+    {
+      "id": "a33",
+      "text": "いつでもお祝い事大歓迎だよ",
+      "speaker": "character1",
+      "startFrame": 3291,
+      "endFrame": 3397
+    },
+    {
+      "id": "a34",
+      "text": "って翌日朝も２人で胸やけしながら残りのケーキを食べた",
+      "speaker": "narrator",
+      "startFrame": 3398,
+      "endFrame": 3471
+    }
+  ],
+  "bgm": {
+    "volume": 0.1,
+    "loop": true
+  },
+  "entries": [
+    {
+      "unitId": "a1",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a2",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a3",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a4",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a5",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a6",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a7",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a8",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a9",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a10",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a11",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a12",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a13",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a14",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a15",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a16",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a17",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a18",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a19",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a20",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a21",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a22",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a23",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a24",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a25",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a26",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a27",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a28",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a29",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a30",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a31",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a32",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a33",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a34",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "s1",
+      "src": "work/tts_s1.wav",
+      "durationSec": 1.568
+    },
+    {
+      "unitId": "s2",
+      "src": "work/tts_s2.wav",
+      "durationSec": 0.9706666666666667
+    },
+    {
+      "unitId": "s3",
+      "src": "work/tts_s3.wav",
+      "durationSec": 1.8666666666666667
+    },
+    {
+      "unitId": "s4",
+      "src": "work/tts_s4.wav",
+      "durationSec": 1.824
+    },
+    {
+      "unitId": "s5",
+      "src": "work/tts_s5.wav",
+      "durationSec": 1.3866666666666667
+    },
+    {
+      "unitId": "s6",
+      "src": "work/tts_s6.wav",
+      "durationSec": 1.3333333333333333
+    },
+    {
+      "unitId": "s7",
+      "src": "work/tts_s7.wav",
+      "durationSec": 1.4506666666666668
+    },
+    {
+      "unitId": "s8",
+      "src": "work/tts_s8.wav",
+      "durationSec": 1.792
+    },
+    {
+      "unitId": "s9",
+      "src": "work/tts_s9.wav",
+      "durationSec": 1.0346666666666666
+    },
+    {
+      "unitId": "s10",
+      "src": "work/tts_s10.wav",
+      "durationSec": 1.9413333333333334
+    },
+    {
+      "unitId": "s11",
+      "src": "work/tts_s11.wav",
+      "durationSec": 2.304
+    },
+    {
+      "unitId": "s12",
+      "src": "work/tts_s12.wav",
+      "durationSec": 1.3866666666666667
+    },
+    {
+      "unitId": "s13",
+      "src": "work/tts_s13.wav",
+      "durationSec": 1.76
+    },
+    {
+      "unitId": "s14",
+      "src": "work/tts_s14.wav",
+      "durationSec": 1.6746666666666667
+    },
+    {
+      "unitId": "s15",
+      "src": "work/tts_s15.wav",
+      "durationSec": 1.824
+    },
+    {
+      "unitId": "s16",
+      "src": "work/tts_s16.wav",
+      "durationSec": 1.152
+    },
+    {
+      "unitId": "s17",
+      "src": "work/tts_s17.wav",
+      "durationSec": 1.472
+    },
+    {
+      "unitId": "s18",
+      "src": "work/tts_s18.wav",
+      "durationSec": 1.3333333333333333
+    },
+    {
+      "unitId": "s19",
+      "src": "work/tts_s19.wav",
+      "durationSec": 0.864
+    },
+    {
+      "unitId": "s20",
+      "src": "work/tts_s20.wav",
+      "durationSec": 1.152
+    },
+    {
+      "unitId": "s21",
+      "src": "work/tts_s21.wav",
+      "durationSec": 1.5786666666666667
+    },
+    {
+      "unitId": "s22",
+      "src": "work/tts_s22.wav",
+      "durationSec": 1.4186666666666667
+    },
+    {
+      "unitId": "s23",
+      "src": "work/tts_s23.wav",
+      "durationSec": 1.9093333333333333
+    },
+    {
+      "unitId": "s24",
+      "src": "work/tts_s24.wav",
+      "durationSec": 1.6
+    },
+    {
+      "unitId": "s25",
+      "src": "work/tts_s25.wav",
+      "durationSec": 1.6853333333333333
+    },
+    {
+      "unitId": "s26",
+      "src": "work/tts_s26.wav",
+      "durationSec": 1.8453333333333333
+    },
+    {
+      "unitId": "s27",
+      "src": "work/tts_s27.wav",
+      "durationSec": 0.8106666666666666
+    },
+    {
+      "unitId": "s28",
+      "src": "work/tts_s28.wav",
+      "durationSec": 1.5466666666666666
+    },
+    {
+      "unitId": "s29",
+      "src": "work/tts_s29.wav",
+      "durationSec": 0.6506666666666666
+    },
+    {
+      "unitId": "s30",
+      "src": "work/tts_s30.wav",
+      "durationSec": 1.3546666666666667
+    },
+    {
+      "unitId": "s31",
+      "src": "work/tts_s31.wav",
+      "durationSec": 2.784
+    },
+    {
+      "unitId": "s32",
+      "src": "work/tts_s32.wav",
+      "durationSec": 3.3706666666666667
+    },
+    {
+      "unitId": "s33",
+      "src": "work/tts_s33.wav",
+      "durationSec": 0.96
+    },
+    {
+      "unitId": "s34",
+      "src": "work/tts_s34.wav",
+      "durationSec": 1.6213333333333333
+    },
+    {
+      "unitId": "s35",
+      "src": "work/tts_s35.wav",
+      "durationSec": 1.44
+    },
+    {
+      "unitId": "s36",
+      "src": "work/tts_s36.wav",
+      "durationSec": 3.264
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "tts": [
+    {
+      "id": "a1",
+      "text": "図書館に本を借りに来たら",
+      "speaker": "narrator",
+      "startFrame": 0,
+      "endFrame": 97
+    },
+    {
+      "id": "a2",
+      "text": "んゴゴゴゴゴゴーゴゴごっ！",
+      "speaker": "narrator",
+      "startFrame": 98,
+      "endFrame": 157
+    },
+    {
+      "id": "a3",
+      "text": "え、今の音なに！？",
+      "speaker": "character2",
+      "startFrame": 158,
+      "endFrame": 253
+    },
+    {
+      "id": "a4",
+      "text": "って周りを見渡したら",
+      "speaker": "narrator",
+      "startFrame": 254,
+      "endFrame": 375
+    },
+    {
+      "id": "a5",
+      "text": "百貫が椅子並べて仰向けで大イビキ！",
+      "speaker": "narrator",
+      "startFrame": 376,
+      "endFrame": 501
+    },
+    {
+      "id": "a6",
+      "text": "しばらくすると静かになった！",
+      "speaker": "narrator",
+      "startFrame": 502,
+      "endFrame": 619
+    },
+    {
+      "id": "a7",
+      "text": "自分のいびきにビクッとして",
+      "speaker": "narrator",
+      "startFrame": 620,
+      "endFrame": 735
+    },
+    {
+      "id": "a8",
+      "text": "って寝言みたいに言った後また寝たぁぁぁ！？",
+      "speaker": "narrator",
+      "startFrame": 736,
+      "endFrame": 882
+    },
+    {
+      "id": "a9",
+      "text": "これ絶対わざとじゃない！？",
+      "speaker": "narrator",
+      "startFrame": 883,
+      "endFrame": 960
+    },
+    {
+      "id": "a10",
+      "text": "と思って",
+      "speaker": "narrator",
+      "startFrame": 961,
+      "endFrame": 1068
+    },
+    {
+      "id": "a11",
+      "text": "落ちてたしおりを百貫の額にペタッ！",
+      "speaker": "narrator",
+      "startFrame": 1069,
+      "endFrame": 1188
+    },
+    {
+      "id": "a12",
+      "text": "カッ！と目を見開くから",
+      "speaker": "narrator",
+      "startFrame": 1189,
+      "endFrame": 1307
+    },
+    {
+      "id": "a13",
+      "text": "一瞬キョンシー！？",
+      "speaker": "narrator",
+      "startFrame": 1308,
+      "endFrame": 1395
+    },
+    {
+      "id": "a14",
+      "text": "そのまま椅子から転げ落ちて大きな音を立てると",
+      "speaker": "narrator",
+      "startFrame": 1396,
+      "endFrame": 1547
+    },
+    {
+      "id": "a15",
+      "text": "静粛にお願いします！",
+      "speaker": "character1",
+      "startFrame": 1548,
+      "endFrame": 1727
+    },
+    {
+      "id": "a16",
+      "text": "いや私、寝てません！考え事してただけで",
+      "speaker": "character2",
+      "startFrame": 1728,
+      "endFrame": 1905
+    },
+    {
+      "id": "a17",
+      "text": "しおり貼ったまま必死に言い訳するから",
+      "speaker": "narrator",
+      "startFrame": 1906,
+      "endFrame": 2007
+    },
+    {
+      "id": "a18",
+      "text": "起きてるよね？って思ったので",
+      "speaker": "narrator",
+      "startFrame": 2008,
+      "endFrame": 2099
+    },
+    {
+      "id": "a19",
+      "text": "何考えてたんですか？って聞くと",
+      "speaker": "narrator",
+      "startFrame": 2100,
+      "endFrame": 2213
+    },
+    {
+      "id": "a20",
+      "text": "何考えようか考えてました！",
+      "speaker": "character2",
+      "startFrame": 2214,
+      "endFrame": 2339
+    },
+    {
+      "id": "a21",
+      "text": "一瞬、館内が止まると",
+      "speaker": "narrator",
+      "startFrame": 2340,
+      "endFrame": 2445
+    },
+    {
+      "id": "a22",
+      "text": "では、その考え事は外でお願いします",
+      "speaker": "character1",
+      "startFrame": 2446,
+      "endFrame": 2573
+    },
+    {
+      "id": "a23",
+      "text": "百貫 え？って固まって",
+      "speaker": "narrator",
+      "startFrame": 2574,
+      "endFrame": 2639
+    },
+    {
+      "id": "a24",
+      "text": "ここは本を読む場所なので",
+      "speaker": "character1",
+      "startFrame": 2640,
+      "endFrame": 2739
+    },
+    {
+      "id": "a25",
+      "text": "職員に言われて",
+      "speaker": "narrator",
+      "startFrame": 2740,
+      "endFrame": 2819
+    },
+    {
+      "id": "a26",
+      "text": "周りの利用者の冷たい目線が一斉に百貫に向くと",
+      "speaker": "narrator",
+      "startFrame": 2820,
+      "endFrame": 2919
+    },
+    {
+      "id": "a27",
+      "text": "あ、あの、その、考え事が…",
+      "speaker": "character2",
+      "startFrame": 2920,
+      "endFrame": 3019
+    },
+    {
+      "id": "a28",
+      "text": "最後まで言えず",
+      "speaker": "narrator",
+      "startFrame": 3020,
+      "endFrame": 3079
+    },
+    {
+      "id": "a29",
+      "text": "ひょこひょこ立ち去った時",
+      "speaker": "narrator",
+      "startFrame": 3080,
+      "endFrame": 3139
+    },
+    {
+      "id": "a30",
+      "text": "しおりが落ちた",
+      "speaker": "narrator",
+      "startFrame": 3140,
+      "endFrame": 3199
+    },
+    {
+      "id": "a31",
+      "text": "今日借りた本のタイトルは",
+      "speaker": "narrator",
+      "startFrame": 3200,
+      "endFrame": 3259
+    },
+    {
+      "id": "a32",
+      "text": "言われた通りに動く方法",
+      "speaker": "narrator",
+      "startFrame": 3260,
+      "endFrame": 3319
+    },
+    {
+      "id": "a33",
+      "text": "私は本を開いて",
+      "speaker": "narrator",
+      "startFrame": 3320,
+      "endFrame": 3379
+    },
+    {
+      "id": "a34",
+      "text": "拾ったしおりを挟んで",
+      "speaker": "narrator",
+      "startFrame": 3380,
+      "endFrame": 3439
+    },
+    {
+      "id": "a35",
+      "text": "これ、もう読まなくていいな",
+      "speaker": "narrator",
+      "startFrame": 3440,
+      "endFrame": 3499
+    },
+    {
+      "id": "a36",
+      "text": "という音が聞こえた気がしたw",
+      "speaker": "narrator",
+      "startFrame": 3500,
+      "endFrame": 3561
+    }
+  ],
+  "bgm": {
+    "volume": 0.1,
+    "loop": true
+  },
+  "entries": [
+    {
+      "unitId": "a1",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a2",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a3",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a4",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a5",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a6",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a7",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a8",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a9",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a10",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a11",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a12",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a13",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a14",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a15",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a16",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a17",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a18",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a19",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a20",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a21",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a22",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a23",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a24",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a25",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a26",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a27",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a28",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a29",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a30",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a31",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a32",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a33",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a34",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a35",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a36",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "s1",
+      "src": "work/tts_s1.wav",
+      "durationSec": 1.5466666666666666
+    },
+    {
+      "unitId": "s2",
+      "src": "work/tts_s2.wav",
+      "durationSec": 1.2586666666666666
+    },
+    {
+      "unitId": "s3",
+      "src": "work/tts_s3.wav",
+      "durationSec": 1.3013333333333332
+    },
+    {
+      "unitId": "s4",
+      "src": "work/tts_s4.wav",
+      "durationSec": 1.2693333333333334
+    },
+    {
+      "unitId": "s5",
+      "src": "work/tts_s5.wav",
+      "durationSec": 2.1866666666666665
+    },
+    {
+      "unitId": "s6",
+      "src": "work/tts_s6.wav",
+      "durationSec": 1.5466666666666666
+    },
+    {
+      "unitId": "s7",
+      "src": "work/tts_s7.wav",
+      "durationSec": 1.4826666666666666
+    },
+    {
+      "unitId": "s8",
+      "src": "work/tts_s8.wav",
+      "durationSec": 2.1866666666666665
+    },
+    {
+      "unitId": "s9",
+      "src": "work/tts_s9.wav",
+      "durationSec": 1.4186666666666667
+    },
+    {
+      "unitId": "s10",
+      "src": "work/tts_s10.wav",
+      "durationSec": 0.64
+    },
+    {
+      "unitId": "s11",
+      "src": "work/tts_s11.wav",
+      "durationSec": 1.9626666666666666
+    },
+    {
+      "unitId": "s12",
+      "src": "work/tts_s12.wav",
+      "durationSec": 1.344
+    },
+    {
+      "unitId": "s13",
+      "src": "work/tts_s13.wav",
+      "durationSec": 0.9706666666666667
+    },
+    {
+      "unitId": "s14",
+      "src": "work/tts_s14.wav",
+      "durationSec": 2.5813333333333333
+    },
+    {
+      "unitId": "s15",
+      "src": "work/tts_s15.wav",
+      "durationSec": 1.152
+    },
+    {
+      "unitId": "s16",
+      "src": "work/tts_s16.wav",
+      "durationSec": 2.3573333333333335
+    },
+    {
+      "unitId": "s17",
+      "src": "work/tts_s17.wav",
+      "durationSec": 2.0693333333333332
+    },
+    {
+      "unitId": "s18",
+      "src": "work/tts_s18.wav",
+      "durationSec": 1.7813333333333334
+    },
+    {
+      "unitId": "s19",
+      "src": "work/tts_s19.wav",
+      "durationSec": 2.0693333333333332
+    },
+    {
+      "unitId": "s20",
+      "src": "work/tts_s20.wav",
+      "durationSec": 1.632
+    },
+    {
+      "unitId": "s21",
+      "src": "work/tts_s21.wav",
+      "durationSec": 1.5893333333333333
+    },
+    {
+      "unitId": "s22",
+      "src": "work/tts_s22.wav",
+      "durationSec": 2.037333333333333
+    },
+    {
+      "unitId": "s23",
+      "src": "work/tts_s23.wav",
+      "durationSec": 1.984
+    },
+    {
+      "unitId": "s24",
+      "src": "work/tts_s24.wav",
+      "durationSec": 1.1946666666666668
+    },
+    {
+      "unitId": "s25",
+      "src": "work/tts_s25.wav",
+      "durationSec": 1.0453333333333332
+    },
+    {
+      "unitId": "s26",
+      "src": "work/tts_s26.wav",
+      "durationSec": 3.050666666666667
+    },
+    {
+      "unitId": "s27",
+      "src": "work/tts_s27.wav",
+      "durationSec": 1.888
+    },
+    {
+      "unitId": "s28",
+      "src": "work/tts_s28.wav",
+      "durationSec": 0.9813333333333333
+    },
+    {
+      "unitId": "s29",
+      "src": "work/tts_s29.wav",
+      "durationSec": 1.312
+    },
+    {
+      "unitId": "s30",
+      "src": "work/tts_s30.wav",
+      "durationSec": 0.864
+    },
+    {
+      "unitId": "s31",
+      "src": "work/tts_s31.wav",
+      "durationSec": 1.3866666666666667
+    },
+    {
+      "unitId": "s32",
+      "src": "work/tts_s32.wav",
+      "durationSec": 1.536
+    },
+    {
+      "unitId": "s33",
+      "src": "work/tts_s33.wav",
+      "durationSec": 1.248
+    },
+    {
+      "unitId": "s34",
+      "src": "work/tts_s34.wav",
+      "durationSec": 1.3546666666666667
+    },
+    {
+      "unitId": "s35",
+      "src": "work/tts_s35.wav",
+      "durationSec": 1.4506666666666668
+    },
+    {
+      "unitId": "s36",
+      "src": "work/tts_s36.wav",
+      "durationSec": 1.824
+    }
+  ]
+}

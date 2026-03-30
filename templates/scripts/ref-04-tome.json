@@ -1,0 +1,156 @@
+{
+  "format": "2ch",
+  "videoTitle": "トメをギャフンと言わせた話",
+  "episodes": [
+    {
+      "title": "嫁いびりの結末",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "結婚して義実家に挨拶に行った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["結婚"],
+          "imageKeywordsEn": ["married couple"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "義母がやたら冷たかった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["義母"],
+          "imageKeywordsEn": ["mother in law"]
+        },
+        {
+          "speaker": "character1",
+          "text": "あなたの分はこれね",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["白ごはん"],
+          "imageKeywordsEn": ["plain white rice"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "私だけ白ごはんだった",
+          "emotion": "sad",
+          "effect": "none",
+          "imageKeywords": ["悲しい 女性"],
+          "imageKeywordsEn": ["sad woman"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "他の人は寿司食べてるのに",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["寿司"],
+          "imageKeywordsEn": ["sushi platter"]
+        },
+        {
+          "speaker": "character2",
+          "text": "これはひどすぎるやろ",
+          "emotion": "anger",
+          "effect": "none",
+          "imageKeywords": ["怒る"],
+          "imageKeywordsEn": ["angry reaction"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "毎回こんな扱いだった",
+          "emotion": "sad",
+          "effect": "none",
+          "imageKeywords": ["泣く 女性"],
+          "imageKeywordsEn": ["crying woman"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ある日バイト先のギャルが気づいた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["ギャル"],
+          "imageKeywordsEn": ["gal fashion girl"]
+        },
+        {
+          "speaker": "character1",
+          "text": "え、それやばくない？",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く 女性"],
+          "imageKeywordsEn": ["shocked girl"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ギャルが義実家に乗り込んだ",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["怒る ギャル"],
+          "imageKeywordsEn": ["angry confrontation"]
+        },
+        {
+          "speaker": "character1",
+          "text": "おばさん何やってんすか！",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["叫ぶ"],
+          "imageKeywordsEn": ["shouting girl"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "義母が言い返せずに固まった",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["固まる"],
+          "imageKeywordsEn": ["frozen shocked"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "旦那もやっと目が覚めた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男性 反省"],
+          "imageKeywordsEn": ["man realizing"]
+        },
+        {
+          "speaker": "character2",
+          "text": "旦那おせーよ！",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": ["ツッコミ"],
+          "imageKeywordsEn": ["angry reaction"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "旦那が義母と縁を切った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["電話 男性"],
+          "imageKeywordsEn": ["man phone call"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "義母が泣いて謝ってきた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["謝る"],
+          "imageKeywordsEn": ["apologizing woman"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ギャルとラーメン食べに行った",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["ラーメン"],
+          "imageKeywordsEn": ["ramen noodles"]
+        },
+        {
+          "speaker": "character2",
+          "text": "ギャル最高すぎるわ！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["拍手"],
+          "imageKeywordsEn": ["applause cheering"]
+        }
+      ]
+    }
+  ],
+  "outro": "スカッとしたらチャンネル登録！"
+}

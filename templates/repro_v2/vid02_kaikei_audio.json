@@ -1,0 +1,1302 @@
+{
+  "tts": [
+    {
+      "id": "a1",
+      "text": "日曜日義母から",
+      "speaker": "narrator",
+      "startFrame": 0,
+      "endFrame": 41
+    },
+    {
+      "id": "a2",
+      "text": "今日ランチでもどう？義妹も一緒よ",
+      "speaker": "character2",
+      "startFrame": 42,
+      "endFrame": 83
+    },
+    {
+      "id": "a3",
+      "text": "店に着くと",
+      "speaker": "narrator",
+      "startFrame": 84,
+      "endFrame": 125
+    },
+    {
+      "id": "a4",
+      "text": "あ、来た来た！",
+      "speaker": "character2",
+      "startFrame": 126,
+      "endFrame": 167
+    },
+    {
+      "id": "a5",
+      "text": "お手洗い行ってくるわ",
+      "speaker": "character2",
+      "startFrame": 168,
+      "endFrame": 209
+    },
+    {
+      "id": "a6",
+      "text": "私も〜",
+      "speaker": "character2",
+      "startFrame": 210,
+      "endFrame": 251
+    },
+    {
+      "id": "a7",
+      "text": "いつまで経っても帰ってこない…",
+      "speaker": "character1",
+      "startFrame": 252,
+      "endFrame": 293
+    },
+    {
+      "id": "a8",
+      "text": "LINEも既読無視",
+      "speaker": "narrator",
+      "startFrame": 294,
+      "endFrame": 335
+    },
+    {
+      "id": "a9",
+      "text": "お会計4800円になります",
+      "speaker": "character2",
+      "startFrame": 336,
+      "endFrame": 377
+    },
+    {
+      "id": "a10",
+      "text": "え？3人分を私が…？",
+      "speaker": "character1",
+      "startFrame": 378,
+      "endFrame": 419
+    },
+    {
+      "id": "a11",
+      "text": "強制おごりはこれだけに留まらず",
+      "speaker": "narrator",
+      "startFrame": 420,
+      "endFrame": 461
+    },
+    {
+      "id": "a12",
+      "text": "あら〜財布忘れちゃった",
+      "speaker": "character2",
+      "startFrame": 462,
+      "endFrame": 503
+    },
+    {
+      "id": "a13",
+      "text": "今日カード持ってないや〜",
+      "speaker": "character2",
+      "startFrame": 504,
+      "endFrame": 545
+    },
+    {
+      "id": "a14",
+      "text": "もうトータル10万以上奢らされてる",
+      "speaker": "narrator",
+      "startFrame": 546,
+      "endFrame": 587
+    },
+    {
+      "id": "a15",
+      "text": "旦那に相談すると",
+      "speaker": "narrator",
+      "startFrame": 588,
+      "endFrame": 629
+    },
+    {
+      "id": "a16",
+      "text": "ふざけんな！文句言ってくる！",
+      "speaker": "character1",
+      "startFrame": 630,
+      "endFrame": 671
+    },
+    {
+      "id": "a17",
+      "text": "なによ！家族なんだからいいでしょ！",
+      "speaker": "character2",
+      "startFrame": 672,
+      "endFrame": 713
+    },
+    {
+      "id": "a18",
+      "text": "稼いでるんでしょ？ケチくさい嫁ね！",
+      "speaker": "character2",
+      "startFrame": 714,
+      "endFrame": 755
+    },
+    {
+      "id": "a19",
+      "text": "ダメだ…やっぱり聞く耳持たない",
+      "speaker": "narrator",
+      "startFrame": 756,
+      "endFrame": 797
+    },
+    {
+      "id": "a20",
+      "text": "さすがに舐められすぎて",
+      "speaker": "narrator",
+      "startFrame": 798,
+      "endFrame": 839
+    },
+    {
+      "id": "a21",
+      "text": "堪忍袋爆発",
+      "speaker": "narrator",
+      "startFrame": 840,
+      "endFrame": 881
+    },
+    {
+      "id": "a22",
+      "text": "翌日罠を張る",
+      "speaker": "narrator",
+      "startFrame": 882,
+      "endFrame": 923
+    },
+    {
+      "id": "a23",
+      "text": "この前会社から臨時ボーナス出たんですよ〜",
+      "speaker": "character1",
+      "startFrame": 924,
+      "endFrame": 965
+    },
+    {
+      "id": "a24",
+      "text": "あら！いくら？",
+      "speaker": "character2",
+      "startFrame": 966,
+      "endFrame": 1007
+    },
+    {
+      "id": "a25",
+      "text": "50万円も出たんです！",
+      "speaker": "character1",
+      "startFrame": 1008,
+      "endFrame": 1049
+    },
+    {
+      "id": "a26",
+      "text": "また美味しいもの食べ行きたいですね〜",
+      "speaker": "character1",
+      "startFrame": 1050,
+      "endFrame": 1091
+    },
+    {
+      "id": "a27",
+      "text": "今度は高級店行きたい！",
+      "speaker": "character2",
+      "startFrame": 1092,
+      "endFrame": 1132
+    },
+    {
+      "id": "a28",
+      "text": "数日後",
+      "speaker": "narrator",
+      "startFrame": 1133,
+      "endFrame": 1173
+    },
+    {
+      "id": "a29",
+      "text": "土曜日の夜ご飯一緒にどう？",
+      "speaker": "character2",
+      "startFrame": 1174,
+      "endFrame": 1214
+    },
+    {
+      "id": "a30",
+      "text": "そして土曜日の夜",
+      "speaker": "narrator",
+      "startFrame": 1215,
+      "endFrame": 1255
+    },
+    {
+      "id": "a31",
+      "text": "義母たちから鬼ライン",
+      "speaker": "narrator",
+      "startFrame": 1256,
+      "endFrame": 1296
+    },
+    {
+      "id": "a32",
+      "text": "なんで来ないの！もう予約時間よ！",
+      "speaker": "character2",
+      "startFrame": 1297,
+      "endFrame": 1337
+    },
+    {
+      "id": "a33",
+      "text": "早く来なさいよ！",
+      "speaker": "character2",
+      "startFrame": 1338,
+      "endFrame": 1378
+    },
+    {
+      "id": "a34",
+      "text": "機内モードに切り替えて無視",
+      "speaker": "narrator",
+      "startFrame": 1379,
+      "endFrame": 1419
+    },
+    {
+      "id": "a35",
+      "text": "ハワイ楽しみだね！",
+      "speaker": "character1",
+      "startFrame": 1420,
+      "endFrame": 1460
+    },
+    {
+      "id": "a36",
+      "text": "いやー最高だね！",
+      "speaker": "character1",
+      "startFrame": 1461,
+      "endFrame": 1501
+    },
+    {
+      "id": "a37",
+      "text": "翌日義父から連絡",
+      "speaker": "narrator",
+      "startFrame": 1502,
+      "endFrame": 1542
+    },
+    {
+      "id": "a38",
+      "text": "義母と義妹が食い逃げで捕まったらしい",
+      "speaker": "narrator",
+      "startFrame": 1543,
+      "endFrame": 1583
+    },
+    {
+      "id": "a39",
+      "text": "これを機に離婚するみたい",
+      "speaker": "narrator",
+      "startFrame": 1584,
+      "endFrame": 1624
+    },
+    {
+      "id": "a40",
+      "text": "父さんやっと決心してくれたな",
+      "speaker": "character1",
+      "startFrame": 1625,
+      "endFrame": 1665
+    },
+    {
+      "id": "a41",
+      "text": "私たちも海外旅行から帰ったら",
+      "speaker": "character1",
+      "startFrame": 1666,
+      "endFrame": 1706
+    },
+    {
+      "id": "a42",
+      "text": "新天地に引っ越しね",
+      "speaker": "character1",
+      "startFrame": 1707,
+      "endFrame": 1747
+    },
+    {
+      "id": "a43",
+      "text": "あの2人は寄生先いなくなって",
+      "speaker": "narrator",
+      "startFrame": 1748,
+      "endFrame": 1788
+    },
+    {
+      "id": "a44",
+      "text": "これからどうするんだろう？",
+      "speaker": "narrator",
+      "startFrame": 1789,
+      "endFrame": 1829
+    },
+    {
+      "id": "a45",
+      "text": "タケシ！紹介するよ婚約者の美咲",
+      "speaker": "character1",
+      "startFrame": 1830,
+      "endFrame": 1929
+    },
+    {
+      "id": "a46",
+      "text": "初めまして",
+      "speaker": "character2",
+      "startFrame": 1930,
+      "endFrame": 2029
+    },
+    {
+      "id": "a47",
+      "text": "タケシの顔が一瞬で真っ青に",
+      "speaker": "narrator",
+      "startFrame": 2030,
+      "endFrame": 2129
+    },
+    {
+      "id": "a48",
+      "text": "おいおい美人すぎて固まったか？ｗ",
+      "speaker": "character1",
+      "startFrame": 2130,
+      "endFrame": 2229
+    },
+    {
+      "id": "a49",
+      "text": "あ、いや…おめでとう",
+      "speaker": "character1",
+      "startFrame": 2230,
+      "endFrame": 2329
+    },
+    {
+      "id": "a50",
+      "text": "3日後タケシから呼び出し",
+      "speaker": "narrator",
+      "startFrame": 2330,
+      "endFrame": 2429
+    },
+    {
+      "id": "a51",
+      "text": "イッチ…言いにくいんだけど",
+      "speaker": "character1",
+      "startFrame": 2430,
+      "endFrame": 2529
+    },
+    {
+      "id": "a52",
+      "text": "美咲さん実は高校の同級生なんだ",
+      "speaker": "character1",
+      "startFrame": 2530,
+      "endFrame": 2629
+    },
+    {
+      "id": "a53",
+      "text": "俺、あいつにいじめられてた",
+      "speaker": "character1",
+      "startFrame": 2630,
+      "endFrame": 2729
+    },
+    {
+      "id": "a54",
+      "text": "階段から落ちて怪我した子とか",
+      "speaker": "character1",
+      "startFrame": 2730,
+      "endFrame": 2829
+    },
+    {
+      "id": "a55",
+      "text": "親が社長だからもみ消されたんだ",
+      "speaker": "character1",
+      "startFrame": 2830,
+      "endFrame": 2929
+    },
+    {
+      "id": "a56",
+      "text": "うちに示談金たかって来たのよ",
+      "speaker": "character2",
+      "startFrame": 2930,
+      "endFrame": 3029
+    },
+    {
+      "id": "a57",
+      "text": "イッチ君来てくれてありがとう",
+      "speaker": "character2",
+      "startFrame": 3030,
+      "endFrame": 3129
+    },
+    {
+      "id": "a58",
+      "text": "あいつがその同級生だよ",
+      "speaker": "character1",
+      "startFrame": 3130,
+      "endFrame": 3229
+    },
+    {
+      "id": "a59",
+      "text": "言ったことと正反対だったよ",
+      "speaker": "character1",
+      "startFrame": 3230,
+      "endFrame": 3329
+    },
+    {
+      "id": "a60",
+      "text": "君たちは俺の思ってるような人たちじゃなかった",
+      "speaker": "character1",
+      "startFrame": 3330,
+      "endFrame": 3429
+    },
+    {
+      "id": "a61",
+      "text": "過去の出来事を週刊誌にタレコミ",
+      "speaker": "narrator",
+      "startFrame": 3430,
+      "endFrame": 3529
+    },
+    {
+      "id": "a62",
+      "text": "大切な親友は失わなかった",
+      "speaker": "narrator",
+      "startFrame": 3530,
+      "endFrame": 3629
+    },
+    {
+      "id": "a63",
+      "text": "付き合ってる彼女が妊娠",
+      "speaker": "narrator",
+      "startFrame": 3630,
+      "endFrame": 3754
+    },
+    {
+      "id": "a64",
+      "text": "想定外の学生結婚",
+      "speaker": "narrator",
+      "startFrame": 3755,
+      "endFrame": 3879
+    },
+    {
+      "id": "a65",
+      "text": "夜泣きで寝不足でも可愛い娘",
+      "speaker": "narrator",
+      "startFrame": 3880,
+      "endFrame": 4004
+    },
+    {
+      "id": "a66",
+      "text": "テーブルに置き手紙",
+      "speaker": "narrator",
+      "startFrame": 4005,
+      "endFrame": 4129
+    },
+    {
+      "id": "a67",
+      "text": "娘を育てることに",
+      "speaker": "narrator",
+      "startFrame": 4130,
+      "endFrame": 4254
+    },
+    {
+      "id": "a68",
+      "text": "皆に愛されて育った娘は",
+      "speaker": "narrator",
+      "startFrame": 4255,
+      "endFrame": 4379
+    },
+    {
+      "id": "a69",
+      "text": "ある時元嫁から連絡",
+      "speaker": "narrator",
+      "startFrame": 4380,
+      "endFrame": 4504
+    },
+    {
+      "id": "a70",
+      "text": "離婚してるからもう家族じゃないよ",
+      "speaker": "character1",
+      "startFrame": 4505,
+      "endFrame": 4628
+    },
+    {
+      "id": "a71",
+      "text": "離婚調停済みだよ",
+      "speaker": "character1",
+      "startFrame": 4629,
+      "endFrame": 4752
+    },
+    {
+      "id": "a72",
+      "text": "離婚したなら財産分与はどうなるのよ！",
+      "speaker": "character2",
+      "startFrame": 4753,
+      "endFrame": 4876
+    },
+    {
+      "id": "a73",
+      "text": "パパー誰このおばちゃん？",
+      "speaker": "character2",
+      "startFrame": 4877,
+      "endFrame": 5000
+    },
+    {
+      "id": "a74",
+      "text": "パパの悪口言わないで！",
+      "speaker": "character2",
+      "startFrame": 5001,
+      "endFrame": 5124
+    },
+    {
+      "id": "a75",
+      "text": "もう二度と来ないでください",
+      "speaker": "character1",
+      "startFrame": 5125,
+      "endFrame": 5248
+    },
+    {
+      "id": "a76",
+      "text": "二度と会いに来れないようにした",
+      "speaker": "narrator",
+      "startFrame": 5249,
+      "endFrame": 5372
+    }
+  ],
+  "bgm": {
+    "volume": 0.1,
+    "loop": true
+  },
+  "entries": [
+    {
+      "unitId": "a1",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a2",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a3",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a4",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a5",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a6",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a7",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a8",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a9",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a10",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a11",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a12",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a13",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a14",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a15",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a16",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a17",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a18",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a19",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a20",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a21",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a22",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a23",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a24",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a25",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a26",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a27",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a28",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a29",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a30",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a31",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a32",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a33",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a34",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a35",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a36",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a37",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a38",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a39",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a40",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a41",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a42",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a43",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a44",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a45",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a46",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a47",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a48",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a49",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a50",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a51",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a52",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a53",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a54",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a55",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a56",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a57",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a58",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a59",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a60",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a61",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a62",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a63",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a64",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a65",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a66",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a67",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a68",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a69",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a70",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a71",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a72",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a73",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a74",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a75",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a76",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "s1",
+      "src": "work/tts_s1.wav",
+      "durationSec": 1.024
+    },
+    {
+      "unitId": "s2",
+      "src": "work/tts_s2.wav",
+      "durationSec": 1.8026666666666666
+    },
+    {
+      "unitId": "s3",
+      "src": "work/tts_s3.wav",
+      "durationSec": 0.8
+    },
+    {
+      "unitId": "s4",
+      "src": "work/tts_s4.wav",
+      "durationSec": 0.928
+    },
+    {
+      "unitId": "s5",
+      "src": "work/tts_s5.wav",
+      "durationSec": 1.0026666666666666
+    },
+    {
+      "unitId": "s6",
+      "src": "work/tts_s6.wav",
+      "durationSec": 0.49066666666666664
+    },
+    {
+      "unitId": "s7",
+      "src": "work/tts_s7.wav",
+      "durationSec": 1.2266666666666666
+    },
+    {
+      "unitId": "s8",
+      "src": "work/tts_s8.wav",
+      "durationSec": 1.0773333333333333
+    },
+    {
+      "unitId": "s9",
+      "src": "work/tts_s9.wav",
+      "durationSec": 1.792
+    },
+    {
+      "unitId": "s10",
+      "src": "work/tts_s10.wav",
+      "durationSec": 1.6
+    },
+    {
+      "unitId": "s11",
+      "src": "work/tts_s11.wav",
+      "durationSec": 1.7706666666666666
+    },
+    {
+      "unitId": "s12",
+      "src": "work/tts_s12.wav",
+      "durationSec": 1.2906666666666666
+    },
+    {
+      "unitId": "s13",
+      "src": "work/tts_s13.wav",
+      "durationSec": 1.0773333333333333
+    },
+    {
+      "unitId": "s14",
+      "src": "work/tts_s14.wav",
+      "durationSec": 1.9946666666666666
+    },
+    {
+      "unitId": "s15",
+      "src": "work/tts_s15.wav",
+      "durationSec": 1.2266666666666666
+    },
+    {
+      "unitId": "s16",
+      "src": "work/tts_s16.wav",
+      "durationSec": 1.3226666666666667
+    },
+    {
+      "unitId": "s17",
+      "src": "work/tts_s17.wav",
+      "durationSec": 1.6213333333333333
+    },
+    {
+      "unitId": "s18",
+      "src": "work/tts_s18.wav",
+      "durationSec": 1.8453333333333333
+    },
+    {
+      "unitId": "s19",
+      "src": "work/tts_s19.wav",
+      "durationSec": 1.76
+    },
+    {
+      "unitId": "s20",
+      "src": "work/tts_s20.wav",
+      "durationSec": 1.2586666666666666
+    },
+    {
+      "unitId": "s21",
+      "src": "work/tts_s21.wav",
+      "durationSec": 1.248
+    },
+    {
+      "unitId": "s22",
+      "src": "work/tts_s22.wav",
+      "durationSec": 1.056
+    },
+    {
+      "unitId": "s23",
+      "src": "work/tts_s23.wav",
+      "durationSec": 1.8346666666666667
+    },
+    {
+      "unitId": "s24",
+      "src": "work/tts_s24.wav",
+      "durationSec": 0.7893333333333333
+    },
+    {
+      "unitId": "s25",
+      "src": "work/tts_s25.wav",
+      "durationSec": 1.1626666666666667
+    },
+    {
+      "unitId": "s26",
+      "src": "work/tts_s26.wav",
+      "durationSec": 1.472
+    },
+    {
+      "unitId": "s27",
+      "src": "work/tts_s27.wav",
+      "durationSec": 1.3653333333333333
+    },
+    {
+      "unitId": "s28",
+      "src": "work/tts_s28.wav",
+      "durationSec": 0.736
+    },
+    {
+      "unitId": "s29",
+      "src": "work/tts_s29.wav",
+      "durationSec": 1.6106666666666667
+    },
+    {
+      "unitId": "s30",
+      "src": "work/tts_s30.wav",
+      "durationSec": 1.1306666666666667
+    },
+    {
+      "unitId": "s31",
+      "src": "work/tts_s31.wav",
+      "durationSec": 1.2053333333333334
+    },
+    {
+      "unitId": "s32",
+      "src": "work/tts_s32.wav",
+      "durationSec": 1.7066666666666668
+    },
+    {
+      "unitId": "s33",
+      "src": "work/tts_s33.wav",
+      "durationSec": 0.8533333333333334
+    },
+    {
+      "unitId": "s34",
+      "src": "work/tts_s34.wav",
+      "durationSec": 1.5466666666666666
+    },
+    {
+      "unitId": "s35",
+      "src": "work/tts_s35.wav",
+      "durationSec": 0.896
+    },
+    {
+      "unitId": "s36",
+      "src": "work/tts_s36.wav",
+      "durationSec": 0.8853333333333333
+    },
+    {
+      "unitId": "s37",
+      "src": "work/tts_s37.wav",
+      "durationSec": 1.3546666666666667
+    },
+    {
+      "unitId": "s38",
+      "src": "work/tts_s38.wav",
+      "durationSec": 2.058666666666667
+    },
+    {
+      "unitId": "s39",
+      "src": "work/tts_s39.wav",
+      "durationSec": 1.3973333333333333
+    },
+    {
+      "unitId": "s40",
+      "src": "work/tts_s40.wav",
+      "durationSec": 1.4613333333333334
+    },
+    {
+      "unitId": "s41",
+      "src": "work/tts_s41.wav",
+      "durationSec": 1.6213333333333333
+    },
+    {
+      "unitId": "s42",
+      "src": "work/tts_s42.wav",
+      "durationSec": 1.1626666666666667
+    },
+    {
+      "unitId": "s43",
+      "src": "work/tts_s43.wav",
+      "durationSec": 1.8026666666666666
+    },
+    {
+      "unitId": "s44",
+      "src": "work/tts_s44.wav",
+      "durationSec": 1.344
+    },
+    {
+      "unitId": "s45",
+      "src": "work/tts_s45.wav",
+      "durationSec": 1.8666666666666667
+    },
+    {
+      "unitId": "s46",
+      "src": "work/tts_s46.wav",
+      "durationSec": 0.6826666666666666
+    },
+    {
+      "unitId": "s47",
+      "src": "work/tts_s47.wav",
+      "durationSec": 1.8133333333333332
+    },
+    {
+      "unitId": "s48",
+      "src": "work/tts_s48.wav",
+      "durationSec": 2.037333333333333
+    },
+    {
+      "unitId": "s49",
+      "src": "work/tts_s49.wav",
+      "durationSec": 1.3333333333333333
+    },
+    {
+      "unitId": "s50",
+      "src": "work/tts_s50.wav",
+      "durationSec": 1.472
+    },
+    {
+      "unitId": "s51",
+      "src": "work/tts_s51.wav",
+      "durationSec": 1.2693333333333334
+    },
+    {
+      "unitId": "s52",
+      "src": "work/tts_s52.wav",
+      "durationSec": 1.824
+    },
+    {
+      "unitId": "s53",
+      "src": "work/tts_s53.wav",
+      "durationSec": 1.3013333333333332
+    },
+    {
+      "unitId": "s54",
+      "src": "work/tts_s54.wav",
+      "durationSec": 1.3546666666666667
+    },
+    {
+      "unitId": "s55",
+      "src": "work/tts_s55.wav",
+      "durationSec": 1.4613333333333334
+    },
+    {
+      "unitId": "s56",
+      "src": "work/tts_s56.wav",
+      "durationSec": 1.4933333333333334
+    },
+    {
+      "unitId": "s57",
+      "src": "work/tts_s57.wav",
+      "durationSec": 1.3866666666666667
+    },
+    {
+      "unitId": "s58",
+      "src": "work/tts_s58.wav",
+      "durationSec": 1.3013333333333332
+    },
+    {
+      "unitId": "s59",
+      "src": "work/tts_s59.wav",
+      "durationSec": 1.2906666666666666
+    },
+    {
+      "unitId": "s60",
+      "src": "work/tts_s60.wav",
+      "durationSec": 2.005333333333333
+    },
+    {
+      "unitId": "s61",
+      "src": "work/tts_s61.wav",
+      "durationSec": 1.9306666666666668
+    },
+    {
+      "unitId": "s62",
+      "src": "work/tts_s62.wav",
+      "durationSec": 1.92
+    },
+    {
+      "unitId": "s63",
+      "src": "work/tts_s63.wav",
+      "durationSec": 1.4506666666666668
+    },
+    {
+      "unitId": "s64",
+      "src": "work/tts_s64.wav",
+      "durationSec": 1.6
+    },
+    {
+      "unitId": "s65",
+      "src": "work/tts_s65.wav",
+      "durationSec": 1.856
+    },
+    {
+      "unitId": "s66",
+      "src": "work/tts_s66.wav",
+      "durationSec": 1.152
+    },
+    {
+      "unitId": "s67",
+      "src": "work/tts_s67.wav",
+      "durationSec": 1.2693333333333334
+    },
+    {
+      "unitId": "s68",
+      "src": "work/tts_s68.wav",
+      "durationSec": 1.696
+    },
+    {
+      "unitId": "s69",
+      "src": "work/tts_s69.wav",
+      "durationSec": 1.568
+    },
+    {
+      "unitId": "s70",
+      "src": "work/tts_s70.wav",
+      "durationSec": 1.472
+    },
+    {
+      "unitId": "s71",
+      "src": "work/tts_s71.wav",
+      "durationSec": 1.024
+    },
+    {
+      "unitId": "s72",
+      "src": "work/tts_s72.wav",
+      "durationSec": 1.984
+    },
+    {
+      "unitId": "s73",
+      "src": "work/tts_s73.wav",
+      "durationSec": 1.216
+    },
+    {
+      "unitId": "s74",
+      "src": "work/tts_s74.wav",
+      "durationSec": 1.2586666666666666
+    },
+    {
+      "unitId": "s75",
+      "src": "work/tts_s75.wav",
+      "durationSec": 1.088
+    },
+    {
+      "unitId": "s76",
+      "src": "work/tts_s76.wav",
+      "durationSec": 1.5573333333333332
+    }
+  ]
+}

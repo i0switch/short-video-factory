@@ -1,0 +1,97 @@
+{
+  "videoTitle": "デート中に\nやられたら冷めること",
+  "intro": "デート中にやられたら冷めることランキング、挙げてけww",
+  "items": [
+    {
+      "rank": 10,
+      "topic": "店員への態度",
+      "comment1": "性格が出ちゃうよね",
+      "comment2": "育ちが知れるやろ",
+      "body": "10位は店員への態度。自分には優しくても店員に横柄な態度をとる人を見ると、将来の自分への態度を予感して百年の恋も冷める。",
+      "imageKeywords": ["男性", "威張る"],
+      "imageKeywordsEn": ["rude customer", "dating"]
+    },
+    {
+      "rank": 9,
+      "topic": "スマホをいじる",
+      "comment1": "一緒にいる意味ないよね",
+      "comment2": "家で一人でやっとれやろ",
+      "body": "9位はスマホばかり見ること。会話の最中や食事中にスマホに夢中なのは、相手へのリスペクトが足りない証拠。寂しい気持ちになる。",
+      "imageKeywords": ["女性", "呆れる"],
+      "imageKeywordsEn": ["distracted date", "smartphone"]
+    },
+    {
+      "rank": 8,
+      "topic": "細かな割り勘",
+      "comment1": "1円単位は引くよね",
+      "comment2": "器の小ささ丸出しやろ",
+      "body": "8位は細かすぎる割り勘。1円単位まで計算されると、楽しかった時間も一気に事務的な作業に。ケチな印象は拭えない。",
+      "imageKeywords": ["男女", "会計"],
+      "imageKeywordsEn": ["stingy split bill", "awkward"]
+    },
+    {
+      "rank": 7,
+      "topic": "遅刻して無言",
+      "comment1": "謝罪は基本だよね",
+      "comment2": "時間を何と思っとるやろ",
+      "body": "7位は遅刻しても謝らないこと。待たされた時間そのものより、悪いと思っていない態度に冷める。相手を軽視している証拠。",
+      "imageKeywords": ["女性", "怒る"],
+      "imageKeywordsEn": ["angry woman waiting", "late date"]
+    },
+    {
+      "rank": 6,
+      "topic": "元カノの話",
+      "comment1": "比較されてるみたいだよね",
+      "comment2": "今の相手に失礼すぎるやろ",
+      "body": "6位は過去の恋人の話。思い出話や比較は、聞かされる方にとっては何の得もない苦行。デリカシーのなさにドン引き。",
+      "imageKeywords": ["男性", "喋る"],
+      "imageKeywordsEn": ["ex-boyfriend talk", "bored girl"]
+    },
+    {
+      "rank": 5,
+      "topic": "食べ方が汚い",
+      "comment1": "食欲失せちゃうよね",
+      "comment2": "生理的に無理に決まっとる",
+      "body": "5位は食べ方が汚いこと。クチャクチャ音を立てたり、口に物が入ったまま喋ったり。生理的な嫌悪感はなかなか克服できない。",
+      "imageKeywords": ["女性", "嫌悪感"],
+      "imageKeywordsEn": ["gross eater", "disgusting table manners"]
+    },
+    {
+      "rank": 4,
+      "topic": "香水がキツい",
+      "comment1": "鼻が麻痺しちゃうよね",
+      "comment2": "公害レベルに決まっとる",
+      "body": "4位は香水がキツすぎること。良かれと思ってのオシャレも、度を超せば周囲への迷惑。密室でのデートでは特に致命的。",
+      "imageKeywords": ["男女", "臭い"],
+      "imageKeywordsEn": ["strong perfume", "smelly date"]
+    },
+    {
+      "rank": 3,
+      "topic": "自分の話ばかり",
+      "comment1": "聞き役は疲れるよね",
+      "comment2": "独演会かよって思うやろ",
+      "body": "3位はずっと自分の話ばかりすること。相手に興味を持たず、自分の武勇伝や自慢ばかり。会話のキャッチボールができないと辛い。",
+      "imageKeywords": ["女性", "疲れる"],
+      "imageKeywordsEn": ["one-sided conversation", "tired girl"]
+    },
+    {
+      "rank": 2,
+      "topic": "服装がヤバい",
+      "comment1": "隣を歩くのが恥ずかしいよね",
+      "comment2": "ＴＰＯ考えてなさすぎやろ",
+      "body": "2位は服装がダサすぎること。個性的すぎるならまだしも、清潔感がないのは論外。デートへのやる気を感じられないのが悲しい。",
+      "imageKeywords": ["男性", "ダサい"],
+      "imageKeywordsEn": ["bad fashion sense", "messy clothes"]
+    },
+    {
+      "rank": 1,
+      "topic": "お礼を言わない",
+      "comment1": "当たり前じゃないんだよね",
+      "comment2": "人として終わっとるやろ",
+      "body": "1位はお礼を言わないこと。奢ってもらったり、車で送ってもらったりした時に「ありがとう」の一言がない。感謝できない人は無理。",
+      "imageKeywords": ["女性", "不満"],
+      "imageKeywordsEn": ["ungrateful date", "rude behavior"]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

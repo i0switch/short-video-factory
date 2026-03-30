@@ -1,0 +1,158 @@
+{
+  "format": "2ch",
+  "videoTitle": "スカッと迷語集〜静かな反撃〜",
+  "episodes": [
+    {
+      "title": "第1話：飲み会の逆襲",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "飲み会で同僚にイジられてた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["飲み会"],
+          "imageKeywordsEn": ["drinking party"]
+        },
+        {
+          "speaker": "character1",
+          "text": "お前って仕事遅いよなw",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["サラリーマン 飲み会"],
+          "imageKeywordsEn": ["coworker mocking"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "周りも笑ってて腹立った",
+          "emotion": "anger",
+          "effect": "none",
+          "imageKeywords": ["怒る"],
+          "imageKeywordsEn": ["angry person"]
+        },
+        {
+          "speaker": "character2",
+          "text": "君より早く昇進したけどね",
+          "emotion": "neutral",
+          "effect": "concentration_lines",
+          "imageKeywords": ["ドヤ顔"],
+          "imageKeywordsEn": ["smug face"]
+        }
+      ]
+    },
+    {
+      "title": "第2話：誕生日ケーキ",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "嫁の誕生日にケーキ買った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["ケーキ"],
+          "imageKeywordsEn": ["birthday cake"]
+        },
+        {
+          "speaker": "character1",
+          "text": "わあ！ありがとう！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["喜ぶ 女性"],
+          "imageKeywordsEn": ["happy woman"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "プレートの文字を見たら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["ケーキ プレート"],
+          "imageKeywordsEn": ["cake plate message"]
+        },
+        {
+          "speaker": "character2",
+          "text": "「私おめでとう」って自分で書いたの？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": ["困惑"],
+          "imageKeywordsEn": ["confused face"]
+        },
+        {
+          "speaker": "character1",
+          "text": "自分で自分を祝うスタイル！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["笑顔 女性"],
+          "imageKeywordsEn": ["cheerful woman"]
+        }
+      ]
+    },
+    {
+      "title": "第3話：朝の支度実況",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "彼女の朝の支度を見てたら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["朝 支度"],
+          "imageKeywordsEn": ["morning routine"]
+        },
+        {
+          "speaker": "character1",
+          "text": "選手、洗顔に入りました！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["実況 アナウンサー"],
+          "imageKeywordsEn": ["sports announcer"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "なぜか実況を始めた彼氏",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男性 マイク"],
+          "imageKeywordsEn": ["man microphone"]
+        },
+        {
+          "speaker": "character1",
+          "text": "化粧水！乳液！日焼け止め！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["化粧品"],
+          "imageKeywordsEn": ["cosmetics skincare"]
+        },
+        {
+          "speaker": "character2",
+          "text": "うるさいんだけど！",
+          "emotion": "anger",
+          "effect": "none",
+          "imageKeywords": ["怒る 女性"],
+          "imageKeywordsEn": ["annoyed woman"]
+        },
+        {
+          "speaker": "character1",
+          "text": "おっと選手怒りのドライヤー！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["ドライヤー"],
+          "imageKeywordsEn": ["hair dryer"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "最後にとんでもない一言が",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["驚き"],
+          "imageKeywordsEn": ["surprise moment"]
+        },
+        {
+          "speaker": "character1",
+          "text": "完成タイム42分！新記録！",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["ストップウォッチ"],
+          "imageKeywordsEn": ["stopwatch timer"]
+        }
+      ]
+    }
+  ],
+  "outro": "スカッとしたらチャンネル登録！"
+}

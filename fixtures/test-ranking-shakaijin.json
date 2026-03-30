@@ -1,0 +1,97 @@
+{
+  "videoTitle": "社会人になって\n気づく現実",
+  "intro": "社会人になって気づく残酷な現実ランキング！",
+  "items": [
+    {
+      "rank": 10,
+      "topic": "朝が地獄",
+      "comment1": "毎朝つらいよね",
+      "comment2": "目覚まし5個いるやろ",
+      "body": "10位は朝起きるのがつらすぎること。学生時代は昼まで寝てたのに、毎朝6時に起きる生活。月曜の朝は特に地獄。",
+      "imageKeywords": ["寝坊", "男の子"],
+      "imageKeywordsEn": ["sleepy morning alarm"]
+    },
+    {
+      "rank": 9,
+      "topic": "昼休みが短い",
+      "comment1": "一瞬で終わるよね",
+      "comment2": "飯食って終了やろ",
+      "body": "9位は昼休み1時間の短さ。食べて歯磨きしたらもう残り10分。昼寝なんて夢のまた夢。",
+      "imageKeywords": ["お弁当", "食べる"],
+      "imageKeywordsEn": ["lunch break office"]
+    },
+    {
+      "rank": 8,
+      "topic": "給料日の儚さ",
+      "comment1": "秒で消えるよね",
+      "comment2": "家賃で半分消えるやろ",
+      "body": "8位は給料日の儚さ。25日にテンション上がるが、月末には家賃・光熱費・保険で残高が瀕死。",
+      "imageKeywords": ["お金", "財布"],
+      "imageKeywordsEn": ["empty wallet payday"]
+    },
+    {
+      "rank": 7,
+      "topic": "飲み会が苦行",
+      "comment1": "断れないよね",
+      "comment2": "二次会はほんま勘弁やろ",
+      "body": "7位は強制参加の飲み会。上司の武勇伝を聞きながら笑顔を作り続ける苦行。しかも割り勘。",
+      "imageKeywords": ["飲み会", "ビール"],
+      "imageKeywordsEn": ["office drinking party"]
+    },
+    {
+      "rank": 6,
+      "topic": "月曜の絶望",
+      "comment1": "日曜夜から憂鬱だよね",
+      "comment2": "サザエさん症候群やろ",
+      "body": "6位は月曜日の絶望感。日曜の夕方からじわじわと近づく現実。サザエさんのエンディングが流れた瞬間に心が死ぬ。",
+      "imageKeywords": ["男性", "絶望"],
+      "imageKeywordsEn": ["depressed monday morning"]
+    },
+    {
+      "rank": 5,
+      "topic": "有給取れない",
+      "comment1": "申請しづらいよね",
+      "comment2": "権利なのに罪悪感やろ",
+      "body": "5位は有給休暇の取りにくさ。制度上はあるのに、周りの目が気になって申請できない日本の闇。",
+      "imageKeywords": ["書類", "悩む"],
+      "imageKeywordsEn": ["vacation request denied"]
+    },
+    {
+      "rank": 4,
+      "topic": "時間が消える",
+      "comment1": "平日は何もできないよね",
+      "comment2": "帰って寝るだけやろ",
+      "body": "4位は自由時間の消滅。通勤往復2時間、残業3時間。帰宅したら風呂入って寝るだけの毎日。",
+      "imageKeywords": ["疲れた", "男性"],
+      "imageKeywordsEn": ["exhausted worker sleeping"]
+    },
+    {
+      "rank": 3,
+      "topic": "上司ガチャ",
+      "comment1": "運ゲーだよね",
+      "comment2": "ハズレ引いたら詰むやろ",
+      "body": "3位は上司ガチャ。能力も人格も上司次第で天国か地獄か決まる。異動希望を出しても通らない絶望。",
+      "imageKeywords": ["上司", "怒る"],
+      "imageKeywordsEn": ["angry boss yelling"]
+    },
+    {
+      "rank": 2,
+      "topic": "学生に戻りたい",
+      "comment1": "切実に思うよね",
+      "comment2": "タイムマシンくれやろ",
+      "body": "2位は学生時代への郷愁。あの頃の自由な時間がどれだけ贅沢だったか。大人になって初めて気づく残酷な真実。",
+      "imageKeywords": ["学校", "懐かしい"],
+      "imageKeywordsEn": ["nostalgic school days"]
+    },
+    {
+      "rank": 1,
+      "topic": "定年まで40年",
+      "comment1": "考えたくないよね",
+      "comment2": "気が遠くなるやろ",
+      "body": "栄えある第1位は定年までの距離。22歳で入社して65歳まで。あと40年以上これが続くと気づいた時の絶望感は言葉にできない。",
+      "imageKeywords": ["カレンダー", "絶望"],
+      "imageKeywordsEn": ["long road ahead despair"]
+    }
+  ],
+  "outro": "共感したらコメント欄へ！"
+}

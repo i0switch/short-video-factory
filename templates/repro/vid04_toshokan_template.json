@@ -1,0 +1,690 @@
+{
+  "videoId": "vid04_toshokan",
+  "youtubeId": "oaOq39FXJx8",
+  "seriesTitle": "笑える迷言集",
+  "videoTitle": "キョンシー百貫",
+  "titleLine1": "笑える迷言集",
+  "titleLine2": "キョンシー百貫",
+  "titleColor": "#FFD700",
+  "captionColor": "#FFFFFF",
+  "titleBgColor": "#000000",
+  "hideTitle": true,
+  "hideCaption": true,
+  "captionFadeInFrames": 0,
+  "fps": 30,
+  "ttsSpeed": 1.4,
+  "bgmVolume": 0.1,
+  "durationSec": 59.4,
+  "scenes": [
+    {
+      "id": 1,
+      "text": "図書館に本を借りに来たら",
+      "narration": "図書館に本を借りに来たら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_01.jpg",
+      "imageKeywords": [
+        "図書館"
+      ],
+      "imageKeywordsEn": [
+        "library bookshelves"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "んゴゴゴゴゴゴーーーゴゴごっ！",
+      "narration": "んゴゴゴゴゴゴーーーゴゴごっ！",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "shake",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_02.jpg",
+      "imageKeywords": [
+        "驚き",
+        "図書館"
+      ],
+      "imageKeywordsEn": [
+        "shocked woman library"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "え、今の音なに！？",
+      "narration": "え、今の音なに！？",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "concentration_lines",
+      "durationMs": 1076,
+      "backgroundFrame": "scene_03.jpg",
+      "imageKeywords": [
+        "驚く女性"
+      ],
+      "imageKeywordsEn": [
+        "surprised woman"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "って周りを見渡したら",
+      "narration": "って周りを見渡したら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1076,
+      "backgroundFrame": "scene_04.jpg",
+      "imageKeywords": [
+        "図書館"
+      ],
+      "imageKeywordsEn": [
+        "looking around library"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "百貫が椅子並べて仰向けで大イビキ！",
+      "narration": "百貫が椅子並べて仰向けで大イビキ！",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "shake",
+      "durationMs": 2152,
+      "backgroundFrame": "scene_05.jpg",
+      "imageKeywords": [
+        "寝る",
+        "いびき"
+      ],
+      "imageKeywordsEn": [
+        "sleeping snoring chair"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "しばらくすると静かになった！",
+      "narration": "しばらくすると静かになった！",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1793,
+      "backgroundFrame": "scene_06.jpg",
+      "imageKeywords": [
+        "寝る女性",
+        "椅子"
+      ],
+      "imageKeywordsEn": [
+        "sleeping woman chair library"
+      ]
+    },
+    {
+      "id": 7,
+      "text": "自分のいびきにビクッとして",
+      "narration": "自分のいびきにビクッとして",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "shake",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_07.jpg",
+      "imageKeywords": [
+        "驚く",
+        "寝起き"
+      ],
+      "imageKeywordsEn": [
+        "startled waking up"
+      ]
+    },
+    {
+      "id": 8,
+      "text": "って寝言みたいに言った後また寝たぁああぁ！？",
+      "narration": "って寝言みたいに言った後また寝たぁああぁ！？",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "shake",
+      "durationMs": 2152,
+      "backgroundFrame": "scene_08.jpg",
+      "imageKeywords": [
+        "驚く女性",
+        "図書館"
+      ],
+      "imageKeywordsEn": [
+        "shocked woman library"
+      ]
+    },
+    {
+      "id": 9,
+      "text": "これ絶対わざとじゃない！？",
+      "narration": "これ絶対わざとじゃない！？",
+      "speaker": "narrator",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 1255,
+      "backgroundFrame": "scene_09.jpg",
+      "imageKeywords": [
+        "怒り"
+      ],
+      "imageKeywordsEn": [
+        "angry disbelief"
+      ]
+    },
+    {
+      "id": 10,
+      "text": "と思って",
+      "narration": "と思って",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 717,
+      "backgroundFrame": "scene_10.jpg",
+      "imageKeywords": [
+        "考える女性"
+      ],
+      "imageKeywordsEn": [
+        "thinking woman"
+      ]
+    },
+    {
+      "id": 11,
+      "text": "落ちてたしおりを百貫の額にペタッ！",
+      "narration": "落ちてたしおりを百貫の額にペタッ！",
+      "speaker": "narrator",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 1972,
+      "backgroundFrame": "scene_11.jpg",
+      "imageKeywords": [
+        "しおり",
+        "額"
+      ],
+      "imageKeywordsEn": [
+        "bookmark forehead prank"
+      ]
+    },
+    {
+      "id": 12,
+      "text": "カッ！と目を見開くから",
+      "narration": "カッ！と目を見開くから",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "lightning",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_12.jpg",
+      "imageKeywords": [
+        "目を見開く"
+      ],
+      "imageKeywordsEn": [
+        "eyes wide open shock"
+      ]
+    },
+    {
+      "id": 13,
+      "text": "一瞬キョンシー！？",
+      "narration": "一瞬キョンシー！？",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1255,
+      "backgroundFrame": "scene_13.jpg",
+      "imageKeywords": [
+        "キョンシー",
+        "お札"
+      ],
+      "imageKeywordsEn": [
+        "jiangshi zombie talisman"
+      ]
+    },
+    {
+      "id": 14,
+      "text": "そのまま椅子から転げ落ちて大きな音を立てると",
+      "narration": "そのまま椅子から転げ落ちて大きな音を立てると",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "shake",
+      "durationMs": 2510,
+      "backgroundFrame": "scene_14.jpg",
+      "imageKeywords": [
+        "椅子",
+        "転ぶ"
+      ],
+      "imageKeywordsEn": [
+        "falling off chair"
+      ]
+    },
+    {
+      "id": 15,
+      "text": "静粛にお願いします！",
+      "narration": "静粛にお願いします！",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 1793,
+      "backgroundFrame": "scene_15.jpg",
+      "imageKeywords": [
+        "図書館員",
+        "怒る"
+      ],
+      "imageKeywordsEn": [
+        "angry librarian"
+      ]
+    },
+    {
+      "id": 16,
+      "text": "いや私、寝てません！考え事してただけで",
+      "narration": "いや私、寝てません！考え事してただけで",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 2510,
+      "backgroundFrame": "scene_16.jpg",
+      "imageKeywords": [
+        "言い訳",
+        "焦る"
+      ],
+      "imageKeywordsEn": [
+        "making excuses nervous"
+      ]
+    },
+    {
+      "id": 17,
+      "text": "しおり貼ったまま必死に言い訳するから",
+      "narration": "しおり貼ったまま必死に言い訳するから",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_17.jpg",
+      "imageKeywords": [
+        "言い訳"
+      ],
+      "imageKeywordsEn": [
+        "excuse bookmark forehead"
+      ]
+    },
+    {
+      "id": 18,
+      "text": "起きてるよね？って思ったので",
+      "narration": "起きてるよね？って思ったので",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_18.jpg",
+      "imageKeywords": [
+        "疑問",
+        "女性"
+      ],
+      "imageKeywordsEn": [
+        "questioning woman"
+      ]
+    },
+    {
+      "id": 19,
+      "text": "何考えてたんですか？って聞くと",
+      "narration": "何考えてたんですか？って聞くと",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1793,
+      "backgroundFrame": "scene_19.jpg",
+      "imageKeywords": [
+        "質問",
+        "女性"
+      ],
+      "imageKeywordsEn": [
+        "asking question woman"
+      ]
+    },
+    {
+      "id": 20,
+      "text": "何考えようか考えてました！",
+      "narration": "何考えようか考えてました！",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_20.jpg",
+      "imageKeywords": [
+        "混乱",
+        "言い訳"
+      ],
+      "imageKeywordsEn": [
+        "confused excuse"
+      ]
+    },
+    {
+      "id": 21,
+      "text": "一瞬、館内が止まると",
+      "narration": "一瞬、館内が止まると",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_21.jpg",
+      "imageKeywords": [
+        "図書館",
+        "静寂"
+      ],
+      "imageKeywordsEn": [
+        "silent library"
+      ]
+    },
+    {
+      "id": 22,
+      "text": "では、その考え事は外でお願いします",
+      "narration": "では、その考え事は外でお願いします",
+      "speaker": "character2",
+      "emotion": "anger",
+      "effect": "concentration_lines",
+      "durationMs": 1972,
+      "backgroundFrame": "scene_22.jpg",
+      "imageKeywords": [
+        "図書館員",
+        "注意"
+      ],
+      "imageKeywordsEn": [
+        "librarian scolding"
+      ]
+    },
+    {
+      "id": 23,
+      "text": "百貫 え？って固まって",
+      "narration": "百貫、え？って固まって",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 1255,
+      "backgroundFrame": "scene_23.jpg",
+      "imageKeywords": [
+        "固まる",
+        "驚き"
+      ],
+      "imageKeywordsEn": [
+        "frozen shock"
+      ]
+    },
+    {
+      "id": 24,
+      "text": "ここは本を読む場所なので",
+      "narration": "ここは本を読む場所なので",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_24.jpg",
+      "imageKeywords": [
+        "図書館",
+        "本棚"
+      ],
+      "imageKeywordsEn": [
+        "library books reading"
+      ]
+    },
+    {
+      "id": 25,
+      "text": "職員に言われて",
+      "narration": "職員に言われて",
+      "speaker": "narrator",
+      "emotion": "anger",
+      "effect": "none",
+      "durationMs": 897,
+      "backgroundFrame": "scene_25.jpg",
+      "imageKeywords": [
+        "図書館員",
+        "怒る"
+      ],
+      "imageKeywordsEn": [
+        "angry librarian confrontation"
+      ]
+    },
+    {
+      "id": 26,
+      "text": "周りの利用者の冷たい目線が一斉に百貫に向くと",
+      "narration": "周りの利用者の冷たい目線が一斉に百貫に向くと",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1972,
+      "backgroundFrame": "scene_26.jpg",
+      "imageKeywords": [
+        "冷たい視線"
+      ],
+      "imageKeywordsEn": [
+        "cold stare crowd"
+      ]
+    },
+    {
+      "id": 27,
+      "text": "あ、あの、その、考え事が…",
+      "narration": "あ、あの、その、考え事が…",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1793,
+      "backgroundFrame": "scene_27.jpg",
+      "imageKeywords": [
+        "焦る",
+        "困惑"
+      ],
+      "imageKeywordsEn": [
+        "nervous stuttering"
+      ]
+    },
+    {
+      "id": 28,
+      "text": "最後まで言えず",
+      "narration": "最後まで言えず",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 897,
+      "backgroundFrame": "scene_28.jpg",
+      "imageKeywords": [
+        "困る"
+      ],
+      "imageKeywordsEn": [
+        "unable to speak"
+      ]
+    },
+    {
+      "id": 29,
+      "text": "ひよこひよこ立ち去った時",
+      "narration": "ひょこひょこ立ち去った時",
+      "speaker": "narrator",
+      "emotion": "sad",
+      "effect": "none",
+      "durationMs": 1076,
+      "backgroundFrame": "scene_29.jpg",
+      "imageKeywords": [
+        "立ち去る"
+      ],
+      "imageKeywordsEn": [
+        "walking away embarrassed"
+      ]
+    },
+    {
+      "id": 30,
+      "text": "しおりが落ちた",
+      "narration": "しおりが落ちた",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 897,
+      "backgroundFrame": "scene_30.jpg",
+      "imageKeywords": [
+        "しおり",
+        "落ちる"
+      ],
+      "imageKeywordsEn": [
+        "bookmark falling floor"
+      ]
+    },
+    {
+      "id": 31,
+      "text": "今日借りた本のタイトルは",
+      "narration": "今日借りた本のタイトルは",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1255,
+      "backgroundFrame": "scene_31.jpg",
+      "imageKeywords": [
+        "本",
+        "タイトル"
+      ],
+      "imageKeywordsEn": [
+        "book title reading"
+      ]
+    },
+    {
+      "id": 32,
+      "text": "言われた通りに動く方法",
+      "narration": "言われた通りに動く方法",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "lightning",
+      "durationMs": 1614,
+      "backgroundFrame": "scene_32.jpg",
+      "imageKeywords": [
+        "本",
+        "タイトル"
+      ],
+      "imageKeywordsEn": [
+        "book title how to follow instructions"
+      ]
+    },
+    {
+      "id": 33,
+      "text": "私は本を開いて",
+      "narration": "私は本を開いて",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1434,
+      "backgroundFrame": "scene_33.jpg",
+      "imageKeywords": [
+        "本を読む",
+        "図書館"
+      ],
+      "imageKeywordsEn": [
+        "reading book library"
+      ]
+    },
+    {
+      "id": 34,
+      "text": "拾ったしおりを挟んで",
+      "narration": "拾ったしおりを挟んで",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1434,
+      "backgroundFrame": "scene_34.jpg",
+      "imageKeywords": [
+        "しおり",
+        "本"
+      ],
+      "imageKeywordsEn": [
+        "bookmark in book"
+      ]
+    },
+    {
+      "id": 35,
+      "text": "これ、もう読まなくていいな",
+      "narration": "これ、もう読まなくていいな",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1255,
+      "backgroundFrame": "scene_35.jpg",
+      "imageKeywords": [
+        "笑顔",
+        "女性"
+      ],
+      "imageKeywordsEn": [
+        "smiling woman book"
+      ]
+    },
+    {
+      "id": 36,
+      "text": "と思ってそっと閉じたら",
+      "narration": "と思ってそっと閉じたら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1076,
+      "backgroundFrame": "scene_36.jpg",
+      "imageKeywords": [
+        "本を閉じる"
+      ],
+      "imageKeywordsEn": [
+        "closing book"
+      ]
+    },
+    {
+      "id": 37,
+      "text": "入口の方から",
+      "narration": "入口の方から",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 897,
+      "backgroundFrame": "scene_37.jpg",
+      "imageKeywords": [
+        "入口",
+        "図書館"
+      ],
+      "imageKeywordsEn": [
+        "library entrance"
+      ]
+    },
+    {
+      "id": 38,
+      "text": "んゴゴゴゴゴゴーーーゴゴごっ！",
+      "narration": "んゴゴゴゴゴゴーーーゴゴごっ！",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "shake",
+      "durationMs": 1255,
+      "backgroundFrame": "scene_38.jpg",
+      "imageKeywords": [
+        "いびき",
+        "寝る"
+      ],
+      "imageKeywordsEn": [
+        "snoring sleeping"
+      ]
+    },
+    {
+      "id": 39,
+      "text": "という音が聞こえた気がしたw",
+      "narration": "という音が聞こえた気がしたw",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1793,
+      "backgroundFrame": "scene_39.jpg",
+      "imageKeywords": [
+        "呆れる女性"
+      ],
+      "imageKeywordsEn": [
+        "exasperated woman"
+      ]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！",
+  "notes": {
+    "titleBar": "Top of screen, black background, 2 lines of yellow text: 笑える迷言集 / キョンシー百貫",
+    "captionStyle": "Large white/yellow text with black stroke, positioned in upper-middle area below title",
+    "characters": {
+      "narrator": "Young woman in pink clothes (main storyteller)",
+      "character1": "Large/heavy woman in orange/red clothes (百貫 - the sleeping lady, キョンシー with bookmark on forehead)",
+      "character2": "Library staff in green apron (stern/angry)"
+    },
+    "visualStyle": "2ch narrative style with irasutoya-like characters, emotion-based backgrounds, various effects",
+    "specialMoments": [
+      "Scene 2 and 38: snoring sound effect with shake",
+      "Scene 13: Kyonshi reveal with bookmark on forehead - golden background with sparkle",
+      "Scene 32: Punchline - book title '言われた通りに動く方法' with lightning effect",
+      "Scene 35: Secondary punchline - narrator realizes the book applies to the lady"
+    ]
+  },
+  "outroText": "",
+  "outroDurationMs": 0
+}

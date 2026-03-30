@@ -1,0 +1,256 @@
+{
+  "format": "2ch",
+  "videoTitle": "これは癒しだろ",
+  "seriesTitle": "笑える迷言集",
+  "titleColor": "#FFD700",
+  "meta": {
+    "maxDurationSec": 60
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "最近疲れ吹っ飛ぶ話聞いてくれ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "疲れ"
+          ],
+          "imageKeywordsEn": [
+            "tired man"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "買い物帰りに自販機寄った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "自販機"
+          ],
+          "imageKeywordsEn": [
+            "vending machine"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "小銭足りなくて困ってた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "財布"
+          ],
+          "imageKeywordsEn": [
+            "counting coins"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "隣におばあちゃんがいた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "おばあちゃん"
+          ],
+          "imageKeywordsEn": [
+            "elderly woman"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "そしたら声かけてきて",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "話す"
+          ],
+          "imageKeywordsEn": [
+            "talking to stranger"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "これ使いなさい",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "おばあちゃん"
+          ],
+          "imageKeywordsEn": [
+            "kind grandmother"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "いやいやお気になさらず！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "困る"
+          ],
+          "imageKeywordsEn": [
+            "man declining politely"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "いいからいいから！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "smiling grandmother"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "優しすぎて泣きそうになった",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "感動"
+          ],
+          "imageKeywordsEn": [
+            "touched tears"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "お孫さんと同じくらいの歳ね",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "おばあちゃん"
+          ],
+          "imageKeywordsEn": [
+            "grandmother grandson"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "亡くなったばあちゃん思い出した",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": [
+            "思い出"
+          ],
+          "imageKeywordsEn": [
+            "memory of grandmother"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "泣きそうになってしまった",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": [
+            "涙"
+          ],
+          "imageKeywordsEn": [
+            "man tearing up"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "お礼にお菓子買って渡した",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "お菓子"
+          ],
+          "imageKeywordsEn": [
+            "giving snacks"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "あらまあ嬉しいわ！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "喜ぶ"
+          ],
+          "imageKeywordsEn": [
+            "happy grandmother"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "二人で自販機の前で話した",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "会話"
+          ],
+          "imageKeywordsEn": [
+            "chatting by vending machine"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "お体にお気を付けくださいね",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "grandmother waving goodbye"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "いや反則すぎだろww",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "感動"
+          ],
+          "imageKeywordsEn": [
+            "heartwarming"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "帰り道ずっと温かかった",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "夕焼け"
+          ],
+          "imageKeywordsEn": [
+            "warm sunset walk"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "人の優しさって最強だわ",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "human kindness"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "マジで癒されたぜぇええ！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "幸せ"
+          ],
+          "imageKeywordsEn": [
+            "healing warmth"
+          ]
+        }
+      ]
+    }
+  ],
+  "outro": "面白かったらチャンネル登録！"
+}

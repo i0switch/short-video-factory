@@ -1,0 +1,196 @@
+{
+  "format": "2ch",
+  "videoTitle": "教師たちの反応w",
+  "seriesTitle": "笑える迷言集",
+  "titleColor": "#FFD700",
+  "meta": {
+    "maxDurationSec": 42
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "授業中の出来事",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "教室"
+          ],
+          "imageKeywordsEn": [
+            "classroom"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "クラス全員である計画を立てた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "生徒"
+          ],
+          "imageKeywordsEn": [
+            "students planning"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "先生が来たら全員動くなよ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "学校"
+          ],
+          "imageKeywordsEn": [
+            "students whispering"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "授業中みんなで一切動かなくなった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "授業"
+          ],
+          "imageKeywordsEn": [
+            "frozen students"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "器用な奴が時計も止めてた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "時計"
+          ],
+          "imageKeywordsEn": [
+            "stopped clock"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "先生が異変に気づいた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "先生"
+          ],
+          "imageKeywordsEn": [
+            "confused teacher"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "おーい、どうした？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "先生"
+          ],
+          "imageKeywordsEn": [
+            "teacher calling out"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "先生パニックで職員室に走った",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "走る人"
+          ],
+          "imageKeywordsEn": [
+            "teacher running"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "ドッキリ大成功！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "students laughing"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "でも別の先生が来た時",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "先生"
+          ],
+          "imageKeywordsEn": [
+            "another teacher"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "こいつだけ普通に授業を進めた",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "黒板"
+          ],
+          "imageKeywordsEn": [
+            "teacher lecturing normally"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "え、無視!?",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "shocked students"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "フリーズ完全無視で授業続行",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "授業"
+          ],
+          "imageKeywordsEn": [
+            "teacher at blackboard"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "彼が一番面白かった",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "class laughing"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "ある意味最強の先生だわw",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "先生"
+          ],
+          "imageKeywordsEn": [
+            "legendary teacher"
+          ]
+        }
+      ]
+    }
+  ],
+  "outro": "面白かったらチャンネル登録！"
+}

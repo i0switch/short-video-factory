@@ -1,0 +1,469 @@
+{
+  "tts": [
+    {
+      "id": "a1",
+      "text": "クラス全員で示し合わせて、",
+      "speaker": "narrator",
+      "startFrame": 0,
+      "endFrame": 43
+    },
+    {
+      "id": "a2",
+      "text": "授業中みんなで一切動かなくなった。",
+      "speaker": "narrator",
+      "startFrame": 44,
+      "endFrame": 188
+    },
+    {
+      "id": "a3",
+      "text": "ある者は消しゴムを拾おうとしてる最中で止まり、",
+      "speaker": "narrator",
+      "startFrame": 189,
+      "endFrame": 296
+    },
+    {
+      "id": "a4",
+      "text": "ある者は先生に質問しようとして",
+      "speaker": "narrator",
+      "startFrame": 297,
+      "endFrame": 365
+    },
+    {
+      "id": "a5",
+      "text": "挙手しかけたところで止まる。",
+      "speaker": "narrator",
+      "startFrame": 366,
+      "endFrame": 433
+    },
+    {
+      "id": "a6",
+      "text": "ご丁寧にもクラスの中でも器用な奴が、",
+      "speaker": "narrator",
+      "startFrame": 434,
+      "endFrame": 490
+    },
+    {
+      "id": "a7",
+      "text": "時計もその時間で止まるようにしておいた。",
+      "speaker": "narrator",
+      "startFrame": 491,
+      "endFrame": 590
+    },
+    {
+      "id": "a8",
+      "text": "ドアも窓も一切閉め切っていたので",
+      "speaker": "narrator",
+      "startFrame": 591,
+      "endFrame": 646
+    },
+    {
+      "id": "a9",
+      "text": "完全に無音になる。",
+      "speaker": "narrator",
+      "startFrame": 647,
+      "endFrame": 784
+    },
+    {
+      "id": "a10",
+      "text": "授業にくる全ての教師に試したが、",
+      "speaker": "narrator",
+      "startFrame": 785,
+      "endFrame": 860
+    },
+    {
+      "id": "a11",
+      "text": "皆同じような反応するのが笑えた",
+      "speaker": "narrator",
+      "startFrame": 861,
+      "endFrame": 895
+    },
+    {
+      "id": "a12",
+      "text": "え？ え？",
+      "speaker": "character2",
+      "startFrame": 896,
+      "endFrame": 936
+    },
+    {
+      "id": "a13",
+      "text": "何？ 何で？",
+      "speaker": "character2",
+      "startFrame": 937,
+      "endFrame": 997
+    },
+    {
+      "id": "a14",
+      "text": "みたいな反応",
+      "speaker": "narrator",
+      "startFrame": 998,
+      "endFrame": 1024
+    },
+    {
+      "id": "a15",
+      "text": "ものすごくキョドった",
+      "speaker": "narrator",
+      "startFrame": 1025,
+      "endFrame": 1043
+    },
+    {
+      "id": "a16",
+      "text": "数学",
+      "speaker": "narrator",
+      "startFrame": 1044,
+      "endFrame": 1070
+    },
+    {
+      "id": "a17",
+      "text": "こいつだけ何故か普通に授業を進めた",
+      "speaker": "narrator",
+      "startFrame": 1071,
+      "endFrame": 1100
+    },
+    {
+      "id": "a18",
+      "text": "ポカーン",
+      "speaker": "narrator",
+      "startFrame": 1101,
+      "endFrame": 1115
+    },
+    {
+      "id": "a19",
+      "text": "まさしくこのAAの状態",
+      "speaker": "narrator",
+      "startFrame": 1116,
+      "endFrame": 1146
+    },
+    {
+      "id": "a20",
+      "text": "理科",
+      "speaker": "narrator",
+      "startFrame": 1147,
+      "endFrame": 1165
+    },
+    {
+      "id": "a21",
+      "text": "現文の教師と全く同じ。",
+      "speaker": "narrator",
+      "startFrame": 1166,
+      "endFrame": 1192
+    },
+    {
+      "id": "a22",
+      "text": "皆が動き出すと",
+      "speaker": "narrator",
+      "startFrame": 1193,
+      "endFrame": 1207
+    },
+    {
+      "id": "a23",
+      "text": "苦笑い",
+      "speaker": "narrator",
+      "startFrame": 1208,
+      "endFrame": 1222
+    },
+    {
+      "id": "a24",
+      "text": "呆れたような表情で",
+      "speaker": "narrator",
+      "startFrame": 1223,
+      "endFrame": 1250
+    },
+    {
+      "id": "a25",
+      "text": "そして時は動き出す…",
+      "speaker": "character1",
+      "startFrame": 1251,
+      "endFrame": 1275
+    },
+    {
+      "id": "a26",
+      "text": "って言ったら皆動き出した。",
+      "speaker": "narrator",
+      "startFrame": 1276,
+      "endFrame": 1320
+    },
+    {
+      "id": "a27",
+      "text": "彼が一番面白かった。",
+      "speaker": "narrator",
+      "startFrame": 1321,
+      "endFrame": 1370
+    }
+  ],
+  "bgm": {
+    "volume": 0.1,
+    "loop": true
+  },
+  "entries": [
+    {
+      "unitId": "a1",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a2",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a3",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a4",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a5",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a6",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a7",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a8",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a9",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a10",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a11",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a12",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a13",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a14",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a15",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a16",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a17",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a18",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a19",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a20",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a21",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a22",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a23",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a24",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a25",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a26",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "a27",
+      "src": "",
+      "durationSec": 0
+    },
+    {
+      "unitId": "s1",
+      "src": "work/tts_s1.wav",
+      "durationSec": 1.632
+    },
+    {
+      "unitId": "s2",
+      "src": "work/tts_s2.wav",
+      "durationSec": 2.1226666666666665
+    },
+    {
+      "unitId": "s3",
+      "src": "work/tts_s3.wav",
+      "durationSec": 2.6453333333333333
+    },
+    {
+      "unitId": "s4",
+      "src": "work/tts_s4.wav",
+      "durationSec": 2.058666666666667
+    },
+    {
+      "unitId": "s5",
+      "src": "work/tts_s5.wav",
+      "durationSec": 1.3973333333333333
+    },
+    {
+      "unitId": "s6",
+      "src": "work/tts_s6.wav",
+      "durationSec": 2.3253333333333335
+    },
+    {
+      "unitId": "s7",
+      "src": "work/tts_s7.wav",
+      "durationSec": 2.1973333333333334
+    },
+    {
+      "unitId": "s8",
+      "src": "work/tts_s8.wav",
+      "durationSec": 1.984
+    },
+    {
+      "unitId": "s9",
+      "src": "work/tts_s9.wav",
+      "durationSec": 1.1946666666666668
+    },
+    {
+      "unitId": "s10",
+      "src": "work/tts_s10.wav",
+      "durationSec": 2.016
+    },
+    {
+      "unitId": "s11",
+      "src": "work/tts_s11.wav",
+      "durationSec": 2.037333333333333
+    },
+    {
+      "unitId": "s12",
+      "src": "work/tts_s12.wav",
+      "durationSec": 1.152
+    },
+    {
+      "unitId": "s13",
+      "src": "work/tts_s13.wav",
+      "durationSec": 0.9706666666666667
+    },
+    {
+      "unitId": "s14",
+      "src": "work/tts_s14.wav",
+      "durationSec": 0.8853333333333333
+    },
+    {
+      "unitId": "s15",
+      "src": "work/tts_s15.wav",
+      "durationSec": 1.0453333333333332
+    },
+    {
+      "unitId": "s16",
+      "src": "work/tts_s16.wav",
+      "durationSec": 0.608
+    },
+    {
+      "unitId": "s17",
+      "src": "work/tts_s17.wav",
+      "durationSec": 2.144
+    },
+    {
+      "unitId": "s18",
+      "src": "work/tts_s18.wav",
+      "durationSec": 0.5866666666666667
+    },
+    {
+      "unitId": "s19",
+      "src": "work/tts_s19.wav",
+      "durationSec": 2.144
+    },
+    {
+      "unitId": "s20",
+      "src": "work/tts_s20.wav",
+      "durationSec": 0.39466666666666667
+    },
+    {
+      "unitId": "s21",
+      "src": "work/tts_s21.wav",
+      "durationSec": 1.6853333333333333
+    },
+    {
+      "unitId": "s22",
+      "src": "work/tts_s22.wav",
+      "durationSec": 1.0666666666666667
+    },
+    {
+      "unitId": "s23",
+      "src": "work/tts_s23.wav",
+      "durationSec": 0.6186666666666667
+    },
+    {
+      "unitId": "s24",
+      "src": "work/tts_s24.wav",
+      "durationSec": 1.3333333333333333
+    },
+    {
+      "unitId": "s25",
+      "src": "work/tts_s25.wav",
+      "durationSec": 1.0026666666666666
+    },
+    {
+      "unitId": "s26",
+      "src": "work/tts_s26.wav",
+      "durationSec": 1.3866666666666667
+    },
+    {
+      "unitId": "s27",
+      "src": "work/tts_s27.wav",
+      "durationSec": 1.5253333333333334
+    }
+  ]
+}

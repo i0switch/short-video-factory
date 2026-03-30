@@ -1,0 +1,203 @@
+{
+  "format": "2ch",
+  "videoTitle": "笑える迷語集\n彼女の手料理",
+  "meta": {
+    "maxDurationSec": 41
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "彼女が初めて\n飯作ってくれた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["料理", "台所"],
+          "imageKeywordsEn": ["cooking"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character2",
+          "text": "今日は私が\n作るね！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["女の子", "笑顔"],
+          "imageKeywordsEn": ["happy girl"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "めっちゃ\n嬉しかったのよ",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男性", "嬉しい"],
+          "imageKeywordsEn": ["happy man"],
+          "backgroundSrc": "assets/nicocommons/bg_living.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "で、出てきたのが\nこれ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["ハンバーグ"],
+          "imageKeywordsEn": ["hamburger steak"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "真っ黒な物体",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["焦げる", "失敗"],
+          "imageKeywordsEn": ["burnt food"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "炭じゃんwww",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男性", "笑う"],
+          "imageKeywordsEn": ["laughing man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character2",
+          "text": "ハンバーグだよ！\n食べて！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["女の子", "元気"],
+          "imageKeywordsEn": ["cheerful girl"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "ハンバーグ…？\nこれが…？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": ["男性", "困る"],
+          "imageKeywordsEn": ["confused man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "頑張って\n一口食べた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["食べる", "男性"],
+          "imageKeywordsEn": ["man eating"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "しょっぱすぎて\n涙出た",
+          "emotion": "shock",
+          "effect": "concentration_lines",
+          "imageKeywords": ["泣く", "男性"],
+          "imageKeywordsEn": ["crying man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character2",
+          "text": "え、感動して\n泣いてるの？",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["女の子", "嬉しい"],
+          "imageKeywordsEn": ["happy girl"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "違う涙だろ\nそれwww",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男性", "ツッコミ"],
+          "imageKeywordsEn": ["man tsukkomi"],
+          "backgroundSrc": "assets/nicocommons/bg_living.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "翌週もまた\n作ってくれた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["台所"],
+          "imageKeywordsEn": ["kitchen"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "今度はカレー",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["カレー"],
+          "imageKeywordsEn": ["curry"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "見た目は普通で\n安心した",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男性", "安心"],
+          "imageKeywordsEn": ["relieved man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "一口食べたら\n甘すぎて死んだ",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["shocked man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "砂糖と塩\n間違えたやろ",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["怒る", "男性"],
+          "imageKeywordsEn": ["angry man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character2",
+          "text": "隠し味に\nチョコ入れたの！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["女の子", "得意"],
+          "imageKeywordsEn": ["proud girl"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "隠し味の量\nじゃねえ",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["怒る", "男性"],
+          "imageKeywordsEn": ["angry man"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "narrator",
+          "text": "でも今は一緒に\n料理してる",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["夫婦", "料理"],
+          "imageKeywordsEn": ["couple cooking"],
+          "backgroundSrc": "assets/nicocommons/bg_kitchen.png"
+        },
+        {
+          "speaker": "character1",
+          "text": "のろけかよ\n爆発しろ",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": ["怒る", "男性"],
+          "imageKeywordsEn": ["angry man"],
+          "backgroundSrc": "assets/nicocommons/bg_living.jpg"
+        }
+      ]
+    }
+  ],
+  "outro": "共感したらチャンネル登録！"
+}

@@ -1,0 +1,228 @@
+{
+  "format": "2ch",
+  "videoTitle": "笑える迷語集\n競技化彼氏",
+  "episodes": [
+    {
+      "title": "朝の支度グランプリ",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "さあ始まりました！",
+          "narration": "さあ始まりました！朝の支度グランプリ！",
+          "emotion": "happy",
+          "effect": "concentration_lines",
+          "imageKeywords": ["実況", "アナウンサー"],
+          "imageKeywordsEn": ["sports commentator excited microphone"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "朝の支度グランプリ！",
+          "narration": "本日の朝の支度グランプリがスタートです！",
+          "emotion": "happy",
+          "effect": "concentration_lines",
+          "imageKeywords": ["実況", "アナウンサー"],
+          "imageKeywordsEn": ["sports commentator excited microphone"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "俺氏、キッチンへ移動！",
+          "narration": "選手、キッチンへ移動します！",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["ビジネスマン", "出勤"],
+          "imageKeywordsEn": ["businessman running kitchen"]
+        },
+        {
+          "speaker": "character1",
+          "text": "手に取ったアー！",
+          "narration": "華麗に手に取ったアー！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["食パン", "トースト"],
+          "imageKeywordsEn": ["toast bread hand holding"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "無駄のないフォーム！！",
+          "narration": "無駄のないフォームです！！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["食パン", "トースト"],
+          "imageKeywordsEn": ["toast bread perfect form"]
+        },
+        {
+          "speaker": "character2",
+          "text": "朝からうるさいんだけど...",
+          "narration": "朝からうるさいんだけど...",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["女の子", "怒る"],
+          "imageKeywordsEn": ["confused annoyed girl morning"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "続いて歯磨きです！",
+          "narration": "続いて歯磨きフェーズです！",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["歯ブラシ", "歯磨き"],
+          "imageKeywordsEn": ["toothbrush toothpaste morning"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ああーっと？！",
+          "narration": "ああーっと？！ここで大事故か！",
+          "emotion": "shock",
+          "effect": "concentration_lines",
+          "imageKeywords": ["歯磨き粉", "出しすぎ"],
+          "imageKeywordsEn": ["toothbrush toothpaste dramatic"]
+        },
+        {
+          "speaker": "character1",
+          "text": "やや出しすぎだぁー！",
+          "narration": "やや出しすぎだぁー！",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["ビジネスマン", "困る"],
+          "imageKeywordsEn": ["businessman panicking"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "これは－0.3点だっ！",
+          "narration": "これは－0.3点だっ！",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["先生", "叱る"],
+          "imageKeywordsEn": ["scoring judge deduction"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "しかし水道\n最小限の開閉！",
+          "narration": "しかし！水道の開閉は最小限！",
+          "emotion": "neutral",
+          "effect": "sparkle",
+          "imageKeywords": ["蛇口", "水道"],
+          "imageKeywordsEn": ["water faucet tap"]
+        },
+        {
+          "speaker": "character2",
+          "text": "近所迷惑\nだからやめて",
+          "narration": "近所迷惑だからやめて",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["女の子", "怒る"],
+          "imageKeywordsEn": ["annoyed girl neighbor"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "エコ意識 高いぃー！",
+          "narration": "エコ意識が高いぃー！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["地球", "エコ"],
+          "imageKeywordsEn": ["eco earth green"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ここで着替え\nフェーズ突入！",
+          "narration": "ここで着替えフェーズ突入！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["ビジネスマン", "着替え"],
+          "imageKeywordsEn": ["man getting dressed"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "片腕スムーズ！",
+          "narration": "片腕でスムーズに着替えます！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["ビジネスマン", "スーツ"],
+          "imageKeywordsEn": ["businessman suit smooth"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "これはワールドクラス！！",
+          "narration": "これはワールドクラス！！",
+          "emotion": "shock",
+          "effect": "concentration_lines",
+          "imageKeywords": ["ビジネスマン", "スーツ"],
+          "imageKeywordsEn": ["businessman world class"]
+        },
+        {
+          "speaker": "character1",
+          "text": "家を出ます！",
+          "narration": "家を出ます！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["ビジネスマン", "出勤"],
+          "imageKeywordsEn": ["businessman leaving house"]
+        },
+        {
+          "speaker": "character1",
+          "text": "よし！",
+          "narration": "よし！完璧だ！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["ビジネスマン", "ガッツポーズ"],
+          "imageKeywordsEn": ["businessman satisfied"]
+        },
+        {
+          "speaker": "character2",
+          "text": "…もう///",
+          "narration": "…もう",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["女の子", "泣く"],
+          "imageKeywordsEn": ["girl tired sigh"]
+        },
+        {
+          "speaker": "character2",
+          "text": "誰が採点\nしてんの？",
+          "narration": "誰が採点してんの？",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["女の子", "怒る"],
+          "imageKeywordsEn": ["confused girl questioning"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "さあラストスパート",
+          "narration": "さあ！ラストスパートです！",
+          "emotion": "happy",
+          "effect": "concentration_lines",
+          "imageKeywords": ["ビジネスマン", "出勤"],
+          "imageKeywordsEn": ["businessman rushing"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "持ち物確認！",
+          "narration": "続いて持ち物確認！",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["ビジネスマン", "確認"],
+          "imageKeywordsEn": ["businessman checking items"]
+        },
+        {
+          "speaker": "character1",
+          "text": "本日も高得点！",
+          "narration": "本日も高得点！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["トロフィー", "優勝"],
+          "imageKeywordsEn": ["trophy winner"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "彼は今日も\n通常運転です！",
+          "narration": "彼は今日も通常運転です！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["トロフィー", "男性"],
+          "imageKeywordsEn": ["man trophy celebrate"]
+        }
+      ]
+    }
+  ],
+  "outro": "笑ったらチャンネル登録してね！"
+}

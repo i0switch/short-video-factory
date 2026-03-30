@@ -1,0 +1,158 @@
+{
+  "format": "2ch",
+  "videoTitle": "新人教育日誌\n後輩がヤバすぎる件",
+  "meta": {
+    "maxDurationSec": 25
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "今年の新人が\nヤバすぎる",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["会社員", "男性"],
+          "imageKeywordsEn": ["office worker"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "おはようございます！\n今日もよろしく！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男の子", "笑顔"],
+          "imageKeywordsEn": ["cheerful boy"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "元気はいい\nでもな…",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男性", "困る"],
+          "imageKeywordsEn": ["troubled man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "コピー頼んだら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["コピー機", "印刷"],
+          "imageKeywordsEn": ["copy machine"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "できました！\n100部！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男の子", "ガッツポーズ"],
+          "imageKeywordsEn": ["boy thumbs up"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "10部って\n言ったんだが！！",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["shocked man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "多い方が\n安心かなって！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男の子", "てへぺろ"],
+          "imageKeywordsEn": ["innocent boy"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "紙の無駄遣い\nやめろ",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["angry man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "メール送って\nって頼んだら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["パソコン", "メール"],
+          "imageKeywordsEn": ["computer email"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "全社員に\n送りました！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男の子", "ガッツポーズ"],
+          "imageKeywordsEn": ["proud boy"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "部長にだけ\n送れって言った！！",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["panicking man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "社長から\n電話来た",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["電話", "怖い"],
+          "imageKeywordsEn": ["scary phone call"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "俺が怒られた",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["男性", "土下座"],
+          "imageKeywordsEn": ["bowing apologize"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "先輩！\n明日も頑張りましょう！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男の子", "笑顔"],
+          "imageKeywordsEn": ["cheerful boy"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "お前のせいで\n胃に穴が空きそう",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["男性", "疲れ"],
+          "imageKeywordsEn": ["exhausted man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "教育係ガチャ\n外れwww",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["女の子", "笑う"],
+          "imageKeywordsEn": ["laughing girl"],
+          "backgroundSrc": "assets/repro/shared/bg_library.jpg"
+        }
+      ]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

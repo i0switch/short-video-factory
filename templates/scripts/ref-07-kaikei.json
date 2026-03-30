@@ -1,0 +1,748 @@
+{
+  "format": "2ch",
+  "videoTitle": "会計よろしく",
+  "seriesTitle": "スカッと迷言集",
+  "titleColor": "#FF4444",
+  "showEpisodeTitleCards": true,
+  "meta": {
+    "maxDurationSec": 180
+  },
+  "episodes": [
+    {
+      "title": "会計よろしく",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "日曜日、義母からLINEが来た",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "スマホ"
+          ],
+          "imageKeywordsEn": [
+            "phone message"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "今日ランチでもどう？義妹も一緒よ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "メッセージ"
+          ],
+          "imageKeywordsEn": [
+            "text message invitation"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "店に着くと義妹がもう座ってた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "レストラン"
+          ],
+          "imageKeywordsEn": [
+            "restaurant table"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "あ、来た来た！早く注文しよ！",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "メニュー"
+          ],
+          "imageKeywordsEn": [
+            "ordering food"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "好き勝手に高いの頼みまくる",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "料理"
+          ],
+          "imageKeywordsEn": [
+            "expensive dishes"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "会計の時間になった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "会計"
+          ],
+          "imageKeywordsEn": [
+            "restaurant bill"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "会計よろしくね〜",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "smirking woman"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "またかよ…って思った",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "angry woman"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "これで5回連続おごらされてる",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "怒り"
+          ],
+          "imageKeywordsEn": [
+            "frustration"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "旦那に相談した",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "夫婦"
+          ],
+          "imageKeywordsEn": [
+            "couple discussing"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "ふざけんな！俺が言ってくる",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "angry husband"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "堪忍袋が爆発した",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "爆発"
+          ],
+          "imageKeywordsEn": [
+            "rage explosion"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "作戦を立てた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "考える"
+          ],
+          "imageKeywordsEn": [
+            "making a plan"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "高級フレンチに誘い出した",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "フレンチ"
+          ],
+          "imageKeywordsEn": [
+            "french restaurant"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "あら素敵なお店ね！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "喜ぶ"
+          ],
+          "imageKeywordsEn": [
+            "excited woman"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "義母と義妹ニッコニコで食べてた",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "食事"
+          ],
+          "imageKeywordsEn": [
+            "enjoying meal"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "会計の時間が来た",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "会計"
+          ],
+          "imageKeywordsEn": [
+            "check please"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "会計10万ですけどよろしく？",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "お金"
+          ],
+          "imageKeywordsEn": [
+            "expensive bill"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "え…ちょっと待って…",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "shocked woman"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "因果応報ってこういうこと",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "karma justice"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "彼女を紹介",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "親友から連絡が来た",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "スマホ"
+          ],
+          "imageKeywordsEn": [
+            "phone notification"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "婚約者紹介するよ！来て！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "happy friend"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "居酒屋で会うことになった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "居酒屋"
+          ],
+          "imageKeywordsEn": [
+            "izakaya bar"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "待ってたら二人が来た",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "待つ"
+          ],
+          "imageKeywordsEn": [
+            "couple arriving"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "婚約者の顔を見た瞬間",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "見る"
+          ],
+          "imageKeywordsEn": [
+            "seeing face"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "あ…この顔どこかで…",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "shocked recognition"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "高校の同級生だった",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "学校"
+          ],
+          "imageKeywordsEn": [
+            "high school classmate"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "俺、あいつにいじめられてた",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": [
+            "いじめ"
+          ],
+          "imageKeywordsEn": [
+            "bullying memory"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "階段から突き落とされた子もいた",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "pushed down stairs"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "親が金持ちで全部もみ消された",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "お金"
+          ],
+          "imageKeywordsEn": [
+            "covering up with money"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "あの時の恨み忘れてないぞ",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "angry man"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "親友に全部話した",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "話す"
+          ],
+          "imageKeywordsEn": [
+            "serious conversation"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "え…嘘だろ…？",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "shocked friend"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "卒アルの証拠を見せた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "卒業"
+          ],
+          "imageKeywordsEn": [
+            "yearbook evidence"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "本当だったのか…",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": [
+            "悲しい"
+          ],
+          "imageKeywordsEn": [
+            "sad realization"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "婚約は破棄になった",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "broken engagement"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "婚約者は逃げるように去った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "走る人"
+          ],
+          "imageKeywordsEn": [
+            "woman fleeing"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "教えてくれてありがとう",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "感謝"
+          ],
+          "imageKeywordsEn": [
+            "grateful friend"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "大切な親友は失わなかった",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "友達"
+          ],
+          "imageKeywordsEn": [
+            "friendship"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "こっちこそ、よかった",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "relieved smile"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "子供好き",
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "テーブルに置き手紙があった",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "手紙"
+          ],
+          "imageKeywordsEn": [
+            "letter on table"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "嫁が出て行った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "家"
+          ],
+          "imageKeywordsEn": [
+            "leaving home"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "離婚届が置いてあった",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "離婚"
+          ],
+          "imageKeywordsEn": [
+            "divorce papers"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "娘と二人で頑張ることにした",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "父親"
+          ],
+          "imageKeywordsEn": [
+            "father and daughter"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "娘はみんなに愛されて育った",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "子供"
+          ],
+          "imageKeywordsEn": [
+            "happy little girl"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ある日、元嫁の母から電話",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "電話"
+          ],
+          "imageKeywordsEn": [
+            "phone call"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "孫に会わせなさいよ！",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "angry woman demanding"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "離婚してるんで家族じゃないです",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "電話"
+          ],
+          "imageKeywordsEn": [
+            "calm man"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "子供好きなのよ私は！",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "woman shouting"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "何度も何度も電話が来た",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "電話"
+          ],
+          "imageKeywordsEn": [
+            "persistent calling"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "娘に聞いてみた",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "娘"
+          ],
+          "imageKeywordsEn": [
+            "father asking daughter"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "パパー誰このおばちゃん？",
+          "emotion": "confusion",
+          "effect": "vortex",
+          "imageKeywords": [
+            "子供"
+          ],
+          "imageKeywordsEn": [
+            "confused little girl"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "娘は覚えてすらいなかった",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": [
+            "悲しい"
+          ],
+          "imageKeywordsEn": [
+            "sad reality"
+          ]
+        },
+        {
+          "speaker": "character1",
+          "text": "財産分与はどうなってるの！",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": [
+            "お金"
+          ],
+          "imageKeywordsEn": [
+            "demanding money"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "本性が出た",
+          "emotion": "shock",
+          "effect": "lightning",
+          "imageKeywords": [
+            "驚く"
+          ],
+          "imageKeywordsEn": [
+            "true nature revealed"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "娘が電話に出た",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": [
+            "電話"
+          ],
+          "imageKeywordsEn": [
+            "girl on phone"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "パパの悪口言わないで！",
+          "emotion": "anger",
+          "effect": "shake",
+          "imageKeywords": [
+            "怒る"
+          ],
+          "imageKeywordsEn": [
+            "angry little girl"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "二度と会いに来れないようにした",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "笑顔"
+          ],
+          "imageKeywordsEn": [
+            "problem solved"
+          ]
+        },
+        {
+          "speaker": "narrator",
+          "text": "娘と二人で穏やかに暮らした",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "幸せ"
+          ],
+          "imageKeywordsEn": [
+            "happy father daughter"
+          ]
+        },
+        {
+          "speaker": "character2",
+          "text": "パパ大好き！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": [
+            "子供"
+          ],
+          "imageKeywordsEn": [
+            "daughter hugging dad"
+          ]
+        }
+      ]
+    }
+  ],
+  "outro": "面白かったらチャンネル登録！"
+}

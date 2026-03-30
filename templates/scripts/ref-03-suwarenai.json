@@ -1,0 +1,59 @@
+{
+  "format": "2ch",
+  "videoTitle": "座れんかも",
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "じいちゃんと遊園地行った",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["遊園地"],
+          "imageKeywordsEn": ["amusement park"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "ジェットコースター並んでたら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["ジェットコースター"],
+          "imageKeywordsEn": ["roller coaster"]
+        },
+        {
+          "speaker": "character1",
+          "text": "わし座れんかもしれんな",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["おじいさん"],
+          "imageKeywordsEn": ["elderly man"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "腰が悪いのかと思ったら",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["心配"],
+          "imageKeywordsEn": ["worried face"]
+        },
+        {
+          "speaker": "character1",
+          "text": "席が若者サイズじゃろ",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["おじいさん 笑顔"],
+          "imageKeywordsEn": ["smiling old man"]
+        },
+        {
+          "speaker": "narrator",
+          "text": "体型の話かい！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["笑う"],
+          "imageKeywordsEn": ["laughing"]
+        }
+      ]
+    }
+  ],
+  "outro": "じいちゃん元気でいてね！"
+}

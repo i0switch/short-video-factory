@@ -1,0 +1,423 @@
+{
+  "videoId": "vid05_kaimono",
+  "seriesTitle": "笑える迷言集",
+  "videoTitle": "これは癒しだろ！",
+  "titleColor": "#FFE000",
+  "captionColor": "#FFFFFF",
+  "hideTitle": true,
+  "hideCaption": true,
+  "captionFadeInFrames": 0,
+  "fps": 30,
+  "ttsSpeed": 1.4,
+  "bgmVolume": 0.10,
+  "notes": "Single-episode narrative (NOT 2-episode omnibus). Title bar stays constant throughout: line1=笑える迷言集, line2=これは癒しだろ！. The story is one continuous narrative about a man encountering cute/heartwarming moments while shopping. No episode transition or flash at ~16s - just a '数日後' text transition at f022 (~22s). Background emotion colors and effects vary per scene.",
+  "scenes": [
+    {
+      "text": "最近疲れ吹っ飛ぶほど和んだ話聞いてくれ！",
+      "narration": "最近疲れ吹っ飛ぶほど和んだ話聞いてくれ！",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_01.jpg"
+    },
+    {
+      "text": "夕方コンビニ行く時に",
+      "narration": "夕方コンビニ行く時に",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_02.jpg"
+    },
+    {
+      "text": "エレベーターに乗ろうとしたら",
+      "narration": "エレベーターに乗ろうとしたら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_03.jpg"
+    },
+    {
+      "text": "ちょうど同じ階のお姉さんが乗るところで",
+      "narration": "ちょうど同じ階のお姉さんが乗るところで",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_04.jpg"
+    },
+    {
+      "text": "間に合うか！？お姉さん気づくかな！？",
+      "narration": "間に合うか！？お姉さん気づくかな！？",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_05.jpg"
+    },
+    {
+      "text": "でも急いでなかったから歩いてったら",
+      "narration": "でも急いでなかったから歩いてったら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_06.jpg"
+    },
+    {
+      "text": "やっぱり気づかれなくて",
+      "narration": "やっぱり気づかれなくて",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_07.jpg"
+    },
+    {
+      "text": "次乗ろうと思ったその時",
+      "narration": "次乗ろうと思ったその時",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_08.jpg"
+    },
+    {
+      "text": "ドアが閉まる寸前に自動音声の",
+      "narration": "ドアが閉まる寸前に自動音声の",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_09.jpg"
+    },
+    {
+      "text": "下に参ります",
+      "narration": "下に参ります",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_10.jpg"
+    },
+    {
+      "text": "って聞こえたと思ったら",
+      "narration": "って聞こえたと思ったら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_11.jpg"
+    },
+    {
+      "text": "まいりましょー",
+      "narration": "まいりましょー",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "concentration_lines",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_12.jpg"
+    },
+    {
+      "text": "って不意打ちの可愛い声が響いて閉まった",
+      "narration": "って不意打ちの可愛い声が響いて閉まった",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_13.jpg"
+    },
+    {
+      "text": "いや反則すぎだろぉおおおww",
+      "narration": "いや反則すぎだろぉおおおww",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "concentration_lines",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_14.jpg"
+    },
+    {
+      "text": "俺ひとりでニヤけた",
+      "narration": "俺ひとりでニヤけた",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_15.jpg"
+    },
+    {
+      "text": "数日後",
+      "narration": "数日後",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_16.jpg"
+    },
+    {
+      "text": "本屋のレジに並んだ時",
+      "narration": "本屋のレジに並んだ時",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_17.jpg"
+    },
+    {
+      "text": "ちょうど前に親子がいたんだけど",
+      "narration": "ちょうど前に親子がいたんだけど",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_18.jpg"
+    },
+    {
+      "text": "母親が本差しだしながら",
+      "narration": "母親が本差しだしながら",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_19.jpg"
+    },
+    {
+      "text": "お願いします",
+      "narration": "お願いします",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_20.jpg"
+    },
+    {
+      "text": "って言ったら女の子も",
+      "narration": "って言ったら女の子も",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_21.jpg"
+    },
+    {
+      "text": "お願いします！",
+      "narration": "お願いします！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_22.jpg"
+    },
+    {
+      "text": "って続けて言ってて",
+      "narration": "って続けて言ってて",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_23.jpg"
+    },
+    {
+      "text": "会計終わって母親が",
+      "narration": "会計終わって母親が",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_24.jpg"
+    },
+    {
+      "text": "ありがとうございました",
+      "narration": "ありがとうございました",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_25.jpg"
+    },
+    {
+      "text": "って言ったら女の子も",
+      "narration": "って言ったら女の子も",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_26.jpg"
+    },
+    {
+      "text": "ありがとーございましたぁああ！",
+      "narration": "ありがとーございましたぁああ！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_27.jpg"
+    },
+    {
+      "text": "ばいばーい！",
+      "narration": "ばいばーい！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_28.jpg"
+    },
+    {
+      "text": "って手を振ってて超絶和んだ！",
+      "narration": "って手を振ってて超絶和んだ！",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_29.jpg"
+    },
+    {
+      "text": "会計中も",
+      "narration": "会計中も",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_30.jpg"
+    },
+    {
+      "text": "レジの所は風が入ってきてお寒いでしょう",
+      "narration": "レジの所は風が入ってきてお寒いでしょう",
+      "speaker": "character2",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_31.jpg"
+    },
+    {
+      "text": "お体にお気を付けくださいね",
+      "narration": "お体にお気を付けくださいね",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_32.jpg"
+    },
+    {
+      "text": "ってお母さんニコニコ言ってて",
+      "narration": "ってお母さんニコニコ言ってて",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_33.jpg"
+    },
+    {
+      "text": "この母親にしてこの子アリなのかと",
+      "narration": "この母親にしてこの子アリなのかと",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_34.jpg"
+    },
+    {
+      "text": "感心してたんだけど",
+      "narration": "感心してたんだけど",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "vortex",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_35.jpg"
+    },
+    {
+      "text": "俺も会計が終わって店出ると",
+      "narration": "俺も会計が終わって店出ると",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_36.jpg"
+    },
+    {
+      "text": "丁度外の自販機にあの親子がいて",
+      "narration": "丁度外の自販機にあの親子がいて",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_37.jpg"
+    },
+    {
+      "text": "女の子がジュースを取って",
+      "narration": "女の子がジュースを取って",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_38.jpg"
+    },
+    {
+      "text": "自販機に向かって",
+      "narration": "自販機に向かって",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_39.jpg"
+    },
+    {
+      "text": "ありがとーございましたぁああ！",
+      "narration": "ありがとーございましたぁああ！",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_40.jpg"
+    },
+    {
+      "text": "って超元気よくお辞儀してたぁああぁ！",
+      "narration": "って超元気よくお辞儀してたぁああぁ！",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "concentration_lines",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_41.jpg"
+    },
+    {
+      "text": "よくできました",
+      "narration": "よくできました",
+      "speaker": "character2",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_42.jpg"
+    },
+    {
+      "text": "ってお母さんも終始ニコニコ！",
+      "narration": "ってお母さんも終始ニコニコ！",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_43.jpg"
+    },
+    {
+      "text": "いや俺自販機にお礼なんて考えた事ねぇ！",
+      "narration": "いや俺自販機にお礼なんて考えた事ねぇ！",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "vortex",
+      "durationMs": 3000,
+      "backgroundFrame": "scene_44.jpg"
+    },
+    {
+      "text": "マジで癒されたぜぇええ！",
+      "narration": "マジで癒されたぜぇええ！",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "sparkle",
+      "durationMs": 1000,
+      "backgroundFrame": "scene_45.jpg"
+    }
+  ],
+  "outroText": "",
+  "outroDurationMs": 0
+}

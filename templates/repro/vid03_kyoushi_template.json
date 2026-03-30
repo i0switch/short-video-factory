@@ -1,0 +1,265 @@
+{
+  "videoId": "vid03_kyoushi",
+  "seriesTitle": "笑える迷言集",
+  "videoTitle": "教師たちの反応w",
+  "titleColor": "#FFE000",
+  "captionColor": "#FFFFFF",
+  "captionFadeInFrames": 0,
+  "hideTitle": true,
+  "hideCaption": true,
+  "fps": 30,
+  "ttsSpeed": 1.4,
+  "bgmVolume": 0.10,
+  "scenes": [
+    {
+      "text": "クラス全員で示し合わせて、",
+      "narration": "クラス全員で示し合わせて、",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1650,
+      "backgroundFrame": "scene_00.jpg"
+    },
+    {
+      "text": "授業中みんなで一切動かなくなった。",
+      "narration": "授業中みんなで一切動かなくなった。",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2200,
+      "backgroundFrame": "scene_01.jpg"
+    },
+    {
+      "text": "ある者は消しゴムを拾おうとしてる最中で止まり、",
+      "narration": "ある者は消しゴムを拾おうとしてる最中で止まり、",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 2700,
+      "backgroundFrame": "scene_02.jpg"
+    },
+    {
+      "text": "ある者は先生に質問しようとして",
+      "narration": "ある者は先生に質問しようとして",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2150,
+      "backgroundFrame": "scene_03.jpg"
+    },
+    {
+      "text": "挙手しかけたところで止まる。",
+      "narration": "挙手しかけたところで止まる。",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 1450,
+      "backgroundFrame": "scene_04.jpg"
+    },
+    {
+      "text": "ご丁寧にもクラスの中でも器用な奴が、",
+      "narration": "ご丁寧にもクラスの中でも器用な奴が、",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2400,
+      "backgroundFrame": "scene_05.jpg"
+    },
+    {
+      "text": "時計もその時間で止まるようにしておいた。",
+      "narration": "時計もその時間で止まるようにしておいた。",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2250,
+      "backgroundFrame": "scene_06.jpg"
+    },
+    {
+      "text": "ドアも窓も一切閉め切っていたので",
+      "narration": "ドアも窓も一切閉め切っていたので",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2000,
+      "backgroundFrame": "scene_07.jpg"
+    },
+    {
+      "text": "完全に無音になる。",
+      "narration": "完全に無音になる。",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 1250,
+      "backgroundFrame": "scene_08.jpg"
+    },
+    {
+      "text": "授業にくる全ての教師に試したが、",
+      "narration": "授業にくる全ての教師に試したが、",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2050,
+      "backgroundFrame": "scene_09.jpg"
+    },
+    {
+      "text": "皆同じような反応するのが笑えた",
+      "narration": "皆同じような反応するのが笑えた",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2100,
+      "backgroundFrame": "scene_10.jpg"
+    },
+    {
+      "text": "「え？　え？」",
+      "narration": "え？え？",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 900,
+      "backgroundFrame": "scene_11.jpg",
+      "mangaSymbol": "sweat"
+    },
+    {
+      "text": "「何？　何で？」",
+      "narration": "何？何で？",
+      "speaker": "character1",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 1050,
+      "backgroundFrame": "scene_12.jpg",
+      "mangaSymbol": "sweat"
+    },
+    {
+      "text": "みたいな反応",
+      "narration": "みたいな反応",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 950,
+      "backgroundFrame": "scene_13.jpg"
+    },
+    {
+      "text": "ものすごくキョドった",
+      "narration": "ものすごくキョドった",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 1100,
+      "backgroundFrame": "scene_14.jpg",
+      "mangaSymbol": "sweat"
+    },
+    {
+      "text": "数学",
+      "narration": "数学",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 650,
+      "backgroundFrame": "scene_15.jpg"
+    },
+    {
+      "text": "こいつだけ何故か普通に授業を進めた",
+      "narration": "こいつだけ何故か普通に授業を進めた",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 2200,
+      "backgroundFrame": "scene_16.jpg"
+    },
+    {
+      "text": "ポカーン",
+      "narration": "ポカーン",
+      "speaker": "narrator",
+      "emotion": "shock",
+      "effect": "none",
+      "durationMs": 650,
+      "backgroundFrame": "scene_17.jpg"
+    },
+    {
+      "text": "↑まさしくこのAAの状態",
+      "narration": "まさしくこのAAの状態",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1650,
+      "backgroundFrame": "scene_18.jpg"
+    },
+    {
+      "text": "理科",
+      "narration": "理科",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 500,
+      "backgroundFrame": "scene_19.jpg",
+      "mangaSymbol": "surprise"
+    },
+    {
+      "text": "現文の教師と全く同じ。",
+      "narration": "現文の教師と全く同じ。",
+      "speaker": "narrator",
+      "emotion": "confusion",
+      "effect": "none",
+      "durationMs": 1750,
+      "backgroundFrame": "scene_20.jpg",
+      "mangaSymbol": "sweat"
+    },
+    {
+      "text": "皆が動き出すと",
+      "narration": "皆が動き出すと",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1100,
+      "backgroundFrame": "scene_21.jpg"
+    },
+    {
+      "text": "苦笑い",
+      "narration": "苦笑い",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 700,
+      "backgroundFrame": "scene_22.jpg"
+    },
+    {
+      "text": "呆れたような表情で",
+      "narration": "呆れたような表情で",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1350,
+      "backgroundFrame": "scene_23.jpg"
+    },
+    {
+      "text": "「そして時は動き出す…」",
+      "narration": "そして時は動き出す",
+      "speaker": "character1",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1050,
+      "backgroundFrame": "scene_24.jpg"
+    },
+    {
+      "text": "って言ったら皆動き出した。",
+      "narration": "って言ったら皆動き出した。",
+      "speaker": "narrator",
+      "emotion": "happy",
+      "effect": "none",
+      "durationMs": 1500,
+      "backgroundFrame": "scene_25.jpg"
+    },
+    {
+      "text": "彼が一番面白かった。",
+      "narration": "彼が一番面白かった。",
+      "speaker": "narrator",
+      "emotion": "neutral",
+      "effect": "none",
+      "durationMs": 1600,
+      "backgroundFrame": "scene_26.jpg"
+    }
+  ],
+  "outroText": "",
+  "outroDurationMs": 0
+}

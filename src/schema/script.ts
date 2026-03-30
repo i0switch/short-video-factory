@@ -30,3 +30,12 @@ export const ScriptSchema = z.object({
 
 export type Script = z.infer<typeof ScriptSchema>
 export type RankingItem = z.infer<typeof RankingItemSchema>
+
+import { TwoChScriptSchema } from './twoch-script'
+
+export const UnifiedScriptSchema = z.discriminatedUnion('format', [
+  ScriptSchema.extend({ format: z.literal('ranking') }),
+  TwoChScriptSchema,
+])
+
+export type UnifiedScript = z.infer<typeof UnifiedScriptSchema>

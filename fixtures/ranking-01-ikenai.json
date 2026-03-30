@@ -1,0 +1,97 @@
+{
+  "videoTitle": "絶対に言って\nはいけない一言",
+  "intro": "絶対に言ってはいけない一言ランキング、挙げてけww",
+  "items": [
+    {
+      "rank": 10,
+      "topic": "太った？",
+      "comment1": "それは禁句だよね",
+      "comment2": "命知らずすぎるやろ",
+      "body": "10位は「太った？」。女性に対してこれを言うのは自殺行為。たとえ事実だとしても、口に出した瞬間に試合終了。",
+      "imageKeywords": ["女性", "怒る"],
+      "imageKeywordsEn": ["angry woman", "upset"]
+    },
+    {
+      "rank": 9,
+      "topic": "それ意味ある？",
+      "comment1": "上司に言うのは怖いよね",
+      "comment2": "クビになりたいんかやろ",
+      "body": "9位は上司に「それ意味あります？」。正論かもしれないが、組織では火に油を注ぐだけ。沈黙は金であることを忘れないで。",
+      "imageKeywords": ["男性", "呆れる"],
+      "imageKeywordsEn": ["boss", "annoyed office"]
+    },
+    {
+      "rank": 8,
+      "topic": "お母さん！",
+      "comment1": "学校であるあるだよね",
+      "comment2": "一生いじられるやつやろ",
+      "body": "8位は先生を「お母さん」と呼ぶ。一瞬で教室が静まり返るあの絶望感。一生の恥として刻まれるレベルの黒歴史。",
+      "imageKeywords": ["男の子", "恥ずかしい"],
+      "imageKeywordsEn": ["boy", "embarrassed school"]
+    },
+    {
+      "rank": 7,
+      "topic": "まだ独身なの？",
+      "comment1": "余計なお世話だよね",
+      "comment2": "価値観の押し付けやろ",
+      "body": "7位は「まだ独身なの？」。結婚が幸せのゴールとは限らないこの時代に、土足で踏み込むような発言は非常に危険。",
+      "imageKeywords": ["女性", "困る"],
+      "imageKeywordsEn": ["single woman", "bothered"]
+    },
+    {
+      "rank": 6,
+      "topic": "意外とできるね",
+      "comment1": "上から目線に感じるよね",
+      "comment2": "嫌味にしか聞こえんやろ",
+      "body": "6位は先輩への「意外と仕事できるんですね」。褒めているつもりでも、相手には失礼極まりない。言葉選びには注意が必要。",
+      "imageKeywords": ["男性", "不機嫌"],
+      "imageKeywordsEn": ["senior worker", "offended"]
+    },
+    {
+      "rank": 5,
+      "topic": "産んでなんてない",
+      "comment1": "親に言うと後悔するよね",
+      "comment2": "親不孝もいいとこやろ",
+      "body": "5位は親に「産んでくれなんて頼んでない」。思春期の定番だが、親を最も傷つける言葉。言った後に必ず後悔する。",
+      "imageKeywords": ["母親", "悲しむ"],
+      "imageKeywordsEn": ["mother", "sad crying"]
+    },
+    {
+      "rank": 4,
+      "topic": "誰のおかげ？",
+      "comment1": "協力関係が壊れるよね",
+      "comment2": "モラハラ確定演出やろ",
+      "body": "4位はパートナーに「誰のおかげで生活できてるの」。これを言った瞬間に愛は冷め、家庭崩壊へのカウントダウンが始まる。",
+      "imageKeywords": ["夫婦", "喧嘩"],
+      "imageKeywordsEn": ["couple fighting", "angry"]
+    },
+    {
+      "rank": 3,
+      "topic": "そんなのも不明？",
+      "comment1": "客商売ではアウトだよね",
+      "comment2": "接客業失格に決まっとる",
+      "body": "3位は客に「そんなことも知らないんですか」。プロとして知識をひけらかし、相手をバカにする態度はクレームの元。",
+      "imageKeywords": ["店員", "傲慢"],
+      "imageKeywordsEn": ["clerk", "arrogant rude"]
+    },
+    {
+      "rank": 2,
+      "topic": "次があるよ",
+      "comment1": "励ましが裏目に出るよね",
+      "comment2": "今の悲しみを無視しとる",
+      "body": "2位は悲しんでいる人に「次があるよ」。良かれと思っての言葉が、相手にとっては今の苦しみを否定されたように感じる。",
+      "imageKeywords": ["友人", "落ち込む"],
+      "imageKeywordsEn": ["sad friend", "mourning"]
+    },
+    {
+      "rank": 1,
+      "topic": "お前に関係ない",
+      "comment1": "全てを拒絶しちゃうよね",
+      "comment2": "人間関係終了のお知らせやろ",
+      "body": "1位は「お前には関係ない」。相手の心配を無下にするこの一言は、全ての信頼関係を破壊する威力を持っている。",
+      "imageKeywords": ["男性", "絶交"],
+      "imageKeywordsEn": ["broken friendship", "cold"]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

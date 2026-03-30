@@ -28,9 +28,14 @@ export type ReproShot = {
   background: string
   effect: string
   camera?: { zoomFrom: number; zoomTo: number }
+  characterZoom?: { from: number; to: number }
+  characterSlide?: { fromX: number; toX: number }
+  captionTop?: number
+  captionFontScale?: number
   note?: string
   mangaSymbol?: string
   captionColor?: string
+  episodeTitleOverride?: string | null
 }
 
 export type ReproTitleBand = {
@@ -81,6 +86,21 @@ function getCharacterSrc(type: string, basePath: string): string {
     student_bending: 'student_bending.png',
     student_raising_hand: 'student_raising_hand.png',
     student_girl_smiling: 'student_girl_smiling.png',
+    student_shocked_male: 'student_shocked_male.png',
+    student_shocked_female: 'student_shocked_female.png',
+    student_confused_male: 'student_confused_male.png',
+    student_sitting_frozen: 'student_sitting_frozen.png',
+    student_cool: 'student_cool.png',
+    man_shocked: 'man_shocked.png',
+    woman_shocked: 'woman_shocked.png',
+    man_confused: 'man_confused.png',
+    man_angry: 'man_angry.png',
+    man_happy: 'man_happy.png',
+    man_normal: 'man_normal.png',
+    woman_angry: 'woman_angry.png',
+    woman_happy: 'woman_happy.png',
+    woman_normal: 'woman_normal.png',
+    woman_sad: 'woman_sad.png',
     teacher_lecturing: 'teacher_lecturing.png',
     teacher_confused: 'teacher_confused.png',
     teacher_confused_female: 'teacher_female_confused.png',
@@ -90,6 +110,35 @@ function getCharacterSrc(type: string, basePath: string): string {
     teacher_science: 'teacher_science.png',
     teacher_science_smile: 'teacher_science_smile.png',
     teacher_tired: 'teacher_male_tired.png',
+    // lLBcGh4DZ8A — 競技化彼氏・誕生日ケーキ・キョンシー百貫
+    woman_excited: 'woman_excited.png',
+    grandma_normal: 'grandma_normal.png',
+    grandma_bookmark: 'grandma_normal.png',  // しおり付きは同画像で代替
+    birthday_cake: 'birthday_cake.png',
+    cake_box: 'cake_box.png',
+    bookmark: 'bookmark.png',
+    library_staff: 'library_staff_normal.png',
+    library_staff_angry: 'library_staff_angry.png',
+    library_staff_normal: 'library_staff_normal.png',
+    // lLBcGh4DZ8A — 競技化彼氏 正解版キャラ・小道具
+    commentator: 'commentator.png',
+    businessman_normal: 'businessman_normal.png',
+    boyfriend_annoyed: 'boyfriend_annoyed.png',
+    boyfriend_smug: 'boyfriend_smug.png',
+    girlfriend_annoyed: 'girlfriend_annoyed.png',
+    toaster_toast: 'toaster_toast.png',
+    toast_hand: 'toast_hand.png',
+    toothbrush: 'toothbrush.png',
+    trophy: 'trophy.png',
+    globe: 'globe.png',
+    // PDCA追加
+    boyfriend_casual: 'boyfriend_casual.png',
+    boyfriend_angry_casual: 'boyfriend_angry_casual.png',
+    boyfriend_banzai: 'boyfriend_banzai.png',
+    faucet: 'faucet.png',
+    toast_slice: 'toast_slice.png',
+    businessman_tablet: 'businessman_tablet.png',
+    toothbrush_paste: 'toothbrush_paste.png',
     // Generic fallback patterns - match by keyword in type name
   }
 
@@ -170,21 +219,22 @@ function getCharacterSrc(type: string, basePath: string): string {
 }
 
 // ── Position resolver ──
+// Y 軸の基準を -200px 上げてキャラが画面中央寄りに配置されるようにした（A3対応）
 function resolvePosition(position: string, index: number, total: number): { x: number; y: number } {
   switch (position) {
     case 'center':
-      return { x: 540, y: 1320 }
+      return { x: 540, y: 1400 }
     case 'center-bottom': {
-      if (total <= 1) return { x: 540, y: 1180 }
-      if (total === 2) return { x: index === 0 ? 300 : 780, y: 1220 }
+      if (total <= 1) return { x: 540, y: 1440 }
+      if (total === 2) return { x: index === 0 ? 300 : 780, y: 1400 }
       if (total === 3) {
-        const positions = [{ x: 540, y: 1400 }, { x: 250, y: 1100 }, { x: 830, y: 1100 }]
+        const positions = [{ x: 540, y: 1200 }, { x: 250, y: 900 }, { x: 830, y: 900 }]
         return positions[index]
       }
       if (total === 4) {
         const positions = [
-          { x: 300, y: 1380 }, { x: 780, y: 1380 },
-          { x: 350, y: 1080 }, { x: 730, y: 1080 },
+          { x: 300, y: 1180 }, { x: 780, y: 1180 },
+          { x: 350, y: 880 }, { x: 730, y: 880 },
         ]
         return positions[index]
       }
@@ -192,31 +242,31 @@ function resolvePosition(position: string, index: number, total: number): { x: n
         const frontCount = Math.min(3, Math.ceil(total / 2))
         if (index < frontCount) {
           const sp = 900 / (frontCount + 1)
-          return { x: 90 + sp * (index + 1), y: 1350 }
+          return { x: 90 + sp * (index + 1), y: 1150 }
         }
         const backCount = total - frontCount
         const bi = index - frontCount
         const sp2 = 900 / (backCount + 1)
-        return { x: 90 + sp2 * (bi + 1), y: 1080 }
+        return { x: 90 + sp2 * (bi + 1), y: 880 }
       }
       const col = index % 3
       const row = Math.floor(index / 3)
-      return { x: 180 + col * 260, y: 1050 + row * 200 }
+      return { x: 180 + col * 260, y: 850 + row * 200 }
     }
     case 'left':
-      return { x: 280, y: 1180 }
+      return { x: 310, y: 1400 }
     case 'right':
-      return { x: 800, y: 1180 }
+      return { x: 770, y: 1400 }
     case 'left-bottom':
-      return { x: 200 + index * 250, y: 1320 }
+      return { x: 200 + index * 250, y: 1120 }
     case 'front-row': {
       const sp = 800 / (total + 1)
-      return { x: 140 + sp * (index + 1), y: 1320 + (index % 2) * 40 }
+      return { x: 140 + sp * (index + 1), y: 1120 + (index % 2) * 40 }
     }
     case 'back-center':
-      return { x: 540, y: 1000 }
+      return { x: 540, y: 800 }
     default:
-      return { x: 540, y: 1180 }
+      return { x: 540, y: 980 }
   }
 }
 
@@ -246,8 +296,8 @@ const ReproBackground: React.FC<{
     // Kitchen / Home
     kitchen: 'bg_kitchen.jpg',
     kitchen_fridge: 'bg_kitchen.jpg',
-    living_room: 'bg_living.jpg',
-    home: 'bg_living.jpg',
+    living_room: 'bg_living_room.jpg',
+    home: 'bg_living_room.jpg',
     // Library
     library: 'bg_library.jpg',
     library_dark: 'bg_library.jpg',
@@ -259,15 +309,25 @@ const ReproBackground: React.FC<{
     outdoor: 'bg_classroom_front.jpg',
     // Effect / special
     effect_bg: 'bg_classroom_blackboard.jpg',
+    // lLBcGh4DZ8A — みんちりえ 3DCG 背景
+    minchari_kitchen: 'bg_minchari_kitchen.png',
+    minchari_living: 'bg_minchari_living.jpg',
+    minchari_bedroom: 'bg_minchari_bedroom.jpg',
+    minchari_hallway: 'bg_minchari_hallway.jpg',
+    // 特殊背景
+    dark_rain: '_effect_dark_rain',
+    sparkle_green: '_effect_sparkle_green',
   }
 
   // Keyword-based background fallback
   let filename = bgImageMap[bg]
   if (!filename) {
     if (bg.includes('vortex') || bg.includes('spiral')) filename = '_effect_vortex'
+    else if (bg === 'concentration_gold_intro' || bg.includes('gold') && bg.includes('intro')) filename = '_effect_concentration_gold'
     else if (bg.includes('concentration') || bg.includes('radial') || bg.includes('sunburst')) filename = '_effect_concentration'
     else if (bg.includes('fire') || bg.includes('red_gradient')) filename = '_effect_fire'
-    else if (bg.includes('sparkle') || bg.includes('yellow') || bg.includes('pink') || bg.includes('warm') || bg.includes('pastel')) filename = '_effect_sparkle'
+    else if (bg === 'sparkle_pink' || bg.includes('excited') || bg.includes('joy')) filename = '_effect_sparkle_pink'
+    else if (bg.includes('sparkle') || bg.includes('yellow') || bg.includes('warm') || bg.includes('pastel')) filename = '_effect_sparkle'
     // Scene-specific backgrounds FIRST (before generic dark/light)
     else if (bg.includes('kitchen') || bg.includes('fridge') || bg.includes('shelf')) filename = 'bg_kitchen.jpg'
     else if (bg.includes('dining') || bg.includes('table')) filename = 'bg_dining.jpg'
@@ -282,6 +342,8 @@ const ReproBackground: React.FC<{
     else if (bg.includes('dark') || bg.includes('black') || bg.includes('shock')) filename = 'bg_classroom_dark_freeze.jpg'
     else if (bg.includes('rain') || bg.includes('blue')) filename = 'bg_classroom_dark_freeze.jpg'
     else if (bg.includes('money') || bg.includes('confetti')) filename = '_effect_sparkle'
+    else if (bg.includes('pink') || bg.includes('excited') || bg.includes('joy')) filename = '_effect_sparkle_pink'
+    else if (bg.includes('gold') && (bg.includes('radial') || bg.includes('sunburst') || bg.includes('intro'))) filename = '_effect_concentration_gold'
     else filename = 'bg_classroom_front.jpg'
   }
   // Effect backgrounds rendered as CSS
@@ -323,11 +385,45 @@ const ReproBackground: React.FC<{
         }} />
       )
     }
+    if (filename === '_effect_sparkle_pink') {
+      return (
+        <AbsoluteFill style={{
+          background: `radial-gradient(circle at 50% 50%, #FFF0F5 0%, #FFB6C1 25%, #FF69B4 55%, #FF1493 85%, #C71585 100%)`,
+        }} />
+      )
+    }
+    if (filename === '_effect_concentration_gold') {
+      return (
+        <AbsoluteFill style={{
+          background: `conic-gradient(from 0deg at 50% 55%,
+            ${Array.from({ length: 36 }, (_, i) =>
+              `${i % 2 === 0 ? 'rgba(255,200,0,0.9)' : 'rgba(180,100,0,0.7)'} ${i * 10}deg`
+            ).join(', ')})`,
+        }} />
+      )
+    }
+    if (filename === '_effect_dark_rain') {
+      return (
+        <AbsoluteFill style={{
+          background: 'linear-gradient(180deg, #0A1428 0%, #0D1E3A 40%, #0A1428 100%)',
+        }} />
+      )
+    }
+    if (filename === '_effect_sparkle_green') {
+      return (
+        <AbsoluteFill style={{
+          background: 'radial-gradient(circle at 50% 50%, #E8FFE8 0%, #90EE90 30%, #32CD32 65%, #228B22 100%)',
+        }} />
+      )
+    }
   }
 
   const darkOverlay = bg === 'white_black' ? 0
-    : bg.includes('dark') ? 0.6
-    : 0.45
+    : bg === 'classroom_dark' ? 0.6
+    : bg === 'library_dark' ? 0.55
+    : bg === 'classroom_blackboard' ? 0.15
+    : bg === 'classroom_bright' ? 0
+    : 0.15
 
   return (
     <AbsoluteFill>
@@ -348,55 +444,58 @@ const ReproBackground: React.FC<{
   )
 }
 
-// ── Top Overlay (帯ではなく全面オーバーレイ) ──
+// ── Top Overlay: 参考動画準拠の黒帯（約13%）──
+const TITLE_BAR_HEIGHT = 350
 const ReproTopOverlay: React.FC = () => (
   <div style={{
     position: 'absolute',
-    inset: 0,
-    background: 'linear-gradient(to bottom, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.72) 18%, rgba(0,0,0,0.28) 32%, rgba(0,0,0,0) 50%)',
+    top: 0, left: 0, width: '100%', height: TITLE_BAR_HEIGHT,
+    background: '#000000',
     pointerEvents: 'none',
     zIndex: 8,
   }} />
 )
 
-// ── Title Text (背景の上に直接置く、帯パネルなし) ──
+// ── Title Text: クリーム/ベージュ・画面幅90%・白アウトライン付き ──
+// 参考動画準拠: タイトルは画面幅80%超の巨大テキスト
+// 参考動画準拠: オレンジ〜ピーチ色・白太縁取り・左上寄せ・250px帯に収まるサイズ
+const TITLE_LINE1_STYLE: React.CSSProperties = {
+  fontFamily: '"Noto Sans JP", sans-serif',
+  fontWeight: 900, fontSize: 145,
+  color: '#FF7722',
+  WebkitTextStroke: '8px #FFFFFF',
+  paintOrder: 'stroke fill',
+  textShadow: '5px 5px 0px rgba(0,0,0,0.95), 7px 7px 0px rgba(0,0,0,0.5)',
+  lineHeight: 1.0,
+  letterSpacing: 3,
+}
+
+const TITLE_LINE2_STYLE: React.CSSProperties = {
+  ...TITLE_LINE1_STYLE,
+  fontSize: 155,
+}
+
 const ReproTitleText: React.FC<{ band: ReproTitleBand }> = ({ band }) => (
   <div style={{
     position: 'absolute',
-    top: 25, left: 0, width: 1080,
+    top: 0, left: 0, width: 1080, height: TITLE_BAR_HEIGHT,
     zIndex: 11,
-    display: 'flex', flexDirection: 'column', alignItems: 'center',
+    display: 'flex', flexDirection: 'column',
+    alignItems: 'flex-start', justifyContent: 'center',
+    paddingLeft: 55,
+    gap: 4,
     pointerEvents: 'none',
   }}>
-    <div style={{
-      fontFamily: '"Noto Sans JP", sans-serif',
-      fontWeight: 900, fontSize: 110,
-      color: band.textColor,
-      WebkitTextStroke: `${band.strokeWidth + 4}px ${band.strokeColor}`,
-      paintOrder: 'stroke fill',
-      textShadow: '0 0 12px #FFE000, 0 0 24px rgba(255,224,0,0.5), -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000',
-      lineHeight: 1.15,
-    }}>
-      {band.line1}
-    </div>
-    <div style={{
-      fontFamily: '"Noto Sans JP", sans-serif',
-      fontWeight: 900, fontSize: 68,
-      color: '#FFFFFF',
-      WebkitTextStroke: '3px #3366FF',
-      paintOrder: 'stroke fill',
-      textShadow: '0 0 10px #3399FF, 0 0 20px rgba(51,153,255,0.4), -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000',
-      lineHeight: 1.15, marginTop: 6,
-    }}>
-      {band.line2}
-    </div>
+    <div style={TITLE_LINE1_STYLE}>{band.line1}</div>
+    <div style={TITLE_LINE2_STYLE}>{band.line2}</div>
   </div>
 )
 
 // ── Caption with BudouX ──
-const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; captionColor?: string }> = ({ text, speaker, effect, captionColor }) => {
+const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; captionColor?: string; captionTop?: number; captionFontScale?: number }> = ({ text, speaker, effect, captionColor, captionTop, captionFontScale }) => {
   const frame = useCurrentFrame()
   const opacity = interpolate(frame, [0, 2], [0.7, 1], { extrapolateRight: 'clamp' })
+  const topPos = captionTop ?? 520
 
   // AA display (特殊シーン - 白背景上にAA + 青テロップ)
   if (effect === 'aa_display') {
@@ -432,7 +531,7 @@ const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; ca
   if (effect === 'impact_text') {
     return (
       <div style={{
-        position: 'absolute', top: 350, left: 0, width: 1080,
+        position: 'absolute', top: (captionTop ?? 520), left: 0, width: 1080,
         zIndex: 8, opacity,
         display: 'flex', justifyContent: 'center',
       }}>
@@ -450,7 +549,7 @@ const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; ca
   }
 
   // Text type detection for A-6 color differentiation
-  const rawText = text.replace(/\n/g, '')
+  const rawText = text
   const isDialog = rawText.includes('「') || rawText.includes('」')
   const subjectNames = ['数学', '現文', '国語', '理科', '英語', '社会', '体育', '化学', '物理', '倫理']
   const isSubjectName = subjectNames.some(s => rawText.trim() === s)
@@ -459,7 +558,7 @@ const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; ca
   if (isSubjectName) {
     return (
       <div style={{
-        position: 'absolute', top: 300, left: 20, width: 1040,
+        position: 'absolute', top: topPos, left: 20, width: 1040,
         zIndex: 9, opacity,
         display: 'flex', justifyContent: 'center',
       }}>
@@ -482,7 +581,7 @@ const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; ca
     const dialogFontSize = rawText.length > 18 ? 64 : rawText.length > 9 ? 72 : 80
     return (
       <div style={{
-        position: 'absolute', top: 300, left: 20, width: 1040,
+        position: 'absolute', top: topPos, left: 20, width: 1040,
         zIndex: 9, opacity,
         display: 'flex', flexDirection: 'column', alignItems: 'center',
       }}>
@@ -507,30 +606,56 @@ const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; ca
     )
   }
 
-  // Normal caption: 青文字+白縁+黒締め
-  const fontSize = rawText.length > 20 ? 64 : rawText.length > 10 ? 72 : 80
-  const lines = wrapJapanese(rawText, 8, 5)
-  const textColor = '#0033CC'
-  const shadow = '-5px -5px 0 #FFF, 5px -5px 0 #FFF, -5px 5px 0 #FFF, 5px 5px 0 #FFF, -5px 0 0 #FFF, 5px 0 0 #FFF, 0 -5px 0 #FFF, 0 5px 0 #FFF, -8px -8px 0 #000, 8px -8px 0 #000, -8px 8px 0 #000, 8px 8px 0 #000, -8px 0 0 #000, 8px 0 0 #000, 0 -8px 0 #000, 0 8px 0 #000, 0 0 12px rgba(0,0,0,0.8)'
+  // 元動画準拠: 背景ボックスなし・色付き太文字 + 白縁取り + 黒ドロップシャドウ
+  const isRed = speaker === 'character2'
+    || /うるさい|やめて|迷惑|採点/.test(rawText)
+  const textColor = isRed ? '#FF2255' : '#00CC44'
+  const strokeColor = '#FFFFFF'
+  // フォントサイズ: 元動画は100px級の超巨大テロップ
+  // 元動画準拠: BudouXで自然改行 → 最長行に合わせてフォント決定
+  const maxW = 1060
+  let lines: string[]
+  if (rawText.includes('\n')) {
+    // 手動改行あり→そのまま尊重
+    lines = rawText.split('\n').filter(s => s.length > 0)
+  } else if (rawText.length <= 8) {
+    // 8文字以下→1行、超巨大
+    lines = [rawText]
+  } else {
+    // BudouXに十分な幅を渡して均等2分割（半分+2で余裕）
+    const softMax = Math.ceil(rawText.length / 2) + 2
+    lines = wrapJapanese(rawText, softMax, 3)
+  }
+  const longestLine = Math.max(...lines.map(l => l.length))
+  // whiteSpace:nowrap + stroke8px で画面幅85%を目指す（クリッピング防止）
+  let fontSize = Math.floor(maxW / longestLine * 0.85)
+  fontSize = Math.min(fontSize, 200)
+  const sw = 8  // 元動画準拠の白縁取り
 
+  const scaledFontSize = Math.floor(fontSize * (captionFontScale ?? 1.0))
   return (
     <div style={{
-      position: 'absolute', top: 300, left: 20, width: 1040,
-      zIndex: 9, opacity,
+      position: 'absolute', top: topPos, left: 0, width: 1080,
+      zIndex: 9, opacity, overflow: 'visible',
       display: 'flex', flexDirection: 'column', alignItems: 'center',
     }}>
-      {lines.map((line, i) => (
-        <div key={i} style={{
-          fontFamily: '"Noto Sans JP", sans-serif',
-          fontWeight: 900, fontSize,
-          color: textColor,
-          textShadow: shadow,
-          lineHeight: 1.25, textAlign: 'center',
-          letterSpacing: 2,
-        }}>
-          {line}
-        </div>
-      ))}
+      {lines.map((line, i) => {
+        return (
+          <div key={i} style={{
+            fontFamily: '"Noto Sans JP", sans-serif',
+            fontWeight: 900, fontSize: scaledFontSize,
+            color: textColor,
+            WebkitTextStroke: `${sw}px ${strokeColor}`,
+            paintOrder: 'stroke fill',
+            textShadow: '3px 3px 0px rgba(0,0,0,0.95), 5px 5px 0px rgba(0,0,0,0.6), -2px -2px 0px rgba(0,0,0,0.5)',
+            lineHeight: 1.2, textAlign: 'center',
+            letterSpacing: 2,
+            whiteSpace: 'nowrap',
+          }}>
+            {line}
+          </div>
+        )
+      })}
     </div>
   )
 }
@@ -546,9 +671,8 @@ const ReproEffectLayer: React.FC<{ effect: string }> = ({ effect }) => {
         <div style={{
           width: '100%', height: '100%',
           background: `conic-gradient(from ${rotate}deg at 50% 60%,
-            #2A0845 0deg, #4A1875 45deg, #1A0530 90deg, #3A1265 135deg,
-            #0A0020 180deg, #4A1875 225deg, #2A0845 270deg, #1A0530 315deg, #2A0845 360deg)`,
-          opacity: 0.85,
+            rgba(42,8,69,0.55) 0deg, rgba(74,24,117,0.55) 45deg, rgba(26,5,48,0.55) 90deg, rgba(58,18,101,0.55) 135deg,
+            rgba(10,0,32,0.55) 180deg, rgba(74,24,117,0.55) 225deg, rgba(42,8,69,0.55) 270deg, rgba(26,5,48,0.55) 315deg, rgba(42,8,69,0.55) 360deg)`,
         }} />
       </AbsoluteFill>
     )
@@ -568,6 +692,64 @@ const ReproEffectLayer: React.FC<{ effect: string }> = ({ effect }) => {
     )
   }
 
+  // 白い放射集中線（SVG版・参考動画準拠: 太さランダム・高opacity・背景を突き破る）
+  if (effect === 'concentration_white') {
+    const NUM_LINES = 48
+    const cx = 540, cy = 1150
+    const lines = Array.from({ length: NUM_LINES }, (_, i) => {
+      const baseAngle = (i / NUM_LINES) * 360
+      const jitter = (i * 13 % 19) - 9  // ±9度のジッター
+      const angleDeg = baseAngle + jitter
+      const rad = (angleDeg * Math.PI) / 180
+      const len = 1400 + (i * 53 % 500)
+      const w = 1 + (i * 7 % 12)  // 1-12px（太さランダム）
+      const op = 0.55 + (i * 11 % 40) * 0.01  // 0.55-0.95
+      return {
+        x2: cx + Math.cos(rad) * len,
+        y2: cy + Math.sin(rad) * len,
+        w, op,
+      }
+    })
+    return (
+      <AbsoluteFill style={{ zIndex: 1 }}>
+        <svg width="1080" height="1920" style={{ position: 'absolute', top: 0, left: 0 }}>
+          {lines.map((l, i) => (
+            <line key={i} x1={cx} y1={cy} x2={l.x2} y2={l.y2}
+              stroke={`rgba(255,255,255,${l.op})`} strokeWidth={l.w} />
+          ))}
+        </svg>
+      </AbsoluteFill>
+    )
+  }
+
+  // スピード線（水平方向・移動演出用）
+  if (effect === 'speed_lines') {
+    const NUM = 35
+    const slines = Array.from({ length: NUM }, (_, i) => {
+      const y = (i * 57 + 23) % 1920
+      const len = 400 + (i * 43 % 400)
+      const w = 3 + (i * 7 % 6)
+      const op = 0.5 + (i * 11 % 40) * 0.01
+      const speed = 18 + (i * 3 % 15)
+      const offset = (i * 137) % 1800
+      return { y, len, w, op, speed, offset }
+    })
+    return (
+      <AbsoluteFill style={{ zIndex: 3 }}>
+        <svg width="1080" height="1920" style={{ position: 'absolute', top: 0, left: 0 }}>
+          {slines.map((l, i) => {
+            const x = 1200 - ((frame * l.speed + l.offset) % 2200)
+            return (
+              <line key={i} x1={x} y1={l.y} x2={x + l.len} y2={l.y}
+                stroke={`rgba(200,220,255,${l.op})`} strokeWidth={l.w}
+                strokeLinecap="round" />
+            )
+          })}
+        </svg>
+      </AbsoluteFill>
+    )
+  }
+
   if (effect === 'golden_radial') {
     return (
       <AbsoluteFill style={{ zIndex: 1 }}>
@@ -578,6 +760,65 @@ const ReproEffectLayer: React.FC<{ effect: string }> = ({ effect }) => {
               `${i % 2 === 0 ? 'rgba(255,215,0,0.8)' : 'rgba(200,150,0,0.6)'} ${i * 10}deg`
             ).join(', ')})`,
         }} />
+      </AbsoluteFill>
+    )
+  }
+
+  if (effect === 'rain') {
+    // 参考動画準拠: 超高密度・太い青白雨筋（3倍太く5倍密度）
+    const drops = Array.from({ length: 150 }, (_, i) => {
+      const x = (i * 7 + 3) % 1080
+      const speed = 22 + (i * 7 % 18)
+      const y = ((frame * speed + i * 23) % 2400) - 500
+      const len = 200 + (i * 41 % 350)
+      const opacity = 0.55 + (i * 3 % 35) * 0.01  // 0.55-0.90
+      const width = 4 + (i * 4 % 10)  // 4-13px
+      return { x, y, len, opacity, width }
+    })
+    return (
+      <AbsoluteFill style={{ zIndex: 1, pointerEvents: 'none' }}>
+        <svg width="1080" height="1920" style={{ position: 'absolute', top: 0, left: 0 }}>
+          {drops.map((d, i) => (
+            <line key={i} x1={d.x} y1={d.y} x2={d.x} y2={d.y + d.len}
+              stroke={`rgba(140,210,255,${d.opacity})`} strokeWidth={d.width} />
+          ))}
+        </svg>
+      </AbsoluteFill>
+    )
+  }
+
+  if (effect === 'sparkle') {
+    // 参考動画準拠: 大きな色鮮やかな紙吹雪が画面いっぱいに舞う
+    const colors = ['#FF2244', '#2266FF', '#FF44AA', '#FFDD00', '#22CC55', '#FF8800', '#00BBFF', '#FF5500', '#CC33FF', '#44DDFF']
+    const particles = Array.from({ length: 80 }, (_, i) => ({
+      x: (i * 67 + 30) % 1060 + 10,
+      delay: (i * 3) % 20,
+      color: colors[i % colors.length],
+      rotation: (i * 47) % 360,
+      size: 28 + (i * 13) % 40,
+    }))
+    return (
+      <AbsoluteFill style={{ zIndex: 4, pointerEvents: 'none' }}>
+        {particles.map((p, i) => {
+          const localFrame = Math.max(0, frame - p.delay)
+          const speed = 6 + (i * 3) % 12
+          const y = ((localFrame * speed) % 2400) - 200
+          const rot = (p.rotation + localFrame * 4) % 360
+          const wobbleX = Math.sin(localFrame * 0.08 + i) * 25
+          return (
+            <div key={i} style={{
+              position: 'absolute',
+              left: p.x + wobbleX,
+              top: y,
+              width: p.size,
+              height: p.size * (i % 3 === 0 ? 0.4 : i % 3 === 1 ? 0.6 : 0.8),
+              backgroundColor: p.color,
+              transform: `rotate(${rot}deg)`,
+              opacity: 0.95,
+              borderRadius: i % 5 === 0 ? '50%' : '2px',
+            }} />
+          )
+        })}
       </AbsoluteFill>
     )
   }
@@ -627,7 +868,7 @@ const ReproMangaSymbol: React.FC<{ symbol?: string }> = ({ symbol }) => {
       </AbsoluteFill>
     )
   }
-  if (symbol === '!?' || symbol === 'exclamation') {
+  if (symbol === '!?' || symbol === 'exclamation' || symbol === 'exclaim') {
     const scale = interpolate(frame, [0, 6], [0, 1], { extrapolateRight: 'clamp' })
     return (
       <AbsoluteFill style={{ zIndex: 7, pointerEvents: 'none' }}>
@@ -660,6 +901,26 @@ const ReproMangaSymbol: React.FC<{ symbol?: string }> = ({ symbol }) => {
       </AbsoluteFill>
     )
   }
+  if (symbol === 'sparkle') {
+    return (
+      <AbsoluteFill style={{ zIndex: 7, pointerEvents: 'none' }}>
+        {[
+          { left: 100, top: 700, size: 50 },
+          { left: 900, top: 750, size: 40 },
+          { left: 500, top: 650, size: 35 },
+          { left: 200, top: 900, size: 30 },
+          { left: 800, top: 950, size: 45 },
+        ].map((s, i) => (
+          <div key={i} style={{
+            position: 'absolute', left: s.left + Math.sin(frame * 0.15 + i) * 10,
+            top: s.top + Math.cos(frame * 0.1 + i) * 8,
+            fontSize: s.size, opacity: 0.85,
+            transform: `rotate(${frame * 3 + i * 72}deg)`,
+          }}>✨</div>
+        ))}
+      </AbsoluteFill>
+    )
+  }
   if (symbol === 'gaan') {
     return (
       <AbsoluteFill style={{ zIndex: 7, pointerEvents: 'none' }}>
@@ -686,8 +947,17 @@ const ReproMangaSymbol: React.FC<{ symbol?: string }> = ({ symbol }) => {
 const ReproCharacterLayer: React.FC<{
   characters: ReproCharacter[]
   basePath: string
-}> = ({ characters, basePath }) => {
+  characterZoom?: { from: number; to: number }
+  characterSlide?: { fromX: number; toX: number }
+  durationFrames: number
+}> = ({ characters, basePath, characterZoom, characterSlide, durationFrames }) => {
   const frame = useCurrentFrame()
+  const zoomScale = characterZoom
+    ? interpolate(frame, [0, durationFrames], [characterZoom.from, characterZoom.to], { extrapolateRight: 'clamp' })
+    : 1.0
+  const slideX = characterSlide
+    ? interpolate(frame, [0, durationFrames], [characterSlide.fromX, characterSlide.toX], { extrapolateRight: 'clamp' })
+    : 0
   // Flatten all characters into a single list with global index
   const allChars: Array<{ type: string; position: string; scale: number; globalIdx: number }> = []
   for (const char of characters) {
@@ -704,15 +974,22 @@ const ReproCharacterLayer: React.FC<{
 
   return (
     <AbsoluteFill style={{ zIndex: 5, pointerEvents: 'none', overflow: 'hidden' }}>
+      <div style={{
+        width: '100%', height: '100%', position: 'absolute',
+        transform: `scale(${zoomScale}) translateX(${slideX}px)`,
+        transformOrigin: 'center 35%',
+      }}>
       {allChars.map((char) => {
           const groupTotal = posGroups[char.position]
           const groupIndex = posIndexes[char.position] ?? 0
           posIndexes[char.position] = groupIndex + 1
           const pos = resolvePosition(char.position, groupIndex, groupTotal)
-          // Scale down when many characters (avoid overlap)
-          const crowdFactor = allChars.length > 3 ? 0.80 : allChars.length > 1 ? 0.90 : 1.0
-          const size = 1920 * char.scale * crowdFactor
+          // Scale down significantly for multi-character scenes to avoid overlap
+          const crowdFactor = allChars.length > 3 ? 0.55 : allChars.length > 1 ? 0.55 : 1.0
+          const size = 1300 * char.scale * crowdFactor
           const float = Math.sin((frame + char.globalIdx * 11) / 30) * 3
+          // Bottom-anchor: character always sits near screen bottom, never invading subtitle zone
+          const bottomPx = 55 - float
           return (
             <Img
               key={`${char.type}-${char.globalIdx}`}
@@ -720,12 +997,14 @@ const ReproCharacterLayer: React.FC<{
               style={{
                 position: 'absolute',
                 left: pos.x - size / 2,
-                top: pos.y - size / 2 + float,
+                bottom: bottomPx,
                 width: size, height: size, objectFit: 'contain',
+                objectPosition: 'bottom center',
               }}
             />
           )
         })}
+      </div>
     </AbsoluteFill>
   )
 }
@@ -738,19 +1017,24 @@ export const ReproComposition: React.FC<ReproProps> = ({
     <AbsoluteFill style={{ backgroundColor: '#000000' }}>
       {/* 全面暗部オーバーレイ（帯ではない） */}
       <ReproTopOverlay />
-      {/* タイトルテキスト（背景の上に直接） */}
+      {/* タイトルテキスト（デフォルト：エピソードAタイトル） */}
       <ReproTitleText band={timeline.titleBand} />
 
       {timeline.shots.map((shot) => {
         const duration = Math.max(1, shot.endFrame - shot.startFrame)
+        // エピソードタイトル上書き（オムニバス形式対応）
+        const shotBand = shot.episodeTitleOverride
+          ? { ...timeline.titleBand, line2: shot.episodeTitleOverride }
+          : null
         return (
           <Sequence key={shot.id} from={shot.startFrame} durationInFrames={duration}>
             <AbsoluteFill>
               <ReproBackground bg={shot.background} basePath={assetBasePath} camera={shot.camera} />
               <ReproEffectLayer effect={shot.effect} />
-              <ReproCharacterLayer characters={shot.characters} basePath={assetBasePath} />
+              <ReproCharacterLayer characters={shot.characters} basePath={assetBasePath} characterZoom={shot.characterZoom} characterSlide={shot.characterSlide} durationFrames={duration} />
               <ReproMangaSymbol symbol={shot.mangaSymbol} />
-              {shot.text && <ReproCaption text={shot.text} speaker={shot.speaker} effect={shot.effect} captionColor={shot.captionColor} />}
+              {shot.text && <ReproCaption text={shot.text} speaker={shot.speaker} effect={shot.effect} captionColor={shot.captionColor} captionTop={shot.captionTop} captionFontScale={shot.captionFontScale} />}
+              {shotBand && <ReproTitleText band={shotBand} />}
             </AbsoluteFill>
           </Sequence>
         )

@@ -5,3 +5,8 @@ generated/
 *.mp4
 *.wav
 .claude/
+.workspace/
+.agents/
+.codex/
+.v4-build/
+.render-public/

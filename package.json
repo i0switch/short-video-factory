@@ -10,14 +10,12 @@
     "render:reference": "tsx src/render-reference.ts",
     "render:shotcue": "tsx src/render-shotcue.ts",
     "render:reconstruction": "tsx src/render-reconstruction.ts",
-    "render:template": "tsx src/render-template.ts",
-    "render:template-engine": "tsx src/render-template-engine.ts",
+    "render:repro2": "tsx src/render-repro-v2.ts",
     "generate": "tsx src/cli/index.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "process:refs": "tsx src/process-references.ts"
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@remotion/bundler": "^4.0.0",

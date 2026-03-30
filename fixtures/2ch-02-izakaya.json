@@ -1,0 +1,167 @@
+{
+  "format": "2ch",
+  "videoTitle": "迷惑客図鑑\n居酒屋のモンスター客",
+  "meta": {
+    "maxDurationSec": 25
+  },
+  "episodes": [
+    {
+      "scenes": [
+        {
+          "speaker": "narrator",
+          "text": "居酒屋で\nバイトしてるんだが",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "居酒屋"],
+          "imageKeywordsEn": ["izakaya waiter"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "昨日来た客が\nヤバすぎた",
+          "emotion": "shock",
+          "effect": "none",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["shocked man"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "生ビール！\nあと枝豆！",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男性", "ビール"],
+          "imageKeywordsEn": ["man beer"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "ここまでは普通",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男の子", "うなずく"],
+          "imageKeywordsEn": ["nodding boy"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "あ、やっぱ\nハイボールで",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["男性", "考える"],
+          "imageKeywordsEn": ["thinking man"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "もう作ったんだが",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男性", "困る"],
+          "imageKeywordsEn": ["troubled man"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "やっぱ生で！\nごめんね！",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["男性", "笑顔"],
+          "imageKeywordsEn": ["smiling man"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "3回変えたぞ\nこいつ…",
+          "emotion": "anger",
+          "effect": "concentration_lines",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["angry man"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "で、料理が\n来たんだけど",
+          "emotion": "neutral",
+          "effect": "none",
+          "imageKeywords": ["料理", "居酒屋"],
+          "imageKeywordsEn": ["izakaya food"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "これ俺が\n頼んだやつ？",
+          "emotion": "confusion",
+          "effect": "none",
+          "imageKeywords": ["男性", "首かしげる"],
+          "imageKeywordsEn": ["confused man"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "さっき自分で\n頼んだだろ！",
+          "emotion": "anger",
+          "effect": "lightning",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["furious man"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "記憶にないなぁ",
+          "emotion": "happy",
+          "effect": "none",
+          "imageKeywords": ["男性", "酔っぱらう"],
+          "imageKeywordsEn": ["drunk man"],
+          "backgroundSrc": "assets/repro/shared/bg_street.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "酔いすぎだろ…",
+          "emotion": "sad",
+          "effect": "rain",
+          "imageKeywords": ["男の子", "呆れる"],
+          "imageKeywordsEn": ["exasperated boy"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "会計で\nさらに衝撃",
+          "emotion": "shock",
+          "effect": "concentration_lines",
+          "imageKeywords": ["驚く", "男の子"],
+          "imageKeywordsEn": ["shocked boy"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "character1",
+          "text": "え、俺こんなに\n頼んだ？",
+          "emotion": "shock",
+          "effect": "shake",
+          "imageKeywords": ["驚く", "男性"],
+          "imageKeywordsEn": ["surprised man"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        },
+        {
+          "speaker": "narrator",
+          "text": "全部お前だよ！！",
+          "emotion": "anger",
+          "effect": "lightning",
+          "imageKeywords": ["男性", "怒る"],
+          "imageKeywordsEn": ["angry man yelling"],
+          "backgroundSrc": "assets/repro/shared/bg_hallway.jpg"
+        },
+        {
+          "speaker": "character2",
+          "text": "居酒屋あるあるwww",
+          "emotion": "happy",
+          "effect": "sparkle",
+          "imageKeywords": ["女の子", "笑う"],
+          "imageKeywordsEn": ["laughing girl"],
+          "backgroundSrc": "assets/repro/shared/bg_izakaya.jpg"
+        }
+      ]
+    }
+  ],
+  "outro": "チャンネル登録よろしく！"
+}

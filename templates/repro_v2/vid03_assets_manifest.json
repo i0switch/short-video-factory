@@ -1,0 +1,51 @@
+{
+  "videoId": "vid03",
+  "videoTitle": "教師たちの反応w",
+  "renderMethod": "TwoChScript → build-2ch-plan.ts → pnpm render:v3",
+  "renderDate": "2026-03-20",
+  "output": {
+    "path": "generated/latest/output.mp4",
+    "duration": 48.256,
+    "resolution": "1080x1920",
+    "fps": 30,
+    "codec": "h264",
+    "size": "6.6MB"
+  },
+  "backgrounds": [
+    { "origin": "irasutoya", "query": "教室 生徒" },
+    { "origin": "irasutoya", "query": "教室 授業" },
+    { "origin": "pexels_fallback", "query": "消しゴム 教室" },
+    { "origin": "pexels_fallback", "query": "挙手 生徒" },
+    { "origin": "pexels_fallback", "query": "教室 静寂" },
+    { "origin": "pexels_fallback", "query": "生徒 いたずら" },
+    { "origin": "pexels_fallback", "query": "時計 教室" },
+    { "origin": "irasutoya", "query": "教室 窓" },
+    { "origin": "pexels_fallback", "query": "静寂 暗い" },
+    { "origin": "irasutoya", "query": "教師 授業" },
+    { "origin": "pexels_fallback", "query": "笑う 先生" },
+    { "origin": "pexels_fallback", "query": "驚く 先生" },
+    { "origin": "pexels_fallback", "query": "困る 先生" },
+    { "origin": "irasutoya", "query": "教室 生徒" },
+    { "origin": "pexels_fallback", "query": "おどおど 先生" },
+    { "origin": "pexels_fallback", "query": "数学 先生" },
+    { "origin": "irasutoya", "query": "授業 先生" },
+    { "origin": "pexels_fallback", "query": "呆然 顔" },
+    { "origin": "irasutoya", "query": "驚く 顔" },
+    { "origin": "irasutoya", "query": "理科 先生" },
+    { "origin": "pexels_fallback", "query": "困る 先生" },
+    { "origin": "irasutoya", "query": "教室 生徒" },
+    { "origin": "pexels_fallback", "query": "苦笑い 先生" },
+    { "origin": "pexels_fallback", "query": "呆れる 先生" },
+    { "origin": "pexels_fallback", "query": "先生 名言" },
+    { "origin": "pexels_fallback", "query": "教室 笑い" },
+    { "origin": "pexels_fallback", "query": "笑う 先生" }
+  ],
+  "audio": [
+    { "origin": "voicevox", "speaker": "ずんだもん", "count": 25 },
+    { "origin": "voicevox", "speaker": "四国めたん", "count": 2 }
+  ],
+  "bgm": [
+    { "src": "assets/bgm/ukiuki_lalala.mp3", "origin": "self_owned" }
+  ],
+  "sourceVideoDerivedAssets": 0
+}

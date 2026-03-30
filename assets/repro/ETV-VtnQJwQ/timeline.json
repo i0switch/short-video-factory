@@ -1,0 +1,727 @@
+{
+  "videoId": "ETV-VtnQJwQ",
+  "title": "会計よろしく【2chスカッと総集編】",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 179.03,
+  "totalFrames": 5371,
+  "seriesTitle": "スカッと迷言集",
+  "format": "omnibus",
+  "episodeCount": 3,
+  "titleBand": {
+    "line1": "スカッと迷言集",
+    "line2": "(エピソードごとに差替)",
+    "backgroundColor": "#000000",
+    "textColor": "#FF0000",
+    "strokeColor": "#FFFFFF",
+    "strokeWidth": 3,
+    "glowColor": "#FF0000",
+    "glowRadius": 8,
+    "height": 280
+  },
+  "captionStyle": {
+    "color": "#FF0000",
+    "strokeColor": "#FFFFFF",
+    "strokeWidth": 3,
+    "shadowColor": "#000000",
+    "shadowBlur": 4,
+    "fontWeight": 900,
+    "textAlign": "left",
+    "note": "この動画のテロップは赤文字+白縁取り（他の4本の黄色文字とは異なる）"
+  },
+  "episodes": [
+    {
+      "id": "ep1",
+      "title": "会計よろしく",
+      "startFrame": 0,
+      "endFrame": 1860,
+      "startSec": 0,
+      "endSec": 62
+    },
+    {
+      "id": "ep2",
+      "title": "彼女を紹介",
+      "startFrame": 1860,
+      "endFrame": 3600,
+      "startSec": 62,
+      "endSec": 120
+    },
+    {
+      "id": "ep3",
+      "title": "子供好き",
+      "startFrame": 3600,
+      "endFrame": 5371,
+      "startSec": 120,
+      "endSec": 179
+    }
+  ],
+  "shots": [
+    {
+      "id": "sh01", "episode": "ep1", "startFrame": 0, "endFrame": 30,
+      "text": "日曜日\n義母から",
+      "narration": "日曜日、義母から連絡が来た",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater", "count": 1, "position": "right", "scale": 0.8 }
+      ],
+      "props": ["smartphone"],
+      "background": "living_room_bright", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh02", "episode": "ep1", "startFrame": 30, "endFrame": 90,
+      "text": "今日ランチでも\nどう？\n義妹も一緒よ",
+      "narration": "今日ランチでもどう？義妹も一緒よ",
+      "speaker": "character2",
+      "characters": [
+        { "type": "mother_in_law_smiling", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "yellow_sparkle", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh03", "episode": "ep1", "startFrame": 90, "endFrame": 120,
+      "text": "店に着くと",
+      "narration": "店に着くと",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater", "count": 1, "position": "center", "scale": 0.8 }
+      ],
+      "background": "restaurant_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh04", "episode": "ep1", "startFrame": 120, "endFrame": 180,
+      "text": "あ、来た来た！",
+      "narration": "あ、来た来た！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "sister_in_law_smiling", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "mother_in_law_smiling", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "restaurant_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh05", "episode": "ep1", "startFrame": 180, "endFrame": 240,
+      "text": "注文が済むと",
+      "narration": "注文が済むと早速食べ始めた",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater", "count": 1, "position": "left", "scale": 0.6 },
+        { "type": "mother_in_law_smiling", "count": 1, "position": "center", "scale": 0.6 },
+        { "type": "sister_in_law_smiling", "count": 1, "position": "right", "scale": 0.6 }
+      ],
+      "background": "restaurant_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh06", "episode": "ep1", "startFrame": 240, "endFrame": 330,
+      "text": "お会計\n4800円に\nなります",
+      "narration": "お会計4800円になります",
+      "speaker": "character1",
+      "characters": [
+        { "type": "woman_pink_sweater_worried", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "waiter_male", "count": 1, "position": "right", "scale": 0.8 }
+      ],
+      "background": "restaurant_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh07", "episode": "ep1", "startFrame": 330, "endFrame": 390,
+      "text": "会計よろしくね〜",
+      "narration": "会計よろしくね〜",
+      "speaker": "character2",
+      "characters": [
+        { "type": "mother_in_law_smiling", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "restaurant_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh08", "episode": "ep1", "startFrame": 390, "endFrame": 450,
+      "text": "強制おごりは\nこれだけに\n留まらず",
+      "narration": "強制おごりはこれだけに留まらず",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater_worried", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "waiter_male", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "restaurant_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh09", "episode": "ep1", "startFrame": 450, "endFrame": 540,
+      "text": "何度も\n繰り返された",
+      "narration": "何度も繰り返された",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater_worried", "count": 1, "position": "center", "scale": 0.8 },
+        { "type": "mother_in_law_smiling", "count": 1, "position": "right", "scale": 0.6 }
+      ],
+      "background": "restaurant_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh10", "episode": "ep1", "startFrame": 540, "endFrame": 600,
+      "text": "夫に相談すると",
+      "narration": "夫に相談すると",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "husband_normal", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "living_room_bright", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh11", "episode": "ep1", "startFrame": 600, "endFrame": 660,
+      "text": "ふざけんな！\n文句言ってくる！",
+      "narration": "ふざけんな！文句言ってくる！",
+      "speaker": "character1",
+      "characters": [
+        { "type": "husband_angry", "count": 1, "position": "center", "scale": 1.3 }
+      ],
+      "background": "red_fire", "effect": "concentration_lines",
+      "mangaSymbol": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.15 }
+    },
+    {
+      "id": "sh12", "episode": "ep1", "startFrame": 660, "endFrame": 720,
+      "text": "なによ！\n家族なんだから\nいいでしょ！",
+      "narration": "なによ！家族なんだからいいでしょ！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "sister_in_law_angry", "count": 1, "position": "center", "scale": 1.2 }
+      ],
+      "background": "red_gradient", "effect": "concentration_lines",
+      "mangaSymbol": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.1 }
+    },
+    {
+      "id": "sh13", "episode": "ep1", "startFrame": 720, "endFrame": 840,
+      "text": "翌日\n罠を張る",
+      "narration": "翌日、主人公は罠を張ることにした",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mother_in_law_smiling", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "woman_pink_sweater", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "living_room_bright", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh14", "episode": "ep1", "startFrame": 840, "endFrame": 990,
+      "text": "高級レストランに\n誘い出す",
+      "narration": "高級レストランに誘い出す作戦を立てた",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater", "count": 1, "position": "left", "scale": 0.6 },
+        { "type": "mother_in_law_smiling", "count": 1, "position": "center", "scale": 0.6 },
+        { "type": "sister_in_law_smiling", "count": 1, "position": "right", "scale": 0.6 }
+      ],
+      "background": "restaurant_fancy", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh15", "episode": "ep1", "startFrame": 990, "endFrame": 1080,
+      "text": "あら！いくら？",
+      "narration": "あら！いくら？",
+      "speaker": "character2",
+      "characters": [
+        { "type": "mother_in_law_sparkle_eyes", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "background": "yellow_sparkle", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh16", "episode": "ep1", "startFrame": 1080, "endFrame": 1200,
+      "text": "土曜日の夜\nご飯一緒にどう？",
+      "narration": "土曜日の夜ご飯一緒にどう？",
+      "speaker": "character2",
+      "characters": [
+        { "type": "mother_in_law_smirking", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "background": "purple_vortex", "effect": "vortex",
+      "floatingText": ["ニヤ"],
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh17", "episode": "ep1", "startFrame": 1200, "endFrame": 1260,
+      "text": "義母たちから\n鬼ライン",
+      "narration": "義母たちから鬼ラインが来た",
+      "speaker": "narrator",
+      "characters": [],
+      "props": ["smartphone_line_screen"],
+      "background": "black", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.0 }
+    },
+    {
+      "id": "sh18", "episode": "ep1", "startFrame": 1260, "endFrame": 1440,
+      "text": "会計を\n義母に回す",
+      "narration": "会計を義母に回す展開になった",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "woman_pink_sweater", "count": 1, "position": "left", "scale": 0.6 },
+        { "type": "mother_in_law_shocked", "count": 1, "position": "center", "scale": 0.7 },
+        { "type": "waiter_male", "count": 1, "position": "right", "scale": 0.6 }
+      ],
+      "background": "restaurant_fancy", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh19", "episode": "ep1", "startFrame": 1440, "endFrame": 1560,
+      "text": "義母と義妹が\n食い逃げで\n捕まったらしい",
+      "narration": "義母と義妹が食い逃げで捕まったらしい",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mother_in_law_shocked", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "sister_in_law_shocked", "count": 1, "position": "right", "scale": 0.8 }
+      ],
+      "background": "dark_purple", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh20", "episode": "ep1", "startFrame": 1560, "endFrame": 1650,
+      "text": "これを機に\n離婚するみたい",
+      "narration": "これを機に離婚するみたい",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mother_in_law_crying", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "husband_normal", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "dark_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh21", "episode": "ep1", "startFrame": 1650, "endFrame": 1800,
+      "text": "因果応報",
+      "narration": "因果応報だね",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "mother_in_law_crying", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "sister_in_law_crying", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "dark_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh22", "episode": "ep1", "startFrame": 1800, "endFrame": 1860,
+      "text": "これから\nどうするんだろう？",
+      "narration": "これからどうするんだろう？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "sister_in_law_worried", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "mother_in_law_crying", "count": 1, "position": "right", "scale": 0.7 },
+        { "type": "woman_child_looking_up", "count": 1, "position": "center-bottom", "scale": 0.5 }
+      ],
+      "background": "dark_purple", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+
+    {
+      "id": "sh23", "episode": "ep2", "startFrame": 1860, "endFrame": 1920,
+      "text": "タケシ！紹介するよ\n婚約者の美咲",
+      "narration": "タケシ！紹介するよ、婚約者の美咲",
+      "speaker": "character1",
+      "characters": [
+        { "type": "man_suit_smiling", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "man_casual_takeshi", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "izakaya_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh24", "episode": "ep2", "startFrame": 1920, "endFrame": 2010,
+      "text": "あ、いや...\nおめでとう",
+      "narration": "あ、いや...おめでとう",
+      "speaker": "character1",
+      "characters": [
+        { "type": "man_casual_takeshi_nervous", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "izakaya_warm", "effect": "none",
+      "mangaSymbol": "sweat",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh25", "episode": "ep2", "startFrame": 2010, "endFrame": 2100,
+      "text": "美咲さん実は\n高校の\n同級生なんだ",
+      "narration": "美咲さん実は高校の同級生なんだ",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "boy_school_uniform", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "girl_school_uniform_sailor", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "classroom_bright", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh26", "episode": "ep2", "startFrame": 2100, "endFrame": 2220,
+      "text": "いじめっ子\nだったんだ",
+      "narration": "実はいじめっ子だったんだ",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "girl_school_uniform_angry", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "boy_school_crying", "count": 1, "position": "right", "scale": 0.6 }
+      ],
+      "background": "dark_purple", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh27", "episode": "ep2", "startFrame": 2220, "endFrame": 2340,
+      "text": "階段から落ちて\n怪我した子とか",
+      "narration": "階段から落ちて怪我した子とかいた",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "boy_falling_stairs", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "purple_vortex", "effect": "vortex",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh28", "episode": "ep2", "startFrame": 2340, "endFrame": 2460,
+      "text": "親が社長だから\nもみ消されたんだ",
+      "narration": "親が社長だからもみ消されたんだ",
+      "speaker": "character1",
+      "characters": [
+        { "type": "girl_school_uniform_smirking", "count": 1, "position": "left-back", "scale": 0.6 },
+        { "type": "old_man_suit_stern", "count": 1, "position": "right-back", "scale": 0.6 },
+        { "type": "boy_wheelchair_crying", "count": 1, "position": "center-bottom", "scale": 0.7 }
+      ],
+      "background": "dark_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh29", "episode": "ep2", "startFrame": 2460, "endFrame": 2580,
+      "text": "あいつが\nその同級生だよ",
+      "narration": "あいつがその同級生だよ",
+      "speaker": "character1",
+      "characters": [
+        { "type": "man_casual_takeshi_serious", "count": 1, "position": "center", "scale": 1.2 }
+      ],
+      "background": "japanese_room_tatami", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.08 }
+    },
+    {
+      "id": "sh30", "episode": "ep2", "startFrame": 2580, "endFrame": 2760,
+      "text": "親友に\n真実を告げる",
+      "narration": "親友に真実を告げた",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_casual_takeshi", "count": 1, "position": "left", "scale": 0.7 },
+        { "type": "man_suit_shocked", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "izakaya_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh31", "episode": "ep2", "startFrame": 2760, "endFrame": 2880,
+      "text": "君たちは俺の\n思ってるような\n人たちじゃなかった",
+      "narration": "君たちは俺の思ってるような人たちじゃなかった",
+      "speaker": "character1",
+      "characters": [
+        { "type": "man_suit_sad", "count": 1, "position": "center", "scale": 1.1 }
+      ],
+      "background": "japanese_room_tatami", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh32", "episode": "ep2", "startFrame": 2880, "endFrame": 3000,
+      "text": "婚約は\n破棄された",
+      "narration": "婚約は破棄された",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "girl_school_uniform_crying", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "dark_blue", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh33", "episode": "ep2", "startFrame": 3000, "endFrame": 3180,
+      "text": "タケシのおかげで\n真実がわかった",
+      "narration": "タケシのおかげで真実がわかった",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_suit_smiling", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "man_casual_takeshi", "count": 1, "position": "right", "scale": 0.8 }
+      ],
+      "background": "izakaya_warm", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh34", "episode": "ep2", "startFrame": 3180, "endFrame": 3360,
+      "text": "お前がいてくれて\nよかった",
+      "narration": "お前がいてくれてよかった",
+      "speaker": "character1",
+      "characters": [
+        { "type": "man_suit_smiling", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "man_casual_takeshi_smiling", "count": 1, "position": "right", "scale": 0.8 }
+      ],
+      "background": "izakaya_warm", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh35", "episode": "ep2", "startFrame": 3360, "endFrame": 3600,
+      "text": "大切な親友は\n失わなかった",
+      "narration": "大切な親友は失わなかった",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_suit_smiling", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "man_casual_takeshi_smiling", "count": 1, "position": "right", "scale": 0.8 }
+      ],
+      "background": "izakaya_warm", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+
+    {
+      "id": "sh36", "episode": "ep3", "startFrame": 3600, "endFrame": 3690,
+      "text": "テーブルに\n置き手紙",
+      "narration": "テーブルに置き手紙があった",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_father_confused", "count": 1, "position": "center", "scale": 0.8 }
+      ],
+      "props": ["letter_on_table"],
+      "background": "living_room_bright", "effect": "none",
+      "mangaSymbol": "question",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh37", "episode": "ep3", "startFrame": 3690, "endFrame": 3810,
+      "text": "離婚届が\n置いてあった",
+      "narration": "離婚届が置いてあった",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_father_shocked", "count": 1, "position": "center", "scale": 0.9 }
+      ],
+      "props": ["divorce_paper"],
+      "background": "living_room_dim", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh38", "episode": "ep3", "startFrame": 3810, "endFrame": 3960,
+      "text": "妻が出て行った後\n娘と二人暮らし",
+      "narration": "妻が出て行った後、娘と二人暮らしになった",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "man_father_smiling", "count": 1, "position": "right", "scale": 0.7 },
+        { "type": "baby_girl_smiling", "count": 1, "position": "center", "scale": 0.6 }
+      ],
+      "background": "living_room_bright", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh39", "episode": "ep3", "startFrame": 3960, "endFrame": 4200,
+      "text": "皆に愛されて\n育った娘は",
+      "narration": "皆に愛されて育った娘は立派に成長した",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "baby_girl_smiling", "count": 1, "position": "center", "scale": 1.1 },
+        { "type": "man_father_smiling", "count": 1, "position": "right-back", "scale": 0.5 },
+        { "type": "grandmother_smiling", "count": 1, "position": "left-back", "scale": 0.5 },
+        { "type": "woman_aunt_smiling", "count": 1, "position": "left", "scale": 0.4 }
+      ],
+      "background": "yellow_radial", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh40", "episode": "ep3", "startFrame": 4200, "endFrame": 4380,
+      "text": "ある日\n元妻の母が現れた",
+      "narration": "ある日、元妻の母が突然現れた",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "ex_mother_in_law_stern", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "dark_hallway", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.03 }
+    },
+    {
+      "id": "sh41", "episode": "ep3", "startFrame": 4380, "endFrame": 4500,
+      "text": "離婚してるから\nもう家族じゃないよ",
+      "narration": "離婚してるからもう家族じゃないよ",
+      "speaker": "character1",
+      "characters": [
+        { "type": "man_father_angry", "count": 1, "position": "center", "scale": 1.2 }
+      ],
+      "background": "shock_blue_black", "effect": "concentration_lines",
+      "mangaSymbol": "lightning",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.1 }
+    },
+    {
+      "id": "sh42", "episode": "ep3", "startFrame": 4500, "endFrame": 4680,
+      "text": "子供好きって\n言ってたのに",
+      "narration": "子供好きって言ってたのに嘘だったの？",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "ex_mother_in_law_pleading", "count": 1, "position": "center", "scale": 1.0 }
+      ],
+      "background": "dark_room", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.02 }
+    },
+    {
+      "id": "sh43", "episode": "ep3", "startFrame": 4680, "endFrame": 4800,
+      "text": "離婚したなら\n財産分与は\nどうなるのよ！！",
+      "narration": "離婚したなら財産分与はどうなるのよ！！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "ex_wife_crying_angry", "count": 1, "position": "center", "scale": 1.3 }
+      ],
+      "background": "money_scatter", "effect": "concentration_lines",
+      "mangaSymbol": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.15 }
+    },
+    {
+      "id": "sh44", "episode": "ep3", "startFrame": 4800, "endFrame": 4950,
+      "text": "元妻の母が\n娘を連れ去ろうとした",
+      "narration": "元妻の母が娘を連れ去ろうとした",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "ex_mother_in_law_grabbing", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "girl_daughter_scared", "count": 1, "position": "right", "scale": 0.7 }
+      ],
+      "background": "dark_hallway", "effect": "none",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    },
+    {
+      "id": "sh45", "episode": "ep3", "startFrame": 4950, "endFrame": 5100,
+      "text": "パパの悪口\n言わないで！",
+      "narration": "パパの悪口言わないで！",
+      "speaker": "character2",
+      "characters": [
+        { "type": "girl_daughter_angry", "count": 1, "position": "center", "scale": 1.3 }
+      ],
+      "background": "orange_radial", "effect": "concentration_lines",
+      "mangaSymbol": "anger",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.15 }
+    },
+    {
+      "id": "sh46", "episode": "ep3", "startFrame": 5100, "endFrame": 5371,
+      "text": "二度と会いに\n来れない\nようにした",
+      "narration": "二度と会いに来れないようにした",
+      "speaker": "narrator",
+      "characters": [
+        { "type": "girl_daughter_smiling", "count": 1, "position": "left", "scale": 0.8 },
+        { "type": "man_father_smiling_thumbsup", "count": 1, "position": "right", "scale": 0.8 }
+      ],
+      "background": "yellow_sparkle_confetti", "effect": "sparkle",
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.05 }
+    }
+  ],
+  "requiredImages": {
+    "characters": [
+      "woman_pink_sweater (主人公・嫁/通常)",
+      "woman_pink_sweater_worried (主人公・嫁/困り顔)",
+      "mother_in_law_smiling (義母/笑顔)",
+      "mother_in_law_sparkle_eyes (義母/目がキラキラ)",
+      "mother_in_law_smirking (義母/ニヤニヤ)",
+      "mother_in_law_shocked (義母/驚き)",
+      "mother_in_law_crying (義母/泣き)",
+      "sister_in_law_smiling (義妹/笑顔)",
+      "sister_in_law_angry (義妹/怒り)",
+      "sister_in_law_shocked (義妹/驚き)",
+      "sister_in_law_crying (義妹/泣き)",
+      "sister_in_law_worried (義妹/困り顔)",
+      "husband_normal (夫/通常)",
+      "husband_angry (夫/怒り・大写し)",
+      "waiter_male (レストラン店員/男性)",
+      "woman_child_looking_up (子供/見上げる)",
+      "man_suit_smiling (親友/スーツ笑顔)",
+      "man_suit_shocked (親友/驚き)",
+      "man_suit_sad (親友/悲しみ)",
+      "man_casual_takeshi (タケシ/通常)",
+      "man_casual_takeshi_nervous (タケシ/緊張)",
+      "man_casual_takeshi_serious (タケシ/真剣・大写し)",
+      "man_casual_takeshi_smiling (タケシ/笑顔)",
+      "boy_school_uniform (男子高校生/制服)",
+      "girl_school_uniform_sailor (女子高校生/セーラー服)",
+      "girl_school_uniform_angry (女子高校生/いじめっ子・怒り)",
+      "girl_school_uniform_smirking (女子高校生/いじめっ子・ニヤリ)",
+      "girl_school_uniform_crying (女子高校生/泣き)",
+      "boy_school_crying (男子学生/泣き)",
+      "boy_falling_stairs (男子/階段落下)",
+      "boy_wheelchair_crying (男子/車椅子・泣き)",
+      "old_man_suit_stern (社長/厳つい顔)",
+      "man_father_confused (父親/困惑)",
+      "man_father_shocked (父親/衝撃)",
+      "man_father_smiling (父親/笑顔)",
+      "man_father_angry (父親/怒り)",
+      "man_father_smiling_thumbsup (父親/笑顔+サムズアップ)",
+      "baby_girl_smiling (赤ちゃん娘/笑顔)",
+      "girl_daughter_smiling (成長した娘/笑顔)",
+      "girl_daughter_angry (成長した娘/怒り)",
+      "girl_daughter_scared (成長した娘/怯え)",
+      "grandmother_smiling (祖母/笑顔)",
+      "woman_aunt_smiling (叔母/笑顔)",
+      "ex_mother_in_law_stern (元妻の母/厳しい顔)",
+      "ex_mother_in_law_pleading (元妻の母/懇願)",
+      "ex_mother_in_law_grabbing (元妻の母/掴みかかる)",
+      "ex_wife_crying_angry (元妻/泣き怒り・大写し)"
+    ],
+    "backgrounds": [
+      "living_room_bright (明るいリビング・木目調)",
+      "restaurant_warm (暖色レストラン・木目テーブル)",
+      "restaurant_fancy (高級レストラン)",
+      "izakaya_warm (居酒屋・暖色照明)",
+      "classroom_bright (明るい教室)",
+      "japanese_room_tatami (和室・畳)",
+      "dark_hallway (暗い廊下・和風)",
+      "living_room_dim (薄暗いリビング)",
+      "dark_room (暗い部屋)"
+    ],
+    "emotionBackgrounds": [
+      "yellow_sparkle (黄色+キラキラ/喜び)",
+      "red_fire (赤+炎/激怒)",
+      "red_gradient (赤グラデ/怒り)",
+      "purple_vortex (紫渦巻/不気味)",
+      "dark_purple (暗紫/衝撃)",
+      "dark_blue (暗青/悲しみ)",
+      "shock_blue_black (青黒/ショック)",
+      "yellow_radial (黄放射線/希望)",
+      "orange_radial (橙放射線/決意)",
+      "yellow_sparkle_confetti (黄+紙吹雪/ハッピーエンド)",
+      "money_scatter (お金散乱/金銭問題)",
+      "black (黒/スマホ画面背景)"
+    ],
+    "props": [
+      "smartphone (スマホ・通知振動付き)",
+      "smartphone_line_screen (スマホ・LINE画面大写し)",
+      "letter_on_table (テーブル上の置き手紙)",
+      "divorce_paper (離婚届)"
+    ],
+    "effects": [
+      "concentration_lines (集中線/怒り・衝撃)",
+      "sparkle (キラキラ/喜び)",
+      "vortex (渦巻/不気味)",
+      "none (エフェクトなし)"
+    ],
+    "mangaSymbols": [
+      "anger (怒りマーク/赤十字)",
+      "sweat (汗マーク/青)",
+      "question (疑問符/黄色)",
+      "lightning (雷/ショック)",
+      "sigh (ため息)"
+    ]
+  },
+  "audioSpec": {
+    "meanVolume": -16.6,
+    "maxVolume": 0.0,
+    "silenceDetected": false,
+    "speakers": [
+      "narrator (ナレーション/ずんだもん相当)",
+      "character1 (男性セリフ/夫・タケシ・父親/青山龍星相当)",
+      "character2 (女性セリフ/義母・義妹・元妻/四国めたん相当)"
+    ],
+    "bgmPattern": "日常ピアノ → 緊迫系 → 感動ピアノ (ストーリーごとに推移)"
+  },
+  "designNotes": {
+    "captionColor": "赤文字+白縁取り（他の4本の黄色テロップとは異なる特徴）",
+    "titleBandColor": "赤文字+黒背景+赤グロー",
+    "textAlign": "左寄せ",
+    "characterStyle": "いらすとや風フラットイラスト・切り抜き・背景透過",
+    "backgroundStyle": "3Dレンダリング風室内 + 感情色背景の混在",
+    "transition": "全カット切替（突切り）",
+    "characterScale": "顔が画面幅50-80%を占める大写しが基本",
+    "floatingTextEffect": "sh16で「ニヤ」文字が画面内に浮遊する特殊演出あり"
+  }
+}

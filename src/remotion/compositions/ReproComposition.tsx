@@ -36,6 +36,7 @@ export type ReproShot = {
   mangaSymbol?: string
   captionColor?: string
   episodeTitleOverride?: string | null
+  showREC?: boolean
 }
 
 export type ReproTitleBand = {
@@ -139,6 +140,13 @@ function getCharacterSrc(type: string, basePath: string): string {
     toast_slice: 'toast_slice.png',
     businessman_tablet: 'businessman_tablet.png',
     toothbrush_paste: 'toothbrush_paste.png',
+    // fwb8kpg94ys — 自作自演w
+    obasan_angry: 'obasan_angry.png',
+    obasan_normal: 'obasan_normal.png',
+    obasan_cry: 'obasan_cry.png',
+    police_officer: 'police_officer.png',
+    patcar: 'patcar.png',
+    businesswoman_angry: 'businesswoman_angry.png',
     // Generic fallback patterns - match by keyword in type name
   }
 
@@ -317,6 +325,7 @@ const ReproBackground: React.FC<{
     // 特殊背景
     dark_rain: '_effect_dark_rain',
     sparkle_green: '_effect_sparkle_green',
+    no_signal: '_effect_no_signal',
   }
 
   // Keyword-based background fallback
@@ -350,12 +359,28 @@ const ReproBackground: React.FC<{
   if (filename.startsWith('_effect_')) {
     const rotate = frame * 3
     if (filename === '_effect_vortex') {
+      // 同心円（concentric rings）スタイル — 元動画準拠: 紫の渦巻き同心円
+      const cx = 540, cy = 1100
+      const maxR = 1400
+      const ringCount = 16
+      const ringWidth = maxR / ringCount
+      const animOffset = (frame * 2) % ringWidth
       return (
-        <AbsoluteFill style={{
-          background: `conic-gradient(from ${rotate}deg at 50% 60%,
-            #2A0845 0deg, #4A1875 45deg, #1A0530 90deg, #3A1265 135deg,
-            #0A0020 180deg, #4A1875 225deg, #2A0845 270deg, #1A0530 315deg, #2A0845 360deg)`,
-        }} />
+        <AbsoluteFill style={{ background: '#1A003A' }}>
+          <svg width="1080" height="1920" style={{ position: 'absolute', top: 0, left: 0 }}>
+            {Array.from({ length: ringCount + 2 }, (_, i) => {
+              const r = (i * ringWidth) + animOffset
+              return (
+                <circle key={i} cx={cx} cy={cy} r={r}
+                  fill="none"
+                  stroke={i % 2 === 0 ? '#5B0A91' : '#2A005A'}
+                  strokeWidth={ringWidth - 2}
+                  opacity={0.95}
+                />
+              )
+            })}
+          </svg>
+        </AbsoluteFill>
       )
     }
     if (filename === '_effect_concentration') {
@@ -414,6 +439,77 @@ const ReproBackground: React.FC<{
         <AbsoluteFill style={{
           background: 'radial-gradient(circle at 50% 50%, #E8FFE8 0%, #90EE90 30%, #32CD32 65%, #228B22 100%)',
         }} />
+      )
+    }
+    if (filename === '_effect_no_signal') {
+      // 元動画準拠: 下半分に巨大TV1台 + 上部に小TV3台
+      const tvScreens = [
+        { x: 90,  y: 1060, w: 850, h: 640 },                 // 前面巨大メインTV
+        { x: -10, y: 560,  w: 380, h: 280, opacity: 0.75 },  // 奥左
+        { x: 690, y: 590,  w: 380, h: 270, opacity: 0.70 },  // 奥右
+        { x: 280, y: 490,  w: 460, h: 330, opacity: 0.60 },  // 奥中大
+      ]
+      return (
+        <AbsoluteFill style={{ background: '#020208' }}>
+          <svg width="1080" height="1920" style={{ position: 'absolute', top: 0, left: 0 }}>
+            {tvScreens.map((tv, i) => {
+              const scanOffset = (frame * 3 + i * 41) % Math.max(1, tv.h / 8)
+              const blueIntensity = 100 + i * 14
+              // メインTV(index=0)は太いノイズライン、小TVは細いライン
+              const isMainTV = i === 0
+              const lineCount = isMainTV ? 20 : 10
+              const lineH = isMainTV ? 6 : 2
+              const lineOpacity = isMainTV ? 0.55 : 0.4
+              return (
+                <g key={i} opacity={tv.opacity ?? 1}>
+                  {/* TVボディ外枠（暗めのグレー） */}
+                  <rect x={tv.x - 30} y={tv.y - 28} width={tv.w + 60} height={tv.h + 80}
+                    fill="#1a1a24" rx={isMainTV ? 18 : 10} />
+                  {/* TVボディ内枠（ハイライト） */}
+                  <rect x={tv.x - 22} y={tv.y - 20} width={tv.w + 44} height={tv.h + 64}
+                    fill="none" stroke="#2a2a3a" strokeWidth={isMainTV ? 3 : 2} rx={isMainTV ? 14 : 8} />
+                  {/* 画面ベゼル（濃い枠） */}
+                  <rect x={tv.x - 8} y={tv.y - 8} width={tv.w + 16} height={tv.h + 16}
+                    fill="#050510" rx={isMainTV ? 6 : 4} />
+                  {/* 画面（ブルーグロー） */}
+                  <rect x={tv.x} y={tv.y} width={tv.w} height={tv.h}
+                    fill={`rgb(0,20,${blueIntensity})`} />
+                  {/* スキャンライン */}
+                  {Array.from({ length: lineCount }, (_, j) => (
+                    <rect key={j}
+                      x={tv.x} y={tv.y + j * (tv.h / lineCount) + scanOffset}
+                      width={tv.w} height={lineH} fill={`rgba(0,0,0,${lineOpacity})`} />
+                  ))}
+                  {/* グリッチライン（ランダムな水平帯） — メインTVは複数 */}
+                  {isMainTV ? (
+                    <>
+                      <rect x={tv.x} y={tv.y + ((frame * 7) % tv.h)} width={tv.w} height={10} fill="rgba(0,0,80,0.5)" />
+                      <rect x={tv.x} y={tv.y + ((frame * 11 + 200) % tv.h)} width={tv.w} height={7} fill="rgba(0,20,120,0.4)" />
+                      <rect x={tv.x} y={tv.y + ((frame * 5 + 400) % tv.h)} width={tv.w} height={14} fill="rgba(0,0,40,0.6)" />
+                    </>
+                  ) : (
+                    <rect x={tv.x} y={tv.y + ((frame * 7 + i * 53) % tv.h)}
+                      width={tv.w} height={4 + (i % 3) * 2}
+                      fill={`rgba(0,100,${blueIntensity + 60},0.3)`} />
+                  )}
+                  {/* NO SIGNAL テキスト */}
+                  <text x={tv.x + tv.w / 2} y={tv.y + tv.h / 2 + tv.h * 0.04}
+                    textAnchor="middle" fill="white"
+                    fontSize={Math.round(tv.w * 0.13)} fontFamily="monospace" fontWeight="bold"
+                    opacity={0.88 + Math.sin(frame * 0.2 + i * 1.5) * 0.08}>
+                    NO SIGNAL
+                  </text>
+                  {/* TVスタンド */}
+                  <rect x={tv.x + tv.w / 2 - (isMainTV ? 30 : 18)} y={tv.y + tv.h + 32}
+                    width={isMainTV ? 60 : 36} height={isMainTV ? 22 : 14} fill="#181820" rx={5} />
+                  {/* スタンド底面 */}
+                  <rect x={tv.x + tv.w / 2 - (isMainTV ? 60 : 36)} y={tv.y + tv.h + 54}
+                    width={isMainTV ? 120 : 72} height={isMainTV ? 12 : 8} fill="#141420" rx={3} />
+                </g>
+              )
+            })}
+          </svg>
+        </AbsoluteFill>
       )
     }
   }
@@ -475,7 +571,11 @@ const TITLE_LINE2_STYLE: React.CSSProperties = {
   fontSize: 155,
 }
 
-const ReproTitleText: React.FC<{ band: ReproTitleBand }> = ({ band }) => (
+const ReproTitleText: React.FC<{ band: ReproTitleBand }> = ({ band }) => {
+  const color = band.textColor || '#FF7722'
+  const stroke = band.strokeColor || '#FFFFFF'
+  const sw = band.strokeWidth || 8
+  return (
   <div style={{
     position: 'absolute',
     top: 0, left: 0, width: 1080, height: TITLE_BAR_HEIGHT,
@@ -486,10 +586,48 @@ const ReproTitleText: React.FC<{ band: ReproTitleBand }> = ({ band }) => (
     gap: 4,
     pointerEvents: 'none',
   }}>
-    <div style={TITLE_LINE1_STYLE}>{band.line1}</div>
-    <div style={TITLE_LINE2_STYLE}>{band.line2}</div>
+    <div style={{...TITLE_LINE1_STYLE, color, WebkitTextStroke: `${sw}px ${stroke}`}}>{band.line1}</div>
+    <div style={{...TITLE_LINE2_STYLE, color, WebkitTextStroke: `${sw}px ${stroke}`}}>{band.line2}</div>
   </div>
-)
+  )
+}
+
+// ── REC Overlay ──
+const RecOverlay: React.FC = () => {
+  const frame = useCurrentFrame()
+  const dotOpacity = Math.abs(Math.sin(frame * 0.08)) * 0.4 + 0.6
+  return (
+    <div style={{
+      position: 'absolute',
+      top: 1000,
+      left: 40,
+      zIndex: 20,
+      display: 'flex',
+      alignItems: 'center',
+      gap: 18,
+      background: 'rgba(0,0,0,0.35)',
+      borderRadius: 12,
+      padding: '14px 28px 14px 20px',
+    }}>
+      <div style={{
+        width: 100, height: 100,
+        borderRadius: '50%',
+        background: '#FF0000',
+        opacity: dotOpacity,
+        flexShrink: 0,
+      }} />
+      <div style={{
+        fontFamily: '"Noto Sans JP", sans-serif',
+        fontWeight: 900,
+        fontSize: 148,
+        color: '#FF0000',
+        textShadow: '-6px -6px 0 #FFF, 6px -6px 0 #FFF, -6px 6px 0 #FFF, 6px 6px 0 #FFF',
+        letterSpacing: 8,
+        lineHeight: 1,
+      }}>REC</div>
+    </div>
+  )
+}
 
 // ── Caption with BudouX ──
 const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; captionColor?: string; captionTop?: number; captionFontScale?: number }> = ({ text, speaker, effect, captionColor, captionTop, captionFontScale }) => {
@@ -606,20 +744,26 @@ const ReproCaption: React.FC<{ text: string; speaker: string; effect: string; ca
     )
   }
 
-  // 元動画準拠: 背景ボックスなし・色付き太文字 + 白縁取り + 黒ドロップシャドウ
-  const isRed = speaker === 'character2'
-    || /うるさい|やめて|迷惑|採点/.test(rawText)
-  const textColor = isRed ? '#FF2255' : '#00CC44'
-  const strokeColor = '#FFFFFF'
+  // 元動画準拠: 黄色+ダークブルーアウトライン（ナレーター/男性）、ピンク+ダーク（女性キャラ）
+  const textColor = captionColor ?? '#FFD700'
+  // テキスト色からストローク色を導出: 黄→ダークブルー、ピンク→ダーク紫、それ以外→白
+  const tc = textColor.toUpperCase()
+  const strokeColor = (tc === '#FFD700' || tc === '#FFE000' || tc === '#FFC000' || tc === '#FFFF00')
+    ? '#0A0087'
+    : (tc === '#FF69B4' || tc === '#FF1493')
+    ? '#3D0030'
+    : '#FFFFFF'
   // フォントサイズ: 元動画は100px級の超巨大テロップ
   // 元動画準拠: BudouXで自然改行 → 最長行に合わせてフォント決定
   const maxW = 1060
+  // 実効文字数: 半角英数字は0.6文字分として計算（英字混在テキストの1行判定用）
+  const effectiveLen = Array.from(rawText).reduce((sum, c) => sum + (c.charCodeAt(0) < 256 ? 0.6 : 1), 0)
   let lines: string[]
   if (rawText.includes('\n')) {
     // 手動改行あり→そのまま尊重
     lines = rawText.split('\n').filter(s => s.length > 0)
-  } else if (rawText.length <= 8) {
-    // 8文字以下→1行、超巨大
+  } else if (effectiveLen <= 9) {
+    // 実効9文字以下→1行
     lines = [rawText]
   } else {
     // BudouXに十分な幅を渡して均等2分割（半分+2で余裕）
@@ -673,6 +817,20 @@ const ReproEffectLayer: React.FC<{ effect: string }> = ({ effect }) => {
           background: `conic-gradient(from ${rotate}deg at 50% 60%,
             rgba(42,8,69,0.55) 0deg, rgba(74,24,117,0.55) 45deg, rgba(26,5,48,0.55) 90deg, rgba(58,18,101,0.55) 135deg,
             rgba(10,0,32,0.55) 180deg, rgba(74,24,117,0.55) 225deg, rgba(42,8,69,0.55) 270deg, rgba(26,5,48,0.55) 315deg, rgba(42,8,69,0.55) 360deg)`,
+        }} />
+      </AbsoluteFill>
+    )
+  }
+
+  if (effect === 'concentration_blue') {
+    return (
+      <AbsoluteFill style={{ zIndex: 1 }}>
+        <div style={{
+          width: '100%', height: '100%',
+          background: `conic-gradient(from 0deg at 50% 55%,
+            ${Array.from({ length: 36 }, (_, i) =>
+              `${i % 2 === 0 ? 'rgba(30,100,220,0.8)' : 'rgba(10,40,120,0.9)'} ${i * 10}deg`
+            ).join(', ')})`,
         }} />
       </AbsoluteFill>
     )
@@ -940,6 +1098,24 @@ const ReproMangaSymbol: React.FC<{ symbol?: string }> = ({ symbol }) => {
       </AbsoluteFill>
     )
   }
+  if (symbol === 'camera_arrow') {
+    // 元動画準拠: 大きなオレンジ矢印が下向きに隠しカメラ位置を指す
+    const arrowBounce = Math.sin(frame * 0.25) * 12
+    return (
+      <AbsoluteFill style={{ zIndex: 8, pointerEvents: 'none' }}>
+        <svg width="1080" height="1920" style={{ position: 'absolute', top: 0, left: 0 }}>
+          {/* 大きなオレンジ矢印（元動画準拠） */}
+          <polygon
+            points={`490,${900 + arrowBounce} 590,${900 + arrowBounce} 590,${1050 + arrowBounce} 650,${1050 + arrowBounce} 540,${1180 + arrowBounce} 430,${1050 + arrowBounce} 490,${1050 + arrowBounce}`}
+            fill="#FF6600"
+            stroke="#FF3300"
+            strokeWidth={6}
+            opacity={0.92}
+          />
+        </svg>
+      </AbsoluteFill>
+    )
+  }
   return null
 }
 
@@ -1034,6 +1210,7 @@ export const ReproComposition: React.FC<ReproProps> = ({
               <ReproCharacterLayer characters={shot.characters} basePath={assetBasePath} characterZoom={shot.characterZoom} characterSlide={shot.characterSlide} durationFrames={duration} />
               <ReproMangaSymbol symbol={shot.mangaSymbol} />
               {shot.text && <ReproCaption text={shot.text} speaker={shot.speaker} effect={shot.effect} captionColor={shot.captionColor} captionTop={shot.captionTop} captionFontScale={shot.captionFontScale} />}
+              {shot.showREC && <RecOverlay />}
               {shotBand && <ReproTitleText band={shotBand} />}
             </AbsoluteFill>
           </Sequence>

@@ -1,0 +1,1772 @@
+{
+  "videoId": "fwb8kpg94ys",
+  "title": "自作自演w",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 112,
+  "totalFrames": 3360,
+  "seriesTitle": "自作自演w",
+  "episodeTitle": "",
+  "titleBand": {
+    "line1": "自作自演w",
+    "line2": "",
+    "backgroundColor": "#000000",
+    "textColor": "#FFD700",
+    "strokeColor": "#000000",
+    "strokeWidth": 8,
+    "height": 200
+  },
+  "shots": [
+    {
+      "id": "N01",
+      "startFrame": 0,
+      "endFrame": 35,
+      "text": "switch2してたら",
+      "narration": "switch2してたら",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_happy",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N02",
+      "startFrame": 35,
+      "endFrame": 65,
+      "text": "離婚してほしい！",
+      "narration": "離婚してほしい！",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "concentration_lines",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N03",
+      "startFrame": 65,
+      "endFrame": 100,
+      "text": "と言い出したんだが",
+      "narration": "と言い出したんだが",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N04",
+      "startFrame": 100,
+      "endFrame": 155,
+      "text": "第3者を入れて\n話し合いたい",
+      "narration": "第3者を入れて話し合いたい",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "left",
+          "scale": 0.7
+        },
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        }
+      ],
+      "background": "vortex",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N05",
+      "startFrame": 155,
+      "endFrame": 210,
+      "text": "勝手に友人を\n連れてきた",
+      "narration": "勝手に友人を連れてきた",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_normal",
+          "count": 1,
+          "position": "left",
+          "scale": 0.8
+        },
+        {
+          "type": "obasan_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N06",
+      "startFrame": 210,
+      "endFrame": 255,
+      "text": "奥さんが\n苦しんでるのよ",
+      "narration": "奥さんが苦しんでるのよ",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "left",
+          "scale": 0.7
+        },
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N07",
+      "startFrame": 255,
+      "endFrame": 290,
+      "text": "離婚してあげたら？",
+      "narration": "離婚してあげたら？",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N08",
+      "startFrame": 290,
+      "endFrame": 335,
+      "text": "理由も聞いて\nないんだけど…",
+      "narration": "理由も聞いてないんだけど…",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N09",
+      "startFrame": 335,
+      "endFrame": 380,
+      "text": "とポカン顔の\n俺に対して",
+      "narration": "とポカン顔の俺に対して",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "left",
+          "scale": 0.7
+        },
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N10",
+      "startFrame": 380,
+      "endFrame": 410,
+      "text": "もう気持ちが\n冷めたの",
+      "narration": "もう気持ちが冷めたの",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N11",
+      "startFrame": 410,
+      "endFrame": 460,
+      "text": "と嫁が涙目で\n言ってくるが",
+      "narration": "と嫁が涙目で言ってくるが",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N12",
+      "startFrame": 460,
+      "endFrame": 490,
+      "text": "明らかに演技っぽい",
+      "narration": "明らかに演技っぽい",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N13",
+      "startFrame": 490,
+      "endFrame": 520,
+      "text": "しばらく話を\nしてると",
+      "narration": "しばらく話をしてると",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "left",
+          "scale": 0.75
+        },
+        {
+          "type": "woman_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.75
+        },
+        {
+          "type": "obasan_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.75
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N14",
+      "startFrame": 520,
+      "endFrame": 555,
+      "text": "友人がトイレに立った",
+      "narration": "友人がトイレに立った",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N15",
+      "startFrame": 555,
+      "endFrame": 580,
+      "text": "すると突然",
+      "narration": "すると突然",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N16",
+      "startFrame": 580,
+      "endFrame": 615,
+      "text": "嫁が暴れ始めて",
+      "narration": "嫁が暴れ始めて",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 1.1
+        }
+      ],
+      "background": "living_room",
+      "effect": "concentration_lines",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N17",
+      "startFrame": 615,
+      "endFrame": 645,
+      "text": "やめて！助けて！",
+      "narration": "やめて！助けて！",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 1.1
+        }
+      ],
+      "background": "living_room",
+      "effect": "concentration_lines",
+      "captionColor": "#FF69B4",
+      "characterZoom": {
+        "from": 0.9,
+        "to": 1.2
+      },
+      "captionFontScale": 1
+    },
+    {
+      "id": "N18",
+      "startFrame": 645,
+      "endFrame": 680,
+      "text": "と悲鳴を上げ",
+      "narration": "と悲鳴を上げ",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 1.1
+        }
+      ],
+      "background": "concentration",
+      "effect": "concentration_lines",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N19",
+      "startFrame": 680,
+      "endFrame": 715,
+      "text": "自分で派手に転んだ",
+      "narration": "自分で派手に転んだ",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N20",
+      "startFrame": 715,
+      "endFrame": 770,
+      "text": "そして\n床に倒れ込んで",
+      "narration": "そして床に倒れ込んで",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 1
+        }
+      ],
+      "background": "vortex",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "characterZoom": {
+        "from": 1,
+        "to": 1.4
+      }
+    },
+    {
+      "id": "N21",
+      "startFrame": 770,
+      "endFrame": 800,
+      "text": "痛い…痛い…",
+      "narration": "痛い…痛い…",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N22",
+      "startFrame": 800,
+      "endFrame": 830,
+      "text": "と呻いてる",
+      "narration": "と呻いてる",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N23",
+      "startFrame": 830,
+      "endFrame": 880,
+      "text": "そこに友人が",
+      "narration": "そこに友人が",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N24",
+      "startFrame": 880,
+      "endFrame": 920,
+      "text": "大丈夫！？",
+      "narration": "大丈夫！？",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "left",
+          "scale": 1.1
+        },
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "right",
+          "scale": 1.1
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N25",
+      "startFrame": 920,
+      "endFrame": 950,
+      "text": "何があったの！？",
+      "narration": "何があったの！？",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "center",
+          "scale": 1.1
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N26",
+      "startFrame": 950,
+      "endFrame": 990,
+      "text": "嫁が泣きながら",
+      "narration": "嫁が泣きながら",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N27",
+      "startFrame": 990,
+      "endFrame": 1015,
+      "text": "○られて",
+      "narration": "叩かれて",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N28",
+      "startFrame": 1015,
+      "endFrame": 1050,
+      "text": "突き飛ばされたの…",
+      "narration": "突き飛ばされたの…",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N29",
+      "startFrame": 1050,
+      "endFrame": 1080,
+      "text": "は、俺何もしてないんだけど",
+      "narration": "は、俺何もしてないんだけど",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "man_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N30",
+      "startFrame": 1080,
+      "endFrame": 1110,
+      "text": "そう言うと",
+      "narration": "そう言うと",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N31",
+      "startFrame": 1110,
+      "endFrame": 1140,
+      "text": "友人が俺を睨みつけ",
+      "narration": "友人が俺を睨みつけ",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "left",
+          "scale": 0.7
+        },
+        {
+          "type": "man_shocked",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N32",
+      "startFrame": 1140,
+      "endFrame": 1170,
+      "text": "○力を振るうなんて",
+      "narration": "暴力を振るうなんて",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "concentration",
+      "effect": "concentration_lines",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N33",
+      "startFrame": 1170,
+      "endFrame": 1200,
+      "text": "人間として最低よ！",
+      "narration": "人間として最低よ！",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.95
+        }
+      ],
+      "background": "classroom_dark",
+      "effect": "concentration_lines",
+      "captionColor": "#FF4444",
+      "characterZoom": {
+        "from": 0.9,
+        "to": 1.2
+      },
+      "captionFontScale": 1
+    },
+    {
+      "id": "N34",
+      "startFrame": 1200,
+      "endFrame": 1230,
+      "text": "警察を呼ぶわ！",
+      "narration": "警察を呼ぶわ！",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N35",
+      "startFrame": 1230,
+      "endFrame": 1260,
+      "text": "いやいや、何もしてないって",
+      "narration": "いやいや、何もしてないって",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "man_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N36",
+      "startFrame": 1260,
+      "endFrame": 1290,
+      "text": "それでも友人は",
+      "narration": "それでも友人は",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N37",
+      "startFrame": 1290,
+      "endFrame": 1350,
+      "text": "本当に110番して",
+      "narration": "本当に110番して",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N38",
+      "startFrame": 1350,
+      "endFrame": 1410,
+      "text": "5分後、警官が到着",
+      "narration": "5分後、警官が到着",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "patcar",
+          "count": 1,
+          "position": "center",
+          "scale": 0.75
+        }
+      ],
+      "background": "street",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N39",
+      "startFrame": 1410,
+      "endFrame": 1435,
+      "text": "嫁はパニックで\n口が聞けない",
+      "narration": "嫁はパニックで口が聞けない",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "N40",
+      "startFrame": 1435,
+      "endFrame": 1460,
+      "text": "震えながら俺から\n距離を取ってる",
+      "narration": "震えながら俺から距離を取ってる",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_shocked",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        },
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "left",
+          "scale": 0.7
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S26",
+      "startFrame": 1460,
+      "endFrame": 1545,
+      "text": "代わりに友人が",
+      "narration": "代わりに友人が",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "left",
+          "scale": 0.7
+        },
+        {
+          "type": "woman_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.8
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S27",
+      "startFrame": 1545,
+      "endFrame": 1650,
+      "text": "私トイレに\n行ってたんですけど",
+      "narration": "私トイレに行ってたんですけど",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S28",
+      "startFrame": 1650,
+      "endFrame": 1710,
+      "text": "戻ってきたら\n嫁が倒れてて",
+      "narration": "戻ってきたら嫁が倒れてて",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S29",
+      "startFrame": 1710,
+      "endFrame": 1790,
+      "text": "旦那が\n上に乗っかってた",
+      "narration": "旦那が上に乗っかってた",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "concentration_lines",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S30",
+      "startFrame": 1790,
+      "endFrame": 1875,
+      "text": "確かに赤くなってるが",
+      "narration": "確かに赤くなってるが",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_normal",
+          "count": 1,
+          "position": "left",
+          "scale": 0.75
+        },
+        {
+          "type": "man_confused",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S31",
+      "startFrame": 1875,
+      "endFrame": 1955,
+      "text": "暴力を\n振るいましたか？",
+      "narration": "暴力を振るいましたか？",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S32",
+      "startFrame": 1955,
+      "endFrame": 2030,
+      "text": "違います\nやってません",
+      "narration": "違います、やってません",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "man_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S32b",
+      "startFrame": 2030,
+      "endFrame": 2054,
+      "text": "でも、証拠が\nないですし…",
+      "narration": "でも、証拠がないですし",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.95
+        }
+      ],
+      "background": "vortex",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S32c",
+      "startFrame": 2054,
+      "endFrame": 2099,
+      "text": "頃合いだと\nいうことで",
+      "narration": "頃合いだということで",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S33",
+      "startFrame": 2099,
+      "endFrame": 2130,
+      "text": "一部始終を\n録画してあるんですが",
+      "narration": "一部始終を録画してあるんですが",
+      "speaker": "character1",
+      "characters": [],
+      "background": "no_signal",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S33b",
+      "startFrame": 2130,
+      "endFrame": 2157,
+      "text": "見てもらえますか？",
+      "narration": "見てもらえますか",
+      "speaker": "character1",
+      "characters": [],
+      "background": "no_signal",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S33c",
+      "startFrame": 2157,
+      "endFrame": 2172,
+      "text": "と告げた瞬間",
+      "narration": "と告げた瞬間",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "left",
+          "scale": 0.85
+        },
+        {
+          "type": "woman_shocked",
+          "count": 1,
+          "position": "right",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S34",
+      "startFrame": 2172,
+      "endFrame": 2210,
+      "text": "顔が真っ青になって",
+      "narration": "顔が真っ青になって",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 1.1
+        }
+      ],
+      "background": "vortex",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S35",
+      "startFrame": 2210,
+      "endFrame": 2270,
+      "text": "見る必要は\nありません！",
+      "narration": "見る必要はありません！",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S35b",
+      "startFrame": 2270,
+      "endFrame": 2300,
+      "text": "私たちは\n夫婦ですので",
+      "narration": "私たちは夫婦ですので",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S35c",
+      "startFrame": 2300,
+      "endFrame": 2330,
+      "text": "と焦る嫁",
+      "narration": "と焦る嫁",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.8
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S35d",
+      "startFrame": 2330,
+      "endFrame": 2360,
+      "text": "夫婦間の問題に",
+      "narration": "夫婦間の問題に",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S36",
+      "startFrame": 2360,
+      "endFrame": 2420,
+      "text": "警察の介入は\n必要ありません！",
+      "narration": "警察の介入は必要ありません！",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 1.1
+        }
+      ],
+      "background": "vortex",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1,
+      "characterZoom": {
+        "from": 1,
+        "to": 1.3
+      }
+    },
+    {
+      "id": "S36b",
+      "startFrame": 2420,
+      "endFrame": 2450,
+      "text": "帰ってください！",
+      "narration": "帰ってください！",
+      "speaker": "character2",
+      "characters": [
+        {
+          "type": "woman_angry",
+          "count": 1,
+          "position": "center",
+          "scale": 1.1
+        }
+      ],
+      "background": "vortex",
+      "effect": "none",
+      "captionColor": "#FF69B4",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S36c",
+      "startFrame": 2450,
+      "endFrame": 2480,
+      "text": "と慌てて叫んでた",
+      "narration": "と慌てて叫んでた",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_shocked",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S36d",
+      "startFrame": 2480,
+      "endFrame": 2510,
+      "text": "でも警官は",
+      "narration": "でも警官は",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S37",
+      "startFrame": 2510,
+      "endFrame": 2570,
+      "text": "ご主人の言うことが\n真実なら",
+      "narration": "ご主人の言うことが真実なら",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S37b",
+      "startFrame": 2570,
+      "endFrame": 2600,
+      "text": "虚偽告訴罪に\n問われますので",
+      "narration": "虚偽告訴罪に問われますので",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "hallway",
+      "effect": "concentration_lines",
+      "captionColor": "#FF4444",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S37c",
+      "startFrame": 2600,
+      "endFrame": 2630,
+      "text": "そうはいきません",
+      "narration": "そうはいきません",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S38",
+      "startFrame": 2630,
+      "endFrame": 2630,
+      "text": "虚偽の通報です",
+      "narration": "虚偽の通報です",
+      "speaker": "character1",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.9
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FF4444",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S38b",
+      "startFrame": 2630,
+      "endFrame": 2670,
+      "text": "俺はタブレットを\n取り出して",
+      "narration": "俺はタブレットを取り出して",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700"
+    },
+    {
+      "id": "S39",
+      "startFrame": 2670,
+      "endFrame": 2740,
+      "text": "ダイニング、リビング\n廊下の",
+      "narration": "ダイニング、リビング、廊下の",
+      "speaker": "narrator",
+      "characters": [],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "mangaSymbol": "camera_arrow"
+    },
+    {
+      "id": "S40",
+      "startFrame": 2740,
+      "endFrame": 2790,
+      "text": "3箇所に\n隠しカメラがあり",
+      "narration": "3箇所に隠しカメラがあり",
+      "speaker": "narrator",
+      "characters": [],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "mangaSymbol": "camera_arrow"
+    },
+    {
+      "id": "S40b",
+      "startFrame": 2790,
+      "endFrame": 2820,
+      "text": "隠しカメラの\n映像を再生",
+      "narration": "隠しカメラの映像を再生",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_happy",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "sparkle",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S41",
+      "startFrame": 2820,
+      "endFrame": 2850,
+      "text": "嫁が自分で\n倒れ込む姿",
+      "narration": "嫁が自分で倒れ込む姿",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "showREC": true
+    },
+    {
+      "id": "S41b",
+      "startFrame": 2850,
+      "endFrame": 2880,
+      "text": "トイレに立ったはずの友人が",
+      "narration": "トイレに立ったはずの友人が",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.8
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "showREC": true
+    },
+    {
+      "id": "S41c",
+      "startFrame": 2880,
+      "endFrame": 2910,
+      "text": "物陰でリビングの\n様子を伺い",
+      "narration": "物陰でリビングの様子を伺い",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.7
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "showREC": true
+    },
+    {
+      "id": "S41d",
+      "startFrame": 2910,
+      "endFrame": 2950,
+      "text": "嫁が転んだ\nタイミングで",
+      "narration": "嫁が転んだタイミングで",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "center",
+          "scale": 0.8
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "showREC": true
+    },
+    {
+      "id": "S42",
+      "startFrame": 2950,
+      "endFrame": 3020,
+      "text": "と飛び出してくる\n様子が",
+      "narration": "と飛び出してくる様子が",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1,
+      "showREC": true
+    },
+    {
+      "id": "S43",
+      "startFrame": 3020,
+      "endFrame": 3060,
+      "text": "バッチリ映ってた",
+      "narration": "バッチリ映ってた",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "police_officer",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S43b",
+      "startFrame": 3060,
+      "endFrame": 3090,
+      "text": "その後弁護士を\n雇ったら",
+      "narration": "その後弁護士を雇ったら",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S43c",
+      "startFrame": 3090,
+      "endFrame": 3120,
+      "text": "友人が会社の男と\n不倫してたことが発覚",
+      "narration": "友人が会社の男と不倫してたことが発覚",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "left",
+          "scale": 0.8
+        },
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.8
+        }
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S44",
+      "startFrame": 3120,
+      "endFrame": 3150,
+      "text": "嫁の方に非がある",
+      "narration": "嫁の方に非がある",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "left",
+          "scale": 0.8
+        },
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.8
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S44b",
+      "startFrame": 3150,
+      "endFrame": 3190,
+      "text": "2人とも社内不倫で\n噂が広まって",
+      "narration": "2人とも社内不倫で噂が広まって",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "businesswoman_angry",
+          "count": 1,
+          "position": "left",
+          "scale": 0.85
+        },
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "right",
+          "scale": 0.85
+        }
+      ],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S44c",
+      "startFrame": 3190,
+      "endFrame": 3250,
+      "text": "職場に居づらく\nなったのか退職",
+      "narration": "職場に居づらくなったのか退職",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "obasan_cry",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "hallway",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S45",
+      "startFrame": 3250,
+      "endFrame": 3305,
+      "text": "嫁からかなりの額\n頂いたし",
+      "narration": "嫁からかなりの額頂いたし",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "woman_sad",
+          "count": 1,
+          "position": "left",
+          "scale": 0.8
+        },
+        {
+          "type": "man_normal",
+          "count": 1,
+          "position": "right",
+          "scale": 0.8
+        }
+      ],
+      "background": "living_room",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S46",
+      "startFrame": 3305,
+      "endFrame": 3330,
+      "text": "離婚してよかった",
+      "narration": "離婚してよかった",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_happy",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "living_room",
+      "effect": "sparkle",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    },
+    {
+      "id": "S46b",
+      "startFrame": 3330,
+      "endFrame": 3360,
+      "text": "友人にも制裁が\n下ったので良しとしよう",
+      "narration": "友人にも制裁が下ったので良しとしよう",
+      "speaker": "narrator",
+      "characters": [
+        {
+          "type": "man_happy",
+          "count": 1,
+          "position": "center",
+          "scale": 0.85
+        }
+      ],
+      "background": "vortex",
+      "effect": "none",
+      "captionColor": "#FFD700",
+      "captionFontScale": 1
+    }
+  ]
+}

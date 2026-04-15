@@ -1,0 +1,450 @@
+{
+  "videoId": "MhWJVrsASGE",
+  "title": "感動の迷言集 / また来た青春",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 56,
+  "totalFrames": 1680,
+  "seriesTitle": "感動の迷言集",
+  "episodeTitle": "また来た青春",
+  "titleBand": {
+    "line1": "感動の迷言集",
+    "line2": "また来た青春",
+    "backgroundColor": "#000000",
+    "textColor": "#FFD700",
+    "line2Color": "#FFFFFF",
+    "strokeColor": "#000000",
+    "strokeWidth": 8,
+    "height": 300
+  },
+  "shots": [
+    {
+      "id": "S01", "startFrame": 0, "endFrame": 56,
+      "text": "私はイケメン陽キャが\n大嫌いなんだが",
+      "narration": "私はイケメン陽キャが大嫌いなんだが",
+      "speaker": "character2",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "classroom_bright",
+      "effect": "concentration_lines",
+      "captionColor": "#FF4444"
+    },
+    {
+      "id": "S02", "startFrame": 56, "endFrame": 100,
+      "text": "嘘！？勘弁してよ！",
+      "narration": "嘘！？勘弁してよ！",
+      "speaker": "character2",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "classroom_bright",
+      "effect": "none",
+      "mangaSymbol": "surprise",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S03", "startFrame": 100, "endFrame": 165,
+      "text": "学部イチのチャラ男と\n同じゼミになって最悪",
+      "narration": "学部イチのチャラ男と同じゼミになって最悪",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "woman_angry", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "man_happy", "count": 1, "position": "right", "scale": 0.7}
+      ],
+      "background": "classroom_bright",
+      "effect": "sparkle",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S04", "startFrame": 165, "endFrame": 210,
+      "text": "ペアでレポート出す\n課題では",
+      "narration": "ペアでレポート出す課題では",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "classroom_bright",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S05", "startFrame": 210, "endFrame": 270,
+      "text": "3番…え…3番？",
+      "narration": "3番…え…3番？",
+      "speaker": "character2",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "classroom_bright",
+      "effect": "none",
+      "mangaSymbol": "gaan",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S06", "startFrame": 270, "endFrame": 320,
+      "text": "学内のコンビニ行けば",
+      "narration": "学内のコンビニ行けば",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_normal", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S07", "startFrame": 320, "endFrame": 370,
+      "text": "私が先だったし",
+      "narration": "私が先だったし",
+      "speaker": "character2",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "mangaSymbol": "angry",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S08", "startFrame": 370, "endFrame": 460,
+      "text": "ラスト1個で\nバトルになり",
+      "narration": "ラスト1個でバトルになり",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "woman_angry", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "man_angry", "count": 1, "position": "right", "scale": 0.65}
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "mangaSymbol": "angry",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S09", "startFrame": 460, "endFrame": 505,
+      "text": "ある夜ふと\n映画が見たくなって",
+      "narration": "ある夜ふと映画が見たくなって",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_normal", "count": 1, "position": "center", "scale": 0.8}],
+      "background": "street",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S09b", "startFrame": 505, "endFrame": 520,
+      "text": "レンタル屋行くと",
+      "narration": "レンタル屋行くと",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_normal", "count": 1, "position": "center", "scale": 0.8}],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S10", "startFrame": 520, "endFrame": 565,
+      "text": "必ずヤツがいて",
+      "narration": "必ずヤツがいて",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "woman_normal", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "man_normal", "count": 1, "position": "right", "scale": 0.7}
+      ],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S11", "startFrame": 565, "endFrame": 590,
+      "text": "借りたいのを\n持っていかれる",
+      "narration": "借りたいのを持っていかれる",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S12", "startFrame": 590, "endFrame": 620,
+      "text": "こないだも\n本屋で会って",
+      "narration": "こないだも本屋で会って",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "man_normal", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "woman_shocked", "count": 1, "position": "right", "scale": 0.65}
+      ],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S13", "startFrame": 620, "endFrame": 650,
+      "text": "もう運命\nなんじゃない？",
+      "narration": "もう運命なんじゃない？",
+      "speaker": "character2",
+      "characters": [{"type": "woman_happy", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "classroom_bright",
+      "effect": "sparkle",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S12b", "startFrame": 650, "endFrame": 680,
+      "text": "やめてよ！",
+      "narration": "やめてよ！",
+      "speaker": "character2",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "classroom_bright",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S15", "startFrame": 680, "endFrame": 719,
+      "text": "苦手だって\n言ってるじゃん！",
+      "narration": "苦手だって言ってるじゃん！",
+      "speaker": "character2",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "classroom_bright",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S14n", "startFrame": 719, "endFrame": 749,
+      "text": "って言ったら",
+      "narration": "って言ったら",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "woman_angry", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "man_shocked", "count": 1, "position": "right", "scale": 0.7}
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S14", "startFrame": 749, "endFrame": 769,
+      "text": "俺もお前苦手",
+      "narration": "俺もお前苦手",
+      "speaker": "character1",
+      "characters": [
+        {"type": "woman_shocked", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "man_normal", "count": 1, "position": "right", "scale": 0.7}
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S16", "startFrame": 769, "endFrame": 809,
+      "text": "俺の真似ばっか\nするのやめてね？",
+      "narration": "俺の真似ばっかするのやめてね？",
+      "speaker": "character1",
+      "characters": [{"type": "man_happy", "count": 1, "position": "center", "scale": 0.9}],
+      "background": "classroom_bright",
+      "effect": "none",
+      "mangaSymbol": "star",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S15b", "startFrame": 809, "endFrame": 859,
+      "text": "鼻で笑われ\nイライラMAX",
+      "narration": "鼻で笑われイライラMAX",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.9}],
+      "background": "concentration",
+      "effect": "concentration_lines",
+      "mangaSymbol": "angry",
+      "captionColor": "#FF4444"
+    },
+    {
+      "id": "S17", "startFrame": 859, "endFrame": 899,
+      "text": "必死で耐えて\n卒業したが",
+      "narration": "必死で耐えて卒業したが",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "woman_angry", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "man_happy", "count": 1, "position": "right", "scale": 0.7}
+      ],
+      "background": "classroom_bright",
+      "effect": "none",
+      "mangaSymbol": "angry",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S18", "startFrame": 899, "endFrame": 939,
+      "text": "未だに思い出すと\nムカつくが",
+      "narration": "未だに思い出すとムカつくが",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "living_room",
+      "effect": "none",
+      "mangaSymbol": "angry",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S19", "startFrame": 939, "endFrame": 974,
+      "text": "好きな作家さんの\nサイン会で",
+      "narration": "好きな作家さんのサイン会で",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_happy", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S20", "startFrame": 974, "endFrame": 1014,
+      "text": "は…？嘘だろ？",
+      "narration": "は…？嘘だろ？",
+      "speaker": "character2",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S21", "startFrame": 1014, "endFrame": 1054,
+      "text": "背後からの声に\n振り返ると",
+      "narration": "背後からの声に振り返ると",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S20b", "startFrame": 1054, "endFrame": 1094,
+      "text": "ヤツが並んでた",
+      "narration": "ヤツが並んでた",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "man_normal", "count": 1, "position": "left", "scale": 0.65},
+        {"type": "woman_shocked", "count": 1, "position": "right", "scale": 0.65}
+      ],
+      "background": "library",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S21b", "startFrame": 1094, "endFrame": 1144,
+      "text": "15年も会って\nなかったのに",
+      "narration": "15年も会ってなかったのに",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S22", "startFrame": 1144, "endFrame": 1154,
+      "text": "また真似かよ…",
+      "narration": "また真似かよ…",
+      "speaker": "character1",
+      "characters": [{"type": "man_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S23", "startFrame": 1154, "endFrame": 1174,
+      "text": "どうやって\n真似するのよ！？",
+      "narration": "どうやって真似するのよ！？",
+      "speaker": "character2",
+      "characters": [{"type": "woman_angry", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S24", "startFrame": 1174, "endFrame": 1259,
+      "text": "というか先生の前作の\nラストどう思った？",
+      "narration": "というか先生の前作のラストどう思った？",
+      "speaker": "character1",
+      "characters": [{"type": "man_normal", "count": 1, "position": "center", "scale": 0.9}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S25", "startFrame": 1259, "endFrame": 1319,
+      "text": "叩かれてるけど\n私は大好き",
+      "narration": "叩かれてるけど私は大好き",
+      "speaker": "character2",
+      "characters": [{"type": "woman_happy", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "mangaSymbol": "star",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S26", "startFrame": 1319, "endFrame": 1349,
+      "text": "だよな？\n最高だったよ",
+      "narration": "だよな？最高だったよ",
+      "speaker": "character1",
+      "characters": [{"type": "man_happy", "count": 1, "position": "center", "scale": 0.9}],
+      "background": "restaurant",
+      "effect": "sparkle",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S27", "startFrame": 1349, "endFrame": 1434,
+      "text": "来月、あんたが昔\n横取りしたあの映画の監督",
+      "narration": "来月、あんたが昔横取りしたあの映画の監督",
+      "speaker": "character2",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S27b", "startFrame": 1434, "endFrame": 1459,
+      "text": "来日するらしいじゃん",
+      "narration": "来日するらしいじゃん",
+      "speaker": "character2",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S28", "startFrame": 1459, "endFrame": 1489,
+      "text": "知ってるに\n決まってるだろ",
+      "narration": "知ってるに決まってるだろ",
+      "speaker": "character1",
+      "characters": [{"type": "man_shocked", "count": 1, "position": "center", "scale": 0.9}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S29", "startFrame": 1489, "endFrame": 1529,
+      "text": "イベント抽選\n当たったけど来る？",
+      "narration": "イベント抽選当たったけど来る？",
+      "speaker": "character2",
+      "characters": [{"type": "woman_normal", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S30", "startFrame": 1529, "endFrame": 1574,
+      "text": "一緒に来てください\nの間違いだろ？",
+      "narration": "一緒に来てくださいの間違いだろ？",
+      "speaker": "character1",
+      "characters": [{"type": "man_happy", "count": 1, "position": "center", "scale": 0.9}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S31", "startFrame": 1574, "endFrame": 1619,
+      "text": "アラフォーにして",
+      "narration": "アラフォーにして",
+      "speaker": "narrator",
+      "characters": [{"type": "woman_shocked", "count": 1, "position": "center", "scale": 0.85}],
+      "background": "restaurant",
+      "effect": "none",
+      "captionColor": "#FFFFFF"
+    },
+    {
+      "id": "S32", "startFrame": 1619, "endFrame": 1680,
+      "text": "うんざりしてます",
+      "narration": "うんざりしてます",
+      "speaker": "narrator",
+      "characters": [
+        {"type": "woman_normal", "count": 1, "position": "left", "scale": 0.7},
+        {"type": "man_happy", "count": 1, "position": "right", "scale": 0.7}
+      ],
+      "background": "restaurant",
+      "effect": "none",
+      "mangaSymbol": "angry",
+      "captionColor": "#FFFFFF"
+    }
+  ]
+}

@@ -1,172 +1,182 @@
 # Short Video Factory
 
-ランキング形式の縦型ショート動画（TikTok / Reels / Shorts）を **1コマンドで自動生成** するツール。
+ランキング形式の縦型ショート動画を、**AIに頼むだけで自動生成**するツールです。
 
-## 出力イメージ
+動画編集スキルもプログラミング知識も不要。テーマを決めてAIに指示するだけで、ナレーション・テロップ・BGM付きのショート動画が完成します。
 
-- 1080x1920 縦型 / 30fps / 約59秒
-- サンバースト背景 + いらすとや画像 + VOICEVOX 3話者音声 + BGM自動合成
-- イントロ → 第10位〜第1位 → CTA の構成
+---
 
-## セットアップ
+## できること
 
-```bash
+- **1080×1920 縦型動画**（TikTok / YouTube Shorts / Reels にそのまま投稿可能）
+- **ランキング形式**（10位→1位カウントダウン）の動画を自動生成
+- **2ch風ストーリー動画**にも対応（ナラティブ / オムニバス / 超ショート）
+- **3人のキャラクター**（ずんだもん・青山龍星・四国めたん）による自動ナレーション
+- **いらすとや画像**の自動取得
+- **BGM自動合成**（フェードイン・フェードアウト付き）
+
+---
+
+## セットアップ（AIにお任せ推奨）
+
+**一番簡単な方法：AIにやってもらう**
+
+このフォルダを Codex / Claude Code / Antigravity 等のAIツールで開いて、こう頼んでください：
+
+> このプロジェクトをセットアップして、動画を生成できる状態にしてください
+
+AIが必要なソフトのインストールから設定まで全部やってくれます。
+
+---
+
+### 手動でやる場合
+
+以下の4つを順番にインストールしてください。
+
+#### 1. Node.js（v18以上）
+
+https://nodejs.org/ を開いて「LTS」と書いてある方をダウンロード → インストール。
+
+#### 2. pnpm
+
+Node.js をインストールしたら、ターミナルを開いて以下を実行：
+
+```
+npm install -g pnpm
+```
+
+> **ターミナルの開き方**
+> - Windows: スタートメニューで「PowerShell」と検索 → 開く
+> - Mac: Spotlight（Cmd+Space）で「ターミナル」と検索 → 開く
+
+#### 3. VOICEVOX（音声合成ソフト・無料）
+
+https://voicevox.hiroshiba.jp/ からダウンロードしてインストール。
+
+ずんだもん等のキャラクターボイスでナレーションを自動生成するソフトです。**動画を生成するときは、VOICEVOXを起動しておいてください。**
+
+#### 4. ffmpeg（動画処理ツール）
+
+BGMの合成に必要です。
+
+- **Windows**: https://www.gyan.dev/ffmpeg/builds/ から `ffmpeg-release-essentials.zip` をダウンロード → 解凍 → 中の `bin` フォルダにPATHを通す（わからなければAIに聞いてください）
+- **Mac**: ターミナルで `brew install ffmpeg` を実行
+
+#### 5. 依存パッケージのインストール
+
+ターミナルでこのフォルダに移動して以下を実行：
+
+```
 pnpm install
+```
+
+#### 6. 環境変数の設定
+
+`.env.example` をコピーして `.env` を作成：
+
+```
 cp .env.example .env
 ```
 
-### 必要な外部ツール
-
-| ツール | 用途 | 備考 |
-|--------|------|------|
-| Node.js 20+ | ランタイム | |
-| pnpm 9+ | パッケージ管理 | `npm install -g pnpm` |
-| [VOICEVOX](https://voicevox.hiroshiba.jp/) | 音声合成 | ローカルで起動しておく (port 50021) |
-| [ffmpeg](https://ffmpeg.org/) | BGM合成・動画圧縮 | PATH に通しておく |
-| Noto Sans JP | フォント | Windows: 標準搭載 / Mac: 要インストール |
-
-### 環境変数 (.env)
-
-```env
-VOICEVOX_URL=http://localhost:50021
-VOICEVOX_SPEAKER=1          # ずんだもん (イントロ・順位・トピック・CTA)
-VOICEVOX_SPEAKER_MALE=13    # 青山龍星 (青枠コメント)
-VOICEVOX_SPEAKER_FEMALE=0   # 四国めたん (赤枠コメント)
-VOICEVOX_GAIN=3.5            # 音量倍率
-PEXELS_API_KEY=              # 省略時はいらすとや + fallback画像を使用
-```
+基本的にデフォルト設定のままで動きます。
 
 ---
 
 ## 動画の作り方
 
-### Step 1: 台本JSONを用意する
+### ステップ 1：AIに台本を作ってもらう
 
-`fixtures/sample-script.json` を編集する。テンプレートは `templates/scripts/` にあるのでコピーしてもOK。
+AIツールにこのフォルダを開かせて、こう頼むだけ：
 
-```bash
-# テンプレートから始める場合
-cp templates/scripts/ranking-black-company.json fixtures/sample-script.json
+> 「ブラック企業の特徴ランキング10位の台本を作って、動画化して」
+
+AIが台本（JSON）を自動で作り、レンダリングまで実行してくれます。
+
+テーマは何でもOK：
+- 「やばい習慣ランキング」
+- 「やってよかった副業ランキング」
+- 「隣人トラブルあるある」
+- 「居酒屋で見かけるヤバい客」
+
+### ステップ 2：完成動画が出てくる
+
+生成された動画はここに出力されます：
+
+```
+generated/latest/output.mp4
 ```
 
-#### 台本の書き方
+これをそのまま TikTok / YouTube Shorts / Reels に投稿できます。
 
-```json
-{
-  "videoTitle": "入社して気づく会社のやばい特徴ランキング",
-  "intro": "入社して気づく会社のやばい特徴ランキングを挙げてけww",
-  "items": [
-    {
-      "rank": 10,
-      "topic": "残業代が全く出ない",
-      "comment1": "毎日サービス残業させられてる…",
-      "comment2": "これ普通に違法やん！",
-      "body": "10位は、残業代が全く出ない会社。...",
-      "imageKeywords": ["残業", "オフィス"],
-      "imageKeywordsEn": ["overtime work", "office night"]
-    }
-  ],
-  "outro": "みんなの意見はコメント欄へ！"
-}
+---
+
+## 対応フォーマット
+
+| フォーマット | 説明 | 台本テンプレート |
+|---|---|---|
+| ランキング形式 | 10→1カウントダウン | `templates/scripts/ranking-black-company.json` |
+| 2ch風ナラティブ | 1話完結ストーリー | `templates/scripts/2ch-narrative.json` |
+| 2ch風オムニバス | 複数エピソード詰め合わせ | `templates/scripts/2ch-omnibus.json` |
+| 2ch風超ショート | 一発ネタ12秒 | `templates/scripts/2ch-ultrashort.json` |
+
+`templates/scripts/` フォルダにテンプレートがあります。AIに「このテンプレを参考に台本を作って」と渡すと精度が上がります。
+
+---
+
+## コマンド一覧（参考）
+
+AIに任せる場合は覚えなくて大丈夫です。
+
+| コマンド | 説明 |
+|---|---|
+| `pnpm render:v3` | 動画をレンダリング |
+| `pnpm preview` | ブラウザでプレビュー表示 |
+
+---
+
+## フォルダ構成（参考）
+
 ```
-
-| フィールド | 何が起きるか |
-|-----------|-------------|
-| `videoTitle` | イントロ画面に巨大テキストで表示（自動改行・自動色分け） |
-| `intro` | ずんだもんがイントロで読み上げる |
-| `items[].topic` | 赤い巨大文字で表示 + ずんだもんが読み上げ |
-| `items[].comment1` | 青枠に表示 + 青山龍星が読み上げ |
-| `items[].comment2` | 赤枠に表示 + 四国めたんが読み上げ |
-| `items[].body` | 画面には出ない（VOICEVOX読み上げ専用） |
-| `items[].imageKeywords` | いらすとや検索キーワード（日本語） |
-| `items[].imageKeywordsEn` | Pexels検索キーワード（英語、fallback用） |
-
-### Step 2: VOICEVOXを起動する
-
-VOICEVOX アプリを起動するだけ。`localhost:50021` で自動的にAPIが立ち上がります。
-
-### Step 3: 動画を生成する
-
-```bash
-pnpm render:v3
-```
-
-完了すると `generated/latest/output.mp4` に出力されます（BGM自動合成済み）。
-
-### Step 4: 圧縮する（任意）
-
-```bash
-ffmpeg -i generated/latest/output.mp4 \
-  -c:v libx264 -crf 28 -preset medium \
-  -c:a aac -b:a 128k -movflags +faststart \
-  generated/latest/output_compressed.mp4
+short-video-factory/
+  fixtures/              ... 台本JSON（ここに生成される）
+  templates/scripts/     ... 台本のテンプレート
+  src/                   ... ソースコード
+  assets/bgm/            ... BGM素材
+  generated/latest/      ... 生成された動画の出力先
 ```
 
 ---
 
-## テンプレート一覧
+## よくある質問
 
-`templates/scripts/` に保存済みの台本テンプレート:
+**Q: プログラミング知識は必要？**
+不要です。AIに「セットアップして」「動画を作って」と頼むだけで動きます。
 
-| ファイル | テーマ |
-|---------|--------|
-| `ranking-black-company.json` | 入社して気づく会社のやばい特徴ランキング |
+**Q: 台本を自分で書く必要がある？**
+ありません。AIにテーマを伝えるだけで台本から動画まで自動で作ってくれます。
 
-新しいテーマで作りたいときは、既存テンプレートをコピーして `topic` / `comment1` / `comment2` を書き換えるだけ。
+**Q: どんなテーマの動画が作れる？**
+ランキング形式なら何でも作れます。2ch風のストーリー動画にも対応しています。
 
----
+**Q: MacとWindowsどちらでも動く？**
+両対応です。
 
-## BGM
+**Q: VOICEVOXって何？**
+無料の音声合成ソフトです。ずんだもん等のキャラクターボイスでナレーションを自動生成します。インストールして起動しておくだけでOKです。
 
-`assets/bgm/` にBGMファイル（mp3）を配置すると、レンダリング時にffmpegで自動合成されます。
-
-- 現在のBGM: `ukiuki_lalala.mp3`（[甘茶の音楽工房](https://amachamusic.chagasi.com/) フリー素材）
-- BGMファイルがなければスキップ
-- 音量 `volume=0.12` + 冒頭フェードイン + 終了フェードアウト
-
-BGMを変えたいときは `assets/bgm/ukiuki_lalala.mp3` を差し替えて、`src/render-v3.ts` のファイル名を更新。
+**Q: 1本あたりどれくらい時間がかかる？**
+テーマを決めてAIに頼んでから、5分程度で動画が完成します。
 
 ---
 
-## 動画の構成
+## 困ったとき
 
-```
-イントロ (3.5秒) → [第10位〜第1位] × 各5.3秒 → CTA (2.5秒) ≈ 59秒
-```
-
-各順位シーンの内部:
-```
-順位ドーン (12%) → トピック赤文字 (28%) → 青枠コメント (25%) → 赤枠コメント (35%)
-```
+AIツール（Codex / Claude Code / Antigravity）にこのフォルダを開かせて、エラーメッセージをそのまま貼り付けて聞いてみてください。大抵のことはAIが解決してくれます。
 
 ---
 
-## コマンド一覧
+## 利用素材
 
-```bash
-pnpm render:v3     # 動画生成（メイン）
-pnpm preview       # Remotion プレビュー（ブラウザ確認）
-pnpm test          # テスト実行 (107テスト)
-pnpm typecheck     # TypeScript 型チェック
-```
-
-## 出力先
-
-| パス | 説明 |
-|------|------|
-| `generated/latest/output.mp4` | 最新の動画 |
-| `generated/jobs/{timestamp}/` | ジョブ別アーカイブ |
-
----
-
-## 技術スタック
-
-TypeScript strict / Remotion / VOICEVOX / ffmpeg / pnpm / zod
-
-## ライセンス
-
-MIT License
-
-- VOICEVOX: https://voicevox.hiroshiba.jp/
-- いらすとや: https://www.irasutoya.com/
-- 甘茶の音楽工房: https://amachamusic.chagasi.com/
+- [VOICEVOX](https://voicevox.hiroshiba.jp/) — 音声合成
+- [いらすとや](https://www.irasutoya.com/) — イラスト素材
+- [甘茶の音楽工房](https://amachamusic.chagasi.com/) — BGM素材
